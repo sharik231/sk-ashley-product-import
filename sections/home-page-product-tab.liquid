@@ -1,0 +1,306 @@
+<section role="contentinfo" aria-label="Call to action" id="{{section.settings.unique_id | handleize}}" class=" section-selected-products relative {% if section.settings.bg_parallax %} overflow-hidden{% endif %} section section--align-{{section.settings.section_heading_align }} section--spacing-{{section.settings.spacing }} section--bg-{{section.settings.content_bg }} section--outer-spacing-{{section.settings.outer_spacing }} {{ section.settings.custom_classes | escape }} section--pt-{{section.settings.padding_top}} section--pb-{{section.settings.padding_bottom}}"
+>
+{% if section.settings.content_wrap == "contained" %}
+      <div class="container"> 
+{% endif %}
+
+
+        
+
+
+
+
+<div class="tabs-wrapper">
+{%- assign tabcount = 1 -%}
+  {%- for tabblock in section.blocks -%}
+
+    	<input type="radio" name="tab" id="tab{{ tabcount }}" class="tab-head" {% if tabcount == 1 %}checked="checked"{% endif %} />
+	<label for="tab{{ tabcount }}">{{ tabblock.settings.tabtitle1 }}</label>
+    {% assign tabcount = tabcount | plus: 1 %}
+   {% endfor %}
+          
+  
+   
+	<div class="tab-body-wrapper">
+      {%- assign tabcountin = 1 -%}
+  {%- for tabblockin in section.blocks -%}
+		<div id="tab-body-{{ tabcountin }}" class="tab-body">
+            <div class="row">
+          <div class="col-md-8">
+            {%- if tabblockin.settings.carsubhead != blank -%}
+              <h2 class="carsubheading">
+              {{tabblockin.settings.carsubhead}}
+              </h2>
+          {% endif %}
+            {%- assign collection_10 = tabblockin.settings.left_side_tab_collection -%}
+              <a class="madLnk" href="{{ collection_10.url }}">
+    			<img src="{%- render 'image-url', shopify:tabblockin.settings.left_side_tab_collection_img, sh_size:"1600x" -%}"/>
+              </a>
+                    
+              <a href="{{ collection_10.url }}">
+                 Shop all {{ collection_10.title }} <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </a>
+          </div>
+          <div class="col-md-4" id="main">
+           
+               
+            <div class="sub-height-3">
+              <span>
+              <img src="{%- render 'image-url', shopify:tabblockin.settings.collection_rt1_img, sh_size:"1600x" -%}"/>
+        
+        
+{%- assign collection_1 = tabblockin.settings.collection_rt1 -%}
+  <a href="{{ collection_1.url }}">
+{{ collection_1.title }} 
+  </a>
+   </span>         </div>
+             <div class="sub-height-3">
+               <span>
+               <img src="{%- render 'image-url', shopify:tabblockin.settings.collection_rt2_img, sh_size:"1600x" -%}"/>
+        
+        
+{%- assign collection_2 = tabblockin.settings.collection_rt2 -%}
+  <a href="{{ collection_2.url }}">
+{{ collection_2.title }}  </a>
+    </span>
+            </div>
+            <div class="sub-height-3">
+              <span>
+               <img src="{%- render 'image-url', shopify:tabblockin.settings.collection_rt3_img, sh_size:"1600x" -%}"/>
+        
+        
+{%- assign collection_3 = tabblockin.settings.collection_rt3 -%}
+  <a href="{{ collection_3.url }}">
+{{ collection_3.title }}  </a>
+    </span>
+            </div> 
+            <div class="sub-height-3">
+              <span>
+               <img src="{%- render 'image-url', shopify:tabblockin.settings.collection_rt4_img, sh_size:"1600x" -%}"/>
+        
+        
+{%- assign collection_4 = tabblockin.settings.collection_rt4 -%}
+  <a href="{{ collection_4.url }}">
+{{ collection_4.title }}  </a>
+    </span>
+            </div>
+             <div class="sub-height-3">
+               <span>
+               <img src="{%- render 'image-url', shopify:tabblockin.settings.collection_rt5_img, sh_size:"1600x" -%}"/>
+        
+        
+{%- assign collection_5 = tabblockin.settings.collection_rt5 -%}
+  <a href="{{ collection_5.url }}">
+{{ collection_5.title }}  </a>
+    </span>
+            </div> 
+           <div class="sub-height-3">
+             <span>
+               <img src="{%- render 'image-url', shopify:tabblockin.settings.collection_rt6_img, sh_size:"1600x" -%}"/>
+        
+        
+{%- assign collection_6 = tabblockin.settings.collection_rt6 -%}
+  <a href="{{ collection_6.url }}">
+{{ collection_6.title }}  </a>
+    </span>
+            </div>    
+             </div>
+          </div>
+		</div>
+    {% assign tabcountin = tabcountin | plus: 1 %}
+        {% endfor %} 
+		
+	</div>
+</div>
+
+
+
+        
+{% if section.settings.content_wrap == "contained" %}
+  </div>
+    {% endif %}
+</section>
+
+{% schema %}
+  {
+    "name": "Product tab",
+      "presets": [
+    {
+      "name": "Product tab",
+      "category": "General"
+    }
+  ],
+    "settings": [
+    {
+      "type": "header",
+      "content": "General Settings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 75,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 75,
+      "step": 5,
+      "default": 0
+    },
+      {
+      "type": "select",
+      "id": "content_wrap",
+      "label": "Content",
+      "options": [
+        {
+          "value": "contained",
+          "label": "Contained"
+        },
+        {
+          "value": "full",
+          "label": "Full Width"
+        }
+      ],
+      "default": "contained"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "info": "Leave blank to disable title"
+    },
+        {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Show title",
+      "default": true
+    }
+      
+    ],
+    "blocks": [
+    {
+      "type":"collection",
+      "name": "Home Tab",
+      "limit": 7,
+      "settings": [
+      {
+      "type": "header",
+      "content": "Left Side Collection Settings"
+      },
+      {
+      "type": "text",
+      "id": "tabtitle1",
+      "label": "Tab Title",
+      "info": "Leave blank to disable title"
+      }, 
+      {
+      "type": "text",
+      "id": "carsubhead",
+      "label": "Carousel Sub Title",
+      "info": "Leave blank to disable title"
+      }, 
+      {
+          "type": "collection",
+          "id": "left_side_tab_collection",
+          "label": "Select left side collection"
+      },
+      {
+      "type": "image_picker",
+      "id": "left_side_tab_collection_img",
+      "label": "Image for left side collection"
+       },
+      {
+      "type": "header",
+      "content": "Right Collection-1"
+      },
+      {
+          "type": "collection",
+          "id": "collection_rt1",
+          "label": "Select collection-1"
+      },
+      {
+      "type": "image_picker",
+      "id": "collection_rt1_img",
+      "label": "Image for right side collection-1"
+      },
+      {
+      "type": "header",
+      "content": "Right Collection-2"
+      },
+      {
+          "type": "collection",
+          "id": "collection_rt2",
+          "label": "Select collection-2"
+      },
+      {
+      "type": "image_picker",
+      "id": "collection_rt2_img",
+      "label": "Image for right side collection-2"
+      },
+      {
+      "type": "header",
+      "content": "Right Collection-3"
+      },
+      {
+          "type": "collection",
+          "id": "collection_rt3",
+          "label": "Select collection-3"
+      },
+      {
+      "type": "image_picker",
+      "id": "collection_rt3_img",
+      "label": "Image for right side collection-3"
+      },
+      {
+      "type": "header",
+      "content": "Right Collection-4"
+      },
+      {
+          "type": "collection",
+          "id": "collection_rt4",
+          "label": "Select collection-4"
+      },
+      {
+      "type": "image_picker",
+      "id": "collection_rt4_img",
+      "label": "Image for right side collection-4"
+      },
+      {
+      "type": "header",
+      "content": "Right Collection-5"
+      },
+      {
+          "type": "collection",
+          "id": "collection_rt5",
+          "label": "Select collection-5"
+      },
+      {
+      "type": "image_picker",
+      "id": "collection_rt5_img",
+      "label": "Image for right side collection-5"
+      },
+      {
+      "type": "header",
+      "content": "Right Collection-6"
+      },
+      {
+          "type": "collection",
+          "id": "collection_rt6",
+          "label": "Select collection-6"
+      },
+      {
+      "type": "image_picker",
+      "id": "collection_rt6_img",
+      "label": "Image for right side collection-6"
+      } 
+      ]
+    }
+  ]
+  }
+{% endschema %}

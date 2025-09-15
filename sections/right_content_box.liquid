@@ -1,0 +1,188 @@
+<!-- sections/furniture-design-card.liquid -->
+
+<div class="container aboutS2AFI">
+  <a href="{{ section.settings.link }}">
+    <div class="container">
+      <img src="{{ section.settings.image | image_url: width: 1500 }}" alt="Furniture" class="background-image">
+
+      <div class="text-box">
+        <div class="cardContentWrap">
+          <h4>{{ section.settings.subheading }}</h4>
+          <h2>{{ section.settings.heading }}</h2>
+          <p>{{ section.settings.text }}</p>
+          <a href="{{ section.settings.link }}">{{ section.settings.button_text }}</a>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+<style>
+  .aboutS2AFI {
+    background: #f5f3f3;
+    padding: 35px 0!important;
+  }
+  .AboutAFI .aboutS2AFI {
+    padding: 30px 0;
+}
+.aboutS2AFI .container {
+  position: relative;
+  width: 100%;
+  max-width: 1127px;
+  margin: auto;
+}
+.aboutS2AFI .background-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.aboutS2AFI .text-box {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.aboutS2AFI .cardContentWrap {
+  color: #000;
+  padding: 25px 45px 45px 45px;
+}
+.aboutS2AFI .cardContentWrap h4 {
+  font-size: 12px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  color: #000;
+}
+.aboutS2AFI .cardContentWrap h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  font-weight: 700;
+  color: #000;
+}
+.aboutS2AFI .cardContentWrap p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+.aboutS2AFI .cardContentWrap a {
+  color: #f58021;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+  @media screen and (max-width:320px){
+    #shopify-section-template--24816480616819__right_content_box_wrdHhK .aboutS2AFI, #shopify-section-template--24816480616819__right_content_box_7mpGbE{
+      margin:0px;
+    }
+    #shopify-section-template--24816480616819__right_content_box_wrdHhK{
+      margin:0px 20px;
+    }
+    #shopify-section-template--24816480616819__right_content_box_UjjzGQ{
+      margin:0px 20px 20px;
+    }
+    .aboutS2AFI .background-image{
+          padding: 0px 20px;
+    }
+    .aboutS2AFI .text-box{
+      display:contents;
+    }
+    #shopify-section-template--24816480616819__right_content_box_wrdHhK .container, #shopify-section-template--24816480616819__right_content_box_7mpGbE .container,
+    #shopify-section-template--24816480616819__right_content_box_UjjzGQ .container{
+       max-width:100%;
+     }
+  }
+ @media screen and (max-width:480px){
+   #shopify-section-template--24816480616819__right_content_box_wrdHhK{
+      margin:0px 20px;
+    }
+    #shopify-section-template--24816480616819__right_content_box_wrdHhK, #shopify-section-template--24816480616819__right_content_box_7mpGbE{
+      margin:0px 20px;
+    }
+   #shopify-section-template--24816480616819__right_content_box_UjjzGQ{
+      margin:0px 20px 20px;
+    }
+   .aboutS2AFI .background-image{
+          padding: 0px 20px;
+    }
+     .aboutS2AFI .text-box{
+      display:contents;
+     }
+   #shopify-section-template--24816480616819__right_content_box_wrdHhK .container, #shopify-section-template--24816480616819__right_content_box_7mpGbE .container, 
+   #shopify-section-template--24816480616819__right_content_box_UjjzGQ .container{
+       max-width:100%;
+     }
+  }
+ @media screen and (max-width:768px){
+  #shopify-section-template--24816480616819__right_content_box_wrdHhK{
+      margin:0px 20px;
+    }
+    #shopify-section-template--24816480616819__right_content_box_wrdHhK, #shopify-section-template--24816480616819__right_content_box_7mpGbE{
+      margin:0px 20px;
+    }
+   #shopify-section-template--24816480616819__right_content_box_UjjzGQ{
+      margin:0px 20px 20px;
+    }
+   .aboutS2AFI .background-image{
+          padding: 0px 20px;
+    }
+     .aboutS2AFI .text-box{
+      display:contents;
+     }
+   #shopify-section-template--24816480616819__right_content_box_wrdHhK .container, #shopify-section-template--24816480616819__right_content_box_7mpGbE .container,
+   #shopify-section-template--24816480616819__right_content_box_UjjzGQ .container{
+       max-width:100%;
+     }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Furniture Design Card",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "DEPARTMENT OVERVIEW"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Main Heading",
+      "default": "Furniture Design"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Paragraph Text",
+      "default": "Ashley Furniture Industries in-house designers and engineers react quickly to consumer tastes, and have conquered the ability to make style and selection affordable. Talented and ambitious, they travel the world to gain an understanding of the latest trends and discover emerging materials, constructions and technologies."
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Design »"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Furniture Design Card"
+    }
+  ]
+}
+{% endschema %}

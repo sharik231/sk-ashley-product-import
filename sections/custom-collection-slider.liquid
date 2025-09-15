@@ -1,0 +1,182 @@
+{% style %}
+.best-sellers-section {
+  position: relative;
+  margin-top: {{ section.settings.margin_top | default: 4 }}rem;
+  margin-bottom: {{ section.settings.margin_bottom | default: 4 }}rem;
+}
+.best-sellers-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+.best-sellers-slider .item {
+  padding-bottom: 1rem;
+}
+.best-sellers-slider .item img {
+  width: 100%;
+  height: auto;
+}
+.best-sellers-slider .item h4 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.best-sellers-slider .item a {
+    font-size: 14px;
+    padding: 0px 0px 10px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.owl-nav {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+.owl-nav button {
+  background: #00000066 !important;
+  color: #fff !important;
+  border: none;
+  font-size: 1.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+.owl-nav .owl-prev {
+  left: 0;
+}
+.owl-nav .owl-next {
+  right: 0;
+}
+.owl-carousel.owl-drag .owl-item {
+  background: #f4f4f4;
+}
+.cus-img{
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    mix-blend-mode: multiply;
+}
+  .owl-nav button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+@media (max-width: 768px) {
+  .owl-carousel .item {
+    flex: 0 0 50%;
+  }
+  @media screen and (max-width:320px){
+    #shopify-section-template--24830039982451__custom_collection_slider_BwpcBM,
+    #shopify-section-template--24830039982451__custom_collection_slider_VtCmYN{
+      margin:0px 15px;
+    }
+  }
+  @media screen and (max-width:480px){
+    #shopify-section-template--24830039982451__custom_collection_slider_BwpcBM,
+    #shopify-section-template--24830039982451__custom_collection_slider_VtCmYN{
+      margin:0px 15px;
+    }
+  }
+}
+{% endstyle %}
+
+<div class="container best-sellers-section">
+  <h2 class="best-sellers-title">{{ section.settings.title }}</h2>
+  <div class="best-sellers-slider owl-carousel" id="slider-{{ section.id }}">
+    {% for block in section.blocks %}
+      {% assign collection = collections[block.settings.collection] %}
+      {% if collection %}
+        <div class="item">
+          <div class="cus-img">
+          {% if collection.image %}
+            <img src="{{ collection.image | image_url: width: 600 }}" alt="{{ collection.title }}">
+          {% elsif collection.products.first.featured_image %}
+            <img src="{{ collection.products.first.featured_image | image_url: width: 600 }}" alt="{{ collection.title }}">
+          {% endif %}
+          </div>
+          <h4>{{ collection.title }}</h4>
+          <a href="{{ collection.url }}">Shop Now</a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  $('#slider-{{ section.id }}').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: false,
+    navText: ['<img src="https://cdn.shopify.com/s/files/1/0707/4955/2792/files/lt-ar.png?v=1749286589"/>', '<img src="https://cdn.shopify.com/s/files/1/0707/4955/2792/files/rt-ar.png?v=1749286588"/>'],
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      768: {
+        items: 5
+      }
+    }
+  });
+});
+</script>
+
+{% schema %}
+{
+  "name": "Custom Collection Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "label": "Margin Top (rem)",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "label": "Margin Bottom (rem)",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "default": 4
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Collection Slide",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Select Collection"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Custom Collection Slider",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

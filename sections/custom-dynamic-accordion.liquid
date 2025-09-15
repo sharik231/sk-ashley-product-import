@@ -1,0 +1,357 @@
+{%- style -%}
+  .orange-rewards-accordion {
+    margin: 20px auto;
+    font-family: sans-serif;
+  }
+  
+  .accordion-item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .accordion-title {
+    background-color: {{ section.settings.title_bg_color | default: "#ff6b00" }};
+    color: {{ section.settings.title_text_color | default: "#ffffff" }};
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size:16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* .accordion-title:hover {
+    background-color: {{ section.settings.title_hover_color | default: "#e05d00" }};
+  } */
+  
+  .accordion-title::after {
+    content: '+';
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-title.active::after {
+    content: '-';
+  }
+  
+  .accordion-content {
+    background-color: {{ section.settings.content_bg_color | default: "#f9f9f9" }};
+    color: {{ section.settings.content_text_color | default: "#333333" }};
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .accordion-content-inner {
+    padding: 20px;
+  }
+  
+  .accordion-content-inner p,
+  .accordion-content-inner ul,
+  .accordion-content-inner ol {
+    font-size:14px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .accordion-content-inner a {
+    color: {{ section.settings.link_color | default: "#ff6b00" }};
+    text-decoration: underline;
+  }
+  
+  .accordion-content-inner a:hover {
+    color: {{ section.settings.link_hover_color | default: "#e05d00" }};
+  }
+  
+  .accordion-image {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 4px;
+    display: block;
+  }
+  
+  .accordion-image-container {
+    text-align: {{ section.settings.image_alignment }};
+  }
+  
+  .content-with-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: {{ section.settings.image_text_alignment }};
+  }
+  
+  .content-with-image.text-first {
+    flex-direction: row;
+  }
+  
+  .content-with-image.image-first {
+    flex-direction: row-reverse;
+  }
+  
+  .text-content {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .image-content {
+    flex: 1;
+    min-width: 250px;
+  }
+{%- endstyle -%}
+
+<div class="container orange-rewards-accordion {% if section.settings.single_open %}single-open{% endif %}">
+  {% for block in section.blocks %}
+    <div class="accordion-item" {{ block.shopify_attributes }}>
+      <div class="accordion-title">{{ block.settings.title }}</div>
+      <div class="accordion-content">
+        <div class="accordion-content-inner">
+          {% if block.settings.image_position != 'none' %}
+            <div class="content-with-image {% if block.settings.image_position == 'right' %}text-first{% else %}image-first{% endif %}">
+              <div class="text-content">
+                {{ block.settings.content }}
+              </div>
+              <div class="image-content">
+                {% if block.settings.image != blank %}
+                  <div class="accordion-image-container">
+                    <img class="accordion-image" 
+                         src="{{ block.settings.image | img_url: '800x' }}" 
+                         alt="{{ block.settings.image.alt | escape }}"
+                         loading="lazy"
+                         width="800"
+                         height="{{ 800 | divided_by: block.settings.image.aspect_ratio | round }}">
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          {% else %}
+            {{ block.settings.content }}
+            {% if block.settings.image != blank %}
+              <div class="accordion-image-container">
+                <img class="accordion-image" 
+                     src="{{ block.settings.image | img_url: '800x' }}" 
+                     alt="{{ block.settings.image.alt | escape }}"
+                     loading="lazy"
+                     width="800"
+                     height="{{ 800 | divided_by: block.settings.image.aspect_ratio | round }}">
+              </div>
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const accordionTitles = document.querySelectorAll('.accordion-title');
+  
+  accordionTitles.forEach(title => {
+    title.addEventListener('click', function() {
+      this.classList.toggle('active');
+      const content = this.nextElementSibling;
+      
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+      }
+      
+      // Close other open items if single-open is enabled
+      if (document.querySelector('.orange-rewards-accordion').classList.contains('single-open')) {
+        accordionTitles.forEach(otherTitle => {
+          if (otherTitle !== title && otherTitle.classList.contains('active')) {
+            otherTitle.classList.remove('active');
+            otherTitle.nextElementSibling.style.maxHeight = null;
+          }
+        });
+      }
+    });
+  });
+  
+  // Open first item by default if enabled
+  {% if section.settings.open_first_item %}
+    if (accordionTitles.length > 0) {
+      accordionTitles[0].click();
+    }
+  {% endif %}
+});
+</script>
+
+{% schema %}
+{
+  "name": "Custom Dynamic Accordion",
+  "settings": [
+    {
+      "type": "color",
+      "id": "title_bg_color",
+      "label": "Title Background Color",
+      "default": "#ff6b00"
+    },
+    {
+      "type": "color",
+      "id": "title_text_color",
+      "label": "Title Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "title_hover_color",
+      "label": "Title Hover Color",
+      "default": "#e05d00"
+    },
+    {
+      "type": "color",
+      "id": "content_bg_color",
+      "label": "Content Background Color",
+      "default": "#f9f9f9"
+    },
+    {
+      "type": "color",
+      "id": "content_text_color",
+      "label": "Content Text Color",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link Color",
+      "default": "#ff6b00"
+    },
+    {
+      "type": "color",
+      "id": "link_hover_color",
+      "label": "Link Hover Color",
+      "default": "#e05d00"
+    },
+    {
+      "type": "select",
+      "id": "image_alignment",
+      "label": "Image Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "image_text_alignment",
+      "label": "Image & Text Vertical Alignment",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Middle"
+        },
+        {
+          "value": "flex-end",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "open_first_item",
+      "label": "Open first item by default",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "single_open",
+      "label": "Only one item open at a time",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "accordion_item",
+      "name": "Accordion Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Accordion Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Accordion content goes here. You can add text, lists, and links.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image (optional)"
+        },
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "Image Position",
+          "options": [
+            {
+              "value": "none",
+              "label": "Below content"
+            },
+            {
+              "value": "left",
+              "label": "Left of content"
+            },
+            {
+              "value": "right",
+              "label": "Right of content"
+            }
+          ],
+          "default": "none"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Dynamic Accordion",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "accordion_item",
+          "settings": {
+            "title": "Who can redeem the Orange Rewards?",
+            "content": "<p>The Orange Rewards Program is offered to all Ashley Furniture members. Be a member of Ashley Furniture Homestore today by signing up there</p>",
+            "image_position": "none"
+          }
+        },
+        {
+          "type": "accordion_item",
+          "settings": {
+            "title": "How to redeem points?",
+            "content": "<p>Redeem your points easily:</p><ol><li>Log in to your account</li><li>Select rewards</li><li>Checkout with points</li></ol>",
+            "image_position": "right"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

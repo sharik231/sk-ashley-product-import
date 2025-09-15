@@ -1,0 +1,263 @@
+<style>
+  .simple-faq-section {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .simple-faq-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+  }
+
+  .faq-search-simple {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto 30px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .faq-search-simple input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+
+  .faq-search-simple button {
+    background: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+  }
+
+  .faq-search-simple button:hover {
+    background: #333;
+  }
+
+  .faq-item-simple {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .faq-item-simple summary {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  .faq-item-simple summary::marker {
+    display: none;
+  }
+
+  .faq-item-simple summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-item-simple p {
+    padding: 0 20px 15px 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  .faq-arrow {
+    transition: transform 0.2s ease;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .faq-item-simple[open] .faq-arrow {
+    transform: rotate(180deg);
+  }
+
+  @media (max-width: 768px) {
+    .simple-faq-section {
+      padding: 15px;
+    }
+    .simple-faq-section h2 {
+      font-size: 24px;
+    }
+    .faq-search-simple {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .faq-search-simple input,
+    .faq-search-simple button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    .faq-item-simple summary {
+      font-size: 16px;
+      padding: 12px 15px;
+    }
+    .faq-item-simple p {
+      padding: 0 15px 12px 15px;
+      font-size: 14px;
+    }
+  }
+
+  .faq-item-simple.hidden {
+      display: none;
+  }
+</style>
+
+<div class="simple-faq-section" data-section-id="{{ section.id }}">
+  {% if section.settings.section_title != blank %}
+    <h2>{{ section.settings.section_title }}</h2>
+  {% endif %}
+
+  <div class="faq-search-simple">
+    <input type="text" id="simple-faq-search-input-{{ section.id }}" placeholder="Search FAQs...">
+    <button onclick="searchSimpleFAQ('{{ section.id }}')">Search</button>
+  </div>
+
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'faq_item' %}
+        <details class="faq-item-simple" data-section-id="{{ section.id }}">
+          <summary>
+            <span>{{ block.settings.question }}</span>
+            <span class="faq-arrow">▼</span>
+          </summary>
+          <p>{{ block.settings.answer }}</p>
+        </details>
+    {% endcase %}
+  {% endfor %}
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const simpleFaqSections = document.querySelectorAll('.simple-faq-section');
+
+        simpleFaqSections.forEach(section => {
+            const sectionId = section.dataset.sectionId;
+            const searchInput = document.getElementById('simple-faq-search-input-' + sectionId);
+            const faqItems = section.querySelectorAll('.faq-item-simple');
+
+            window.searchSimpleFAQ = function (currentSectionId) {
+                if (currentSectionId !== sectionId) return;
+
+                const searchTerm = searchInput.value.toLowerCase();
+
+                faqItems.forEach(item => {
+                    const question = item.querySelector('summary span').textContent.toLowerCase();
+                    const answer = item.querySelector('p').textContent.toLowerCase();
+
+                    if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                        item.classList.remove('hidden');
+                        if (searchTerm !== '') {
+                            item.open = true;
+                        } else {
+                            item.open = false;
+                        }
+                    } else {
+                        item.classList.add('hidden');
+                        item.open = false;
+                    }
+                });
+            };
+
+            searchInput.addEventListener('keyup', function () {
+                searchSimpleFAQ(sectionId);
+            });
+
+            faqItems.forEach(item => {
+                item.open = false;
+            });
+        });
+    });
+</script>
+
+{% schema %}
+{
+  "name": "Simple FAQ",
+  "tag": "section",
+  "class": "simple-faq-wrapper",
+  "max_blocks": 50,
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Heading",
+      "default": "Frequently Asked Questions"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq_item",
+      "name": "Question & Answer",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "What is your return policy?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Our return policy allows returns within 30 days.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Simple FAQ Section",
+      "category": "Text",
+      "blocks": [
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "<p>You can place an order by Browse our products, adding them to your cart, and proceeding to checkout.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "What payment methods do you accept?",
+            "answer": "<p>We accept major credit cards (Visa, MasterCard, Amex) and PayPal.</p>"
+          }
+        },
+        {
+            "type": "faq_item",
+            "settings": {
+                "question": "Do you offer international shipping?",
+                "answer": "<p>Yes, we do! International shipping options and costs are available during checkout.</p>"
+            }
+        },
+        {
+            "type": "faq_item",
+            "settings": {
+                "question": "How can I contact customer support?",
+                "answer": "<p>You can contact our customer support team via email at support@example.com or by calling us at +91-1234567890.</p>"
+            }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

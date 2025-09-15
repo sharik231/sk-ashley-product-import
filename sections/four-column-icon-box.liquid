@@ -1,0 +1,201 @@
+<section class="three-img-colbox  section section--align-{{section.settings.section_heading_align }} section--spacing-{{section.settings.spacing }} section--outer-spacing-{{section.settings.outer_spacing }} {{ section.settings.custom_classes | escape }} section--pt-{{section.settings.padding_top}} section--pb-{{section.settings.padding_bottom}} section--mt-{{section.settings.margin_top}} section--mb-{{section.settings.margin_bottom}}" style="background-color:{{section.settings.bg_color}};">
+  {% if section.settings.content_wrap == "contained" %}
+    <div class="container cth" {% if section.settings.content_wrap == "contained" %} style="background-color:{{section.settings.bg_color}};" {% endif %}> 
+  {% endif %}
+      
+  {%- if section.settings.show-title -%}
+    {%- if section.settings.section-title != blank -%}
+      <h2 class="section__heading">
+        {{ section.settings.section-title }}
+      </h2>
+    {% endif %}
+  {%- endif -%}
+    {%- for block in section.blocks -%}   
+    <div class="col-md-3-bx" {% if section.settings.show-border %} style="border-right: 1px solid #363534;" {% endif %}>
+      {%- capture bg_image -%}{%- render 'image-url', shopify:block.settings.icon-img, sh_size:"1600x", cl_tr:"w_1200,c_scale" -%}{%- endcapture -%}
+      {%- assign bg_image = bg_image | strip -%}
+    <img src="{{bg_image}}"/>
+      <h3>{{ block.settings.box-title }}</h3>
+      <p>{{ block.settings.box-subtitle }}</p>
+      <a href="{{ block.settings.link-url }}" {%- if block.settings.target_blank -%} target="_blank" {% endif %}>{{ block.settings.bottom-link-text }}</a>
+    </div>
+      {% endfor %}
+  {% if section.settings.content_wrap == "contained" %}
+    </div> 
+  {% endif %}
+</section>
+{% schema %}
+  {
+    "name": "Four-3 Column Icon Box",
+    "presets": 
+      [
+        {
+          "name": "Four-3 Column Icon Box",
+          "category": "General"
+        }
+      ],
+      "settings": 
+      [
+        {
+            "type": "header",
+            "content": "General Settings"
+          },
+          {
+            "type": "text",
+            "id": "section-title",
+            "label": "Section Title",
+            "info": "Leave blank to disable title"
+          },
+          {
+            "type": "checkbox",
+            "id": "show-title",
+            "label": "Show title",
+            "default": true
+          },
+          {
+            "type": "radio",
+            "id": "section_heading_align",
+            "label": "Heading Title alignment",
+            "options": 
+            [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              }
+            ],
+            "default": "left"
+          },
+          {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Section Background color",
+            "default": "#ffffff",
+            "info": "Default: #ffffff"
+          },
+          {
+            "type": "range",
+            "id": "spacing",
+            "label": "Space around section",
+            "min": 0,
+            "max": 75,
+            "step": 5,
+            "default": 30
+          },
+          {
+            "type": "range",
+            "id": "outer_spacing",
+            "label": "Space from neighbours",
+            "min": 0,
+            "max": 75,
+            "step": 5,
+            "default": 30
+          },
+          {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Padding top",
+            "min": 0,
+            "max": 75,
+            "step": 5,
+            "default": 0
+          },
+          {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Padding Bottom",
+            "min": 0,
+            "max": 75,
+            "step": 5,
+            "default": 0
+          },
+          {
+            "type": "select",
+            "id": "content_wrap",
+            "label": "Content",
+            "options": 
+              [
+                {
+                  "value": "contained",
+                  "label": "Contained"
+                },
+                {
+                  "value": "full",
+                  "label": "Full Width"
+                }
+              ],
+            "default": "contained"
+          },
+          {
+            "type": "range",
+            "id": "margin_top",
+            "label": "Margin top",
+            "min": 0,
+            "max": 75,
+            "step": 5,
+            "default": 0
+          },
+          {
+            "type": "range",
+            "id": "margin_bottom",
+            "label": "Margin Bottom",
+            "min": 0,
+            "max": 75,
+            "step": 5,
+            "default": 0
+          },
+          {
+            "type": "checkbox",
+            "id": "show-border",
+            "label": "Enbale Border Between Box",
+            "default": true
+          }
+      ],
+    "blocks": 
+      [
+        {
+          "type": "image",
+          "name": "Image item",
+          "limit": 4,
+          "settings": 
+            [
+              {
+                "type": "text",
+                "id": "box-title",
+                "label": "Icon Box Title"
+              },
+              {
+                "type": "text",
+                "id": "box-subtitle",
+                "label": "Icon Box Subtitle"
+              },
+              {
+                "type": "image_picker",
+                "id": "icon-img",
+                "label": "Select Icon",
+                "info": "This image will be croped based on different screen sizes"
+              },
+              {
+                "type": "text",
+                "id": "bottom-link-text",
+                "label": "Link text"
+              },
+              {
+                "type": "url",
+                "id": "link-url",
+                "label": "Link URL"
+              },
+              {
+                "type": "checkbox",
+                "id": "target_blank",
+                "label": "Open in new tab?",
+                "default": false
+              }
+            ]
+        }
+      ]
+  }
+{% endschema %}

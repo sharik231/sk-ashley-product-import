@@ -1,0 +1,149 @@
+<div class="top-banner-section">
+  <div class="container top-row">
+    <div class="top-item">
+      <a href="{{ section.settings.link_left }}" class="top-link">{{ section.settings.text_left }}</a>
+    </div>
+    <div class="top-item">
+      <a href="{{ section.settings.link_center }}" class="top-link">{{ section.settings.text_center }}</a>
+    </div>
+    <div class="top-item">
+      <a href="{{ section.settings.link_right }}" class="top-link">{{ section.settings.text_right }}</a>
+    </div>
+  </div>
+  <div class="bottom-bar">
+    <a href="{{ section.settings.link_bottom }}" class="bottom-link">{{ section.settings.bottom_text }}</a>
+  </div>
+</div>
+
+<style>
+  .top-banner-section {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+     
+  }
+
+  .top-row {
+       padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+  }
+
+  .top-item {
+    width: 33.3%;
+  }
+
+  .top-link {
+    color: #000;
+    text-decoration: none;
+  font-size:14px;
+  }
+
+  .top-link:hover {
+    text-decoration: underline;
+  }
+
+  .bottom-bar {
+    background-color: #3c3c3c;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .bottom-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .bottom-link:hover {
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width:320px){
+     .top-banner-section{
+      margin-top:80px;
+    }
+    .top-banner-section .top-row{
+      display:inline-block;
+    }
+     .top-banner-section .top-row .top-item {
+    width: 100%;
+    padding-bottom: 5px;
+    }
+  }
+  @media screen and (max-width:480px){
+    .top-banner-section{
+      margin-top:80px;
+    }
+    .top-banner-section .top-row{
+      display:inline-block;
+    }
+   .top-banner-section .top-row .top-item {
+    width: 100%;
+    padding-bottom: 5px;
+    }
+  }
+  
+  @media screen and (max-width:768px){
+    
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Custom Promo Box",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text_left",
+      "label": "Left Text",
+      "default": "Up to 20% off Outdoor**"
+    },
+    {
+      "type": "url",
+      "id": "link_left",
+      "label": "Left Text Link"
+    },
+    {
+      "type": "text",
+      "id": "text_center",
+      "label": "Center Text",
+      "default": "$1 to Start ‡‡ Acima Leasing"
+    },
+    {
+      "type": "url",
+      "id": "link_center",
+      "label": "Center Text Link"
+    },
+    {
+      "type": "text",
+      "id": "text_right",
+      "label": "Right Text",
+      "default": "Sofas starting at $349.99"
+    },
+    {
+      "type": "url",
+      "id": "link_right",
+      "label": "Right Text Link"
+    },
+    {
+      "type": "text",
+      "id": "bottom_text",
+      "label": "Bottom Banner Text",
+      "default": "ASHLEY TARIFF ASSURANCE – BEST VALUE, NO COMPROMISE"
+    },
+    {
+      "type": "url",
+      "id": "link_bottom",
+      "label": "Bottom Banner Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Promo Box"
+    }
+  ]
+}
+{% endschema %}

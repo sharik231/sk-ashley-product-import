@@ -1,0 +1,247 @@
+{% schema %}
+{
+  "name": "Delivery methods",
+  "tag": "section",
+  "class": "white-glove-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "image_width_percent",
+      "label": "Image Width (%)",
+      "min": 30,
+      "max": 70,
+      "step": 5,
+      "default": 50
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image Position",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "white glove delivery"
+    },
+    {
+      "type": "text",
+      "id": "badge_text",
+      "label": "Badge Text",
+      "default": "ASSEMBLY INCLUDED"
+    },
+    {
+      "type": "color",
+      "id": "badge_bg",
+      "label": "Badge Background",
+      "default": "#00c853"
+    },
+    {
+      "type": "color",
+      "id": "badge_color",
+      "label": "Badge Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon1",
+      "label": "Icon 1"
+    },
+    {
+      "type": "textarea",
+      "id": "bullet1",
+      "label": "Bullet Point 1",
+      "default": "Items will be delivered into your home on the scheduled day and time. A signature is required."
+    },
+    {
+      "type": "image_picker",
+      "id": "icon2",
+      "label": "Icon 2"
+    },
+    {
+      "type": "textarea",
+      "id": "bullet2",
+      "label": "Bullet Point 2",
+      "default": "Our experienced delivery team will place, assemble and inspect your new items with care in your room of choice."
+    },
+    {
+      "type": "image_picker",
+      "id": "icon3",
+      "label": "Icon 3"
+    },
+    {
+      "type": "textarea",
+      "id": "bullet3",
+      "label": "Bullet Point 3",
+      "default": "We will remove all packaging materials, so you don’t need to cleanup."
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Button Text",
+      "default": "learn more"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Button URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Delivery methods"
+    }
+  ]
+}
+{% endschema %}
+
+{% style %}
+.white-glove-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.white-glove-container.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.white-glove-image {
+  flex: 0 0 {{ section.settings.image_width_percent }}%;
+}
+
+.white-glove-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.white-glove-content {
+  flex: 1;
+  max-width: 560px;
+}
+
+.white-glove-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.white-glove-badge {
+  background-color: {{ section.settings.badge_bg }};
+  color: {{ section.settings.badge_color }};
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.white-glove-bullets {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.white-glove-bullets li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.white-glove-bullets img {
+  width: unset;
+  margin-right: 12px;
+  margin-top: 2px;
+}
+
+.white-glove-link a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.white-glove-bullets span{
+  font-size:14px;
+}
+@media screen and (max-width:320px){    
+  #shopify-section-template--24824160387443__delivery_methods_zbkqdz, #shopify-section-template--24824160387443__delivery_methods_rz7NVN, #shopify-section-template--24824160387443__delivery_methods_g9UBqj{
+    margin:0px 15px;
+  }
+.white-glove-container{
+  display:block;
+}
+  .white-glove-content{
+          margin-top: 20px;
+  }
+  }
+@media screen and (max-width:480px){    
+  #shopify-section-template--24824160387443__delivery_methods_zbkqdz, #shopify-section-template--24824160387443__delivery_methods_rz7NVN, #shopify-section-template--24824160387443__delivery_methods_g9UBqj{
+    margin:0px 15px;
+  }
+.white-glove-container{
+  display:block;
+}
+  .white-glove-content{
+          margin-top: 20px;
+  }
+  }
+
+{% endstyle %}
+
+<section>
+  <div class="container white-glove-container {% if section.settings.image_position == 'right' %}row-reverse{% endif %}">
+    <div class="white-glove-image">
+      {% if section.settings.image %}
+        <img src="{{ section.settings.image | img_url: '800x' }}" alt="Delivery Image">
+      {% endif %}
+    </div>
+    <div class="white-glove-content">
+      <h2>{{ section.settings.heading }}</h2>
+      <div class="white-glove-badge">{{ section.settings.badge_text }}</div>
+      <ul class="white-glove-bullets">
+        <li>
+          {% if section.settings.icon1 %}
+            <img src="{{ section.settings.icon1 | img_url: '32x32' }}" alt="icon1">
+          {% endif %}
+          <span>{{ section.settings.bullet1 }}</span>
+        </li>
+        <li>
+          {% if section.settings.icon2 %}
+            <img src="{{ section.settings.icon2 | img_url: '32x32' }}" alt="icon2">
+          {% endif %}
+          <span>{{ section.settings.bullet2 }}</span>
+        </li>
+        <li>
+          {% if section.settings.icon3 %}
+            <img src="{{ section.settings.icon3 | img_url: '32x32' }}" alt="icon3">
+          {% endif %}
+          <span>{{ section.settings.bullet3 }}</span>
+        </li>
+      </ul>
+      {% if section.settings.link_url %}
+        <div class="white-glove-link">
+          <a href="{{ section.settings.link_url }}">{{ section.settings.link_text }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,804 @@
+<div id="drawerOverlay" class="overlay hidden" onclick="closeDrawer()"></div>
+ {%- assign blocks_lenght = section.blocks | size -%}
+{%- if blocks_lenght > 0 -%}
+
+     {%- for block in section.blocks -%}
+   <div id="shopDrawer{{ forloop.index }}" class="drawer-menu hidden">
+  <button class="close-btn" onclick="closeDrawer()">×</button>
+     <div class="menu-logo"> {% render 'header__logo' %}</div> 
+ {%- if block.type == "4_menu" -%}
+      {% if block.settings.menu1 != "" %} <a href="{{ block.settings.menu1 }}" class="target"> Shop All {{ block.settings.title }}</a>{% else %} <h2>{{ block.settings.title }}</h2>{% endif %}
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 onclick="toggleSubmenu('shopSubmenu1{{ forloop.index }}')" class="has-submenu">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+                     <div id="shopSubmenu1{{ forloop.index }}" class="submenu hidden">
+                    
+                     <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                     <h4>{{ block.settings.col_title_1 }}</h4>
+                     <ul>
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                     </div>
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3  onclick="toggleSubmenu('shopSubmenu2{{ forloop.index }}')" class="has-submenu">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+                 <div id="shopSubmenu2{{ forloop.index }}" class="submenu hidden">
+                   <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png"/></button>
+                   <h4>{{ block.settings.col_title_2 }}</h4>
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                 </div> 
+                  {%- if block.settings.show_title_3 and block.settings.col_title_3 !="" -%}
+                      <h3  onclick="toggleSubmenu('shopSubmenu3{{ forloop.index }}')" class="has-submenu">{{ block.settings.col_title_3 }}</h3>
+                  {%- endif -%}
+                 <div id="shopSubmenu3{{ forloop.index }}" class="submenu hidden">
+                   <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                   <h4>{{ block.settings.col_title_3 }}</h4>
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_3].links -%}
+                    <li>
+                      <a href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+                  {%- if block.settings.show_title_4 and block.settings.col_title_4 !="" -%}
+                      <h3  onclick="toggleSubmenu('shopSubmenu4{{ forloop.index }}')" class="has-submenu">{{ block.settings.col_title_4 }}</h3>
+                  {%- endif -%}
+   <div id="shopSubmenu4{{ forloop.index }}" class="submenu hidden">
+     <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                   <h4>{{ block.settings.col_title_4 }}</h4>
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_4].links -%}
+                    <li>
+                      <a href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+          {% endif %}
+
+       {%- if block.type == "3_menu__1_image" -%}
+          {% if block.settings.menu1 != "" %} <a href="{{ block.settings.menu1 }}" class="target"> Shop All {{ block.settings.title }}</a>{% else %} <h2>{{ block.settings.title }}</h2>{% endif %}
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 onclick="toggleSubmenu('shopSubmenu3_1_1{{ forloop.index }}')">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+         <div id="shopSubmenu3_1_1{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                     <ul>
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a class="dd" href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+         </div>
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3 onclick="toggleSubmenu('shopSubmenu3_1_2{{ forloop.index }}')">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+          <div id="shopSubmenu3_1_2{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+          </div>
+                  {%- if block.settings.show_title_3 and block.settings.col_title_3 !="" -%}
+                      <h3 onclick="toggleSubmenu('shopSubmenu3_1_3{{ forloop.index }}')">{{ block.settings.col_title_3 }}</h3>
+                  {%- endif -%}
+         <div id="shopSubmenu3_1_3{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_3].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+           </div>
+            <div class="col-sm-12">
+                  {% if block.settings.col4_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col4_image, alt:block.settings.col4_text, classes:'w-full' %} {% elsif
+                  block.settings.col4_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col4_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col4_text }}</p>
+                  <a href="{{ block.settings.col4_url }}">shop now</a>
+                </div>
+          {% endif %}
+ {%- if block.type == "2_menu__2_image" -%}
+ {% if block.settings.menu1 != "" %} <a href="{{ block.settings.menu1 }}" class="target"> Shop All {{ block.settings.title }}</a>{% else %} <h2>{{ block.settings.title }}</h2>{% endif %}
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 onclick="toggleSubmenu('shopSubmenu2_2_1{{ forloop.index }}')">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+    <div id="shopSubmenu2_2_1{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                     <ul>
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+    </div>
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3 onclick="toggleSubmenu('shopSubmenu2_2_2{{ forloop.index }}')">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+       <div id="shopSubmenu2_2_2{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+       </div>
+            <div class="col-sm-12">
+                   {% if block.settings.col3_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col3_image, alt:'', classes:'w-full' %} {% elsif
+                  block.settings.col3_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col3_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col3_text }}</p>
+                  <a href="{{ block.settings.col3_url }}">shop now</a> 
+            </div>
+            <div class="col-sm-12">
+                  {% if block.settings.col4_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col4_image, alt:block.settings.col4_text, classes:'w-full' %} {% elsif
+                  block.settings.col4_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col4_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col4_text }}</p>
+                  <a href="{{ block.settings.col4_url }}">shop now</a>
+                </div>
+          {% endif %}   
+
+     {%- if block.type == "3_menu__2_image" -%}
+        {% if block.settings.menu1 != "" %} <a href="{{ block.settings.menu1 }}" class="target"> Shop All {{ block.settings.title }}</a>{% else %} <h2>{{ block.settings.title }}</h2>{% endif %} 
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 onclick="toggleSubmenu('shopSubmenu3_2_1{{ forloop.index }}')">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+       <div id="shopSubmenu3_2_1{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                     <ul>
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a class="dd" href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+       </div>
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3 onclick="toggleSubmenu('shopSubmenu3_2_2{{ forloop.index }}')">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+              <div id="shopSubmenu3_2_2{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+                  {%- if block.settings.show_title_3 and block.settings.col_title_3 !="" -%}
+                      <h3 onclick="toggleSubmenu('shopSubmenu3_2_3{{ forloop.index }}')">{{ block.settings.col_title_3 }}</h3>
+                  {%- endif -%}
+                     <div id="shopSubmenu3_2_3{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_3].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>  
+                     </div>
+            <div class="col-sm-12">
+                   {% if block.settings.col4_text != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col4_image, alt:'', classes:'w-full' %} {% elsif
+                  block.settings.col4_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col4_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col4_text }}</p>
+                  <a href="{{ block.settings.col4_url }}">shop now</a>
+                </div>
+            <div class="col-sm-12">
+                  {% if block.settings.col5_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col5_image, alt:block.settings.col5_text, classes:'w-full' %} {% elsif
+                  block.settings.col5_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col5_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col5_text }}</p>
+                  <a href="{{ block.settings.col5_url }}">shop now</a>
+                </div>
+          {% endif %}
+
+     {%- if block.type == "4_menu__1_image" -%}
+     {% if block.settings.menu1 != "" %} <a href="{{ block.settings.menu1 }}" class="target"> Shop All {{ block.settings.title }}</a>{% else %} <h2>{{ block.settings.title }}</h2>{% endif %}     
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 onclick="toggleSubmenu('shopSubmenu4_1_1{{ forloop.index }}')">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+        <div id="shopSubmenu4_1_1{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>  
+                     <ul>
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a class="dd" href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+        </div>
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3 onclick="toggleSubmenu('shopSubmenu4_1_2{{ forloop.index }}')">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+               <div id="shopSubmenu4_1_2{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button> 
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+               </div>
+                  {%- if block.settings.show_title_3 and block.settings.col_title_3 !="" -%}
+                      <h3 onclick="toggleSubmenu('shopSubmenu4_1_3{{ forloop.index }}')">{{ block.settings.col_title_3 }}</h3>
+                  {%- endif -%}
+                      <div id="shopSubmenu4_1_3{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button> 
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_3].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                      </div>
+                  {%- if block.settings.show_title_4 and block.settings.col_title_4 !="" -%}
+                      <h3 onclick="toggleSubmenu('shopSubmenu4_1_4{{ forloop.index }}')">{{ block.settings.col_title_4 }}</h3>
+                  {%- endif -%}
+       <div id="shopSubmenu4_1_4{{ forloop.index }}" class="submenu hidden">
+         <button class="close-btn left" onclick="closeSubmenu()"><img scr="https://cdn.shopify.com/s/files/1/0729/0378/6770/files/vackarrow.png?v=1747828132"/></button>   
+                 <ul>
+                 {%- for link in linklists[block.settings.sub_4].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+       </div>
+            <div class="col-sm-12">
+                  {% if block.settings.col5_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col5_image, alt:block.settings.col5_text, classes:'w-full' %} {% elsif
+                  block.settings.col5_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col5_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col5_text }}</p>
+                  <a href="{{ block.settings.col5_url }}">shop now</a>
+                </div>
+         {% endif %}
+        {% if block.type == "1_col_menu" %}
+     {% if block.settings.menu1 != "" %} <a href="{{ block.settings.menu1 }}" class="target"> Shop All {{ block.settings.title }}</a>{% else %} <h2>{{ block.settings.title }}</h2>{% endif %}
+      
+       {% if block.settings.item_1_text !='' %} 
+                          <h3><a href="{{ block.settings.item_1_link }}">{{ block.settings.item_1_text }}</a></h3>
+                          <p>{{ block.settings.item_1_desc }}</p>
+                      {% endif %}  
+                      {% if block.settings.item_2_text !='' %} 
+                          <h3><a href="{{ block.settings.item_2_link }}">{{ block.settings.item_2_text }}</a></h3>
+                          <p>{{ block.settings.item_2_desc }}</p>
+                     
+                      {% endif %}  
+                      {% if block.settings.item_3_text !='' %} 
+                          <h3><a href="{{ block.settings.item_3_link }}">{{ block.settings.item_3_text }}</a></h3>
+                          <p>{{ block.settings.item_3_desc }}</p>
+                     
+                      {% endif %}
+                      {% if block.settings.item_4_text !='' %} 
+                          <h3><a href="{{ block.settings.item_4_link }}">{{ block.settings.item_4_text }}</a></h3>
+                          <p>{{ block.settings.item_4_desc }}</p>
+                      
+                      {% endif %}
+                      {% if block.settings.item_5_text !='' %} 
+                          <h3><a href="{{ block.settings.item_5_link }}">{{ block.settings.item_5_text }}</a></h3>
+                          <p>{{ block.settings.item_5_desc }}</p>
+                      
+                      {% endif %}
+                      {% if block.settings.item_6_text !='' %} 
+                     
+                          <h3><a href="{{ block.settings.item_6_link }}">{{ block.settings.item_6_text }}</a></h3>
+                          <p>{{ block.settings.item_6_desc }}</p>
+                      
+                      {% endif %}
+                      {% if block.settings.item_7_text !='' %} 
+                      
+                          <h3><a href="{{ block.settings.item_7_link }}">{{ block.settings.item_7_text }}</a></h3>
+                          <p>{{ block.settings.item_7_desc }}</p>
+                     
+                      {% endif %}
+                      {% if block.settings.item_8_text !='' %}   
+                     
+                          <h3><a href="{{ block.settings.item_8_link }}">{{ block.settings.item_8_text }}</a></h3>
+                          <p>{{ block.settings.item_8_desc }}</p>
+                      
+                      {% endif %}
+                        
+        
+     {% endif %}
+</div>
+       {% endfor %}
+
+
+{% endif %}
+<div class="navigation-barload drawer-menu hidden" id="navmenu" style="--bar-height:{{section.settings.nav_height}}px; --overlay-top:{{section.settings.nav_height | plus: section.settings.header_height }}px;">
+  <div class="container">
+   <button class="close-btn" onclick="closeDrawer()"></button>
+ 
+{%- if blocks_lenght > 0 -%}
+<nav class="main-menu">
+  <ul>
+     {%- for block in section.blocks -%}
+        <li  {% if block.settings.item_1_text =='' %}onclick="window.location.href='{{ block.settings.menu1 }}';"{% else %}onclick="openDrawer('shopDrawer{{ forloop.index }}')"{% endif %}>
+           {{ block.settings.title }}
+         
+        </li>
+   
+       {% endfor %}
+  </ul>
+</nav>
+{% endif %}
+
+
+
+
+
+<script>
+function openDrawer(drawerId) {
+  // Hide all drawers
+  const drawers = document.querySelectorAll('.drawer-menu');
+  drawers.forEach(drawer => drawer.classList.add('hidden'));
+
+  // Show selected drawer
+  const targetDrawer = document.getElementById(drawerId);
+  targetDrawer.classList.remove('hidden');
+
+  const overlay = document.getElementById('drawerOverlay');
+  overlay.classList.add('active');
+  overlay.classList.remove('hidden');
+}
+
+function toggleSubmenu(submenuId) {
+ // Hide all submenus first
+  const submenus = document.querySelectorAll('.submenu');
+  submenus.forEach(menu => menu.classList.add('hidden'));
+
+  // Toggle the specific submenu
+  const targetSubmenu = document.getElementById(submenuId);
+  targetSubmenu.classList.toggle('hidden');
+}
+  function closeDrawer() {
+  const drawers = document.querySelectorAll('.drawer-menu');
+  drawers.forEach(drawer => drawer.classList.add('hidden'));
+    
+  // Hide overlay with fade-out effect
+  const overlay = document.getElementById('drawerOverlay');
+  overlay.classList.remove('active');
+}
+    function closeSubmenu() {
+  const Subdrawers = document.querySelectorAll('.submenu');
+  Subdrawers.forEach(subdrawer => subdrawer.classList.add('hidden'));
+    
+}
+</script>
+               
+                  {%- assign blocks_lenght = section.blocks | size -%}
+{%- if blocks_lenght > 0 -%}
+<nav class="navbar navbar-expand-lg shadow-sm" style="display:none;">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         {%- for block in section.blocks -%} 
+           {%- if block.type != "1_col_menu" -%}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{{ block.settings.menu1 }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           {{ block.settings.title }}
+          </a> 
+          <div class="dropdown-menu px-3 rounded-3 border-0 shadow">
+            <div class="row">
+            {%- if block.type == "4_menu" -%}
+              <div class="col-sm-12 col-md-3">
+                <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                  <div class="text ps-3">
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 class="s">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+                     <ul class="space-y-2">
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a class="dd" href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_3 and block.settings.col_title_3 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_3 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_3].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_4 and block.settings.col_title_4 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_4 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_4].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+          {% endif %}
+          {%- if block.type == "3_menu__1_image" -%}
+              <div class="col-sm-12 col-md-3">
+                <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                  <div class="text ps-3">
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 class="s">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+                     <ul class="space-y-2">
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a class="dd" href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_3 and block.settings.col_title_3 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_3 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_3].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {% if block.settings.col4_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col4_image, alt:block.settings.col4_text, classes:'w-full' %} {% elsif
+                  block.settings.col4_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col4_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col4_text }}</p>
+                  <a href="{{ block.settings.col4_url }}">shop now</a>
+                </div>
+              </div>  
+            </div>
+          {% endif %}
+           {%- if block.type == "2_menu__2_image" -%}
+              <div class="col-sm-12 col-md-3">
+                <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                  <div class="text ps-3">
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 class="s">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+                     <ul class="space-y-2">
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a class="dd" href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                   {% if block.settings.col3_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col3_image, alt:'', classes:'w-full' %} {% elsif
+                  block.settings.col3_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col3_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col3_text }}</p>
+                  <a href="{{ block.settings.col3_url }}">shop now</a>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {% if block.settings.col4_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col4_image, alt:block.settings.col4_text, classes:'w-full' %} {% elsif
+                  block.settings.col4_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col4_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col4_text }}</p>
+                  <a href="{{ block.settings.col4_url }}">shop now</a>
+                </div>
+              </div>  
+            </div>
+          {% endif %}   
+           {%- if block.type == "3_menu__2_image" -%}
+              <div class="col-sm-12 col-md-2">
+                <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                  <div class="text ps-3">
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 class="s">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+                     <ul class="space-y-2">
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a class="dd" href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-2">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-2">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_3 and block.settings.col_title_3 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_3 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_3].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>             
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                   {% if block.settings.col4_text != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col4_image, alt:'', classes:'w-full' %} {% elsif
+                  block.settings.col4_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col4_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col4_text }}</p>
+                  <a href="{{ block.settings.col4_url }}">shop now</a>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {% if block.settings.col5_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col5_image, alt:block.settings.col5_text, classes:'w-full' %} {% elsif
+                  block.settings.col5_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col5_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col5_text }}</p>
+                  <a href="{{ block.settings.col5_url }}">shop now</a>
+                </div>
+              </div>  
+            </div>
+          {% endif %}
+           {%- if block.type == "4_menu__1_image" -%}
+              <div class="col-sm-12 col-md-2">
+                <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                  <div class="text ps-3">
+                     {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+                        <h3 class="s">{{ block.settings.col_title_1 }}</h3>
+                     {%- endif -%}
+                     <ul class="space-y-2">
+                     {%- for link in linklists[block.settings.sub_1].links -%}
+                        <li>
+                          <a class="dd" href="{{ link.url }}">{{link.title}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-2">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_2 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_2].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-2">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_3 and block.settings.col_title_3 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_3 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_3].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>             
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {%- if block.settings.show_title_4 and block.settings.col_title_4 !="" -%}
+                      <h3 class="s">{{ block.settings.col_title_4 }}</h3>
+                  {%- endif -%}
+                 <ul class="space-y-2">
+                 {%- for link in linklists[block.settings.sub_4].links -%}
+                    <li>
+                      <a class="dd" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                 {% endfor %}
+                    </ul>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                <div class="text ps-3">
+                  {% if block.settings.col5_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col5_image, alt:block.settings.col5_text, classes:'w-full' %} {% elsif
+                  block.settings.col5_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col5_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                  <p>{{ block.settings.col5_text }}</p>
+                  <a href="{{ block.settings.col5_url }}">shop now</a>
+                </div>
+              </div>  
+            </div>
+          {% endif %}                       
+         </div>
+        </div>
+      </li>
+     {% else %}
+      <li class="nav-item {% if block.settings.item_1_text !='' %} dropdown onecol{% endif %}">
+        <a class="nav-link {% if block.settings.item_1_text !='' %} nav-link dropdown-toggle {% endif %}" href="{{ block.settings.menu1 }}" {% if block.settings.item_1_text !='' %} role="button" data-bs-toggle="dropdown" aria-expanded="false" {% endif %}>{{ block.settings.title }}</a>
+        {% if item_1_text !='' %}
+        <div class="dropdown-menu px-3 rounded-3 border-0 shadow">
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+                  <div class="align-items-center py-3 px-1 rounded-3">
+                      <div class="text ps-3">
+                          <h3 class="s"><a href="{{ block.settings.item_1_link }}">{{ block.settings.item_1_text }}</a></h3>
+                          <p>{{ block.settings.item_1_desc }}</p>
+                      </div>
+                      {% if block.settings.item_2_text !='' %} 
+                      <div class="text ps-3">
+                          <h3 class="s"><a href="{{ block.settings.item_2_link }}">{{ block.settings.item_2_text }}</a></h3>
+                          <p>{{ block.settings.item_2_desc }}</p>
+                      </div>
+                      {% endif %}  
+                      {% if block.settings.item_3_text !='' %} 
+                      <div class="text ps-3">
+                          <h3 class="s"><a href="{{ block.settings.item_3_link }}">{{ block.settings.item_3_text }}</a></h3>
+                          <p>{{ block.settings.item_3_desc }}</p>
+                      </div>
+                      {% endif %}
+                      {% if block.settings.item_4_text !='' %} 
+                      <div class="text ps-3">
+                          <h3 class="s"><a href="{{ block.settings.item_4_link }}">{{ block.settings.item_4_text }}</a></h3>
+                          <p>{{ block.settings.item_4_desc }}</p>
+                      </div>
+                      {% endif %}
+                      {% if block.settings.item_5_text !='' %} 
+                      <div class="text ps-3">
+                          <h3 class="s"><a href="{{ block.settings.item_5_link }}">{{ block.settings.item_5_text }}</a></h3>
+                          <p>{{ block.settings.item_5_desc }}</p>
+                      </div>
+                      {% endif %}
+                      {% if block.settings.item_6_text !='' %} 
+                      <div class="text ps-3">
+                          <h3 class="s"><a href="{{ block.settings.item_6_link }}">{{ block.settings.item_6_text }}</a></h3>
+                          <p>{{ block.settings.item_6_desc }}</p>
+                      </div>
+                      {% endif %}
+                      {% if block.settings.item_7_text !='' %} 
+                      <div class="text ps-3">
+                          <h3 class="s"><a href="{{ block.settings.item_7_link }}">{{ block.settings.item_7_text }}</a></h3>
+                          <p>{{ block.settings.item_7_desc }}</p>
+                      </div>
+                      {% endif %}
+                      {% if block.settings.item_8_text !='' %}   
+                      <div class="text ps-3">
+                          <h3 class="s"><a href="{{ block.settings.item_8_link }}">{{ block.settings.item_8_text }}</a></h3>
+                          <p>{{ block.settings.item_8_desc }}</p>
+                      </div>
+                      {% endif %}
+                  </div>  
+              </div>       
+            </div>
+        </div>
+         {% endif %}                  
+      </li>
+     {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>   
+{%- endif -%}
+  </div>
+</div>

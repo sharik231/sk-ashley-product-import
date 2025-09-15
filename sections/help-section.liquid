@@ -1,0 +1,119 @@
+{% schema %}
+{
+  "name": "Help Section",
+  "tag": "section",
+  "class": "faq-extend",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "getting help is easy."
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "label": "Content",
+      "default": "Contact Extend online 24/7 to file a claim. Most issues are processed in minutes and after approval, Extend will send you all the details to resolve your issue."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "contact Extend"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Help Section"
+    }
+  ]
+}
+{% endschema %}
+
+{% style %}
+.faq-extend .faqEx{
+  margin:30px 0px 50px;
+}
+.faq-extend .secLst {
+  background: #363534;
+  padding: 40px!important;
+}
+.faq-extend .Lstpo {
+  text-align: center;
+}
+.faq-extend .lstPart {
+  text-align: left;
+  color: #fff;
+}
+.faq-extend .secLst h2{
+    font-size: 28px;
+    font-weight: 700;
+  }
+.faq-extend .lstPart p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.faq-extend .ClsBtn {
+  background: #ffffff;
+  padding: 10px 20px;
+  font-size: 14px;
+  float: right;
+  margin-top: 15px;
+}
+.faq-extend .ClsBtn a {
+  font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+  @media screen and (max-width:320px){
+    #shopify-section-template--24815813230963__help_section_rJwkWh{
+      margin:0px 20px;
+    }
+   .faq-extend .ClsBtn{
+     float:inline-start!important;
+   }
+  }
+  @media screen and (max-width:480px){
+    #shopify-section-template--24815813230963__help_section_rJwkWh{
+      margin:0px 20px;
+    }
+    .faq-extend .ClsBtn{
+     float:inline-start!important;
+   }
+  }
+  @media screen and (max-width:768px){
+    #shopify-section-template--24815813230963__help_section_rJwkWh{
+      margin:0px 20px;
+    }
+    .faq-extend .ClsBtn{
+     float:inline-start!important;
+   }
+  }
+{% endstyle %}
+
+<div class="faqEx">
+<div class="container">
+<div class="secLst">
+  <div class="secA Lstpo">
+    <div class="row jContent">
+      <div class="col-sm-12 col-lg-6 col-md-6 col-xl-6 lstPart">
+        <h2>{{ section.settings.heading }}</h2>
+        <p>{{ section.settings.content }}</p>
+      </div>
+      <div class="col-sm-12 col-lg-6 col-md-6 col-xl-6">
+        <div class="ClsBtn">
+          <a href="{{ section.settings.button_link }}" class="btn">{{ section.settings.button_label }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>

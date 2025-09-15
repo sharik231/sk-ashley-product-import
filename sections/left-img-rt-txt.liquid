@@ -1,0 +1,112 @@
+<div class="custom-image-text-section">
+  <div class="container">
+    <div class="hm-sec-2">
+      <div class="img-lt-sec">
+        {% if section.settings.left_img != blank %}
+          <picture>
+            {% if section.settings.left_img_mobile != blank %}
+              <source media="(max-width: 767px)"
+                      srcset="{{ section.settings.left_img_mobile | image_url: width: 767 }}"
+                      sizes="100vw">
+            {% endif %}
+
+            <source media="(min-width: 768px)"
+                    srcset="{{ section.settings.left_img | image_url: width: 1500 }}"
+                    sizes="(min-width: 768px) 50vw, 100vw">
+
+        
+            <img src="{{ section.settings.left_img | image_url: width: 1500 }}"
+                 alt="{{ section.settings.img_title | escape }}"
+                 loading="lazy"
+                 {% if section.settings.left_img.width and section.settings.left_img.height %}
+                   width="{{ section.settings.left_img.width }}"
+                   height="{{ section.settings.left_img.height }}"
+                 {% endif %}
+            >
+          </picture>
+        {% else %}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {% endif %}
+      </div>
+      <div class="cust-txt-rgt">
+        {% if section.settings.title != blank %}
+          <h2>{{ section.settings.title | escape }}</h2>
+        {% endif %}
+        {% if section.settings.subtitle != blank %}
+          <h3>{{ section.settings.subtitle | escape }}</h3>
+        {% endif %}
+        {% if section.settings.para_box != blank %}
+          <p>{{ section.settings.para_box | escape }}</p>
+        {% endif %}
+        {% if section.settings.btn_text != blank and section.settings.btn_url != blank %}
+          <a href="{{ section.settings.btn_url }}">{{ section.settings.btn_text | escape }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Left Image Right Text",
+    "presets": [
+      {
+        "name": "Left Image Right Text",
+        "category": "General"
+      }
+    ],
+    "settings": [
+      {
+        "type": "header",
+        "content": "General Settings"
+      },
+      {
+        "type": "image_picker",
+        "id": "left_img",
+        "label": "Desktop Left Image",
+        "info": "Recommended: Upload a high-resolution image for desktop (e.g., 1500px wide)."
+      },
+      {
+        "type": "image_picker",
+        "id": "left_img_mobile",
+        "label": "Mobile Left Image (Optional)",
+        "info": "Upload an image optimized for mobile screens (e.g., cropped or smaller version). If not provided, the Desktop image will be used for mobile."
+      },
+      {
+        "type": "text",
+        "id": "img_title",
+        "label": "Image Alt Text (for accessibility)",
+        "default": "Image description"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Section Title",
+        "info": "Leave blank to disable title"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Section Subtitle",
+        "info": "Leave blank to disable sub title"
+      },
+      {
+        "type": "textarea",
+        "id": "para_box",
+        "label": "Content text",
+        "default": "there is no place like home"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button text",
+        "default": "Shop Now"
+      },
+      {
+        "type": "url",
+        "id": "btn_url",
+        "label": "Link to"
+      }
+    ]
+  }
+{% endschema %}

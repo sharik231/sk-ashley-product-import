@@ -1,0 +1,121 @@
+<section class="low-price-carousel">
+<div class="container">
+<div class="hm-deal-title">
+<h2>{{ section.settings.deal-title }}</h2>
+</div>
+<div class="cover">
+    <button class="left" onclick="leftScroll()">
+      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+    </button>
+
+ <ul class="scroll-images" role="list">
+      {%- for coll in collections -%}
+        <li class="child">
+           <a href="{{ coll.url }}">
+        
+            {% assign cheapest_product = null %}
+            
+            {% for product in coll.products %}
+              {% if cheapest_product == null or product.price < cheapest_product.price %}
+                {% assign cheapest_product = product %}
+              {% endif %}
+            {% endfor %}
+            
+            {% if cheapest_product %}
+              <div class="cheapest-product">
+               
+                  <img src="{{ cheapest_product.featured_image | img_url: 'medium' }}" alt="{{ cheapest_product.title }}" style="display:none;">
+           
+                <p style="display:none;">{{ cheapest_product.title }}</p>
+                <div class="prtdt"><h3>starting at</h3><p>{{ cheapest_product.price | money }}</p></div>
+              </div>
+            {% else %}
+              <p>No products available in this collection.</p>
+            {% endif %}
+              <span class="caro-title">{{ coll.title }} <i class="fa fa-chevron-right" aria-hidden="true"></i>
+</span>
+           </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+
+    <button class="right" onclick="rightScroll()">
+      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+</section>
+
+  <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const scrollImages = document.querySelector(".scroll-images");
+  const leftButton = document.querySelector(".left");
+  const rightButton = document.querySelector(".right");
+
+  function checkScroll() {
+    const scrollLength = scrollImages.scrollWidth - scrollImages.clientWidth;
+    const currentScroll = scrollImages.scrollLeft;
+    
+    if (currentScroll <= 1) {
+      leftButton.setAttribute("disabled", "true");
+      rightButton.removeAttribute("disabled");
+    } else if (currentScroll >= scrollLength - 1) {
+      rightButton.setAttribute("disabled", "true");
+      leftButton.removeAttribute("disabled");
+    } else {
+      leftButton.removeAttribute("disabled");
+      rightButton.removeAttribute("disabled");
+    }
+  }
+
+  // ✅ Expose functions globally so onclick works
+  window.leftScroll = function () {
+    scrollImages.scrollBy({
+      left: -scrollImages.clientWidth / 2,
+      behavior: "smooth"
+    });
+    setTimeout(checkScroll, 300);
+  }
+
+  window.rightScroll = function () {
+    scrollImages.scrollBy({
+      left: scrollImages.clientWidth / 2,
+      behavior: "smooth"
+    });
+    setTimeout(checkScroll, 300);
+  }
+
+  scrollImages.addEventListener("scroll", checkScroll);
+  window.addEventListener("resize", checkScroll);
+  
+  leftButton.addEventListener("click", leftScroll);
+  rightButton.addEventListener("click", rightScroll);
+  
+  checkScroll();
+});
+</script>
+
+{% schema %}
+    {
+     "presets": [
+    {
+      "name": "Lowest Price Carousel",
+      "category": "General"
+    }
+  ],
+    "settings": [
+        {
+          "type": "header",
+      "content": "General Settings"
+        },
+          {
+      "type": "text",
+      "id": "deal-title",
+      "label": "Section Deal Title",
+      "info": "Leave blank to disable title"
+    }
+    ]
+    
+  }
+{% endschema %}

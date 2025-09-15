@@ -1,0 +1,217 @@
+{% schema %}
+{
+  "name": "Why Shop Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main Heading",
+      "default": "Why Shop Ashley?"
+    },
+     {
+      "type": "header",
+      "content": "Icon Boxes"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_1",
+      "label": "Icon 1 Image"
+    },
+    {
+      "type": "text",
+      "id": "icon_heading_1",
+      "label": "Icon 1 Heading",
+      "default": "PURPOSEFUL"
+    },
+    {
+      "type": "textarea",
+      "id": "icon_paragraph_1",
+      "label": "Icon 1 Paragraph",
+      "default": "We proudly support and give back to communities."
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_2",
+      "label": "Icon 2 Image"
+    },
+    {
+      "type": "text",
+      "id": "icon_heading_2",
+      "label": "Icon 2 Heading",
+      "default": "PURPOSEFUL"
+    },
+    {
+      "type": "textarea",
+      "id": "icon_paragraph_2",
+      "label": "Icon 2 Paragraph",
+      "default": "We proudly support and give back to communities."
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_3",
+      "label": "Icon 3 Image"
+    },
+    {
+      "type": "text",
+      "id": "icon_heading_3",
+      "label": "Icon 3 Heading",
+      "default": "FUNCTIONAL ASSORTMENT"
+    },
+    {
+      "type": "textarea",
+      "id": "icon_paragraph_3",
+      "label": "Icon 3 Paragraph",
+      "default": "We offer a broad assortment of pieces and styles to meet your functional needs."
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_4",
+      "label": "Icon 4 Image"
+    },
+    {
+      "type": "text",
+      "id": "icon_heading_4",
+      "label": "Icon 4 Heading",
+      "default": "AFFORDABLE STYLES"
+    },
+    {
+      "type": "textarea",
+      "id": "icon_paragraph_4",
+      "label": "Icon 4 Paragraph",
+      "default": "We bring you the latest styles at an affordable price."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Why Shop Section"
+    }
+  ]
+}
+{% endschema %}
+
+  
+<style>
+.why-shop-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+.left-box, .icon-boxs {
+  flex: 1;
+  padding: 20px;
+}
+.left-box {
+  color: #fff;
+}
+.icon-boxs img {
+  max-height: 40px;
+  margin: 0 auto;
+}
+.why-shop-section h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px 0;
+}
+.why-shop-boxes p{
+  font-size:14px;
+}
+.lefBxS{
+  color: #fff;
+}
+
+ 
+</style>
+  
+
+<div class="page-width abtScontent">
+  <div class="why-shop-section">
+  <h2 class="theH2">{{ section.settings.main_heading }}</h2>
+    <div class="why-shop-boxes container">
+
+        <div class="row">
+            <div class="icon-boxs col-xs-1 col-sm-1 col-md-3 col-xl-3">
+            {% if section.settings.icon_1 %}
+              <img src="{{ section.settings.icon_1 | img_url: '60x' }}" alt="Icon 1">
+            {% endif %}
+            <h3>{{ section.settings.icon_heading_1 }}</h3>
+            <p>{{ section.settings.icon_paragraph_1 }}</p>
+          </div>
+          <div class="icon-boxs col-xs-1 col-sm-1 col-md-3 col-xl-3">
+            {% if section.settings.icon_2 %}
+              <img src="{{ section.settings.icon_2 | img_url: '60x' }}" alt="Icon 1">
+            {% endif %}
+            <h3>{{ section.settings.icon_heading_2 }}</h3>
+            <p>{{ section.settings.icon_paragraph_2 }}</p>
+          </div>
+          <div class="icon-boxs col-xs-1 col-sm-1 col-md-3 col-xl-3">
+            {% if section.settings.icon_3 %}
+              <img src="{{ section.settings.icon_3 | img_url: '60x' }}" alt="Icon 2">
+            {% endif %}
+            <h3>{{ section.settings.icon_heading_3 }}</h3>
+            <p>{{ section.settings.icon_paragraph_3 }}</p>
+          </div>
+          <div class="icon-boxs col-xs-1 col-sm-1 col-md-3 col-xl-3">
+            {% if section.settings.icon_4 %}
+              <img src="{{ section.settings.icon_4 | img_url: '60x' }}" alt="Icon 3">
+            {% endif %}
+            <h3>{{ section.settings.icon_heading_4 }}</h3>
+            <p>{{ section.settings.icon_paragraph_4 }}</p>
+          </div>
+        </div>
+      
+    </div>
+</div>
+</div>
+<style>
+  #shopify-section-template--24815813230963__why_shop_section_4iy9AP .theH2{
+        font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  .why-shop-section h3{
+    margin: 15px 0px 10px;
+  }
+
+   @media screen and (max-width:320px){
+     #shopify-section-template--24815813230963__why_shop_section_4iy9AP{
+       margin:0px 20px;
+     }
+     #shopify-section-template--24815813230963__why_shop_section_4iy9AP .page-width{
+       width:100%;
+     }
+     #shopify-section-template--24815813230963__why_shop_section_4iy9AP .why-shop-section{
+       padding: 50px 0px;
+     }
+       #shopify-section-template--24815813230963__why_shop_section_4iy9AP .why-shop-boxes .row{
+       display:inline-block;
+     }
+   }
+   @media screen and (max-width:480px){
+     #shopify-section-template--24815813230963__why_shop_section_4iy9AP{
+       margin:0px 20px;
+     }
+      #shopify-section-template--24815813230963__why_shop_section_4iy9AP .page-width{
+       width:100%;
+     }
+     #shopify-section-template--24815813230963__why_shop_section_4iy9AP .why-shop-section{
+       padding: 50px 0px;
+     }
+     #shopify-section-template--24815813230963__why_shop_section_4iy9AP .why-shop-boxes .row{
+       display:inline-block;
+     }
+   }
+   @media screen and (max-width:768px){
+     #shopify-section-template--24815813230963__why_shop_section_4iy9AP{
+       margin:0px 20px;
+     }
+      #shopify-section-template--24815813230963__why_shop_section_4iy9AP .page-width{
+       width:100%;
+     }
+     #shopify-section-template--24815813230963__why_shop_section_4iy9AP .why-shop-section{
+       padding: 50px 0px;
+     }
+       #shopify-section-template--24815813230963__why_shop_section_4iy9AP .why-shop-boxes .row{
+       display:inline-block;
+     }
+   }
+</style>
+

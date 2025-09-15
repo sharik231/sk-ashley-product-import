@@ -1,0 +1,251 @@
+<section class="low-price-carousel-images section section--align-{{section.settings.section_heading_align }} section--spacing-{{section.settings.spacing }} section--outer-spacing-{{section.settings.outer_spacing }} {{ section.settings.custom_classes | escape }} section--pt-{{section.settings.padding_top}} section--pb-{{section.settings.padding_bottom}} section--mt-{{section.settings.margin_top}} section--mb-{{section.settings.margin_bottom}}" style="{% if section.settings.content_wrap == "full" %}background-color:{{section.settings.bg_color}};{% endif %}"> 
+  {% if section.settings.content_wrap == "contained" %}
+    <div class="container" {% if section.settings.content_wrap == "contained" %} style="background-color:{{section.settings.bg_color}};" {% endif %}> 
+  {% endif %}
+      
+  {%- if section.settings.show-title -%}
+    {%- if section.settings.section-title != blank -%}
+      <h2 class="section__heading hm-deal-title">
+        {{ section.settings.section-title }}
+      </h2>
+    {% endif %}
+  {%- endif -%}
+<div class="cover">
+  <button class="left" onclick="leftScroll()"  style="display:none;">
+    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+  </button>
+
+  <ul class="scroll-images" role="list">
+     {%- for block in section.blocks -%}  
+       {%- assign collection_col = block.settings.carousel-image-collection -%}
+        <li class="child">
+           {% assign cheapest_product = null %}
+           {% for product in collection_col.products %}
+              {% if cheapest_product == null or product.price < cheapest_product.price %}
+                {% assign cheapest_product = product %}
+              {% endif %}
+           {% endfor %}
+          
+           {% if cheapest_product %}
+              <div class="cheapest-product">
+                <a href="{{ collection_col.url }}">
+                  {%- capture bg_image -%}{%- render 'image-url', shopify:block.settings.carousel-image-collection_img, sh_size:"1600x", cl_tr:"w_1200,c_scale" -%}{%- endcapture -%}
+                  {%- assign bg_image = bg_image | strip -%}
+                  <img src="{{bg_image}}" alt="{{ cheapest_product.title }}">
+                </a>
+                <p style="display:none;">{{ cheapest_product.title }}</p>
+                <div class="prtdt"><h3>{{ collection_col.title }} starting at {{ cheapest_product.price | money }}</h3></div>
+                <a href="{{ collection_col.url }}" class="caro-title">shop now</a>
+              </div>
+          {% else %}
+              <p>No products available in this collection.</p>
+          {% endif %}
+        </li>
+    {%- endfor -%}
+  </ul>
+
+    <button class="right" onclick="rightScroll()" style="display:none;">
+      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </button>
+  </div>
+  {% if section.settings.content_wrap == "contained" %}
+    </div> 
+  {% endif %}
+</section>
+
+  <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const scrollImages = document.querySelector(".scroll-images");
+  const scrollLength = scrollImages.scrollWidth - scrollImages.clientWidth;
+  const leftButton = document.querySelector(".left");
+  const rightButton = document.querySelector(".right");
+
+  function checkScroll() {
+    const currentScroll = scrollImages.scrollLeft;
+    if (currentScroll === 0) {
+      leftButton.setAttribute("disabled", "true");
+      rightButton.removeAttribute("disabled");
+    } else if (currentScroll === scrollLength) {
+      rightButton.setAttribute("disabled", "true");
+      leftButton.removeAttribute("disabled");
+    } else {
+      leftButton.removeAttribute("disabled");
+      rightButton.removeAttribute("disabled");
+    }
+  }
+
+  scrollImages.addEventListener("scroll", checkScroll);
+  window.addEventListener("resize", checkScroll);
+  checkScroll();
+
+  function leftScroll() {
+    scrollImages.scrollBy({
+      left: -200,
+      behavior: "smooth"
+    });
+  }
+
+  function rightScroll() {
+    scrollImages.scrollBy({
+      left: 200,
+      behavior: "smooth"
+    });
+  }
+
+  leftButton.addEventListener("click", leftScroll);
+  rightButton.addEventListener("click", rightScroll);
+});
+</script>
+{% schema %}
+  {
+    "name": "Lowest Price Carousel-img",
+    "presets": 
+    [
+      {
+        "name": "Lowest Price Carousel With Image",
+        "category": "General"
+      }
+    ],
+    "settings": 
+    [
+      {
+        "type": "header",
+        "content": "General Settings"
+      },
+      {
+        "type": "text",
+        "id": "section-title",
+        "label": "Section Title",
+        "info": "Leave blank to disable title"
+      },
+      {
+        "type": "checkbox",
+        "id": "show-title",
+        "label": "Show title",
+        "default": true
+      },
+      {
+        "type": "radio",
+        "id": "section_heading_align",
+        "label": "Heading Title alignment",
+        "options": 
+            [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              }
+            ],
+            "default": "left"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Section Background color",
+        "default": "#ffffff",
+        "info": "Default: #ffffff"
+      },
+      {
+        "type": "range",
+        "id": "spacing",
+        "label": "Space around section",
+        "min": 0,
+        "max": 75,
+        "step": 5,
+        "default": 30
+      },
+      {
+        "type": "range",
+        "id": "outer_spacing",
+        "label": "Space from neighbours",
+        "min": 0,
+        "max": 75,
+        "step": 5,
+        "default": 30
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Padding top",
+        "min": 0,
+        "max": 75,
+        "step": 5,
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Padding Bottom",
+        "min": 0,
+        "max": 75,
+        "step": 5,
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "content_wrap",
+        "label": "Content",
+        "options": 
+          [
+            {
+              "value": "contained",
+              "label": "Contained"
+            },
+            {
+              "value": "full",
+              "label": "Full Width"
+            }
+          ],
+        "default": "contained"
+      },
+      {
+        "type": "range",
+        "id": "margin_top",
+        "label": "Margin top",
+        "min": 0,
+        "max": 75,
+        "step": 5,
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom",
+        "label": "Margin Bottom",
+        "min": 0,
+        "max": 75,
+        "step": 5,
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "show-border",
+        "label": "Enbale Border Between Box",
+        "default": true
+      }
+    ],
+    "blocks": [
+    {
+      "type": "collection",
+      "name": "Collections",
+      "limit": 10,
+      "settings": 
+      [
+        {
+          "type": "collection",
+          "id": "carousel-image-collection",
+          "label": "Select collections"
+        },
+        {
+          "type": "image_picker",
+          "id": "carousel-image-collection_img",
+          "label": "Collection Image"
+        }
+      ]
+    }
+  ]    
+  }
+{% endschema %}

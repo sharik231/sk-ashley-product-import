@@ -1,0 +1,43 @@
+{% schema %}
+{
+  "name": "Random Blog Posts",
+  "settings": [
+    {
+      "type": "blog",
+      "id": "blog_source",
+      "label": "Choose blog"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Random Blog Posts"
+    }
+  ]
+}
+{% endschema %}
+
+{% assign blog = blogs[section.settings.blog_source] %}
+{% assign all_articles = blog.articles %}
+{% assign count = all_articles.size %}
+{% assign random_start = 'now' | date: "%s" | modulo: count | plus: 0 %}
+
+<div class="blog-posts page-width">
+  <h2>{{ blog.title }} – Selecciones aleatorias</h2>
+  <ul class="grid grid--2-col">
+    {% for i in (0..4) %}
+      {% assign index = random_start | plus: i %}
+      {% assign article = all_articles[index] %}
+      {% if article %}
+        <li class="grid__item article-card">
+          <a href="{{ article.url }}">
+            {% if article.image %}
+              <img src="{{ article.image | img_url: 'medium' }}" alt="{{ article.image.alt | escape }}" loading="lazy">
+            {% endif %}
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.excerpt | strip_html | truncatewords: 20 }}</p>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

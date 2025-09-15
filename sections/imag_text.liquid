@@ -1,0 +1,138 @@
+<!-- Section: Employee Benefits -->
+{% schema %}
+{
+  "name": "Employee Benefits Section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Benefit Text",
+          "default": "Enter benefit description"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 5,
+  "presets": [
+    {
+      "name": "Employee Benefits Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.crFv {
+  text-align: center;
+}
+.crFv img {
+  width: auto;
+  height: 80px;
+  margin: 0 auto;
+}
+.icoCr h3 {
+  padding: 10px 0;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.col-md-2.mrCr {
+  margin-right: 4%;
+}
+.row.crFv{
+    flex-wrap: nowrap;
+}
+.careersSfive{
+      padding: 40px 0;
+    border-top: 1px solid;
+}
+.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title{
+  display:unset;
+  text-align:center;
+}
+.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title  h2.title.inline-richtext.h1{
+        font-size: 26px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+h3.inline-richtext{
+      font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+.rte p{
+  color: #000;
+    font-size: 14px;
+  font-weight: 500;
+}
+
+  @media screen and (max-width:320px){
+     #shopify-section-template--24816893690227__imag_text_gWt4Bp{
+       margin:0px 20px;
+     }
+     #shopify-section-template--24816893690227__imag_text_gWt4Bp .crFv{
+       flex-wrap: wrap;
+      justify-content: center;
+     }
+     #shopify-section-template--24816893690227__imag_text_gWt4Bp .col-md-2.mrCr{
+       margin-right:0px;
+           padding: 30px;
+     }
+   }
+  @media screen and (max-width:480px){
+     #shopify-section-template--24816893690227__imag_text_gWt4Bp{
+       margin:0px 20px;
+     }
+    #shopify-section-template--24816893690227__imag_text_gWt4Bp .crFv{
+       flex-wrap: wrap;
+      justify-content: center;
+     }
+     #shopify-section-template--24816893690227__imag_text_gWt4Bp .col-md-2.mrCr{
+       margin-right:0px;
+           padding: 30px;
+     }
+   }
+  @media screen and (max-width:768px){
+      #shopify-section-template--24816893690227__imag_text_gWt4Bp{
+       margin:0px 20px;
+     }
+    #shopify-section-template--24816893690227__imag_text_gWt4Bp .crFv{
+       flex-wrap: wrap;
+      justify-content: center;
+     }
+     #shopify-section-template--24816893690227__imag_text_gWt4Bp .col-md-2.mrCr{
+       margin-right:0px;
+           padding: 30px;
+     }
+   }
+{% endstylesheet %}
+
+<div class="container careersSfive">
+  <div class="container">
+    <div class="row crFv">
+      {% for block in section.blocks %}
+        <div class="col-md-2 mrCr">
+          <div class="icoCr">
+            {% if block.settings.icon != blank %}
+              <img src="{{ block.settings.icon | image_url }}" alt="Benefit Icon" />
+            {% endif %}
+            <h3>{{ block.settings.title }}</h3>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

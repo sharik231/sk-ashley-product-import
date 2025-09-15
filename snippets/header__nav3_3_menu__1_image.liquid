@@ -1,0 +1,65 @@
+<div class="menu_item__sub absolute top-full z-10 inset-x-0  border-b border-gray-200 bg-white opacity-0 invisible  group-hover:visible group-hover:opacity-100 ">
+  <div class="menu_item__sub_inner shadow-inner cursor-default transition-all duration-500 opacity-0 group-hover:opacity-100">
+    <div class="container">
+      <div class="pt-6 pb-8 md:pt-8 md:pb-10 lg:pt-10 lg:pb-10 xl:pt-12 xl:pb:16">
+        <div class="md:grid md:grid-cols-4 md:gap-8">
+          <div>
+            {%- if block.settings.show_title_1 and block.settings.col_title_1 !="" -%}
+            <h3 class="text-xs font-semibold text-gray-600 tracking-wider uppercase mb-6 title-{{ block.settings.col_title_1 | handleize }}">{{ block.settings.col_title_1 }}</h3>
+            {%- endif -%}
+            <ul class="space-y-2">
+              {%- for link in linklists[block.settings.sub_1].links -%}
+              <li>
+                <a class="-m-4 px-4 py-2 block hover:bg-black hover:bg-opacity-3 transition ease-in-out duration-150 text-gray-800 text-sm link-{{ link.url | handleize }}" href="{{ link.url }}">{{
+                  link.title
+                }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div>
+            {%- if block.settings.show_title_2 and block.settings.col_title_2 !="" -%}
+            <h3 class="text-xs font-semibold text-gray-600 tracking-wider uppercase mb-6 title-{{ block.settings.col_title_2 | handleize }}">{{ block.settings.col_title_2 }}</h3>
+            {%- endif -%}
+            <ul class="space-y-2">
+              {%- for link in linklists[block.settings.sub_2].links -%}
+              <li>
+                <a class="-m-4 px-4 py-2 block hover:bg-black hover:bg-opacity-3 transition ease-in-out duration-150 text-gray-800 text-sm link-{{ link.url | handleize }}" href="{{ link.url }}">{{
+                  link.title
+                }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div>
+            {%- if block.settings.show_title_3 and block.settings.col_title_3 !="" -%}
+            <h3 class="text-xs font-semibold text-gray-600 tracking-wider uppercase mb-6 title-{{ block.settings.col_title_3 | handleize }}">{{ block.settings.col_title_3 }}</h3>
+            {%- endif -%}
+            <ul class="space-y-2">
+              {%- for link in linklists[block.settings.sub_3].links -%}
+              <li>
+                <a class="-m-4 px-4 py-2 block hover:bg-black hover:bg-opacity-3 transition ease-in-out duration-150 text-gray-800 text-sm link-{{ link.url | handleize }}" href="{{ link.url }}">{{
+                  link.title
+                }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div>
+            <div class="relative">
+              <a href="{{ block.settings.col4_url }}" class="relative mx-auto w-full lg:max-w-md">
+                <div class="relative block w-full bg-white overflow-hidden">
+                  <span class="sr-only">{{ block.settings.col4_text }}, click to know more!</span>
+                  {% if block.settings.col4_image != nil %} {% render 'image-shopify', screenSize:'third', shopImg:block.settings.col4_image, alt:block.settings.col4_text, classes:'w-full' %} {% elsif
+                  block.settings.col4_image_fallback != blank %} {%- render 'image-cloudinary', public_id: block.settings.col4_image_fallback, alt:block.settings.text, classes:"w-full" -%} {% endif %}
+                </div>
+                <div class="block text-gray-700 mt-2 underline" href="{{ block.settings.col4_url }}">{{ block.settings.col4_text }}</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

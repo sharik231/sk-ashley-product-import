@@ -1,0 +1,462 @@
+{% schema %}
+{
+  "name": "Breadcrumbs",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumbs",
+      "label": "Show breadcrumbs",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_page_title",
+      "label": "Show page title",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Breadcrumb Settings"
+    },
+    {
+      "type": "select",
+      "id": "breadcrumb_font_family",
+      "label": "Breadcrumb font family",
+      "options": [
+        {"value": "Open Sans", "label": "Open Sans"},
+        {"value": "Source Sans Pro", "label": "Source Sans Pro"},
+        {"value": "Arial", "label": "Arial"},
+        {"value": "Helvetica", "label": "Helvetica"},
+        {"value": "Georgia", "label": "Georgia"},
+        {"value": "Times New Roman", "label": "Times New Roman"},
+        {"value": "Courier New", "label": "Courier New"},
+        {"value": "Verdana", "label": "Verdana"},
+        {"value": "Trebuchet MS", "label": "Trebuchet MS"},
+        {"value": "Impact", "label": "Impact"},
+        {"value": "Comic Sans MS", "label": "Comic Sans MS"},
+        {"value": "Tahoma", "label": "Tahoma"},
+        {"value": "Palatino", "label": "Palatino"},
+        {"value": "Garamond", "label": "Garamond"},
+        {"value": "Century Gothic", "label": "Century Gothic"},
+        {"value": "Arial Black", "label": "Arial Black"}
+      ],
+      "default": "Arial"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link color",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "link_hover_color",
+      "label": "Link hover color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#e0e0e0"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Font weight",
+      "options": [
+        {"value": "400", "label": "Normal"},
+        {"value": "500", "label": "Medium"},
+        {"value": "600", "label": "Semi-bold"},
+        {"value": "700", "label": "Bold"}
+      ],
+      "default": "400"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top padding",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "divider_size",
+      "label": "Divider size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider color",
+      "default": "#999999"
+    },
+    {
+      "type": "range",
+      "id": "border_thickness",
+      "label": "Border thickness",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Page Title Settings"
+    },
+    {
+      "type": "select",
+      "id": "title_font_family",
+      "label": "Title font family",
+      "options": [
+        {"value": "Open Sans", "label": "Open Sans"},
+        {"value": "Source Sans Pro", "label": "Source Sans Pro"},
+        {"value": "Arial", "label": "Arial"},
+        {"value": "Helvetica", "label": "Helvetica"},
+        {"value": "Georgia", "label": "Georgia"},
+        {"value": "Times New Roman", "label": "Times New Roman"},
+        {"value": "Courier New", "label": "Courier New"},
+        {"value": "Verdana", "label": "Verdana"},
+        {"value": "Trebuchet MS", "label": "Trebuchet MS"},
+        {"value": "Impact", "label": "Impact"},
+        {"value": "Comic Sans MS", "label": "Comic Sans MS"},
+        {"value": "Tahoma", "label": "Tahoma"},
+        {"value": "Palatino", "label": "Palatino"},
+        {"value": "Garamond", "label": "Garamond"},
+        {"value": "Century Gothic", "label": "Century Gothic"},
+        {"value": "Arial Black", "label": "Arial Black"}
+      ],
+      "default": "Arial"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "title_font_size",
+      "label": "Title font size",
+      "min": 16,
+      "max": 48,
+      "step": 1,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "title_font_weight",
+      "label": "Title font weight",
+      "options": [
+        {"value": "400", "label": "Normal"},
+        {"value": "500", "label": "Medium"},
+        {"value": "600", "label": "Semi-bold"},
+        {"value": "700", "label": "Bold"},
+        {"value": "800", "label": "Extra bold"}
+      ],
+      "default": "600"
+    },
+    {
+      "type": "header",
+      "content": "Title Margin"
+    },
+    {
+      "type": "range",
+      "id": "title_margin_top",
+      "label": "Top margin",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "title_margin_right",
+      "label": "Right margin",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "title_margin_bottom",
+      "label": "Bottom margin",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "title_margin_left",
+      "label": "Left margin",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Title Padding"
+    },
+    {
+      "type": "range",
+      "id": "title_padding_top",
+      "label": "Top padding",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "title_padding_right",
+      "label": "Right padding",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "title_padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "title_padding_left",
+      "label": "Left padding",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Breadcrumbs",
+      "category": "Navigation"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  /* Google Fonts imports */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+</style>
+
+{% if section.settings.show_breadcrumbs %}
+<nav class="container breadcrumb" role="navigation" aria-label="breadcrumbs" style="padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px 0; font-family: {{ section.settings.breadcrumb_font_family }}, sans-serif;">
+  <a href="/" class="breadcrumb__link" title="Home" style="color: {{ section.settings.link_color }};">Hogar</a>
+  
+  {% if template contains 'product' %}
+    {% if collection %}
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      <a href="{{ collection.url }}" class="breadcrumb__link" title="{{ collection.title }}" style="color: {{ section.settings.link_color }};">{{ collection.title }}</a>
+    {% endif %}
+    <span class="breadcrumb__divider" aria-hidden="true">/</span>
+    <a href="{{ product.url }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ product.title }}</a>
+  
+  {% elsif template contains 'collection' and collection.handle %}
+    <span class="breadcrumb__divider" aria-hidden="true">/</span>
+    {% if current_tags %}
+      <a href="/collections/{{ collection.handle }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ collection.title }}</a>
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      <a href="/collections/{{ collection.handle }}/{{ current_tags | join: '+' }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ current_tags | join: " + " }}</a>
+    {% else %}
+      <a href="{{ collection.url }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ collection.title }}</a>
+    {% endif %}
+  
+  {% elsif template == 'blog' %}
+    <span class="breadcrumb__divider" aria-hidden="true">/</span>
+    {% if current_tags %}
+      <a href="{{ blog.url }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ blog.title }}</a>
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      <a href="{{ blog.url }}/tagged/{{ current_tags | join: '+' }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ current_tags | join: " + " }}</a>
+    {% else %}
+      <a href="{{ blog.url }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ blog.title }}</a>
+    {% endif %}
+  
+  {% elsif template == 'article' %}
+    <span class="breadcrumb__divider" aria-hidden="true">/</span>
+    <a href="{{ blog.url }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ blog.title }}</a>
+    <span class="breadcrumb__divider" aria-hidden="true">/</span>
+    <a href="{{ article.url }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ article.title }}</a>
+  
+  {% elsif template contains 'page' %}
+    <span class="breadcrumb__divider" aria-hidden="true">/</span>
+    <a href="{{ page.url }}" class="breadcrumb__link" style="color: {{ section.settings.link_color }};">{{ page.title }}</a>
+  {% endif %}
+</nav>
+
+  <div class="container">
+{% if section.settings.show_page_title %}
+<div class="page-title msp" style="
+  color: {{ section.settings.title_color }};
+  font-family: {{ section.settings.title_font_family }}, sans-serif;
+  font-size: {{ section.settings.title_font_size }}px;
+  font-weight: {{ section.settings.title_font_weight }};
+  margin: {{ section.settings.title_margin_top }}px {{ section.settings.title_margin_right }}px {{ section.settings.title_margin_bottom }}px {{ section.settings.title_margin_left }}px;
+  padding: {{ section.settings.title_padding_top }}px {{ section.settings.title_padding_right }}px {{ section.settings.title_padding_bottom }}px {{ section.settings.title_padding_left }}px;
+">
+  {% if template contains 'product' %}
+    {{ product.title }}
+  {% elsif template contains 'collection' and collection.handle %}
+    {{ collection.title }}
+  {% elsif template == 'blog' %}
+    {{ blog.title }}
+  {% elsif template == 'article' %}
+    {{ article.title }}
+  {% elsif template contains 'page' %}
+    {{ page.title }}
+  {% endif %}
+</div>
+{% endif %}
+  </div>
+
+<style>
+  .breadcrumb {
+    font-size: {{ section.settings.font_size }}px;
+    font-weight: {{ section.settings.font_weight }};
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .breadcrumb__link {
+    position: relative;
+    padding-bottom: 2px;
+    color: {{ section.settings.link_color }};
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+  }
+  
+  .breadcrumb__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: {{ section.settings.border_thickness }}px;
+    background-color: {{ section.settings.border_color }};
+    transition: all 0.3s ease;
+  }
+  
+  .breadcrumb__link:hover {
+    color: {{ section.settings.link_hover_color }} !important;
+  }
+  
+  .breadcrumb__link:hover::after {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  
+  .breadcrumb__divider {
+    margin: 0 8px;
+    color: {{ section.settings.divider_color }};
+    font-size: {{ section.settings.divider_size }}px;
+  }
+  
+  /* Remove focus outline rectangle */
+  .breadcrumb__link:focus {
+    outline: none;
+  }
+  
+  /* Remove last divider if it exists */
+  .breadcrumb__divider:last-child {
+    display: none;
+  }
+  
+  .page-title {
+    display: block;
+    line-height: 1.2;
+  }
+ @media (max-width: 480px) {
+     .two-col-section-template--17205515976874__custom_banner_with_text_column_NxPeKK .text-column{
+     padding-left: 20px!important;
+    padding-right: 20px!important;
+   }
+   .two-col-section-template--17205515976874__custom_banner_with_text_column_NxPeKK .section-heading{
+     font-size:28px!important;
+   }
+   .two-col-section-template--17205515976874__custom_banner_with_text_column_NxPeKK .section-subheading{
+     font-size:18px!important;
+   }
+   #shopify-section-template--17205515976874__custom_banner_with_text_column_NxPeKK{
+         margin: 0px 15px!important;
+   }
+   #shopify-section-template--17205515976874__custom_feature_big_img_row_cMHp4z{
+         padding-left: 15px!important;
+    padding-right: 15px!important;
+   }
+    .breadcrumb{
+     margin:0px 15px 10px;
+   }
+   .page-title.msp{
+     margin:0px 15px 20px!important;
+   }
+   .shop-by-category__grid{
+    grid-template-columns: repeat(2, 1fr)!important;
+   }
+ }
+ @media (max-width: 768px) {
+   .breadcrumb{
+     margin:0px 15px 10px;
+   }
+   .two-col-section-template--17205515976874__custom_banner_with_text_column_NxPeKK .text-column{
+     padding-left: 20px!important;
+    padding-right: 20px!important;
+   }
+ }
+</style>
+{% endif %}

@@ -1,0 +1,22 @@
+{%- assign divide = 1 -%}
+{%- if screenSize == 'quarter' -%}
+     {%- assign divide = 4 -%}
+{%- elsif screenSize == 'third' -%}
+     {%- assign divide = 3 -%}
+{%- elsif screenSize == 'half' -%}
+     {%- assign divide = 2 -%}
+{%- endif -%}
+{%- if size -%}
+     {%- assign size = size | append: 'x' -%}
+     <img data-src="{{ shopImg | img_url: size }}" srcset="{{ shopImg | img_url: size, scale: 2 }} 2000w, {{ shopImg | img_url: size }} 1000w" class="{{ class }} lazyload" alt="{%- if shopImg.alt -%}{{shopImg.alt}}{%- else if alt -%}{{alt}}{%-endif-%}" />
+{%- elsif screenSize -%}
+     {%- assign screenSizesStr = "4000,3000,2000,1440,768,576" -%}
+     {%- assign screenSizes = screenSizesStr | split: ',' -%}
+     {%- capture srcset -%}
+          {%- for sSize in screenSizes -%}
+               {%- assign imgUrlSize = sSize | divided_by: divide | round | append: 'x' -%}
+               {{ shopImg | img_url: imgUrlSize }} {{ sSize }}w{%- if forloop.last != true -%},{%- endif -%}
+          {%- endfor -%}
+     {%- endcapture -%}
+     <img data-src="{{ shopImg | img_url: '50x' }}" srcset="{{ srcset | strip}}" class="{{ classes | strip }} lazyload" alt="{%- if shopImg.alt -%}{{shopImg.alt}}{%- else if alt -%}{{alt}}{%-endif-%}" />
+{%- endif -%}

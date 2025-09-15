@@ -1,0 +1,127 @@
+
+<div class="{% if section.settings.layout == 'grid' %} page-width{% endif %} section--pt-{{section.settings.padding_top}} section--pb-{{section.settings.padding_bottom}}">
+  {% if section.settings.slider_link != blank %}
+    <a href="{{ section.settings.slider_link }}" style="z-index: 9;">
+      {%- endif -%}
+ <img src="{{ section.settings.image | image_url }}"/>
+ {% if section.settings.slider_link  != blank %}  </a>
+  {%- endif -%}
+</div>
+
+
+
+<style>
+  div#shopify-section-template--24631968727314__image_banner_ApDe9G img{
+      width: 100%;
+}
+.banner-slide, .banner-container, .banner-image {
+    overflow: visible !important;
+    height: auto !important;
+}
+
+.banner-text, .banner-caption, .banner-content {
+    position: relative !important;
+    z-index: 10 !important;
+    display: block !important;
+    opacity: 1 !important;
+    color: #000; /* adjust if the text is white on white */
+}
+
+.banner-slide img {
+    object-fit: cover; /* or contain, depending on how it's cutting off */
+    width: 100% !important;
+    height: auto !important;
+}
+   @media screen and (max-width:320px){
+     #shopify-section-template--24815415492979__image_banner_EEhJee,
+     #shopify-section-template--24809287647603__image_banner_yHYNnL,
+     #shopify-section-template--24829816537459__image_banner_iHrgzp,
+     #shopify-section-template--24829816537459__image_with_text_XMaMK3,
+     #shopify-section-template--24830039982451__image_banner_yfTjtr{
+       margin:0px 15px;
+     }
+     #shopify-section-template--24830039982451__image_banner_yfTjtr .page-width{
+       width:100%;
+     }
+     #shopify-section-template--24830153720179__image_banner_dztUkK,
+     #shopify-section-template--24830153720179__image_banner_qYCnBC{
+       width:90%;
+       margin:auto;
+     }
+   }
+  @media screen and (max-width:480px){
+     #shopify-section-template--24815415492979__image_banner_EEhJee,
+    #shopify-section-template--24809287647603__image_banner_yHYNnL,
+    #shopify-section-template--24829816537459__image_banner_iHrgzp,
+    #shopify-section-template--24829816537459__image_with_text_XMaMK3,
+    #shopify-section-template--24830039982451__image_banner_yfTjtr{
+       margin:0px 15px;
+     }
+     #shopify-section-template--24830039982451__image_banner_yfTjtr .page-width{
+       width:100%;
+     }
+      #shopify-section-template--24830153720179__image_banner_dztUkK,
+    #shopify-section-template--24830153720179__image_banner_qYCnBC{
+       width:90%;
+         margin:auto;
+     }
+   }
+
+</style>
+
+{% schema %}
+  {
+    "name": "Single Image Banner",
+    "settings": [
+      {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "full_bleed",
+          "label": "t:sections.slideshow.settings.layout.options__1.label"
+        },
+        {
+          "value": "grid",
+          "label": "t:sections.slideshow.settings.layout.options__2.label"
+        }
+      ],
+      "default": "full_bleed",
+      "label": "t:sections.slideshow.settings.layout.label"
+    },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Padding top",
+        "min": 0,
+        "max": 75,
+        "step": 5,
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Padding Bottom",
+        "min": 0,
+        "max": 75,
+        "step": 5,
+        "default": 0
+      },
+    {
+      "type": "url",
+      "id": "slider_link",
+      "label": "Overall Slide Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner.settings.image.label"
+    }
+    ],
+    "presets": [
+    {
+      "name": "Single Image Banner"
+    }
+  ]
+  }
+{% endschema %}

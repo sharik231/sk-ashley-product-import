@@ -1,0 +1,255 @@
+{% style %}
+.collection-highlight-section-main {
+    border: 16px solid #eeeeee;
+    padding: 4rem !important;
+    margin-top: {{ section.settings.margin_top | default: 4 }}rem;
+    margin-bottom: {{ section.settings.margin_bottom | default: 4 }}rem;
+}
+.collection-highlight-section {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 2rem;
+}
+.left-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    grid-column: 1/5;
+}
+.left-info a {
+    background-color: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+  width:50%;
+}
+.collection-highlight-heading {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.right-products {
+    display: flex; 
+    gap: 1.5rem;
+    grid-column: 5/16;
+    overflow-x: auto;
+    scrollbar-width: none; /* For Firefox */
+}
+.right-products::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+.right-products a {
+    flex-direction: column;
+    min-width: 250px;
+}
+  .product-card{
+    max-width:33.33%;
+  }
+.product-card p a {
+    text-decoration: underline;
+}
+.product-card:hover {
+    box-shadow: none;
+    transform: none;
+}
+.product-card img {
+    width: 100%;
+      padding: 0px 15px;
+    margin: auto;
+    height: auto;
+  border:none!important;
+}
+.right-products a:hover {
+    text-decoration: none;
+}
+.left-info a:hover {
+    background-color: #525252;
+    color: #fff;
+}
+.product-card .card-content{
+  margin-top: 15px;
+    line-height: 4rem;
+  }
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .collection-highlight-section-main {
+        padding: 3rem !important;
+    }
+    .collection-highlight-heading {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .collection-highlight-section-main {
+        padding: 2.5rem !important;
+    }
+    .left-info {
+        grid-column: 1/6;
+    }
+    .right-products {
+        grid-column: 6/16;
+    }
+}
+
+@media (max-width: 768px) {
+    .collection-highlight-section {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .left-info, .right-products {
+        grid-column: 1;
+        width: 100%;
+    }
+    .right-products {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 1rem;
+    }
+    .collection-highlight-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .left-info a {
+        font-size: 1.3rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .collection-highlight-section-main {
+        padding: 1.5rem !important;
+        border-width: 10px;
+    }
+    .collection-highlight-heading {
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
+    .left-info a {
+        font-size: 1.1rem;
+        padding: 0.5rem 1rem;
+    }
+    .right-products a {
+        min-width: 200px;
+    }
+    .product-card img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 320px) {
+    .collection-highlight-section-main {
+        padding: 1rem !important;
+        border-width: 8px;
+    }
+    .collection-highlight-heading {
+        font-size: 1.4rem;
+    }
+    .right-products a {
+        min-width: 180px;
+    }
+}
+{% endstyle %}
+
+<div class="container">
+    <div class="page-width rte collection-highlight-section-main">
+        <h2 class="collection-highlight-heading">{{ section.settings.collection_title }}</h2>
+        <div class="collection-highlight-section">
+            <!-- Left Side -->
+            <div class="left-info">
+                {% if section.settings.main_image %}
+                    <img src="{{ section.settings.main_image | image_url: width: 600 }}" alt="{{ section.settings.collection_title }}" style="width: 100%; height: auto;" />
+                {% endif %}
+                {% if section.settings.button_link %}
+                    <a href="{{ section.settings.button_link }}" class="btn">
+                        {{ section.settings.button_text }}
+                    </a>
+                {% endif %}
+            </div>
+        
+            <!-- Right Side -->
+            <div class="right-products">
+                {% assign product_collection = collections[section.settings.collection] %}
+                {% for product in product_collection.products limit: 3 %}
+                    <div class="product-card" style="text-align: center; flex: 1;">
+                        <a href="{{ product.url }}">
+                            {% if product.featured_image %}
+                                <img src="{{ product.featured_image | image_url: width: 400 }}" alt="{{ product.title }}" />
+                            {% endif %}
+                            <div class="card-content">
+                                <h4>{{ product.title }}</h4>
+                                <p><strong>{{ product.price | money }}</strong></p>
+                                <p><a href="{{ product.url }}">quick view</a></p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div> 
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Collection Highlight",
+    "settings": [
+        {
+            "type": "text",
+            "id": "collection_title",
+            "label": "Add Title"
+        },
+        {
+            "type": "collection",
+            "id": "collection",
+            "label": "Select Collection"
+        },
+        {
+            "type": "image_picker",
+            "id": "main_image",
+            "label": "Main Display Image"
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text",
+            "default": "Shop Now"
+        },
+        {
+            "type": "range",
+            "id": "margin_top",
+            "label": "Margin Top (rem)",
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "default": 4
+        },
+        {
+            "type": "range",
+            "id": "margin_bottom",
+            "label": "Margin Bottom (rem)",
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "default": 4
+        }
+    ],
+    "presets": [
+        {
+            "name": "Collection Highlight"
+        }
+    ]
+}
+{% endschema %}

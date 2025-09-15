@@ -1,0 +1,68 @@
+{% schema %}
+  {
+    "name": "PDP Recently Viewed",
+      "presets": [
+    {
+      "name": "PDP Recently Viewed",
+    }
+  ],
+    "settings": []
+  }
+{% endschema %}
+<div id="recently-viewed-wrapper" class="page-width" style="margin-top: 40px;">
+  <h2 class="section-header__title">Recently Viewed</h2>
+  <div id="recently-viewed-products" style="display: flex;" class="grid product-grid grid--4-col-desktop grid--2-col-tablet-down"></div>
+</div>
+
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const currentHandle = '{{ product.handle }}';
+    let viewed = JSON.parse(localStorage.getItem('recentlyViewed')) || [];
+
+    viewed = viewed.filter(handle => handle !== currentHandle);
+    viewed.unshift(currentHandle);
+    viewed = viewed.slice(0, 6);
+    localStorage.setItem('recentlyViewed', JSON.stringify(viewed));
+
+    const handlesToShow = viewed.filter(h => h !== currentHandle).slice(0, 4);
+    const container = document.getElementById('recently-viewed-products');
+
+    if (handlesToShow.length === 0) {
+      container.innerHTML = '<p>No recently viewed products yet.</p>';
+      return;
+    }
+
+    handlesToShow.forEach(handle => {
+      fetch(`/products/${handle}.js`)
+        .then(res => res.json())
+        .then(product => {
+          const card = document.createElement('li');
+          card.className = 'grid__item';
+
+          const compareAtPrice = product.compare_at_price > product.price
+            ? `<span class="recently-viewed-compare">B$. ${(product.compare_at_price / 100).toLocaleString('en-IN')}</span>`
+            : '';
+
+          const price = `<span class="recently-viewed-price">B$. ${(product.price / 100).toLocaleString('en-IN')}</span>`;
+
+          card.innerHTML = `
+         
+              <div class="product-image-container"><a href="${product.url}" style="text-decoration: none;"><img src="${product.images[0]}" alt="${product.title}"></a> <button class='st-wishlist-button' data-type='details' data-handle='${product.handle }'></button></div>
+              <div class="card__content">
+              <div class="product__sku">
+                  <p><strong>Item</strong> : {{- product.selected_or_first_available_variant.sku -}}</p>
+               </div>
+              <div class="card__information"><h3 class="card__heading h5"><a href="${product.url}" style="text-decoration: none;">${product.title}</a></h3></div>
+              <div class="jdgm-preview-badged"> .</div>
+              <div class="price-item price-item--regular">${compareAtPrice}${price}</div>  </div> </div>   
+          `;
+          container.appendChild(card);
+        })
+        .catch(err => console.error('Product load error:', err));
+    });
+  });
+</script>

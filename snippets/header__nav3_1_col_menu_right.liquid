@@ -1,0 +1,23 @@
+<div class="menu_item__sub absolute bg-white z-10 transform translate-x-0 right-0 top-full mt-0 px-2 w-screen max-w-xs sm:px-0 opacity-0 invisible group-hover:visible group-hover:opacity-100 ">
+    <div class="menu_item__sub_inner shadow ring-1 ring-black ring-opacity-5 overflow-hidden opacity-0 duration-1000 ease group-hover:opacity-100">
+        <div class="relative grid gap-4 px-5 py-6 sm:gap-4 sm:p-6">
+            {%- assign items = "item_1,item_2,item_3,item_4,item_5,item_6,item_7,item_8" | split: ',' -%}
+            {%- for item in items -%}
+                {%- assign text = item | append: "_text" -%}
+                {%- assign url = item | append: "_link" -%}
+                {%- assign desc = item | append: "_desc" -%}
+
+                {%- if block.settings[text] != blank -%}
+                    <a href="{{block.settings[url]}}" class="-m-3 p-3 block hover:bg-black hover:bg-opacity-3 transition ease-in-out duration-150 link-{{block.settings[url] | handleize}}">
+                        <p class="text-sm font-medium text-gray-800">
+                            {{block.settings[text]}}
+                        </p>
+                        <p class="mt-0 text-xs text-gray-600 leading-0">
+                            {{block.settings[desc]}}
+                        </p>
+                    </a>
+                {%- endif -%}
+            {%- endfor -%}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,222 @@
+{% schema %}
+{
+  "name": "Mattress Category Grid",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Headings"
+    },
+    {
+      "type": "text",
+      "id": "size_heading",
+      "label": "Shop by Size Heading",
+      "default": "shop by size"
+    },
+    {
+      "type": "text",
+      "id": "comfort_heading",
+      "label": "Shop by Comfort Heading",
+      "default": "shop by comfort"
+    },
+    {
+      "type": "text",
+      "id": "type_heading",
+      "label": "Shop by Type Heading",
+      "default": "shop by type"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "size_option",
+      "name": "Size Option",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "TWIN"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    },
+    {
+      "type": "comfort_option",
+      "name": "Comfort Option",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "FIRM"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    },
+    {
+      "type": "type_option",
+      "name": "Type Option",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "MEMORY FOAM"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 30,
+  "presets": [
+    {
+      "name": "Mattress Category Grid",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}
+
+
+<div class="page-width ">
+  <div class="mattress-category-grid catPgwid">
+  <div class="category-column">
+    <h3>{{ section.settings.size_heading }}</h3>
+    <ul>
+      {% for block in section.blocks %}
+        {% if block.type == 'size_option' %}
+          <li>
+            <a href="{{ block.settings.link }}">
+              {% if block.settings.icon %}
+                <img src="{{ block.settings.icon | img_url: '32x32' }}" alt="{{ block.settings.label }}" />
+              {% endif %}
+              <span>{{ block.settings.label }}</span>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="category-column">
+    <h3>{{ section.settings.comfort_heading }}</h3>
+    <ul>
+      {% for block in section.blocks %}
+        {% if block.type == 'comfort_option' %}
+          <li>
+            <a href="{{ block.settings.link }}">
+              {% if block.settings.icon %}
+                <img src="{{ block.settings.icon | img_url: '32x32' }}" alt="{{ block.settings.label }}" />
+              {% endif %}
+              <span>{{ block.settings.label }}</span>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="category-column">
+    <h3>{{ section.settings.type_heading }}</h3>
+    <ul class="theflx">
+      {% for block in section.blocks %}
+        {% if block.type == 'type_option' %}
+          <li>
+            <a href="{{ block.settings.link }}">
+              {% if block.settings.icon %}
+                <img src="{{ block.settings.icon | img_url: '32x32' }}" alt="{{ block.settings.label }}" />
+              {% endif %}
+              <span>{{ block.settings.label }}</span>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+</div>
+
+<style>
+.page-width {
+  max-width: 1200px; /* You can adjust this width as needed */
+  margin: 0 auto;    /* This centers the container */
+  padding: 0 20px;   /* Optional: add horizontal padding for responsiveness */
+}
+
+.mattress-category-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.category-column {
+  flex: 1;
+}
+
+.category-column h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.category-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-column li {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.category-column li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.category-column li span {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.category-column ul li a {
+  display: flex;
+}
+
+.catPgwid {
+  margin: 50px 0;
+}
+
+</style>

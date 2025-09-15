@@ -1,0 +1,168 @@
+{% style %}
+.best-sellers-section {
+  /* padding: 4rem 0; */
+  position: relative;
+  margin-top: {{ section.settings.margin_top | default: 4 }}rem;
+  margin-bottom: {{ section.settings.margin_bottom | default: 4 }}rem;
+}
+.best-sellers-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+.best-sellers-slider .item {
+  padding-bottom: 1rem;
+}
+.best-sellers-slider .item img {
+  width: 100%;
+  height: auto;
+}
+.best-sellers-slider .item h4 {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.owl-nav {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+.owl-nav button {
+  background: #00000066 !important;
+  color: #fff !important;
+  border: none;
+  font-size: 1.5rem;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.owl-nav .owl-prev {
+  left: 0;
+}
+.owl-nav .owl-next {
+  right: 0;
+}
+.owl-carousel.owl-drag .owl-item{
+  background: #f4f4f4;
+}
+.best-sellers-slider .item a {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+  @media (max-width: 320px){
+    #shopify-section-template--24809287647603__custom_product_slider_VEUQhj{
+      margin:0px 15px;
+    }
+  }
+    @media (max-width: 480px){
+    #shopify-section-template--24809287647603__custom_product_slider_VEUQhj{
+      margin:0px 15px;
+    }
+  }
+@media (max-width: 768px) {
+  .owl-carousel .item {
+    flex: 0 0 50%;
+  }
+}
+{% endstyle %}
+
+<div class="container best-sellers-section">
+  <h2 class="best-sellers-title">{{ section.settings.title }}</h2>
+  <div class="best-sellers-slider owl-carousel" id="slider-{{ section.id }}">
+    {% for block in section.blocks %}
+      <div class="item">
+        {% if block.settings.image %}
+          <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.title }}" />
+        {% endif %}
+        <h4>{{ block.settings.title }}</h4>
+        {% if block.settings.link %}
+          <p><a href="{{ block.settings.link }}" style="text-decoration: underline; font-weight: bold;">shop now</a></p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  $('#slider-{{ section.id }}').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: false,
+    navText: ['<', '>'],
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      768: {
+        items: 5
+      }
+    }
+  });
+});
+</script>
+
+{% schema %}
+{
+  "name": "Custom Product Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title"
+    },
+    {
+    "type": "range",
+    "id": "margin_top",
+    "label": "Margin Top (rem)",
+    "min": 0,
+    "max": 10,
+    "step": 1,
+    "default": 4
+    },
+    {
+    "type": "range",
+    "id": "margin_bottom",
+    "label": "Margin Bottom (rem)",
+    "min": 0,
+    "max": 10,
+    "step": 1,
+    "default": 4
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Product Title"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Product Link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Custom Product Slider",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

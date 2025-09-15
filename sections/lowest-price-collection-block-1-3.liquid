@@ -1,0 +1,152 @@
+<section class="low-coll-display  {% if section.settings.bg_parallax %} overflow-hidden{% endif %} section section--align-{{section.settings.section_heading_align }} section--spacing-{{section.settings.spacing }} section--bg-{{section.settings.content_bg }} section--outer-spacing-{{section.settings.outer_spacing }} {{ section.settings.custom_classes | escape }} section--pt-{{section.settings.padding_top}} section--pb-{{section.settings.padding_bottom}}">
+{% if section.settings.content_wrap == "contained" %}
+      <div class="container"> <div class="row">
+    {% endif %}
+         {%- if section.settings.fourcolheadingon -%}
+    {%- if section.settings.fourcolheading != blank -%}
+      <h2 class="section__heading">
+        {{ section.settings.fourcolheading }}
+      </h2>
+    {% endif %}
+  {%- endif -%}
+ {% assign navcountt = 0 %}
+          {%- for block2 in section.blocks -%}
+{%- assign collection_col4 = block2.settings.collection_4col -%}
+{% assign navcountt = navcountt | plus: 1 %}
+         {% if navcountt == 1 %}
+<div class="col-md-7">
+ {% render 'image-shopify', screenSize:'full', shopImg:block2.settings.collections_4col_img, alt:block2.settings.title, classes:'home-4coll' %} 
+       {% assign cheapest-product-coll = null %}
+            
+            {% for col4-product in collection_col4.products %}
+              {% if cheapest-product-coll  == null or col4-product.price < cheapest-product-coll.price %}
+                {% assign cheapest-product-coll = col4-product %}
+              {% endif %}
+            {% endfor %}
+ {% if cheapest-product-coll %}
+              <div class="cheapest-4col-product">
+                 <a href="{{ collection_col4.url }}"> <div class="prtdtr"><h3><span>{{ collection_col4.title }} </span>starting at {{ cheapest-product-coll.price | money }}</h3></div>
+              <span class="sp">shop now <i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+              </div>
+            {% else %}
+              <p>No products available in this collection.</p>
+            {% endif %}
+</div>
+            
+{% else %}
+                    {% if navcountt == 2 %}
+ <div class="col-md-5">
+                      {% endif %}
+                      
+  <div class="full-width-sub-height-3">
+ {% render 'image-shopify', screenSize:'full', shopImg:block2.settings.collections_4col_img, alt:block2.settings.title, classes:'home-4coll' %} 
+       {% assign cheapest-product-coll = null %}
+            
+            {% for col4-product in collection_col4.products %}
+              {% if cheapest-product-coll  == null or col4-product.price < cheapest-product-coll.price %}
+                {% assign cheapest-product-coll = col4-product %}
+              {% endif %}
+            {% endfor %}
+ {% if cheapest-product-coll %}
+              <div class="cheapest-4col-product">
+                 <a href="{{ collection_col4.url }}"> <div class="prtdtr"><h3><span>{{ collection_col4.title }} </span>starting at {{ cheapest-product-coll.price | money }}</h3></div>
+              <span class="sp">shop now <i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+              </div>
+            {% else %}
+              <p>No products available in this collection.</p>
+            {% endif %}
+</div>   
+   {% if navcountt == 4 %}
+ </div>
+                      {% endif %}
+{%  endif %}
+           
+  {% endfor %} 
+ 
+{% if section.settings.content_wrap == "contained" %}
+  </div>  </div>
+    {% endif %} 
+</section>
+{% schema %}
+  {   
+    "name": "Low-Price Coll 1/3",
+      "presets": [
+    {
+      "name": "Low-Price Coll 1/4",
+      "category": "General"
+    }
+  ],
+    "settings": [
+{
+      "type": "header",
+      "content": "General Settings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 75,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 75,
+      "step": 5,
+      "default": 0
+    },
+      {
+    "type": "checkbox",
+    "id": "fourcolheadingon",
+    "label": "Show title",
+    "default": true
+  },
+    {
+      "type": "text",
+      "id": "fourcolheading",
+      "label": "Section Title",
+      "info": "Leave blank to disable title"
+    },
+      
+{
+      "type": "select",
+      "id": "content_wrap",
+      "label": "Content",
+      "options": [
+        {
+          "value": "contained",
+          "label": "Contained"
+        },
+        {
+          "value": "full",
+          "label": "Full Width"
+        }
+      ],
+      "default": "contained"
+    }    
+    ],
+    "blocks": [
+    {
+      "type": "collection",
+      "name": "Collections",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection_4col",
+          "label": "Select collection"
+        },
+       {
+      "type": "image_picker",
+      "id": "collections_4col_img",
+      "label": "Collection Image"
+       }
+      ]
+    }
+  ]
+  }
+{% endschema %}

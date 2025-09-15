@@ -1,0 +1,38 @@
+{% comment %}
+    parameters:
+
+        shopify    :     shopify image picker
+        cloudinary :     cloudinary public_id
+        sh_size    :     1000x
+        cl_tr      :     cloudinary transformations `w_100,c_fill`
+        type       :     placeholder | original
+
+    usage: {%- capture favicon -%}{%- render 'image-url', cloudinary: settings.favicon_fallback shopify:settings.favicon size:"32x32"  -%}{%- endcapture -%}
+    usage: {%- capture favicon -%}{%- render 'image-url', cloudinary: settings.favicon_fallback shopify:settings.favicon size:"auto"  -%}{%- endcapture -%}
+{% endcomment %}
+
+
+{% comment %}
+    if no shopify size is passed set a default
+{% endcomment %}
+{%- if sh_size == blank -%}
+    {%- if type == "placeholder" -%}
+        {%- assign sh_size = "50x" -%}
+    {%- else -%}
+        {%- assign sh_size = "1000x" -%}
+    {%- endif -%}
+{%- endif -%}
+
+{%- capture imageUrl -%}
+    {% if shopify != nil %}
+        {{ shopify | img_url: sh_size }}
+    {% elsif cloudinary != blank %}
+        {%- render 'image-cloudinary-url', public_id: cloudinary, type:type, transformations:cl_tr -%}
+    {% endif %}
+{%- endcapture -%}
+{% assign imageUrl = imageUrl | strip %}
+
+{% comment %}
+    output
+{% endcomment %}
+{{imageUrl}}

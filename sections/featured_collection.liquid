@@ -1,0 +1,23 @@
+{% schema %}
+  {
+    "name": "Featured Collection",
+    "settings": []
+  }
+{% endschema %}
+
+{% assign collections_list = collection.metafields.namespace.collections_list %}
+
+{% if collections_list %}
+  <div class="related-collections">
+    <h2>Featured Collections</h2>
+    <ul>
+      {% for related_collection in collections_list %}
+        <li>
+          <a href="{{ related_collection.url }}">{{ related_collection.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% else %}
+  <p>No related collections available.</p>
+{% endif %}

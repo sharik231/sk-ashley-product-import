@@ -1,0 +1,35 @@
+<div id="wishlist-container">
+  <!-- Wishlist items will be dynamically loaded here -->
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+    let wishlistContainer = document.getElementById('wishlist-container');
+
+    // If there are no items in the wishlist, show a message
+    if (wishlist.length === 0) {
+      wishlistContainer.innerHTML = '<p>Your wishlist is empty.</p>';
+      return;
+    }
+
+    // Loop through each product ID in the wishlist and fetch product details
+    wishlist.forEach(function(productId) {
+      fetch(`/products/${productId}.js`)
+        .then(response => response.json())
+        .then(product => {
+          let productHtml = `
+            <div class="wishlist-item">
+              <img src="${product.images[0].src}" alt="${product.title}" width="100">
+              <p>${product.title}</p>
+              <a href="/products/${product.handle}">View Product</a>
+            </div>
+          `;
+          wishlistContainer.innerHTML += productHtml;
+        })
+        .catch(error => {
+          console.error('Error fetching product data:', error);
+        });
+    });
+  });
+</script>

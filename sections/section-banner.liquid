@@ -1,0 +1,87 @@
+{% schema %}
+{
+  "name": "Banner with Link",
+  "tag": "section",
+  "class": "banner-link-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Banner Image"
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Link (Collection, Product, or Page)"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image Alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner with Link"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+<style>
+.banner-link-section .banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.banner-link-section .banner-container.left {
+  justify-content: flex-start;
+}
+.banner-link-section .banner-container.right {
+  justify-content: flex-end;
+}
+.banner-link-section .banner-container img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+  .banner-container.center {
+    margin-bottom: 50px;
+}
+</style>
+{% endstylesheet %}
+
+
+
+<div class="page-width">
+<div class="banner-container {{ section.settings.image_position }}">
+  {% if section.settings.banner_link != blank %}
+    <a href="{{ section.settings.banner_link }}" class="banner-link">
+      {% if section.settings.banner_image %}
+        <img src="{{ section.settings.banner_image | image_url: width: 1600 }}" alt="Banner Image">
+      {% endif %}
+    </a>
+  {% elsif section.settings.banner_image %}
+    <img src="{{ section.settings.banner_image | image_url: width: 1600 }}" alt="Banner Image">
+  {% endif %}
+</div>
+</div>
+

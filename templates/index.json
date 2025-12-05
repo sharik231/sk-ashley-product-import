@@ -1,1 +1,557 @@
-{"sections":{"slideshow_BMtfNg":{"type":"slideshow","blocks":{"slide_DzJcMP":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Home_2025_Mesa_de_trabajo_1_5c739a41-0169-43b9-8577-905820b6b494.webp","mobile_image":"shopify:\/\/shop_images\/Home_2025_Mesa_de_trabajo_1.webp","image_overlay_opacity":0,"heading":"","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"show_text_box":true,"box_align":"top-left","text_alignment":"center","text_alignment_mobile":"center","color_scheme":"scheme-1"}},"slide_Bcjqhy":{"type":"slide","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Rectangle_260571.png","mobile_image":"shopify:\/\/shop_images\/Rectangle_260571.png","image_overlay_opacity":0,"heading":"","heading_size":"h1","subheading":"","inner_image":"shopify:\/\/shop_images\/a1_graphic_pds_1.png","mobile_inner_image":"shopify:\/\/shop_images\/a1_graphic_pds_1.png","button_label":"","link":"","button_style_secondary":false,"show_text_box":true,"box_align":"top-left","text_alignment":"center","text_alignment_mobile":"center","color_scheme":"scheme-1"}},"slide_F9fTTe":{"type":"slide","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Rectangle_260571.png","image_overlay_opacity":0,"heading":"","heading_size":"h1","subheading":"","inner_image":"shopify:\/\/shop_images\/a1_graphic_pds_1.png","mobile_inner_image":"shopify:\/\/shop_images\/a1_graphic_pds_1.png","button_label":"","link":"","button_style_secondary":false,"show_text_box":true,"box_align":"top-left","text_alignment":"center","text_alignment_mobile":"center","color_scheme":"scheme-1"}},"slide_BHj8tR":{"type":"slide","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Rectangle_260571.png","mobile_image":"shopify:\/\/shop_images\/Rectangle_260571.png","image_overlay_opacity":0,"heading":"","heading_size":"h1","subheading":"","inner_image":"shopify:\/\/shop_images\/a1_graphic_pds_1.png","mobile_inner_image":"shopify:\/\/shop_images\/a1_graphic_pds_1.png","button_label":"","link":"","button_style_secondary":false,"show_text_box":true,"box_align":"top-left","text_alignment":"center","text_alignment_mobile":"center","color_scheme":"scheme-1"}}},"block_order":["slide_DzJcMP","slide_Bcjqhy","slide_F9fTTe","slide_BHj8tR"],"custom_css":[],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"dots","auto_rotate":true,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":""}},"left_img_rt_txt_UJKFDV":{"type":"left-img-rt-txt","settings":{"left_img":"shopify:\/\/shop_images\/Card-Payment-194-194px_7444afaf-39bf-47c4-8be4-f22d5f296c73.jpg","left_img_mobile":"shopify:\/\/shop_images\/100x100_Instalment.jpg","img_title":"Image description","title":"0% de interés hasta 24 meses","subtitle":"SÓLO EN TIENDA","para_box":"En compras calificadas ahora – 3\/12. Se requieren pagos mensuales iguales durante 24 meses. Sujeto a la aprobación de crédito. Aprende más.","btn_text":"ve si qualifies ahora","btn_url":"shopify:\/\/pages\/informacion-de-garantia"}},"lowest_price_carousel_QLDxJ7":{"type":"lowest-price-carousel","settings":{"deal-title":"top deals"}},"home_page_product_tab_pKMejn":{"type":"home-page-product-tab","blocks":{"collection_UhBYLR":{"type":"collection","settings":{"tabtitle1":"Salones","carsubhead":"nuevo refugio relajante","left_side_tab_collection":"living-room-collections","left_side_tab_collection_img":"shopify:\/\/shop_images\/Home_2025-02_f60a3a70-90d7-495c-a4a9-efd2143c8c67.webp","collection_rt1":"2-positions","collection_rt1_img":"shopify:\/\/shop_images\/Hazela.jpg","collection_rt2":"3-positions","collection_rt2_img":"shopify:\/\/shop_images\/317b1d44c1253fb30b6a00c4adc58511.jpg","collection_rt3":"coffee-tables","collection_rt3_img":"shopify:\/\/shop_images\/fa765148bfea1cda6c8af55af8ea64cd.jpg","collection_rt4":"end-side-tables","collection_rt4_img":"shopify:\/\/shop_images\/be50c508072995a086e538cdf809f215.jpg","collection_rt5":"armchairs","collection_rt5_img":"shopify:\/\/shop_images\/00de0868947d8af7935af0a486c1b55f.jpg","collection_rt6":"modular-sofas","collection_rt6_img":"shopify:\/\/shop_images\/f5fb4c73529682b88d160d04a2ac5bdc.jpg"}},"collection_XFnrK3":{"type":"collection","settings":{"tabtitle1":"Comedores","carsubhead":"nuevo refugio relajante","left_side_tab_collection":"dining-rooms","left_side_tab_collection_img":"shopify:\/\/shop_images\/comedor3.webp","collection_rt1":"dining-room-chairs","collection_rt1_img":"shopify:\/\/shop_images\/3e56fbade57f5458ecc638bdb1bdce18.png","collection_rt2":"bar-chairs","collection_rt2_img":"shopify:\/\/shop_images\/4349c878f4226b5341c43a690136da63.png","collection_rt3":"dining-tables","collection_rt3_img":"shopify:\/\/shop_images\/dbf9104a59b67261f66b27672c6dba8b.png","collection_rt4":"dining-room-storage","collection_rt4_img":"shopify:\/\/shop_images\/almacenamiento-para-comedor-710472.png","collection_rt5":"dining-room-benches","collection_rt5_img":"shopify:\/\/shop_images\/bancos-de-comedor-700970.png","collection_rt6":"bar-tables","collection_rt6_img":"shopify:\/\/shop_images\/5504b0c42cf1dcb5b6ee50d48b90abde.png"}},"collection_x3GHdp":{"type":"collection","settings":{"tabtitle1":"Dormitorio","carsubhead":"nuevo refugio relajante","left_side_tab_collection":"bedroom","left_side_tab_collection_img":"shopify:\/\/shop_images\/hennington2.webp","collection_rt1":"beds","collection_rt1_img":"shopify:\/\/shop_images\/camas-219469.png","collection_rt2":"reclining-chairs","collection_rt2_img":"shopify:\/\/shop_images\/6848ec504eea50583de91038bff7b678.png","collection_rt3":"nightstands","collection_rt3_img":"shopify:\/\/shop_images\/0dc7c8b87975f6908426c46cdfc08634.png","collection_rt4":"lamps","collection_rt4_img":"shopify:\/\/shop_images\/82c72054ae09b726b459b05ff1ddf658.png","collection_rt5":"banks","collection_rt5_img":"shopify:\/\/shop_images\/bancos-de-dormitorio-141008.png","collection_rt6":"accent-cabinets","collection_rt6_img":"shopify:\/\/shop_images\/almacenamiento-para-comedor-710472.avif"}},"collection_ECkBH9":{"type":"collection","settings":{"tabtitle1":"sillones&nbsp;reclinables","carsubhead":"nuevo refugio relajante","left_side_tab_collection":"recliners","left_side_tab_collection_img":"shopify:\/\/shop_images\/58504-58-31-77-46-62-13-T996.webp","collection_rt1":"sofas","collection_rt1_img":"shopify:\/\/shop_images\/66b2e622ce295387406354b48b93b632.jpg","collection_rt2":"reclining-chairs","collection_rt2_img":"shopify:\/\/shop_images\/dw_8d24ee3c-6e87-4369-a687-5c64134142f5.png","collection_rt3":"decorative-cushions","collection_rt3_img":"shopify:\/\/shop_images\/wed.png","collection_rt4":"carpets","collection_rt4_img":"shopify:\/\/shop_images\/dwe.png","collection_rt5":"3-seater-reclining","collection_rt5_img":"shopify:\/\/shop_images\/Recliners_827961bf-8f03-4a7c-a840-e4dd19de869e.png","collection_rt6":"ottomans","collection_rt6_img":"shopify:\/\/shop_images\/Ottomans_fefb0f77-ecd2-4b35-8131-17778aea0a18.png"}}},"block_order":["collection_UhBYLR","collection_XFnrK3","collection_x3GHdp","collection_ECkBH9"],"custom_css":["a.madLnk {padding: 0;}"],"settings":{"padding_top":45,"padding_bottom":0,"content_wrap":"contained","section_title":"sa","show_title":true}},"image_banner_ApDe9G":{"type":"image_banner","disabled":true,"custom_css":[],"settings":{"layout":"grid","padding_top":30,"padding_bottom":0,"slider_link":"#","image":"shopify:\/\/shop_images\/Banner-Online-August-2024-Recliner_2000x_b6ea9cd4-1c5e-4947-a3dc-4e9f4e3feb85.jpg"}},"image_banner_eqaayY":{"type":"image_banner","disabled":true,"settings":{"layout":"grid","padding_top":30,"padding_bottom":0,"slider_link":"#","image":"shopify:\/\/shop_images\/Size-Adjust-Mar-2025---Protection-Plan-Banner_2000x_be0b8106-3d24-4cd9-8a7a-710eabf8daba.jpg"}},"lowest_price_collection_block_1_3_f4prft":{"type":"lowest-price-collection-block-1-3","blocks":{"collection_A4ebGW":{"type":"collection","settings":{"collection_4col":"exterior","collections_4col_img":"shopify:\/\/shop_images\/Home_2025-03_876616b8-682c-4d3e-998a-3d41ae7bcd1a.webp"}},"collection_dhXDC9":{"type":"collection","settings":{"collection_4col":"vases-and-flower-vases","collections_4col_img":"shopify:\/\/shop_images\/123.png"}},"collection_gAV78E":{"type":"collection","settings":{"collection_4col":"paintings","collections_4col_img":"shopify:\/\/shop_images\/124.png"}},"collection_gaUweA":{"type":"collection","settings":{"collection_4col":"sculptures","collections_4col_img":"shopify:\/\/shop_images\/34.png"}}},"block_order":["collection_A4ebGW","collection_dhXDC9","collection_gAV78E","collection_gaUweA"],"settings":{"padding_top":30,"padding_bottom":30,"fourcolheadingon":true,"fourcolheading":"el estilo está en el menú","content_wrap":"contained"}},"overlay_two_side_box_mHBFPj":{"type":"overlay-two-side-box","blocks":{"image_FmDn4m":{"type":"image","settings":{"overlay-title":"la colección de alta gama","overlay-subtitle":"SERIE EXCLUSIVA","is-overlay":true,"bg-img":"shopify:\/\/shop_images\/Home_2025-08.webp","bottom-link-text":"tienda en stock","link-url":"shopify:\/\/collections\/ofertas-exclusivas","target_blank":false}},"image_G9egQC":{"type":"image","settings":{"overlay-title":"mira las mejores selecciones","overlay-subtitle":"MEJOR ELECCIÓN","is-overlay":true,"bg-img":"shopify:\/\/shop_images\/Home_2025-09.webp","bottom-link-text":"mejor elección","link-url":"shopify:\/\/collections\/sale","target_blank":false}}},"block_order":["image_FmDn4m","image_G9egQC"],"settings":{"section-title":"","show-title":true,"section_heading_align":"left","spacing":30,"outer_spacing":30,"padding_top":0,"padding_bottom":0,"content_wrap":"contained","margin_top":0,"margin_bottom":0}},"lowest_price_carousel_with_image_3KegJk":{"type":"lowest-price-carousel-with-image","blocks":{"collection_Qwh4mz":{"type":"collection","settings":{"carousel-image-collection":"sofas","carousel-image-collection_img":"shopify:\/\/shop_images\/Home_2025-04.webp"}},"collection_jGwhBB":{"type":"collection","settings":{"carousel-image-collection":"tv-stands","carousel-image-collection_img":"shopify:\/\/shop_images\/Home_2025-05.webp"}},"collection_K7AHyd":{"type":"collection","settings":{"carousel-image-collection":"coffee-tables","carousel-image-collection_img":"shopify:\/\/shop_images\/Home_2025-06.webp"}},"collection_7xzUYD":{"type":"collection","settings":{"carousel-image-collection":"2-seater-sofas","carousel-image-collection_img":"shopify:\/\/shop_images\/Home_2025-07.webp"}},"collection_r33tE7":{"type":"collection","settings":{"carousel-image-collection":"3-positions","carousel-image-collection_img":"shopify:\/\/shop_images\/dda9f3197cbe6dc6a5cc0cf844a77a46_1600x_df9ad2ce-1e67-48bb-9936-bceb33e68247.jpg"}}},"block_order":["collection_Qwh4mz","collection_jGwhBB","collection_K7AHyd","collection_7xzUYD","collection_r33tE7"],"settings":{"section-title":"soluciones de almacenamiento ingeniosas","show-title":true,"section_heading_align":"left","bg_color":"#ffffff","spacing":30,"outer_spacing":30,"padding_top":0,"padding_bottom":0,"content_wrap":"contained","margin_top":0,"margin_bottom":0,"show-border":true}},"four_column_icon_box_tweDM4":{"type":"four-column-icon-box","blocks":{"image_PTbfzq":{"type":"image","settings":{"box-title":"haciendo un impacto","box-subtitle":"Cómo estamos devolviendo a nuestras comunidades, equipos y planeta.","icon-img":"shopify:\/\/shop_images\/ICON_CSR.png","bottom-link-text":"","link-url":"","target_blank":false}},"image_Lex7Kp":{"type":"image","settings":{"box-title":"haciendo un impacto","box-subtitle":"Obtén una visión completa de lo que estamos haciendo para ayudar a nuestros empleados, al medio ambiente y a la comunidad.","icon-img":"shopify:\/\/shop_images\/ICON_HopeToDream.png","bottom-link-text":"","link-url":"","target_blank":false}},"image_mgqaRh":{"type":"image","settings":{"box-title":"haciendo un impacto","box-subtitle":"Cada niño debería tener un buen sueño nocturno y una cama que pueda llamar suya.","icon-img":"shopify:\/\/shop_images\/ICON_MakingAnImpact.png","bottom-link-text":"","link-url":"","target_blank":false}}},"block_order":["image_PTbfzq","image_Lex7Kp","image_mgqaRh"],"settings":{"section-title":"","show-title":true,"section_heading_align":"left","bg_color":"#ffffff","spacing":30,"outer_spacing":30,"padding_top":0,"padding_bottom":0,"content_wrap":"contained","margin_top":0,"margin_bottom":0,"show-border":false}},"four_column_icon_box_PDKU7z":{"type":"four-column-icon-box","blocks":{"image_hn4AER":{"type":"image","settings":{"box-title":"garantía de igualación de precios","box-subtitle":"Encuentra nuestros productos a un precio más bajo, lo igualaremos.","icon-img":"shopify:\/\/shop_images\/ICON_MakingAnImpact.png","bottom-link-text":"Aprender más","link-url":"shopify:\/\/pages\/garantia-de-precio","target_blank":false}},"image_d6ecpD":{"type":"image","settings":{"box-title":"referir a un amigo","box-subtitle":"Comparte con un amigo, guarda con un amigo","icon-img":"shopify:\/\/shop_images\/ICON_MakingAnImpact.png","bottom-link-text":"Aprender más","link-url":"shopify:\/\/pages\/orange-recompensas","target_blank":false}},"image_n7DdEM":{"type":"image","settings":{"box-title":"esto es hogar a tu manera","box-subtitle":"","icon-img":"shopify:\/\/shop_images\/ICON_CSR.png","bottom-link-text":"Aprender más","link-url":"shopify:\/\/pages\/servicios-de-diseno","target_blank":false}},"image_aPfEig":{"type":"image","settings":{"box-title":"financiamiento","box-subtitle":"","icon-img":"shopify:\/\/shop_images\/ICON_HopeToDream.png","bottom-link-text":"Aprender más","link-url":"shopify:\/\/pages\/ofertas-y-detalles","target_blank":false}}},"block_order":["image_hn4AER","image_d6ecpD","image_n7DdEM","image_aPfEig"],"settings":{"section-title":"","show-title":true,"section_heading_align":"left","bg_color":"#f5f5f5","spacing":30,"outer_spacing":0,"padding_top":0,"padding_bottom":0,"content_wrap":"contained","margin_top":0,"margin_bottom":0,"show-border":true}}},"order":["slideshow_BMtfNg","left_img_rt_txt_UJKFDV","lowest_price_carousel_QLDxJ7","home_page_product_tab_pKMejn","image_banner_ApDe9G","image_banner_eqaayY","lowest_price_collection_block_1_3_f4prft","overlay_two_side_box_mHBFPj","lowest_price_carousel_with_image_3KegJk","four_column_icon_box_tweDM4","four_column_icon_box_PDKU7z"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_BMtfNg": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_DzJcMP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Home_2025_Mesa_de_trabajo_1_5c739a41-0169-43b9-8577-905820b6b494.webp",
+            "mobile_image": "shopify://shop_images/Home_2025_Mesa_de_trabajo_1.webp",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "top-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_Bcjqhy": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Rectangle_260571.png",
+            "mobile_image": "shopify://shop_images/Rectangle_260571.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "inner_image": "shopify://shop_images/a1_graphic_pds_1.png",
+            "mobile_inner_image": "shopify://shop_images/a1_graphic_pds_1.png",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "top-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_F9fTTe": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Rectangle_260571.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "inner_image": "shopify://shop_images/a1_graphic_pds_1.png",
+            "mobile_inner_image": "shopify://shop_images/a1_graphic_pds_1.png",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "top-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_BHj8tR": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Rectangle_260571.png",
+            "mobile_image": "shopify://shop_images/Rectangle_260571.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "inner_image": "shopify://shop_images/a1_graphic_pds_1.png",
+            "mobile_inner_image": "shopify://shop_images/a1_graphic_pds_1.png",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "top-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "slide_DzJcMP",
+        "slide_Bcjqhy",
+        "slide_F9fTTe",
+        "slide_BHj8tR"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
+    },
+    "left_img_rt_txt_UJKFDV": {
+      "type": "left-img-rt-txt",
+      "settings": {
+        "left_img": "shopify://shop_images/Card-Payment-194-194px_7444afaf-39bf-47c4-8be4-f22d5f296c73.jpg",
+        "left_img_mobile": "shopify://shop_images/100x100_Instalment.jpg",
+        "img_title": "Image description",
+        "title": "0% de interés hasta 24 meses",
+        "subtitle": "SÓLO EN TIENDA",
+        "para_box": "En compras calificadas ahora – 3/12. Se requieren pagos mensuales iguales durante 24 meses. Sujeto a la aprobación de crédito. Aprende más.",
+        "btn_text": "ve si qualifies ahora",
+        "btn_url": "shopify://pages/informacion-de-garantia"
+      }
+    },
+    "lowest_price_carousel_QLDxJ7": {
+      "type": "lowest-price-carousel",
+      "settings": {
+        "deal-title": "top deals"
+      }
+    },
+    "home_page_product_tab_pKMejn": {
+      "type": "home-page-product-tab",
+      "blocks": {
+        "collection_UhBYLR": {
+          "type": "collection",
+          "settings": {
+            "tabtitle1": "Salones",
+            "carsubhead": "nuevo refugio relajante",
+            "left_side_tab_collection": "living-room-collections",
+            "left_side_tab_collection_img": "shopify://shop_images/Home_2025-02_f60a3a70-90d7-495c-a4a9-efd2143c8c67.webp",
+            "collection_rt1": "2-positions",
+            "collection_rt1_img": "shopify://shop_images/Hazela.jpg",
+            "collection_rt2": "2-seater-sofas",
+            "collection_rt2_img": "shopify://shop_images/317b1d44c1253fb30b6a00c4adc58511.jpg",
+            "collection_rt3": "coffee-tables",
+            "collection_rt3_img": "shopify://shop_images/fa765148bfea1cda6c8af55af8ea64cd.jpg",
+            "collection_rt4": "end-side-tables",
+            "collection_rt4_img": "shopify://shop_images/be50c508072995a086e538cdf809f215.jpg",
+            "collection_rt5": "armchairs",
+            "collection_rt5_img": "shopify://shop_images/00de0868947d8af7935af0a486c1b55f.jpg",
+            "collection_rt6": "modular-sofas",
+            "collection_rt6_img": "shopify://shop_images/f5fb4c73529682b88d160d04a2ac5bdc.jpg"
+          }
+        },
+        "collection_XFnrK3": {
+          "type": "collection",
+          "settings": {
+            "tabtitle1": "Comedores",
+            "carsubhead": "nuevo refugio relajante",
+            "left_side_tab_collection": "dining-rooms",
+            "left_side_tab_collection_img": "shopify://shop_images/comedor3.webp",
+            "collection_rt1": "dining-room-chairs",
+            "collection_rt1_img": "shopify://shop_images/3e56fbade57f5458ecc638bdb1bdce18.png",
+            "collection_rt2": "bar-chairs",
+            "collection_rt2_img": "shopify://shop_images/4349c878f4226b5341c43a690136da63.png",
+            "collection_rt3": "dining-tables",
+            "collection_rt3_img": "shopify://shop_images/dbf9104a59b67261f66b27672c6dba8b.png",
+            "collection_rt4": "dining-room-storage",
+            "collection_rt4_img": "shopify://shop_images/almacenamiento-para-comedor-710472.png",
+            "collection_rt5": "dining-room-benches",
+            "collection_rt5_img": "shopify://shop_images/bancos-de-comedor-700970.png",
+            "collection_rt6": "bar-tables",
+            "collection_rt6_img": "shopify://shop_images/5504b0c42cf1dcb5b6ee50d48b90abde.png"
+          }
+        },
+        "collection_x3GHdp": {
+          "type": "collection",
+          "settings": {
+            "tabtitle1": "Dormitorio",
+            "carsubhead": "nuevo refugio relajante",
+            "left_side_tab_collection": "bedroom",
+            "left_side_tab_collection_img": "shopify://shop_images/hennington2.webp",
+            "collection_rt1": "beds",
+            "collection_rt1_img": "shopify://shop_images/camas-219469.png",
+            "collection_rt2": "reclining-chairs",
+            "collection_rt2_img": "shopify://shop_images/6848ec504eea50583de91038bff7b678.png",
+            "collection_rt3": "nightstands",
+            "collection_rt3_img": "shopify://shop_images/0dc7c8b87975f6908426c46cdfc08634.png",
+            "collection_rt4": "lamps",
+            "collection_rt4_img": "shopify://shop_images/82c72054ae09b726b459b05ff1ddf658.png",
+            "collection_rt5": "banks",
+            "collection_rt5_img": "shopify://shop_images/bancos-de-dormitorio-141008.png",
+            "collection_rt6": "accent-cabinets",
+            "collection_rt6_img": "shopify://shop_images/almacenamiento-para-comedor-710472.avif"
+          }
+        },
+        "collection_ECkBH9": {
+          "type": "collection",
+          "settings": {
+            "tabtitle1": "sillones&nbsp;reclinables",
+            "carsubhead": "nuevo refugio relajante",
+            "left_side_tab_collection": "recliners",
+            "left_side_tab_collection_img": "shopify://shop_images/58504-58-31-77-46-62-13-T996.webp",
+            "collection_rt1": "sofas",
+            "collection_rt1_img": "shopify://shop_images/66b2e622ce295387406354b48b93b632.jpg",
+            "collection_rt2": "reclining-chairs",
+            "collection_rt2_img": "shopify://shop_images/dw_8d24ee3c-6e87-4369-a687-5c64134142f5.png",
+            "collection_rt3": "decorative-cushions",
+            "collection_rt3_img": "shopify://shop_images/wed.png",
+            "collection_rt4": "carpets",
+            "collection_rt4_img": "shopify://shop_images/dwe.png",
+            "collection_rt5": "3-seater-reclining",
+            "collection_rt5_img": "shopify://shop_images/Recliners_827961bf-8f03-4a7c-a840-e4dd19de869e.png",
+            "collection_rt6": "ottomans",
+            "collection_rt6_img": "shopify://shop_images/Ottomans_fefb0f77-ecd2-4b35-8131-17778aea0a18.png"
+          }
+        }
+      },
+      "block_order": [
+        "collection_UhBYLR",
+        "collection_XFnrK3",
+        "collection_x3GHdp",
+        "collection_ECkBH9"
+      ],
+      "custom_css": [
+        "a.madLnk {padding: 0;}"
+      ],
+      "settings": {
+        "padding_top": 45,
+        "padding_bottom": 0,
+        "content_wrap": "contained",
+        "section_title": "sa",
+        "show_title": true
+      }
+    },
+    "image_banner_ApDe9G": {
+      "type": "image_banner",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "layout": "grid",
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "slider_link": "#",
+        "image": "shopify://shop_images/Banner-Online-August-2024-Recliner_2000x_b6ea9cd4-1c5e-4947-a3dc-4e9f4e3feb85.jpg"
+      }
+    },
+    "image_banner_eqaayY": {
+      "type": "image_banner",
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "slider_link": "#",
+        "image": "shopify://shop_images/Size-Adjust-Mar-2025---Protection-Plan-Banner_2000x_be0b8106-3d24-4cd9-8a7a-710eabf8daba.jpg"
+      }
+    },
+    "lowest_price_collection_block_1_3_f4prft": {
+      "type": "lowest-price-collection-block-1-3",
+      "blocks": {
+        "collection_A4ebGW": {
+          "type": "collection",
+          "settings": {
+            "collection_4col": "exterior",
+            "collections_4col_img": "shopify://shop_images/Home_2025-03_876616b8-682c-4d3e-998a-3d41ae7bcd1a.webp"
+          }
+        },
+        "collection_dhXDC9": {
+          "type": "collection",
+          "settings": {
+            "collection_4col": "vases-and-flower-vases",
+            "collections_4col_img": "shopify://shop_images/123.png"
+          }
+        },
+        "collection_gAV78E": {
+          "type": "collection",
+          "settings": {
+            "collection_4col": "paintings",
+            "collections_4col_img": "shopify://shop_images/124.png"
+          }
+        },
+        "collection_gaUweA": {
+          "type": "collection",
+          "settings": {
+            "collection_4col": "sculptures",
+            "collections_4col_img": "shopify://shop_images/34.png"
+          }
+        }
+      },
+      "block_order": [
+        "collection_A4ebGW",
+        "collection_dhXDC9",
+        "collection_gAV78E",
+        "collection_gaUweA"
+      ],
+      "settings": {
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "fourcolheadingon": true,
+        "fourcolheading": "el estilo está en el menú",
+        "content_wrap": "contained"
+      }
+    },
+    "overlay_two_side_box_mHBFPj": {
+      "type": "overlay-two-side-box",
+      "blocks": {
+        "image_FmDn4m": {
+          "type": "image",
+          "settings": {
+            "overlay-title": "la colección de alta gama",
+            "overlay-subtitle": "SERIE EXCLUSIVA",
+            "is-overlay": true,
+            "bg-img": "shopify://shop_images/Home_2025-08.webp",
+            "bottom-link-text": "tienda en stock",
+            "link-url": "shopify://collections/ofertas-exclusivas",
+            "target_blank": false
+          }
+        },
+        "image_G9egQC": {
+          "type": "image",
+          "settings": {
+            "overlay-title": "mira las mejores selecciones",
+            "overlay-subtitle": "MEJOR ELECCIÓN",
+            "is-overlay": true,
+            "bg-img": "shopify://shop_images/Home_2025-09.webp",
+            "bottom-link-text": "mejor elección",
+            "link-url": "shopify://collections/sale",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "image_FmDn4m",
+        "image_G9egQC"
+      ],
+      "settings": {
+        "section-title": "",
+        "show-title": true,
+        "section_heading_align": "left",
+        "spacing": 30,
+        "outer_spacing": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "content_wrap": "contained",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "lowest_price_carousel_with_image_3KegJk": {
+      "type": "lowest-price-carousel-with-image",
+      "blocks": {
+        "collection_Qwh4mz": {
+          "type": "collection",
+          "settings": {
+            "carousel-image-collection": "sofas",
+            "carousel-image-collection_img": "shopify://shop_images/Home_2025-04.webp"
+          }
+        },
+        "collection_jGwhBB": {
+          "type": "collection",
+          "settings": {
+            "carousel-image-collection": "tv-stands",
+            "carousel-image-collection_img": "shopify://shop_images/Home_2025-05.webp"
+          }
+        },
+        "collection_K7AHyd": {
+          "type": "collection",
+          "settings": {
+            "carousel-image-collection": "coffee-tables",
+            "carousel-image-collection_img": "shopify://shop_images/Home_2025-06.webp"
+          }
+        },
+        "collection_7xzUYD": {
+          "type": "collection",
+          "settings": {
+            "carousel-image-collection": "3-positions",
+            "carousel-image-collection_img": "shopify://shop_images/Home_2025-07.webp"
+          }
+        },
+        "collection_r33tE7": {
+          "type": "collection",
+          "settings": {
+            "carousel-image-collection": "2-seater-sofas",
+            "carousel-image-collection_img": "shopify://shop_images/dda9f3197cbe6dc6a5cc0cf844a77a46_1600x_df9ad2ce-1e67-48bb-9936-bceb33e68247.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Qwh4mz",
+        "collection_jGwhBB",
+        "collection_K7AHyd",
+        "collection_7xzUYD",
+        "collection_r33tE7"
+      ],
+      "settings": {
+        "section-title": "soluciones de almacenamiento ingeniosas",
+        "show-title": true,
+        "section_heading_align": "left",
+        "bg_color": "#ffffff",
+        "spacing": 30,
+        "outer_spacing": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "content_wrap": "contained",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "show-border": true
+      }
+    },
+    "four_column_icon_box_tweDM4": {
+      "type": "four-column-icon-box",
+      "blocks": {
+        "image_PTbfzq": {
+          "type": "image",
+          "settings": {
+            "box-title": "haciendo un impacto",
+            "box-subtitle": "Cómo estamos devolviendo a nuestras comunidades, equipos y planeta.",
+            "icon-img": "shopify://shop_images/ICON_CSR.png",
+            "bottom-link-text": "",
+            "link-url": "",
+            "target_blank": false
+          }
+        },
+        "image_Lex7Kp": {
+          "type": "image",
+          "settings": {
+            "box-title": "haciendo un impacto",
+            "box-subtitle": "Obtén una visión completa de lo que estamos haciendo para ayudar a nuestros empleados, al medio ambiente y a la comunidad.",
+            "icon-img": "shopify://shop_images/ICON_HopeToDream.png",
+            "bottom-link-text": "",
+            "link-url": "",
+            "target_blank": false
+          }
+        },
+        "image_mgqaRh": {
+          "type": "image",
+          "settings": {
+            "box-title": "haciendo un impacto",
+            "box-subtitle": "Cada niño debería tener un buen sueño nocturno y una cama que pueda llamar suya.",
+            "icon-img": "shopify://shop_images/ICON_MakingAnImpact.png",
+            "bottom-link-text": "",
+            "link-url": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "image_PTbfzq",
+        "image_Lex7Kp",
+        "image_mgqaRh"
+      ],
+      "settings": {
+        "section-title": "",
+        "show-title": true,
+        "section_heading_align": "left",
+        "bg_color": "#ffffff",
+        "spacing": 30,
+        "outer_spacing": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "content_wrap": "contained",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "show-border": false
+      }
+    },
+    "four_column_icon_box_PDKU7z": {
+      "type": "four-column-icon-box",
+      "blocks": {
+        "image_hn4AER": {
+          "type": "image",
+          "settings": {
+            "box-title": "garantía de igualación de precios",
+            "box-subtitle": "Encuentra nuestros productos a un precio más bajo, lo igualaremos.",
+            "icon-img": "shopify://shop_images/ICON_MakingAnImpact.png",
+            "bottom-link-text": "Aprender más",
+            "link-url": "shopify://pages/garantia-de-precio",
+            "target_blank": false
+          }
+        },
+        "image_d6ecpD": {
+          "type": "image",
+          "settings": {
+            "box-title": "referir a un amigo",
+            "box-subtitle": "Comparte con un amigo, guarda con un amigo",
+            "icon-img": "shopify://shop_images/ICON_MakingAnImpact.png",
+            "bottom-link-text": "Aprender más",
+            "link-url": "shopify://pages/orange-recompensas",
+            "target_blank": false
+          }
+        },
+        "image_n7DdEM": {
+          "type": "image",
+          "settings": {
+            "box-title": "esto es hogar a tu manera",
+            "box-subtitle": "",
+            "icon-img": "shopify://shop_images/ICON_CSR.png",
+            "bottom-link-text": "Aprender más",
+            "link-url": "shopify://pages/servicios-de-diseno",
+            "target_blank": false
+          }
+        },
+        "image_aPfEig": {
+          "type": "image",
+          "settings": {
+            "box-title": "financiamiento",
+            "box-subtitle": "",
+            "icon-img": "shopify://shop_images/ICON_HopeToDream.png",
+            "bottom-link-text": "Aprender más",
+            "link-url": "shopify://pages/ofertas-y-detalles",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "image_hn4AER",
+        "image_d6ecpD",
+        "image_n7DdEM",
+        "image_aPfEig"
+      ],
+      "settings": {
+        "section-title": "",
+        "show-title": true,
+        "section_heading_align": "left",
+        "bg_color": "#f5f5f5",
+        "spacing": 30,
+        "outer_spacing": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "content_wrap": "contained",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "show-border": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_BMtfNg",
+    "left_img_rt_txt_UJKFDV",
+    "lowest_price_carousel_QLDxJ7",
+    "home_page_product_tab_pKMejn",
+    "image_banner_ApDe9G",
+    "image_banner_eqaayY",
+    "lowest_price_collection_block_1_3_f4prft",
+    "overlay_two_side_box_mHBFPj",
+    "lowest_price_carousel_with_image_3KegJk",
+    "four_column_icon_box_tweDM4",
+    "four_column_icon_box_PDKU7z"
+  ]
+}

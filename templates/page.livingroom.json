@@ -570,7 +570,7 @@
             "title": "",
             "text": "",
             "link_label": "Sofás modulares",
-            "link": "shopify://collections/modular-sofas"
+            "link": "shopify://collections/sofas-modulares"
           }
         }
       },
@@ -699,7 +699,7 @@
             "title": "Sofás modulares",
             "text": "",
             "link_label": "compra ahora",
-            "link": "shopify://collections/modular-sofas"
+            "link": "shopify://collections/sofas-modulares"
           }
         },
         "column_xRBqKV": {
@@ -769,7 +769,7 @@
           "type": "button",
           "settings": {
             "button_label": "Compra Ahora",
-            "button_link": "shopify://collections/modular-sofas",
+            "button_link": "shopify://collections/sofas-modulares",
             "button_style_secondary": false
           }
         }

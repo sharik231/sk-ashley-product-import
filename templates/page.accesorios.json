@@ -253,7 +253,7 @@
           "type": "button",
           "settings": {
             "button_label": "ver todo accesorios dehogar",
-            "button_link": "shopify://collections/decorative-accessories",
+            "button_link": "shopify://collections/accesorios-decorativos",
             "button_style_secondary": false
           }
         }
@@ -316,7 +316,7 @@
             "title": "",
             "text": "",
             "link_label": "Accesorios Decorativos",
-            "link": "shopify://collections/decorative-accessories"
+            "link": "shopify://collections/accesorios-decorativos"
           }
         }
       },

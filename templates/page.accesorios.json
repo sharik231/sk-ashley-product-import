@@ -170,7 +170,7 @@
             "title": "",
             "text": "",
             "link_label": "Mirrors",
-            "link": "shopify://collections/wall-mirrors"
+            "link": "shopify://collections/espejos-de-pared"
           }
         },
         "column_akcD3c": {
@@ -365,7 +365,7 @@
         "slide_bAExLN": {
           "type": "slide",
           "settings": {
-            "collection": "wall-mirrors"
+            "collection": "espejos-de-pared"
           }
         },
         "slide_6eE94C": {
@@ -429,7 +429,7 @@
             "title": "",
             "text": "",
             "link_label": "Wall Mirrors",
-            "link": "shopify://collections/wall-mirrors"
+            "link": "shopify://collections/espejos-de-pared"
           }
         }
       },

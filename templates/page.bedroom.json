@@ -1,1 +1,594 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"custom_css":["h1 {color: #3d3935;}"],"settings":{"padding_top":0,"padding_bottom":0}},"shogun-optimizer":{"type":"shogun-optimizer","settings":{}},"custom_promo_box_pzxc9X":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_rPWP96":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"multicolumn_CF3rLg":{"type":"multicolumn","blocks":{"column_KcgDnA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/B745-58-56-10X8-CROP_6d17de88-42d7-4550-b7d9-b5936256a34b_webp.png","title":"","text":"","link_label":"TELA DE RENDIMIENTO","link":"shopify:\/\/collections\/performance-fabric"}},"column_6RiTBL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Lampra-piso.webp","title":"","text":"","link_label":"cama de almacenamiento","link":"shopify:\/\/collections\/storage-bed"}},"column_9CdppR":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/EB4121-231_webp.png","title":"","text":"","link_label":"colección portdown","link":"shopify:\/\/collections\/portdown-collection"}}},"block_order":["column_KcgDnA","column_6RiTBL","column_9CdppR"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}","a,h2 {color: #3d3935;}",".multicolumn-card__info svg {display: none;}",".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",".multicolumn-card {background: transparent;}",".title-wrapper-with-link {justify-content: center;}","h2 {font-size: 2rem; font-weight: normal;}",".media {border-radius: 0;}",".why-shop-ashley {background: #f2f2f2;}",".multicolumn-card-spacing {margin: 0; padding-top: 0;}","@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"],"settings":{"title":"<strong>dormir más inteligentemente <\/strong>Estilos que ofrecen más de lo que aparentan.","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"multicolumn_cqWiWa":{"type":"multicolumn","blocks":{"column_RGjWVL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-1.png","title":"","text":"","link_label":"Camas","link":"shopify:\/\/collections\/beds"}},"column_iMtkKX":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-2.png","title":"","text":"","link_label":"Conjuntos de Dormitorio","link":"shopify:\/\/collections\/bedroom-sets"}},"column_PNacfB":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-3.png","title":"","text":"","link_label":"Cabeceros","link":"shopify:\/\/collections\/headboards"}},"column_gcWJWM":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-4.png","title":"","text":"","link_label":"Cómoda + Cajoneras","link":"shopify:\/\/collections\/dresser-chests"}},"column_fJi97p":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-5.png","title":"","text":"","link_label":"Cómodas Espejadas","link":"shopify:\/\/collections\/mirrored-dressers"}},"column_mBEbMb":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-6.png","title":"","text":"","link_label":"Mesitas de noche","link":"shopify:\/\/collections\/nightstands"}},"column_43hwDd":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-7.png","title":"","text":"","link_label":"Maquillajes Vanidades","link":"shopify:\/\/collections\/makeup-vanities"}},"column_QcQhAU":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-8.webp","title":"","text":"","link_label":"Bancos y Sillas de Dormitorio","link":"shopify:\/\/collections\/bedroom-benches-chairs"}},"column_eiWgnG":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-9.png","title":"","text":"","link_label":"Kids Furniture","link":"https:\/\/kdgxn3-pp.myshopify.com\/collections\/kids"}},"column_jnJ6cy":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-10.webp","title":"","text":"","link_label":"Colchones","link":"shopify:\/\/pages\/colchones"}},"column_aaDwzC":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-11.png","title":"","text":"","link_label":"Ropa de Cama","link":"shopify:\/\/collections\/bedding"}},"column_BYXAkq":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Bedroom_CLP_MB_Bubbles-12.png","title":"","text":"","link_label":"Comprar Colecciones de Dormitorios","link":"shopify:\/\/collections\/bedroom-collections"}}},"block_order":["column_RGjWVL","column_iMtkKX","column_PNacfB","column_gcWJWM","column_fJi97p","column_mBEbMb","column_43hwDd","column_QcQhAU","column_eiWgnG","column_jnJ6cy","column_aaDwzC","column_BYXAkq"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; color: #3d3935; font-weight: 600;}",".svg-wrapper {display: none;}","h2 {font-size: 2rem; color: #3d3935; text-align: left;}",".media {border-radius: 50%;}",".multicolumn .title-wrapper-with-link {justify-content: center;}",".background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {padding-top: 10px; padding-bottom: 20px;}","@media screen and (max-width: 480px) {.multicolumn-list {margin: auto; width: 80%; }}"],"settings":{"title":"Compra habitación por categoría","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":6,"column_alignment":"center","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":28,"padding_bottom":20}},"multicolumn_nmfW3w":{"type":"multicolumn","blocks":{"column_yHE4Aq":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_184.png","title":"","text":"","link_label":"colección jorlaina","link":"shopify:\/\/collections\/jorlaina-collection"}},"column_AFqahE":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_182.png","title":"","text":"","link_label":"colección danziar","link":"shopify:\/\/collections\/danziar-collection"}},"column_HRY4iE":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/B745-58-56-10X8-CROP_6d17de88-42d7-4550-b7d9-b5936256a34b_webp.png","title":"","text":"","link_label":"Colección Battelle","link":"shopify:\/\/collections\/battelle-collection"}}},"block_order":["column_yHE4Aq","column_AFqahE","column_HRY4iE"],"custom_css":["a {font-size: 1.5rem; font-weight: 600; padding-bottom: 1rem; text-transform: uppercase;}",".multicolumn-card__info svg {display: none;}","h3 {font-size: 1.8rem;}","h2 {font-size: 2rem;}",".media {border-radius: 0;}",".multicolumn-card__image-wrapper {margin: 0;}",".multicolumn-card__info {background: #fff; padding-top: 0.1rem;}",".title-wrapper-with-link {justify-content: center;}"],"settings":{"title":"descansa tranquilo con nuestras mejores selecciones","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"image_with_text_FhB4Re":{"type":"image-with-text","blocks":{"heading_BcGC3y":{"type":"heading","settings":{"heading":"sueños de suite","heading_size":"h1"}},"text_Bi9aB3":{"type":"text","settings":{"text":"<p>piezas únicas de Ashley<\/p>","text_style":"body"}},"button_cqnhi3":{"type":"button","settings":{"button_label":"exclusivo en Ashley","button_link":"#","button_style_secondary":false}}},"block_order":["heading_BcGC3y","text_Bi9aB3","button_cqnhi3"],"custom_css":[".image-with-text__heading {font-size: 28px;}",".rte {padding: 0px;}",".image-with-text__content--top {justify-content: center;}","a:hover {color: #fff;}","@media screen and (min-width: 768px) {.image-with-text {background: #f2f2f2; padding: 5rem; }}"],"settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/B745-58-56-10X8-CROP_6d17de88-42d7-4550-b7d9-b5936256a34b_webp.png","height":"adapt","desktop_image_width":"large","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"","color_scheme":"","padding_top":0,"padding_bottom":0}},"multicolumn_QR64Fp":{"type":"multicolumn","blocks":{"column_iQbEGJ":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/B476-69-66-99.webp","title":"Conjuntos de Dormitorio","text":"<p>Reúne la habitación con un aspecto unificado.<\/p>","link_label":"comprar ahora","link":"shopify:\/\/collections\/bedroom-sets"}},"column_xGGDWm":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Tipo_de_colchones_con_fondo.webp","title":"Dormitorio Pequeño","text":"<p>Desde camas nido hasta cómodas estrechas y más.<\/p>","link_label":"comprar ahora","link":"shopify:\/\/collections\/bedroom"}}},"block_order":["column_iQbEGJ","column_xGGDWm"],"custom_css":["h3 {font-size: 1.8rem;}","a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",".multicolumn-card__info svg {display: none;}",".title-wrapper-with-link {justify-content: center;}","h2 {font-size: 2rem;}",".media {border-radius: 0;}",".multicolumn-card__info {padding-top: 0.8rem;}",".multicolumn-card__info > :nth-child(2) {margin-top: 0;}",".background-none .multicolumn-list .multicolumn-card__info,.background-none .multicolumn-card__image-wrapper {padding-left: 0rem; margin-left: 0px;}"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":2,"column_alignment":"left","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":28,"padding_bottom":20}},"multicolumn_H3mjAc":{"type":"multicolumn","blocks":{"column_GRQbLA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Tipo_de_colchones_con_fondo_1.webp","title":"","text":"","link_label":"METAL","link":"shopify:\/\/collections\/metal"}},"column_xFqpyH":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Lampra-piso.webp","title":"","text":"","link_label":"TAPIZADO","link":"shopify:\/\/collections\/upholstered"}},"column_qRTp4d":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Por_tamano_con_fondo.webp","title":"","text":"","link_label":"ALMACENAMIENTO","link":"shopify:\/\/collections\/storage-bed"}},"column_mrKG6j":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/EB4121-231_webp.png","title":"","text":"","link_label":"PANEL","link":"shopify:\/\/collections\/panel"}}},"block_order":["column_GRQbLA","column_xFqpyH","column_qRTp4d","column_mrKG6j"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",".multicolumn-card__info svg {display: none;}",".title-wrapper-with-link {justify-content: center;}","h2 {font-size: 2rem;}",".media {border-radius: 0;}",".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",".background-none .multicolumn-card__image-wrapper {margin-right: 0px; margin-left: 0px;}"],"settings":{"title":"camas con un propósito - elige tu diseño","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":4,"column_alignment":"left","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":36}},"image_banner_EEhJee":{"type":"image_banner","custom_css":["img {width: 100%;}"],"name":"Single Image Banner","settings":{"layout":"grid","padding_top":0,"padding_bottom":50,"slider_link":"#","image":"shopify:\/\/shop_images\/Screenshot_165.png"}}},"order":["shogun-helper","main","shogun-optimizer","custom_promo_box_pzxc9X","custom_breadcrumb_rPWP96","multicolumn_CF3rLg","multicolumn_cqWiWa","multicolumn_nmfW3w","image_with_text_FhB4Re","multicolumn_QR64Fp","multicolumn_H3mjAc","image_banner_EEhJee"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {color: #3d3935;}"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
+    },
+    "custom_promo_box_pzxc9X": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/poltronas",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_rPWP96": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "multicolumn_CF3rLg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KcgDnA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/B745-58-56-10X8-CROP_6d17de88-42d7-4550-b7d9-b5936256a34b_webp.png",
+            "title": "",
+            "text": "",
+            "link_label": "TELA DE RENDIMIENTO",
+            "link": "shopify://collections/performance-fabric"
+          }
+        },
+        "column_6RiTBL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lampra-piso.webp",
+            "title": "",
+            "text": "",
+            "link_label": "cama de almacenamiento",
+            "link": "shopify://collections/storage-bed"
+          }
+        },
+        "column_9CdppR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EB4121-231_webp.png",
+            "title": "",
+            "text": "",
+            "link_label": "colección portdown",
+            "link": "shopify://collections/portdown-collection"
+          }
+        }
+      },
+      "block_order": [
+        "column_KcgDnA",
+        "column_6RiTBL",
+        "column_9CdppR"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",
+        "a,h2 {color: #3d3935;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",
+        ".multicolumn-card {background: transparent;}",
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-size: 2rem; font-weight: normal;}",
+        ".media {border-radius: 0;}",
+        ".why-shop-ashley {background: #f2f2f2;}",
+        ".multicolumn-card-spacing {margin: 0; padding-top: 0;}",
+        "@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"
+      ],
+      "settings": {
+        "title": "<strong>dormir más inteligentemente </strong>Estilos que ofrecen más de lo que aparentan.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_cqWiWa": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RGjWVL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Camas",
+            "link": "shopify://collections/beds"
+          }
+        },
+        "column_iMtkKX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-2.png",
+            "title": "",
+            "text": "",
+            "link_label": "Conjuntos de Dormitorio",
+            "link": "shopify://collections/bedroom-sets"
+          }
+        },
+        "column_PNacfB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-3.png",
+            "title": "",
+            "text": "",
+            "link_label": "Cabeceros",
+            "link": "shopify://collections/headboards"
+          }
+        },
+        "column_gcWJWM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-4.png",
+            "title": "",
+            "text": "",
+            "link_label": "Cómoda + Cajoneras",
+            "link": "shopify://collections/dresser-chests"
+          }
+        },
+        "column_fJi97p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-5.png",
+            "title": "",
+            "text": "",
+            "link_label": "Cómodas Espejadas",
+            "link": "shopify://collections/mirrored-dressers"
+          }
+        },
+        "column_mBEbMb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-6.png",
+            "title": "",
+            "text": "",
+            "link_label": "Mesitas de noche",
+            "link": "shopify://collections/nightstands"
+          }
+        },
+        "column_43hwDd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-7.png",
+            "title": "",
+            "text": "",
+            "link_label": "Maquillajes Vanidades",
+            "link": "shopify://collections/makeup-vanities"
+          }
+        },
+        "column_QcQhAU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-8.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Bancos y Sillas de Dormitorio",
+            "link": "shopify://collections/bedroom-benches-chairs"
+          }
+        },
+        "column_eiWgnG": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-9.png",
+            "title": "",
+            "text": "",
+            "link_label": "Kids Furniture",
+            "link": "https://kdgxn3-pp.myshopify.com/collections/kids"
+          }
+        },
+        "column_jnJ6cy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-10.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Colchones",
+            "link": "shopify://pages/colchones"
+          }
+        },
+        "column_aaDwzC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-11.png",
+            "title": "",
+            "text": "",
+            "link_label": "Ropa de Cama",
+            "link": "shopify://collections/bedding"
+          }
+        },
+        "column_BYXAkq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bedroom_CLP_MB_Bubbles-12.png",
+            "title": "",
+            "text": "",
+            "link_label": "Comprar Colecciones de Dormitorios",
+            "link": "shopify://collections/bedroom-collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_RGjWVL",
+        "column_iMtkKX",
+        "column_PNacfB",
+        "column_gcWJWM",
+        "column_fJi97p",
+        "column_mBEbMb",
+        "column_43hwDd",
+        "column_QcQhAU",
+        "column_eiWgnG",
+        "column_jnJ6cy",
+        "column_aaDwzC",
+        "column_BYXAkq"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; color: #3d3935; font-weight: 600;}",
+        ".svg-wrapper {display: none;}",
+        "h2 {font-size: 2rem; color: #3d3935; text-align: left;}",
+        ".media {border-radius: 50%;}",
+        ".multicolumn .title-wrapper-with-link {justify-content: center;}",
+        ".background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {padding-top: 10px; padding-bottom: 20px;}",
+        "@media screen and (max-width: 480px) {.multicolumn-list {margin: auto; width: 80%; }}"
+      ],
+      "settings": {
+        "title": "Compra habitación por categoría",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_nmfW3w": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yHE4Aq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_184.png",
+            "title": "",
+            "text": "",
+            "link_label": "colección jorlaina",
+            "link": "shopify://collections/jorlaina-collection"
+          }
+        },
+        "column_AFqahE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_182.png",
+            "title": "",
+            "text": "",
+            "link_label": "colección danziar",
+            "link": "shopify://collections/danziar-collection"
+          }
+        },
+        "column_HRY4iE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/B745-58-56-10X8-CROP_6d17de88-42d7-4550-b7d9-b5936256a34b_webp.png",
+            "title": "",
+            "text": "",
+            "link_label": "Colección Battelle",
+            "link": "shopify://collections/battelle-collection"
+          }
+        }
+      },
+      "block_order": [
+        "column_yHE4Aq",
+        "column_AFqahE",
+        "column_HRY4iE"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; font-weight: 600; padding-bottom: 1rem; text-transform: uppercase;}",
+        ".multicolumn-card__info svg {display: none;}",
+        "h3 {font-size: 1.8rem;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 0;}",
+        ".multicolumn-card__image-wrapper {margin: 0;}",
+        ".multicolumn-card__info {background: #fff; padding-top: 0.1rem;}",
+        ".title-wrapper-with-link {justify-content: center;}"
+      ],
+      "settings": {
+        "title": "descansa tranquilo con nuestras mejores selecciones",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_FhB4Re": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BcGC3y": {
+          "type": "heading",
+          "settings": {
+            "heading": "sueños de suite",
+            "heading_size": "h1"
+          }
+        },
+        "text_Bi9aB3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>piezas únicas de Ashley</p>",
+            "text_style": "body"
+          }
+        },
+        "button_cqnhi3": {
+          "type": "button",
+          "settings": {
+            "button_label": "exclusivo en Ashley",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BcGC3y",
+        "text_Bi9aB3",
+        "button_cqnhi3"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {font-size: 28px;}",
+        ".rte {padding: 0px;}",
+        ".image-with-text__content--top {justify-content: center;}",
+        "a:hover {color: #fff;}",
+        "@media screen and (min-width: 768px) {.image-with-text {background: #f2f2f2; padding: 5rem; }}"
+      ],
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/B745-58-56-10X8-CROP_6d17de88-42d7-4550-b7d9-b5936256a34b_webp.png",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_QR64Fp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iQbEGJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/B476-69-66-99.webp",
+            "title": "Conjuntos de Dormitorio",
+            "text": "<p>Reúne la habitación con un aspecto unificado.</p>",
+            "link_label": "comprar ahora",
+            "link": "shopify://collections/bedroom-sets"
+          }
+        },
+        "column_xGGDWm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tipo_de_colchones_con_fondo.webp",
+            "title": "Dormitorio Pequeño",
+            "text": "<p>Desde camas nido hasta cómodas estrechas y más.</p>",
+            "link_label": "comprar ahora",
+            "link": "shopify://collections/bedroom"
+          }
+        }
+      },
+      "block_order": [
+        "column_iQbEGJ",
+        "column_xGGDWm"
+      ],
+      "custom_css": [
+        "h3 {font-size: 1.8rem;}",
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 0;}",
+        ".multicolumn-card__info {padding-top: 0.8rem;}",
+        ".multicolumn-card__info > :nth-child(2) {margin-top: 0;}",
+        ".background-none .multicolumn-list .multicolumn-card__info,.background-none .multicolumn-card__image-wrapper {padding-left: 0rem; margin-left: 0px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_H3mjAc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GRQbLA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tipo_de_colchones_con_fondo_1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "METAL",
+            "link": "shopify://collections/metal"
+          }
+        },
+        "column_xFqpyH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lampra-piso.webp",
+            "title": "",
+            "text": "",
+            "link_label": "TAPIZADO",
+            "link": "shopify://collections/upholstered"
+          }
+        },
+        "column_qRTp4d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Por_tamano_con_fondo.webp",
+            "title": "",
+            "text": "",
+            "link_label": "ALMACENAMIENTO",
+            "link": "shopify://collections/storage-bed"
+          }
+        },
+        "column_mrKG6j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EB4121-231_webp.png",
+            "title": "",
+            "text": "",
+            "link_label": "PANEL",
+            "link": "shopify://collections/panel"
+          }
+        }
+      },
+      "block_order": [
+        "column_GRQbLA",
+        "column_xFqpyH",
+        "column_qRTp4d",
+        "column_mrKG6j"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 0;}",
+        ".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",
+        ".background-none .multicolumn-card__image-wrapper {margin-right: 0px; margin-left: 0px;}"
+      ],
+      "settings": {
+        "title": "camas con un propósito - elige tu diseño",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_EEhJee": {
+      "type": "image_banner",
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "name": "Single Image Banner",
+      "settings": {
+        "layout": "grid",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "slider_link": "#",
+        "image": "shopify://shop_images/Screenshot_165.png"
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "custom_promo_box_pzxc9X",
+    "custom_breadcrumb_rPWP96",
+    "multicolumn_CF3rLg",
+    "multicolumn_cqWiWa",
+    "multicolumn_nmfW3w",
+    "image_with_text_FhB4Re",
+    "multicolumn_QR64Fp",
+    "multicolumn_H3mjAc",
+    "image_banner_EEhJee"
+  ]
+}

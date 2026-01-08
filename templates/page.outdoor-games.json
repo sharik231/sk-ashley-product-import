@@ -1,1 +1,110 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"shogun-optimizer":{"type":"shogun-optimizer","settings":{}},"custom_promo_box_NXqwkP":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_KVbNmM":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"collection_highlight_Mf7fcT":{"type":"collection-highlight","name":"Collection Highlight","settings":{"collection_title":"Beachcroft Collection","collection":"beachcroft-collection","main_image":"shopify:\/\/shop_images\/Screenshot_375.png","button_link":"#","button_text":"Shop More","margin_top":4,"margin_bottom":4}},"collection_highlight_4iYJgF":{"type":"collection-highlight","name":"Collection Highlight","settings":{"collection_title":"Seton Creek Collection","collection":"seton-creek-collection","main_image":"shopify:\/\/shop_images\/Screenshot_372.png","button_link":"#","button_text":"Shop More","margin_top":4,"margin_bottom":4}}},"order":["shogun-helper","main","shogun-optimizer","custom_promo_box_NXqwkP","custom_breadcrumb_KVbNmM","collection_highlight_Mf7fcT","collection_highlight_4iYJgF"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
+    },
+    "custom_promo_box_NXqwkP": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/poltronas",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_KVbNmM": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "collection_highlight_Mf7fcT": {
+      "type": "collection-highlight",
+      "name": "Collection Highlight",
+      "settings": {
+        "collection_title": "Beachcroft Collection",
+        "collection": "beachcroft-collection",
+        "main_image": "shopify://shop_images/Screenshot_375.png",
+        "button_link": "#",
+        "button_text": "Shop More",
+        "margin_top": 4,
+        "margin_bottom": 4
+      }
+    },
+    "collection_highlight_4iYJgF": {
+      "type": "collection-highlight",
+      "name": "Collection Highlight",
+      "settings": {
+        "collection_title": "Seton Creek Collection",
+        "collection": "seton-creek-collection",
+        "main_image": "shopify://shop_images/Screenshot_372.png",
+        "button_link": "#",
+        "button_text": "Shop More",
+        "margin_top": 4,
+        "margin_bottom": 4
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "custom_promo_box_NXqwkP",
+    "custom_breadcrumb_KVbNmM",
+    "collection_highlight_Mf7fcT",
+    "collection_highlight_4iYJgF"
+  ]
+}

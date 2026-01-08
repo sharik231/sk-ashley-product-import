@@ -1,1 +1,781 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"shogun-optimizer":{"type":"shogun-optimizer","disabled":true,"settings":{}},"custom_promo_box_QpdYgt":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_Dj44yt":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"multicolumn_UKQ3eN":{"type":"multicolumn","blocks":{"column_jmEKPh":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Tipo_de_colchones_con_fondo.webp","title":"","text":"","link_label":"Ashley duerme","link":"shopify:\/\/collections\/ashley-sleep"}},"column_NRAAr6":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Por_tamano_con_fondo.webp","title":"","text":"","link_label":"seleccionar juegos de bases ajustables","link":"shopify:\/\/collections\/adjustable-base-sets"}},"column_k7zDHA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/B476-69-66-99.webp","title":"","text":"","link_label":"Seleccionar colchones","link":""}}},"block_order":["column_jmEKPh","column_NRAAr6","column_k7zDHA"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",".multicolumn-card__info svg {display: none;}",".title-wrapper-with-link {justify-content: center; padding-top: 2rem;}","h2 {font-size: 2rem; font-weight: normal;}",".media {border-radius: 0;}",".why-shop-ashley {background: #f2f2f2;}",".multicolumn-card-spacing {margin: 0px 10px; padding-top: 0;}",".multicolumn-card__info {padding-top: 0.8rem; padding-left: 10px;}","@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"<strong>el verano del mejor sueño<\/strong> Comienza la temporada con ofertas en nuestros mejores colchones","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"multicolumn_PcBz4L":{"type":"multicolumn","blocks":{"column_WnbrGz":{"type":"column","settings":{"title":"","text":"","link_label":"colchones","link":"shopify:\/\/collections\/mattresses"}},"column_yGNrPE":{"type":"column","settings":{"title":"","text":"","link_label":"bases ajustables","link":"shopify:\/\/collections\/adjustable-base-sets"}},"column_dTJVfW":{"type":"column","settings":{"title":"","text":"","link_label":"fundación y marcos","link":"shopify:\/\/collections\/foundation-frames"}},"column_4PwzPK":{"type":"column","settings":{"title":"","text":"","link_label":"juegos de colchones","link":"shopify:\/\/collections\/mattresses-sets"}},"column_wtghb6":{"type":"column","settings":{"title":"","text":"","link_label":"protectores y tapones","link":"shopify:\/\/collections\/protectors-toppers"}},"column_aVQ4ce":{"type":"column","settings":{"title":"","text":"","link_label":"ropa de cama","link":"shopify:\/\/collections\/bedding"}},"column_brxqnm":{"type":"column","settings":{"title":"","text":"","link_label":"almohadas","link":"shopify:\/\/collections\/pillows"}}},"block_order":["column_WnbrGz","column_yGNrPE","column_dTJVfW","column_4PwzPK","column_wtghb6","column_aVQ4ce","column_brxqnm"],"custom_css":[".multicolumn-card__info svg {display: none;}",".multicolumn-card__info {background: #d9ebef; text-transform: uppercase; font-size: 1.5rem;}","a {margin-top: 0;}",".multicolumn-card__info {padding: 1.8rem;}",".h1 {font-size: 2.5rem;}",".multicolumn .title-wrapper-with-link {justify-content: center;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"comprar por categoría","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":4,"column_alignment":"center","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":true,"padding_top":0,"padding_bottom":0}},"image_with_text_LJUVNg":{"type":"image-with-text","blocks":{"heading_JCxHer":{"type":"heading","settings":{"heading":"Conforto ilimitado","heading_size":"h1"}},"button_4U7tWW":{"type":"button","settings":{"button_label":"Ver todos los tipos de colchones","button_link":"shopify:\/\/pages\/colchones","button_style_secondary":false}}},"block_order":["heading_JCxHer","button_4U7tWW"],"custom_css":[".image-with-text .grid__item {background: #363534; color: #fff;}",".image-with-text__text.rte.body p {color: white !important;}",".h1 {font-size: 35px;}","p {color: #fff;}","a {background: transparent;}","a:after {border: 1px solid #fff;}"],"name":"t:sections.image-with-text.presets.name","settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/Tipo_de_colchones_con_fondo_1.webp","height":"adapt","desktop_image_width":"large","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"middle","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"","color_scheme":"","padding_top":0,"padding_bottom":0}},"multicolumn_GrFjL3":{"type":"multicolumn","blocks":{"column_6jC8CX":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_98.png","title":"","text":"","link_label":"","link":""}},"column_YGmkwX":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_99.png","title":"","text":"","link_label":"","link":""}},"column_XpFtKG":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_100.png","title":"","text":"","link_label":"","link":""}},"column_tLHr4Y":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_101.png","title":"","text":"","link_label":"","link":""}},"column_UVGL7B":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_102.png","title":"","text":"","link_label":"","link":""}},"column_JkYJAQ":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_103.png","title":"","text":"","link_label":"","link":""}},"column_aLKHhc":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_1.png","title":"","text":"","link_label":"","link":""}},"column_bPG9ir":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_2.png","title":"","text":"","link_label":"","link":""}},"column_8FnqN6":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_3.png","title":"","text":"","link_label":"","link":""}},"column_MN6rNM":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_4.png","title":"","text":"","link_label":"","link":""}},"column_7ngfb6":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_5.png","title":"","text":"","link_label":"","link":""}},"column_QajPtt":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_6.png","title":"","text":"","link_label":"","link":""}},"column_pTUzeY":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_7_a5089fb6-519d-4834-9ad1-420502727130.png","title":"","text":"","link_label":"","link":""}}},"block_order":["column_6jC8CX","column_YGmkwX","column_XpFtKG","column_tLHr4Y","column_UVGL7B","column_JkYJAQ","column_aLKHhc","column_bPG9ir","column_8FnqN6","column_MN6rNM","column_7ngfb6","column_QajPtt","column_pTUzeY"],"custom_css":["a {background: transparent; color: #000; text-decoration: underline; padding: 0; margin-top: 0;}","a:after {box-shadow: none;}",".multicolumn-card {background: transparent !important;}","img {top: 50%; left: 50%; transform: translate(-50%, -50%);}",".h1 {font-size: 2.5rem;}",".multicolumn .title-wrapper-with-link {justify-content: center;}","@media screen and (min-width: 768px) {a {position: absolute; top: 0; right: 0; }}","@media screen and (max-width: 480px) {.media {padding-bottom: 25.428571% !important; }}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"Compra por marca","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"Compra todas las marcas","button_link":"#","columns_desktop":6,"column_alignment":"center","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":28,"padding_bottom":28}},"rich_text_erTPye":{"type":"rich-text","blocks":{"heading_hUm7fz":{"type":"heading","settings":{"heading":"inteligente + simple","heading_size":"h1"}},"text_pJeNNm":{"type":"text","settings":{"text":"<p>Diseña tu sistema de sueño ideal para un mejor descanso nocturno<\/p>"}}},"block_order":["heading_hUm7fz","text_pJeNNm"],"custom_css":["h2 {margin-top: -10px;}",".rich-text__text {margin-top: 0;}",".h1 {font-size: 2.5rem;}",".multicolumn .title-wrapper-with-link {justify-content: center;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"multicolumn_4C6hGT":{"type":"multicolumn","blocks":{"column_iMBbnD":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_93.png","title":"","text":"","link_label":"selecciona tu colchón","link":"shopify:\/\/collections\/mattresses"}},"column_33C3E7":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_94.png","title":"","text":"","link_label":"elige tu base","link":"shopify:\/\/collections\/base"}},"column_JDmTqD":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_95.png","title":"","text":"","link_label":"protege tu colchón","link":"shopify:\/\/collections\/protectors-toppers"}},"column_X4zVgd":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_96.png","title":"","text":"","link_label":"elige tus almohadas","link":"shopify:\/\/collections\/pillows"}},"column_R8nq67":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_97.png","title":"","text":"","link_label":"elige tu ropa de cama","link":"shopify:\/\/collections\/bedding"}}},"block_order":["column_iMBbnD","column_33C3E7","column_JDmTqD","column_X4zVgd","column_R8nq67"],"custom_css":["a {font-size: 1.4rem; font-weight: 600; padding-bottom: 2rem; text-transform: uppercase;}",".svg-wrapper {display: none;}","h3 {font-size: 1.8rem;}","h2 {font-size: 2rem;}",".media {border-radius: 0;}",".multicolumn-card {background: #f2f2f2;}",".multicolumn-card__image-wrapper {margin: 0;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":5,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"image_banner_iHrgzp":{"type":"image_banner","name":"Single Image Banner","settings":{"layout":"grid","padding_top":0,"padding_bottom":35,"slider_link":"#","image":"shopify:\/\/shop_images\/Mattress_7_DK.webp"}},"rich_text_EXdM9c":{"type":"rich-text","blocks":{"heading_BAVTTz":{"type":"heading","settings":{"heading":"<strong>we‘re joining the sleep revolution, except doing it better<\/strong>","heading_size":"h1"}}},"block_order":["heading_BAVTTz"],"custom_css":["h2 strong {font-size: 2rem;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"four_column_icon_box_P4m7zK":{"type":"four-column-icon-box","blocks":{"image_DLeQDd":{"type":"image","settings":{"box-title":"opciones de financiamiento","box-subtitle":"La libertad de pagar a tu manera","icon-img":"shopify:\/\/shop_images\/RectangleIcon_1.svg","bottom-link-text":"Aprender más","link-url":"#","target_blank":false}},"image_wNKmAf":{"type":"image","settings":{"box-title":"entrega rápida","box-subtitle":"Desde el envío gratuito hasta la entrega premium, hay una opción para todos","icon-img":"shopify:\/\/shop_images\/TruckIcon_1.svg","bottom-link-text":"","link-url":"","target_blank":false}},"image_CWHzqT":{"type":"image","settings":{"box-title":"garantía de 10 años","box-subtitle":"Duerme mejor sabiendo que siempre estás cubierto.*Disponible en la mayoría de los colchones.","icon-img":"shopify:\/\/shop_images\/PaperCheck_1.svg","bottom-link-text":"","link-url":"","target_blank":false}}},"block_order":["image_DLeQDd","image_wNKmAf","image_CWHzqT"],"custom_css":[".cth {margin-top: -1rem;}"],"name":"Four-3 Column Icon Box","settings":{"section-title":"","show-title":true,"section_heading_align":"center","bg_color":"#ffffff","spacing":5,"outer_spacing":0,"padding_top":0,"padding_bottom":0,"content_wrap":"contained","margin_top":0,"margin_bottom":0,"show-border":true}},"image_with_text_XMaMK3":{"type":"image-with-text","blocks":{"heading_F8h96E":{"type":"heading","settings":{"heading":"operación ojo cerrado","heading_size":"h1"}},"text_zr4N6x":{"type":"text","disabled":true,"settings":{"text":"<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.<\/p>","text_style":"body"}},"caption_A7dnhz":{"type":"caption","settings":{"caption":"Las compras de colchones ayudan a las Fuerzas Especiales de EE. UU. a recibir colchones Ashley Sleep. Es nuestra forma de agradecerles por sus servicios.","text_style":"subtitle","text_size":"medium"}},"button_ePULwq":{"type":"button","settings":{"button_label":"aprender más","button_link":"#","button_style_secondary":false}}},"block_order":["heading_F8h96E","text_zr4N6x","caption_A7dnhz","button_ePULwq"],"custom_css":[".image-with-text .grid__item {background: #363534; color: #fff;}","p {color: #fff;}","a {border-radius: 5px; background: #fff; color: #363534;}","a:after {box-shadow: none;}",".h1 {font-size: 26px; font-weight: 700; line-height: 100%;}"],"name":"t:sections.image-with-text.presets.name","settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/B476-69-66-99.webp","height":"adapt","desktop_image_width":"large","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"middle","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"","color_scheme":"","padding_top":0,"padding_bottom":40}}},"order":["shogun-helper","main","shogun-optimizer","custom_promo_box_QpdYgt","custom_breadcrumb_Dj44yt","multicolumn_UKQ3eN","multicolumn_PcBz4L","image_with_text_LJUVNg","multicolumn_GrFjL3","rich_text_erTPye","multicolumn_4C6hGT","image_banner_iHrgzp","rich_text_EXdM9c","four_column_icon_box_P4m7zK","image_with_text_XMaMK3"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_promo_box_QpdYgt": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/poltronas",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_Dj44yt": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "multicolumn_UKQ3eN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jmEKPh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tipo_de_colchones_con_fondo.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Ashley duerme",
+            "link": "shopify://collections/ashley-sleep"
+          }
+        },
+        "column_NRAAr6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Por_tamano_con_fondo.webp",
+            "title": "",
+            "text": "",
+            "link_label": "seleccionar juegos de bases ajustables",
+            "link": "shopify://collections/adjustable-base-sets"
+          }
+        },
+        "column_k7zDHA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/B476-69-66-99.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Seleccionar colchones",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jmEKPh",
+        "column_NRAAr6",
+        "column_k7zDHA"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".title-wrapper-with-link {justify-content: center; padding-top: 2rem;}",
+        "h2 {font-size: 2rem; font-weight: normal;}",
+        ".media {border-radius: 0;}",
+        ".why-shop-ashley {background: #f2f2f2;}",
+        ".multicolumn-card-spacing {margin: 0px 10px; padding-top: 0;}",
+        ".multicolumn-card__info {padding-top: 0.8rem; padding-left: 10px;}",
+        "@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>el verano del mejor sueño</strong> Comienza la temporada con ofertas en nuestros mejores colchones",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_PcBz4L": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_WnbrGz": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "colchones",
+            "link": "shopify://collections/mattresses"
+          }
+        },
+        "column_yGNrPE": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "bases ajustables",
+            "link": "shopify://collections/adjustable-base-sets"
+          }
+        },
+        "column_dTJVfW": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "fundación y marcos",
+            "link": "shopify://collections/foundation-frames"
+          }
+        },
+        "column_4PwzPK": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "juegos de colchones",
+            "link": "shopify://collections/mattresses-sets"
+          }
+        },
+        "column_wtghb6": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "protectores y tapones",
+            "link": "shopify://collections/protectors-toppers"
+          }
+        },
+        "column_aVQ4ce": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "ropa de cama",
+            "link": "shopify://collections/bedding"
+          }
+        },
+        "column_brxqnm": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "almohadas",
+            "link": "shopify://collections/pillows"
+          }
+        }
+      },
+      "block_order": [
+        "column_WnbrGz",
+        "column_yGNrPE",
+        "column_dTJVfW",
+        "column_4PwzPK",
+        "column_wtghb6",
+        "column_aVQ4ce",
+        "column_brxqnm"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info svg {display: none;}",
+        ".multicolumn-card__info {background: #d9ebef; text-transform: uppercase; font-size: 1.5rem;}",
+        "a {margin-top: 0;}",
+        ".multicolumn-card__info {padding: 1.8rem;}",
+        ".h1 {font-size: 2.5rem;}",
+        ".multicolumn .title-wrapper-with-link {justify-content: center;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "comprar por categoría",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_LJUVNg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JCxHer": {
+          "type": "heading",
+          "settings": {
+            "heading": "Conforto ilimitado",
+            "heading_size": "h1"
+          }
+        },
+        "button_4U7tWW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver todos los tipos de colchones",
+            "button_link": "shopify://pages/colchones",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JCxHer",
+        "button_4U7tWW"
+      ],
+      "custom_css": [
+        ".image-with-text .grid__item {background: #363534; color: #fff;}",
+        ".image-with-text__text.rte.body p {color: white !important;}",
+        ".h1 {font-size: 35px;}",
+        "p {color: #fff;}",
+        "a {background: transparent;}",
+        "a:after {border: 1px solid #fff;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/Tipo_de_colchones_con_fondo_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_GrFjL3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6jC8CX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_98.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YGmkwX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_99.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XpFtKG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_100.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tLHr4Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_101.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UVGL7B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_102.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JkYJAQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_103.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aLKHhc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bPG9ir": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8FnqN6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MN6rNM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7ngfb6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QajPtt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_6.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pTUzeY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_7_a5089fb6-519d-4834-9ad1-420502727130.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6jC8CX",
+        "column_YGmkwX",
+        "column_XpFtKG",
+        "column_tLHr4Y",
+        "column_UVGL7B",
+        "column_JkYJAQ",
+        "column_aLKHhc",
+        "column_bPG9ir",
+        "column_8FnqN6",
+        "column_MN6rNM",
+        "column_7ngfb6",
+        "column_QajPtt",
+        "column_pTUzeY"
+      ],
+      "custom_css": [
+        "a {background: transparent; color: #000; text-decoration: underline; padding: 0; margin-top: 0;}",
+        "a:after {box-shadow: none;}",
+        ".multicolumn-card {background: transparent !important;}",
+        "img {top: 50%; left: 50%; transform: translate(-50%, -50%);}",
+        ".h1 {font-size: 2.5rem;}",
+        ".multicolumn .title-wrapper-with-link {justify-content: center;}",
+        "@media screen and (min-width: 768px) {a {position: absolute; top: 0; right: 0; }}",
+        "@media screen and (max-width: 480px) {.media {padding-bottom: 25.428571% !important; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Compra por marca",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Compra todas las marcas",
+        "button_link": "#",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_erTPye": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hUm7fz": {
+          "type": "heading",
+          "settings": {
+            "heading": "inteligente + simple",
+            "heading_size": "h1"
+          }
+        },
+        "text_pJeNNm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diseña tu sistema de sueño ideal para un mejor descanso nocturno</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hUm7fz",
+        "text_pJeNNm"
+      ],
+      "custom_css": [
+        "h2 {margin-top: -10px;}",
+        ".rich-text__text {margin-top: 0;}",
+        ".h1 {font-size: 2.5rem;}",
+        ".multicolumn .title-wrapper-with-link {justify-content: center;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_4C6hGT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iMBbnD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_93.png",
+            "title": "",
+            "text": "",
+            "link_label": "selecciona tu colchón",
+            "link": "shopify://collections/mattresses"
+          }
+        },
+        "column_33C3E7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_94.png",
+            "title": "",
+            "text": "",
+            "link_label": "elige tu base",
+            "link": "shopify://collections/base"
+          }
+        },
+        "column_JDmTqD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_95.png",
+            "title": "",
+            "text": "",
+            "link_label": "protege tu colchón",
+            "link": "shopify://collections/protectors-toppers"
+          }
+        },
+        "column_X4zVgd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_96.png",
+            "title": "",
+            "text": "",
+            "link_label": "elige tus almohadas",
+            "link": "shopify://collections/pillows"
+          }
+        },
+        "column_R8nq67": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_97.png",
+            "title": "",
+            "text": "",
+            "link_label": "elige tu ropa de cama",
+            "link": "shopify://collections/bedding"
+          }
+        }
+      },
+      "block_order": [
+        "column_iMBbnD",
+        "column_33C3E7",
+        "column_JDmTqD",
+        "column_X4zVgd",
+        "column_R8nq67"
+      ],
+      "custom_css": [
+        "a {font-size: 1.4rem; font-weight: 600; padding-bottom: 2rem; text-transform: uppercase;}",
+        ".svg-wrapper {display: none;}",
+        "h3 {font-size: 1.8rem;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 0;}",
+        ".multicolumn-card {background: #f2f2f2;}",
+        ".multicolumn-card__image-wrapper {margin: 0;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_iHrgzp": {
+      "type": "image_banner",
+      "name": "Single Image Banner",
+      "settings": {
+        "layout": "grid",
+        "padding_top": 0,
+        "padding_bottom": 35,
+        "slider_link": "#",
+        "image": "shopify://shop_images/Mattress_7_DK.webp"
+      }
+    },
+    "rich_text_EXdM9c": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BAVTTz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>we‘re joining the sleep revolution, except doing it better</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BAVTTz"
+      ],
+      "custom_css": [
+        "h2 strong {font-size: 2rem;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "four_column_icon_box_P4m7zK": {
+      "type": "four-column-icon-box",
+      "blocks": {
+        "image_DLeQDd": {
+          "type": "image",
+          "settings": {
+            "box-title": "opciones de financiamiento",
+            "box-subtitle": "La libertad de pagar a tu manera",
+            "icon-img": "shopify://shop_images/RectangleIcon_1.svg",
+            "bottom-link-text": "Aprender más",
+            "link-url": "#",
+            "target_blank": false
+          }
+        },
+        "image_wNKmAf": {
+          "type": "image",
+          "settings": {
+            "box-title": "entrega rápida",
+            "box-subtitle": "Desde el envío gratuito hasta la entrega premium, hay una opción para todos",
+            "icon-img": "shopify://shop_images/TruckIcon_1.svg",
+            "bottom-link-text": "",
+            "link-url": "",
+            "target_blank": false
+          }
+        },
+        "image_CWHzqT": {
+          "type": "image",
+          "settings": {
+            "box-title": "garantía de 10 años",
+            "box-subtitle": "Duerme mejor sabiendo que siempre estás cubierto.*Disponible en la mayoría de los colchones.",
+            "icon-img": "shopify://shop_images/PaperCheck_1.svg",
+            "bottom-link-text": "",
+            "link-url": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "image_DLeQDd",
+        "image_wNKmAf",
+        "image_CWHzqT"
+      ],
+      "custom_css": [
+        ".cth {margin-top: -1rem;}"
+      ],
+      "name": "Four-3 Column Icon Box",
+      "settings": {
+        "section-title": "",
+        "show-title": true,
+        "section_heading_align": "center",
+        "bg_color": "#ffffff",
+        "spacing": 5,
+        "outer_spacing": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "content_wrap": "contained",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "show-border": true
+      }
+    },
+    "image_with_text_XMaMK3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_F8h96E": {
+          "type": "heading",
+          "settings": {
+            "heading": "operación ojo cerrado",
+            "heading_size": "h1"
+          }
+        },
+        "text_zr4N6x": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "text_style": "body"
+          }
+        },
+        "caption_A7dnhz": {
+          "type": "caption",
+          "settings": {
+            "caption": "Las compras de colchones ayudan a las Fuerzas Especiales de EE. UU. a recibir colchones Ashley Sleep. Es nuestra forma de agradecerles por sus servicios.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "button_ePULwq": {
+          "type": "button",
+          "settings": {
+            "button_label": "aprender más",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_F8h96E",
+        "text_zr4N6x",
+        "caption_A7dnhz",
+        "button_ePULwq"
+      ],
+      "custom_css": [
+        ".image-with-text .grid__item {background: #363534; color: #fff;}",
+        "p {color: #fff;}",
+        "a {border-radius: 5px; background: #fff; color: #363534;}",
+        "a:after {box-shadow: none;}",
+        ".h1 {font-size: 26px; font-weight: 700; line-height: 100%;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/B476-69-66-99.webp",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "custom_promo_box_QpdYgt",
+    "custom_breadcrumb_Dj44yt",
+    "multicolumn_UKQ3eN",
+    "multicolumn_PcBz4L",
+    "image_with_text_LJUVNg",
+    "multicolumn_GrFjL3",
+    "rich_text_erTPye",
+    "multicolumn_4C6hGT",
+    "image_banner_iHrgzp",
+    "rich_text_EXdM9c",
+    "four_column_icon_box_P4m7zK",
+    "image_with_text_XMaMK3"
+  ]
+}

@@ -1,1 +1,630 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"custom_css":["h1 {color: #3d3935;}"],"settings":{"padding_top":0,"padding_bottom":0}},"shogun-optimizer":{"type":"shogun-optimizer","settings":{}},"custom_promo_box_pzxc9X":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_rPWP96":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"multicolumn_CF3rLg":{"type":"multicolumn","blocks":{"column_KcgDnA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ggggr.png","title":"","text":"","link_label":"Entrance Hall ","link":"#"}},"column_6RiTBL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/rt.png","title":"","text":"","link_label":"Table lamps ","link":"#"}},"column_9CdppR":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/fgdf.png","title":"","text":"","link_label":"Side tables","link":"#"}}},"block_order":["column_KcgDnA","column_6RiTBL","column_9CdppR"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}","a,h2 {color: #3d3935;}",".multicolumn-card__info svg {display: none;}",".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",".multicolumn-card {background: transparent;}",".title-wrapper-with-link {justify-content: center;}","h2 {font-size: 2rem; font-weight: normal;}",".media {border-radius: 0;}",".why-shop-ashley {background: #f2f2f2;}",".multicolumn-card-spacing {margin: 0; padding-top: 0;}","@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"],"settings":{"title":"<strong>Elegance and functionality <\/strong>in your entrance","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"multicolumn_cqWiWa":{"type":"multicolumn","blocks":{"column_RGjWVL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/gdd.png","title":"","text":"","link_label":"Cormmet Table","link":"shopify:\/\/collections"}},"column_iMtkKX":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/sd.png","title":"","text":"","link_label":"Side Table","link":"#"}},"column_PNacfB":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/fr.png","title":"","text":"","link_label":"Ladgate Table","link":"shopify:\/\/collections"}},"column_gcWJWM":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/eed.png","title":"","text":"","link_label":"Table Lamp","link":"shopify:\/\/collections"}},"column_fJi97p":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/dff_c3488cd7-4596-44b4-b677-bae673f55f86.png","title":"","text":"","link_label":"Rowandale Lamp","link":"shopify:\/\/collections"}},"column_aaDwzC":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/eeee.png","title":"","text":"","link_label":"Talar  Lamp","link":"shopify:\/\/collections"}}},"block_order":["column_RGjWVL","column_iMtkKX","column_PNacfB","column_gcWJWM","column_fJi97p","column_aaDwzC"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; color: #3d3935; font-weight: 600;}",".svg-wrapper {display: none;}","h2 {font-size: 2rem; color: #3d3935; text-align: left;}",".media {border-radius: 50%;}",".multicolumn .title-wrapper-with-link {justify-content: center;}",".background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {padding-top: 10px; padding-bottom: 20px;}"],"settings":{"title":"Shop Entrance Hall by Category","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":6,"column_alignment":"center","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":28,"padding_bottom":20}},"multicolumn_nmfW3w":{"type":"multicolumn","blocks":{"column_yHE4Aq":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/fgdf.png","title":"","text":"","link_label":"Ladgate Collection","link":"#"}},"column_AFqahE":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ggggr.png","title":"","text":"","link_label":"Ladgate collection","link":"#"}},"column_HRY4iE":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/rt.png","title":"","text":"","link_label":"Cormmet collection","link":"#"}}},"block_order":["column_yHE4Aq","column_AFqahE","column_HRY4iE"],"custom_css":["a {font-size: 1.5rem; font-weight: 600; padding-bottom: 1rem; text-transform: uppercase;}",".multicolumn-card__info svg {display: none;}","h3 {font-size: 1.8rem;}","h2 {font-size: 2rem;}",".media {border-radius: 0;}",".multicolumn-card__image-wrapper {margin: 0;}",".multicolumn-card__info {background: #fff; padding-top: 0.1rem;}",".title-wrapper-with-link {justify-content: center;}"],"settings":{"title":"rest easy with our top picks","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"image_with_text_FhB4Re":{"type":"image-with-text","blocks":{"caption_PFN39q":{"type":"caption","settings":{"caption":"Tables available","text_style":"caption-with-letter-spacing","text_size":"large"}},"heading_BcGC3y":{"type":"heading","settings":{"heading":"With express delivery","heading_size":"h1"}},"text_Bi9aB3":{"type":"text","settings":{"text":"<p>Warm and welcoming reception<\/p>","text_style":"body"}},"button_cqnhi3":{"type":"button","settings":{"button_label":"exclusive at Ashley","button_link":"#","button_style_secondary":false}}},"block_order":["caption_PFN39q","heading_BcGC3y","text_Bi9aB3","button_cqnhi3"],"custom_css":[".image-with-text__heading {font-size: 28px;}",".rte {padding: 0px;}",".image-with-text__content--top {justify-content: center;}","@media screen and (min-width: 768px) {.image-with-text {background: #f2f2f2; padding: 5rem; }}"],"settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/Screenshot_247.png","height":"adapt","desktop_image_width":"large","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"","color_scheme":"","padding_top":0,"padding_bottom":0}},"multicolumn_QR64Fp":{"type":"multicolumn","blocks":{"column_iQbEGJ":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/B476-69-66-99.webp","title":"Bedroom sets","text":"<p>Bring the room together with a unified look.<\/p>","link_label":"shop now","link":"#"}},"column_xGGDWm":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Tipo_de_colchones_con_fondo.webp","title":"Small Space Bedroom","text":"<p>From trundle beds to narrow dressers & more.<\/p>","link_label":"shop now","link":"#"}}},"block_order":["column_iQbEGJ","column_xGGDWm"],"disabled":true,"custom_css":["h3 {font-size: 1.8rem;}","a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",".multicolumn-card__info svg {display: none;}",".title-wrapper-with-link {justify-content: center;}","h2 {font-size: 2rem;}",".media {border-radius: 0;}",".multicolumn-card__info {padding-top: 0.8rem;}",".multicolumn-card__info > :nth-child(2) {margin-top: 0;}",".background-none .multicolumn-list .multicolumn-card__info,.background-none .multicolumn-card__image-wrapper {padding-left: 0rem; margin-left: 0px;}"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":2,"column_alignment":"left","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":28,"padding_bottom":20}},"multicolumn_H3mjAc":{"type":"multicolumn","blocks":{"column_GRQbLA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/saa.png","title":"","text":"","link_label":"METAL","link":"#"}},"column_xFqpyH":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ef.png","title":"","text":"","link_label":"UPHOLSTERED","link":"#"}},"column_qRTp4d":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Outdoor_Coffee_Table.png","title":"","text":"","link_label":"STORAGE","link":"#"}},"column_mrKG6j":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/saa.png","title":"","text":"","link_label":"PANEL","link":"#"}}},"block_order":["column_GRQbLA","column_xFqpyH","column_qRTp4d","column_mrKG6j"],"disabled":true,"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",".multicolumn-card__info svg {display: none;}",".title-wrapper-with-link {justify-content: center;}","h2 {font-size: 2rem;}",".media {border-radius: 0;}",".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",".background-none .multicolumn-card__image-wrapper {margin-right: 0px; margin-left: 0px;}"],"settings":{"title":"Outdoor Chairs with a purpose - choose your design","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":4,"column_alignment":"left","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"custom_collection_slider_VYUYVM":{"type":"custom-collection-slider","blocks":{"slide_mABpBt":{"type":"slide","settings":{"collection":"banks"}},"slide_X3VNkV":{"type":"slide","settings":{"collection":"wall-sculpture"}},"slide_7dQc9N":{"type":"slide","settings":{"collection":"vases-and-flower-vases"}}},"block_order":["slide_mABpBt","slide_X3VNkV","slide_7dQc9N"],"name":"Custom Collection Slider","settings":{"title":"Entrance Hall with a purpose - choose your design","margin_top":4,"margin_bottom":4}},"image_with_text_XtEYbL":{"type":"image-with-text","blocks":{"heading_YbeRwm":{"type":"heading","settings":{"heading":"Entrance Hall","heading_size":"h1"}},"text_CfcgA3":{"type":"text","disabled":true,"settings":{"text":"<p>unique pieces from Ashley<\/p>","text_style":"body"}},"button_z8kcTh":{"type":"button","settings":{"button_label":"exclusive at Ashley","button_link":"#","button_style_secondary":false}}},"block_order":["heading_YbeRwm","text_CfcgA3","button_z8kcTh"],"custom_css":[".image-with-text .grid__item {background: #363534; color: #fff;}","p {color: #fff; font-size: 48px !important;}","a {border: 1px solid; background: transparent;}","h2 {font-size: 28px; text-transform: uppercase; font-weight: normal;}"],"settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/ggggr.png","height":"adapt","desktop_image_width":"large","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"middle","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"","color_scheme":"","padding_top":0,"padding_bottom":32}},"image_banner_EEhJee":{"type":"image_banner","disabled":true,"custom_css":["img {width: 100%;}"],"name":"Single Image Banner","settings":{"layout":"grid","padding_top":0,"padding_bottom":50,"slider_link":"","image":"shopify:\/\/shop_images\/Screenshot_165.png"}}},"order":["shogun-helper","main","shogun-optimizer","custom_promo_box_pzxc9X","custom_breadcrumb_rPWP96","multicolumn_CF3rLg","multicolumn_cqWiWa","multicolumn_nmfW3w","image_with_text_FhB4Re","multicolumn_QR64Fp","multicolumn_H3mjAc","custom_collection_slider_VYUYVM","image_with_text_XtEYbL","image_banner_EEhJee"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {color: #3d3935;}"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
+    },
+    "custom_promo_box_pzxc9X": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/poltronas",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_rPWP96": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "multicolumn_CF3rLg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KcgDnA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ggggr.png",
+            "title": "",
+            "text": "",
+            "link_label": "Entrance Hall ",
+            "link": "#"
+          }
+        },
+        "column_6RiTBL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rt.png",
+            "title": "",
+            "text": "",
+            "link_label": "Table lamps ",
+            "link": "#"
+          }
+        },
+        "column_9CdppR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fgdf.png",
+            "title": "",
+            "text": "",
+            "link_label": "Side tables",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "column_KcgDnA",
+        "column_6RiTBL",
+        "column_9CdppR"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",
+        "a,h2 {color: #3d3935;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",
+        ".multicolumn-card {background: transparent;}",
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-size: 2rem; font-weight: normal;}",
+        ".media {border-radius: 0;}",
+        ".why-shop-ashley {background: #f2f2f2;}",
+        ".multicolumn-card-spacing {margin: 0; padding-top: 0;}",
+        "@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"
+      ],
+      "settings": {
+        "title": "<strong>Elegance and functionality </strong>in your entrance",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_cqWiWa": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RGjWVL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/gdd.png",
+            "title": "",
+            "text": "",
+            "link_label": "Cormmet Table",
+            "link": "shopify://collections"
+          }
+        },
+        "column_iMtkKX": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/sd.png",
+            "title": "",
+            "text": "",
+            "link_label": "Side Table",
+            "link": "#"
+          }
+        },
+        "column_PNacfB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fr.png",
+            "title": "",
+            "text": "",
+            "link_label": "Ladgate Table",
+            "link": "shopify://collections"
+          }
+        },
+        "column_gcWJWM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/eed.png",
+            "title": "",
+            "text": "",
+            "link_label": "Table Lamp",
+            "link": "shopify://collections"
+          }
+        },
+        "column_fJi97p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/dff_c3488cd7-4596-44b4-b677-bae673f55f86.png",
+            "title": "",
+            "text": "",
+            "link_label": "Rowandale Lamp",
+            "link": "shopify://collections"
+          }
+        },
+        "column_aaDwzC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/eeee.png",
+            "title": "",
+            "text": "",
+            "link_label": "Talar  Lamp",
+            "link": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_RGjWVL",
+        "column_iMtkKX",
+        "column_PNacfB",
+        "column_gcWJWM",
+        "column_fJi97p",
+        "column_aaDwzC"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; color: #3d3935; font-weight: 600;}",
+        ".svg-wrapper {display: none;}",
+        "h2 {font-size: 2rem; color: #3d3935; text-align: left;}",
+        ".media {border-radius: 50%;}",
+        ".multicolumn .title-wrapper-with-link {justify-content: center;}",
+        ".background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {padding-top: 10px; padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "title": "Shop Entrance Hall by Category",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_nmfW3w": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yHE4Aq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fgdf.png",
+            "title": "",
+            "text": "",
+            "link_label": "Ladgate Collection",
+            "link": "#"
+          }
+        },
+        "column_AFqahE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ggggr.png",
+            "title": "",
+            "text": "",
+            "link_label": "Ladgate collection",
+            "link": "#"
+          }
+        },
+        "column_HRY4iE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rt.png",
+            "title": "",
+            "text": "",
+            "link_label": "Cormmet collection",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "column_yHE4Aq",
+        "column_AFqahE",
+        "column_HRY4iE"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; font-weight: 600; padding-bottom: 1rem; text-transform: uppercase;}",
+        ".multicolumn-card__info svg {display: none;}",
+        "h3 {font-size: 1.8rem;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 0;}",
+        ".multicolumn-card__image-wrapper {margin: 0;}",
+        ".multicolumn-card__info {background: #fff; padding-top: 0.1rem;}",
+        ".title-wrapper-with-link {justify-content: center;}"
+      ],
+      "settings": {
+        "title": "rest easy with our top picks",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_FhB4Re": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_PFN39q": {
+          "type": "caption",
+          "settings": {
+            "caption": "Tables available",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_BcGC3y": {
+          "type": "heading",
+          "settings": {
+            "heading": "With express delivery",
+            "heading_size": "h1"
+          }
+        },
+        "text_Bi9aB3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Warm and welcoming reception</p>",
+            "text_style": "body"
+          }
+        },
+        "button_cqnhi3": {
+          "type": "button",
+          "settings": {
+            "button_label": "exclusive at Ashley",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_PFN39q",
+        "heading_BcGC3y",
+        "text_Bi9aB3",
+        "button_cqnhi3"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {font-size: 28px;}",
+        ".rte {padding: 0px;}",
+        ".image-with-text__content--top {justify-content: center;}",
+        "@media screen and (min-width: 768px) {.image-with-text {background: #f2f2f2; padding: 5rem; }}"
+      ],
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/Screenshot_247.png",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_QR64Fp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iQbEGJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/B476-69-66-99.webp",
+            "title": "Bedroom sets",
+            "text": "<p>Bring the room together with a unified look.</p>",
+            "link_label": "shop now",
+            "link": "#"
+          }
+        },
+        "column_xGGDWm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tipo_de_colchones_con_fondo.webp",
+            "title": "Small Space Bedroom",
+            "text": "<p>From trundle beds to narrow dressers & more.</p>",
+            "link_label": "shop now",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "column_iQbEGJ",
+        "column_xGGDWm"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: 1.8rem;}",
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 0;}",
+        ".multicolumn-card__info {padding-top: 0.8rem;}",
+        ".multicolumn-card__info > :nth-child(2) {margin-top: 0;}",
+        ".background-none .multicolumn-list .multicolumn-card__info,.background-none .multicolumn-card__image-wrapper {padding-left: 0rem; margin-left: 0px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_H3mjAc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GRQbLA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/saa.png",
+            "title": "",
+            "text": "",
+            "link_label": "METAL",
+            "link": "#"
+          }
+        },
+        "column_xFqpyH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ef.png",
+            "title": "",
+            "text": "",
+            "link_label": "UPHOLSTERED",
+            "link": "#"
+          }
+        },
+        "column_qRTp4d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Outdoor_Coffee_Table.png",
+            "title": "",
+            "text": "",
+            "link_label": "STORAGE",
+            "link": "#"
+          }
+        },
+        "column_mrKG6j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/saa.png",
+            "title": "",
+            "text": "",
+            "link_label": "PANEL",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "column_GRQbLA",
+        "column_xFqpyH",
+        "column_qRTp4d",
+        "column_mrKG6j"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 0;}",
+        ".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",
+        ".background-none .multicolumn-card__image-wrapper {margin-right: 0px; margin-left: 0px;}"
+      ],
+      "settings": {
+        "title": "Outdoor Chairs with a purpose - choose your design",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_collection_slider_VYUYVM": {
+      "type": "custom-collection-slider",
+      "blocks": {
+        "slide_mABpBt": {
+          "type": "slide",
+          "settings": {
+            "collection": "banks"
+          }
+        },
+        "slide_X3VNkV": {
+          "type": "slide",
+          "settings": {
+            "collection": "wall-sculpture"
+          }
+        },
+        "slide_7dQc9N": {
+          "type": "slide",
+          "settings": {
+            "collection": "vases-and-flower-vases"
+          }
+        }
+      },
+      "block_order": [
+        "slide_mABpBt",
+        "slide_X3VNkV",
+        "slide_7dQc9N"
+      ],
+      "name": "Custom Collection Slider",
+      "settings": {
+        "title": "Entrance Hall with a purpose - choose your design",
+        "margin_top": 4,
+        "margin_bottom": 4
+      }
+    },
+    "image_with_text_XtEYbL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YbeRwm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Entrance Hall",
+            "heading_size": "h1"
+          }
+        },
+        "text_CfcgA3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>unique pieces from Ashley</p>",
+            "text_style": "body"
+          }
+        },
+        "button_z8kcTh": {
+          "type": "button",
+          "settings": {
+            "button_label": "exclusive at Ashley",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YbeRwm",
+        "text_CfcgA3",
+        "button_z8kcTh"
+      ],
+      "custom_css": [
+        ".image-with-text .grid__item {background: #363534; color: #fff;}",
+        "p {color: #fff; font-size: 48px !important;}",
+        "a {border: 1px solid; background: transparent;}",
+        "h2 {font-size: 28px; text-transform: uppercase; font-weight: normal;}"
+      ],
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/ggggr.png",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "image_banner_EEhJee": {
+      "type": "image_banner",
+      "disabled": true,
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "name": "Single Image Banner",
+      "settings": {
+        "layout": "grid",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "slider_link": "",
+        "image": "shopify://shop_images/Screenshot_165.png"
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "custom_promo_box_pzxc9X",
+    "custom_breadcrumb_rPWP96",
+    "multicolumn_CF3rLg",
+    "multicolumn_cqWiWa",
+    "multicolumn_nmfW3w",
+    "image_with_text_FhB4Re",
+    "multicolumn_QR64Fp",
+    "multicolumn_H3mjAc",
+    "custom_collection_slider_VYUYVM",
+    "image_with_text_XtEYbL",
+    "image_banner_EEhJee"
+  ]
+}

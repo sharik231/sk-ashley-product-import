@@ -1,1 +1,1044 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"shogun-optimizer":{"type":"shogun-optimizer","settings":{}},"custom_promo_box_Uixn3e":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_iiBfNg":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"rich_text_hyDU6Q":{"type":"rich-text","blocks":{"text_RBeDaa":{"type":"text","settings":{"text":"<p><a href=\"https:\/\/www.ashleyfurniture.com\/warranty-information#ashley-furniture-limited-warranties\" target=\"_blank\" title=\"https:\/\/www.ashleyfurniture.com\/warranty-information#ashley-furniture-limited-warranties\">Garantías Limitadas de Ashley Furniture<\/a><\/p><p><a href=\"https:\/\/www.ashleyfurniture.com\/warranty-information#ashley-sleep-limited-warranty\">Ashley Sleep<\/a><\/p><p><a href=\"https:\/\/www.ashleyfurniture.com\/faq-extend\" target=\"_blank\" title=\"https:\/\/www.ashleyfurniture.com\/faq-extend\">Protección de muebles accidental por Extend<\/a><\/p>"}},"heading_BTRAbW":{"type":"heading","settings":{"heading":"Industrias de Muebles Ashley","heading_size":"h1"}},"text_rAPeaE":{"type":"text","settings":{"text":"<h2>Garantías Limitadas<\/h2><p>Las siguientes Garantías Limitadas se otorgan únicamente al comprador minorista original, sujeto a todos los términos y condiciones a continuación. Estas Garantías Limitadas son intransferibles.<\/p><p>Ashley Furniture Industries, LLC (“Ashley”), sujeta a todas las limitaciones y exclusiones descritas en estas Garantías Limitadas, garantiza los siguientes productos y piezas de Ashley contra defectos de fabricación en materiales durante la duración indicada junto a ese producto o pieza en la tabla a continuación.<\/p><p>Todos los períodos de garantía comienzan en la fecha de entrega del producto.<\/p>"}}},"block_order":["text_RBeDaa","heading_BTRAbW","text_rAPeaE"],"custom_css":[".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",".rich-text__text h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000; padding-bottom: 10px;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}","a {color: #f58021; font-weight: 400; font-size: 14px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"multicolumn_AYdkPV":{"type":"multicolumn","blocks":{"column_FQxzFc":{"type":"column","settings":{"title":"<strong>Producto o Parte<\/strong>","text":"","link_label":"","link":""}},"column_TiMzdT":{"type":"column","settings":{"title":"<strong>Duración de la Garantía Limitada<\/strong>","text":"","link_label":"","link":""}},"column_PpL4xL":{"type":"column","settings":{"title":"<strong>Cobertura Laboral<\/strong>","text":"","link_label":"","link":""}},"column_MqcTwG":{"type":"column","settings":{"title":"","text":"<p><strong>Estructuras utilizadas en productos tapizados y de cuero<\/strong><\/p>","link_label":"","link":""}},"column_weNQbW":{"type":"column","settings":{"title":"","text":"<p>Garantía de por vida limitada*<br\/><br\/><\/p>","link_label":"","link":""}},"column_tPmqXR":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_DbgPPf":{"type":"column","settings":{"title":"","text":"<p><strong>Sistemas de muelles y asientos de rejilla<\/strong><\/p><p>Los sistemas de resortes metálicos son generalmente resortes de asiento de alambre sinuoso y, cuando corresponde, resortes de respaldo. El Sistema de Asientos de Red es la malla utilizada para soportar el área del asiento.<\/p>","link_label":"","link":""}},"column_xxHeq8":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 5 años<\/p>","link_label":"","link":""}},"column_86GfLb":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_hMrL4Q":{"type":"column","settings":{"title":"","text":"<p><strong>Mecanismos de sillones reclinables<\/strong><\/p>","link_label":"","link":""}},"column_ikaYk4":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 5 años<\/p>","link_label":"","link":""}},"column_X8EdLQ":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_9Dn9FU":{"type":"column","settings":{"title":"","text":"<p><strong>Mecanismos de sueño<\/strong><\/p>","link_label":"","link":""}},"column_3hwhU4":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 3 años<\/p>","link_label":"","link":""}},"column_WzNwWa":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_GXxEpY":{"type":"column","settings":{"title":"","text":"<p><strong>Colchón de cama**<\/strong><\/p>","link_label":"","link":""}},"column_FW9yPF":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 3 años - Prorrateada<\/p>","link_label":"","link":""}},"column_RpTXzH":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_tmn9fa":{"type":"column","settings":{"title":"","text":"<p><strong>Amortiguación***<\/strong><\/p><p>Incluyendo acolchado no adherido, lo que significa que cada núcleo de cojín en un cojín de asiento no adherido (sueltos) y acolchado adherido, lo que significa que cada núcleo de cojín en un cojín de asiento que está adherido al producto.<\/p>","link_label":"","link":""}},"column_THHkK7":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 1 año<\/p>","link_label":"","link":""}},"column_9QzxNn":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_mNJDtq":{"type":"column","settings":{"title":"","text":"<p><strong>Cuero y Tela de Tapicería****<\/strong><\/p>","link_label":"","link":""}},"column_WxFeV3":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 1 año<\/p>","link_label":"","link":""}},"column_kym6UB":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_yQXcTF":{"type":"column","settings":{"title":"","text":"<p><strong>Parte superior de la cama<\/strong><\/p><p>La parte superior de la cama se refiere a edredones, faldas de cama, fundas de almohada y cualquier almohada decorativa incluida con un juego de edredón.<\/p>","link_label":"","link":""}},"column_phaCq8":{"type":"column","settings":{"title":"","text":"<p>30 Días<\/p>","link_label":"","link":""}},"column_FhB9Ez":{"type":"column","settings":{"title":"","text":"<p>30 Días<\/p>","link_label":"","link":""}},"column_zxetRP":{"type":"column","settings":{"title":"","text":"<p><strong>Acabados y todos los demás productos de mobiliario<\/strong><\/p><p>Terminaciones y todos los otros productos de mobiliario significa todas las terminaciones y otras partes, componentes y otros productos de mobiliario que no están específicamente incluidos en las mencionadas Garantías Limitadas, incluyendo, pero sin limitarse a, mesas de comedor, sillas, mesas de uso ocasional, camas, cómodas, colchones para cama, tapas de mármol, tapas de granito, escritorios, vitrinas, alacenas, bufetes, centros de entretenimiento, lámparas, componentes eléctricos (además de bombillas), cuerdas y mangos de reclinación incorporados en cualquier producto de mobiliario.<\/p>","link_label":"","link":""}},"column_3WaMM7":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 1 año<\/p>","link_label":"","link":""}},"column_cYCqzw":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}}},"block_order":["column_FQxzFc","column_TiMzdT","column_PpL4xL","column_MqcTwG","column_weNQbW","column_tPmqXR","column_DbgPPf","column_xxHeq8","column_86GfLb","column_hMrL4Q","column_ikaYk4","column_X8EdLQ","column_9Dn9FU","column_3hwhU4","column_WzNwWa","column_GXxEpY","column_FW9yPF","column_RpTXzH","column_tmn9fa","column_THHkK7","column_9QzxNn","column_mNJDtq","column_WxFeV3","column_kym6UB","column_yQXcTF","column_phaCq8","column_FhB9Ez","column_zxetRP","column_3WaMM7","column_cYCqzw"],"custom_css":[".multicolumn-list h3 {font-size: 16px !important; line-height: 30px; font-weight: 500; color: #fff !important;}",".rich-text__text {margin-top: 1rem;}",".multicolumn-card__info {padding: 1.5rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",".grid {column-gap: 0px; row-gap: 0px;}","@media screen and (max-width: 480px) {.multicolumn-list h3 {font-size: 14px !important; }}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"rich_text_6KAAHT":{"type":"rich-text","blocks":{"text_wbUdAQ":{"type":"text","settings":{"text":"<p>*Como se utiliza en estas Garantías Limitadas, “vida útil” significa la vida útil normal del producto bajo un uso razonable.<\/p><p>**Después del primer año de uso, Ashley reemplazará el colchón de dormir según la siguiente base prorrateada: más de 1 pero menos de 2 años de uso, se cubre el 90% del costo del reemplazo; más de 2 años pero menos de 3 años de uso, se cubre el 80% del costo del reemplazo.<\/p><p>***Todos los núcleos de cojines de asiento, tanto en Cojines no Adheridos como en Cojines Adheridos, se ablandarán con el uso normal y se adaptarán a la forma del usuario. Esto se considerará un desgaste normal y no se considerará una pérdida de resiliencia o un defecto material de fabricación.<\/p><p>****La Garantía Limitada de Cuero y Tejido de Tapicería también incluye deslizamiento de costuras, agrietamientos y transferencias de tinte. El cuero es un producto natural y, como tal, cada piel reflejará su propia individualidad. Se pueden esperar algunas variaciones de tono y matiz, así como las marcas, rasguños y arrugas que solo ocurren en cuero genuino; estas características no deben considerarse de ninguna manera como un defecto. Estas Garantías Limitadas no cubren desgarros, aplanamiento de la superficie, pilling, desvanecimiento o encogimiento y no son válidas cuando hay evidencia de suciedad pesada o abuso. Estas Garantías Limitadas tampoco cubren acabados protectores, terciopelos y tipos de terciopelo, ya que por su naturaleza, estos tejidos son de textura suave y se aplastarán, sombreadan y marcarán más fácilmente que la mayoría de los tejidos; estas características no deben considerarse de ninguna manera como un defecto.<\/p>"}}},"block_order":["text_wbUdAQ"],"custom_css":[".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",".rich-text__text h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000; padding-bottom: 10px;}",".rich-text__text {margin-top: 1rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"rich_text_UxrtjH":{"type":"rich-text","blocks":{"heading_rhm9nq":{"type":"heading","settings":{"heading":"LIMITACIONES Y EXCEPCIONES","heading_size":"h1"}},"text_ckwrRU":{"type":"text","settings":{"text":"<p>Las siguientes limitaciones y excepciones se aplican a las Garantías Limitadas:<\/p><h3>Remedio<\/h3><p>Bajo estas Garantías Limitadas, para todos sus productos que no sean un cojín no adjunto (según se define en el encabezado temático “Cojinización”), la única responsabilidad de Ashley se limita a la reparación, o a su opción la sustitución, del producto o parte aplicable que, tras el examen de un representante autorizado del fabricante de Ashley, presente un defecto de fabricación material. NO SE DISPONEN REEMBOLSOS. Si durante el período de garantía, no hay materiales idénticos disponibles en el momento de la reparación o sustitución, Ashley se reserva el derecho de sustituir materiales de calidad igual o superior. Los tejidos de reemplazo pueden variar en color con respecto al original debido a diferencias en el lote de tinte.<\/p><p>Además, durante el período de cualquier Cobertura de Trabajo aplicable, Ashley pagará, dentro de un año a partir de la fecha de entrega, tarifas laborales razonables y habituales para reparar o reemplazar las piezas defectuosas (a opción de Ashley) y los costos de envío desde el minorista hacia Ashley y viceversa, sin costo para el comprador minorista original. Después de la expiración de la Cobertura de Trabajo o para todos los productos o partes no cubiertos por la Cobertura de Trabajo, el comprador minorista original será responsable de los costos de mano de obra, embalaje y todos los costos de envío y transporte. Los costos asociados con el transporte de los muebles o partes desde su hogar hacia el minorista o desde el minorista hacia su hogar están excluidos de todas las Garantías Limitadas.<\/p><p>Para los cojines sueltos con un defecto de fabricación del material, Ashley reemplazará el cojín suelto defectuoso siempre que el comprador minorista original durante el período de garantía (i) cumpla con el procedimiento de reclamación establecido en estas garantías limitadas, y (ii) si Ashley lo solicita, devuelva el núcleo del cojín defectuoso contenido en un cojín suelto a Ashley Furniture Industries, LLC, Attn: Director of Quality, One Ashley Way, Arcadia, WI 54612. La solución especificada en este párrafo es la única responsabilidad de Ashley relacionada con los cojines sueltos.<\/p><p><strong>Cualquier artículo reparado o sustituido bajo estas Garantías Limitadas estará cubierto por las Garantías Limitadas por el resto del período de garantía original solamente.<\/strong><\/p><h3>Todos los productos<\/h3><p>Estas Garantías Limitadas no se aplican a (i) usos alquilados, comerciales, institucionales u otros usos no residenciales, (ii) mercadería que fue, en algún momento, utilizada como muestra de piso o modelo de exhibición, (iii) cualquier mercadería comprada \"tal cual\" o de segunda mano, (iv) cualquier mercadería comprada en una venta de liquidación o en una venta por cierre de negocio, (v) cualquier mercadería comprada a un liquidador, o (vi) mercadería obtenida de un minorista de alquiler. Todas las garantías, ya sean expresas o implícitas, cubren únicamente el uso doméstico normal. Ninguna garantía, expresa o implícita, se aplica a ninguna condición resultante de uso indebido, abuso, daño por entrega o transporte, ni a ninguna condición resultante de un mantenimiento, limpieza o cuidado incorrecto o inadecuado. Estas Garantías Limitadas son nulas y sin valor si los muebles han sido movidos del punto original de entrega al consumidor.<\/p><h3>Tratamientos químicos<\/h3><p>Estas garantías limitadas no cubren daños o defectos causados por el uso de tratamientos químicos o recubrimientos protectores en el acabado, cuero o tejido tapizado por el minorista o el comprador minorista original, y dichos tratamientos químicos o recubrimientos protectores anulan todas las garantías de Ashley.<\/p><h3>Cuero, tela tapizada y acabados<\/h3><p>Las garantías limitadas de \"Cuero\", \"Tela Tapizada\" y \"Acabados y todos los demás productos de mobiliario\" no cubren (i) daños resultantes de suciedad excesiva o métodos de limpieza inadecuados o no aprobados, (ii) desvanecimiento u otros daños resultantes de la exposición a la luz solar, (iii) daños resultantes de la humedad doméstica, o (iv) daños resultantes de cualquier líquido, incluyendo pero no limitado a alcohol y agua. Precaución: Cualquier uso de métodos de limpieza inapropiados o no aprobados anula todas las garantías de Ashley.<\/p><h3>Modificaciones a Productos<\/h3><p>Estas Garantías Limitadas no se aplican a ningún producto que haya sido alterado por cualquier persona, distribuidor o empresa sin la autorización escrita expresa de Ashley.<\/p><h3>Garantías Implicadas<\/h3><p>LAS GARANTÍAS IMPLÍCITAS, INCLUYENDO CUALQUIERA DE COMERCIALIDAD Y APTITUD PARA UN PROPÓSITO PARTICULAR IMPUESTAS EN LA VENTA DE ESTE MUEBLE Y SUS PARTES BAJO LA LEY ESTATAL, ESTÁN LIMITADAS EN DURACIÓN A LA DURACIÓN DE LA GARANTÍA APLICABLE DEL PRODUCTO O PARTE Y NO SE APLICAN GARANTÍAS DESPUÉS DE ESE PERÍODO. ALGUNOS ESTADOS NO PERMITEN LIMITACIONES EN CUANTO A CUÁNTO TIEMPO DURA UNA GARANTÍA IMPLÍCITA, POR LO QUE LAS LIMITACIONES ANTERIORES PUEDEN NO APLICARSE A USTED.<\/p><h3>DESCARGO DE RESPONSABILIDAD<\/h3><p>NO SE HA HECHO NI SE HARÁ NINGUNA OTRA GARANTÍA EXPRESA EN NOMBRE DE ASHLEY CON RESPECTO A LOS MUEBLES Y SUS PARTES, O A LA OPERACIÓN, REPARACIÓN O SUSTITUCIÓN DE LOS MUEBLES Y SUS PARTES. ADEMÁS, NINGÚN REPRESENTANTE DE ASHLEY O DE SUS DISTRIBUIDORES O VAREJISTAS ESTÁ AUTORIZADO PARA HACER CAMBIOS O MODIFICACIONES A ESTAS GARANTÍAS LIMITADAS.<\/p><p>ALGUNOS DETALLISTAS OFRECEN GARANTÍAS EXTENDIDAS O ADICIONALES, INCLUYENDO PERO NO LIMITÁNDOSE A GARANTÍAS DE TELAS EXTENDIDAS O ADICIONALES, YA SEA DEL DETALLISTA O A TRAVÉS DE UN TERCERO. ASHLEY NO SERÁ RESPONSABLE BAJO NINGUNA GARANTÍA EXTENDIDA O ADICIONAL OFRECIDA POR NINGÚN DETALLISTA O A TRAVÉS DE UN TERCERO BAJO NINGUNA CIRCUNSTANCIA.<\/p><p>EN NINGÚN CASO ASHLEY SERÁ RESPONSABLE POR DAÑOS CONSECUENTES O INCIDENTALES, TALES COMO PÉRDIDA DE USO, INCOMODIDAD, PÉRDIDAS O DAÑO A LA PROPIEDAD PERSONAL, YA SEA INDIRECTO O DIRECTO, Y YA SEA QUE SURJA EN CONTRATO O DELITO, INCLUSO SI TENÍA RAZONES PARA SABER DE ANTEMANO QUE TALES DAÑOS ERAN POSIBLES. ALGUNOS ESTADOS NO PERMITEN LA EXCLUSIÓN O LIMITACIÓN DE DAÑOS INCIDENTALES O CONSECUENTES, POR LO QUE LA LIMITACIÓN O EXCLUSIÓN ANTERIOR PODRÍA NO APLICARSE A USTED.<\/p><p>EN NINGÚN CASO LA RESPONSABILIDAD DE ASHLEY EXCEDERÁ EL PRECIO DE COMPRA DEL PRODUCTO O SU REEMPLAZO.<\/p><p>Esta garantía le otorga derechos legales específicos, y también puede tener otros derechos que varían de un estado a otro.<\/p><h3>PRECAUCIÓN<\/h3><p>Los muebles en movimiento (sillones reclinables, sofás cama, etc.) tienen muchas partes móviles. Se debe tener precaución al operarlos (abrir, cerrar, etc.). No se debe permitir que los niños jueguen o operen muebles en movimiento. Siempre deje los sillones reclinables en posición vertical y cerrada y mantenga las manos y los pies claros del mecanismo. Solo el ocupante debe operarlo.<\/p><h3>PROCEDIMIENTO DE RECLAMACIÓN<\/h3><p>Para obtener servicios de garantía, el comprador minorista original debe cumplir con los requisitos de este Procedimiento de Reclamación.<\/p><p>Contacta al minorista de Ashley de donde compraste tus muebles para obtener servicio de garantía. Todas las reclamaciones deben incluir la factura original de compra, el número de serie del producto y presentarse dentro del período de garantía aplicable. Ashley se reserva el derecho de requerir que las piezas defectuosas sean devueltas a solicitud. Debes hacer los arreglos con el minorista para programar el transporte de los muebles o piezas desde tu hogar hasta el minorista o desde el minorista hasta tu hogar. Si el minorista de donde compraste los muebles ha cerrado y necesitas servicio, contacta a Ashley por escrito o llama a nuestro Servicio al Cliente.<\/p><h3>Información sobre la garantía y el minorista de Ashley<\/h3><p>Ashley Furniture Industries, LLC<\/p><p>Attn: Consumer Affairs<\/p><p>One Ashley Way<\/p><p>Arcadia, WI 54612<\/p><p>Sitio web de piezas: <a href=\"https:\/\/ashleyfurniture.parts\/\">ashleyfurniture.parts<\/a><\/p><p>Número de teléfono de atención al cliente: <a href=\"tel:844-966-0809\">844-966-0809<\/a><\/p><p>© julio de 2023, Ashley Furniture Industries, LLC. Todos los derechos reservados.<\/p>"}}},"block_order":["heading_rhm9nq","text_ckwrRU"],"custom_css":[".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",".rich-text__text h3 {font-size: 18px !important; line-height: 30px; font-weight: 500; color: #000 !important;}",".rich-text__text {margin-top: 1rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"rich_text_QCdJtE":{"type":"rich-text","blocks":{"heading_kyXxzf":{"type":"heading","settings":{"heading":"Ashley-Sleep® LIMITED WARRANTY","heading_size":"h1"}},"text_kDtHK9":{"type":"text","settings":{"text":"<p><a href=\"https:\/\/www.ashleyfurniture.com\/on\/demandware.static\/-\/Library-Sites-AshcommSharedLibrary\/default\/dwd2f7dd87\/images\/warranty\/ashley-sleep-warranty-20230701.pdf\" target=\"_blank\" title=\"https:\/\/www.ashleyfurniture.com\/on\/demandware.static\/-\/Library-Sites-AshcommSharedLibrary\/default\/dwd2f7dd87\/images\/warranty\/ashley-sleep-warranty-20230701.pdf\">Descargar versión en PDF<\/a><\/p><p>Las siguientes Garantías Limitadas se otorgan al comprador original, sujetas a todos los términos y condiciones a continuación. Estas Garantías Limitadas no son transferibles.<\/p><p><\/p><p>Ashley Furniture Industries, LLC (“Ashley”), sujeta a todas las limitaciones y exclusiones descritas en estas Garantías Limitadas, garantiza los siguientes productos y partes contra defectos de fabricación materiales por la duración establecida junto a ese producto o parte en la tabla a continuación.<\/p><p>Todos los períodos de garantía comienzan en la fecha de entrega del producto.<\/p>"}}},"block_order":["heading_kyXxzf","text_kDtHK9"],"custom_css":[".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",".rich-text__text {margin-top: 1rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"multicolumn_W7dKLj":{"type":"multicolumn","blocks":{"column_dWpmGC":{"type":"column","settings":{"title":"<strong>Producto o Parte<\/strong>","text":"","link_label":"","link":""}},"column_JEAcEt":{"type":"column","settings":{"title":"<strong>Duración de la Garantía Limitada*<\/strong>","text":"","link_label":"","link":""}},"column_yqcJPd":{"type":"column","settings":{"title":"<strong>Cobertura Laboral<\/strong>","text":"","link_label":"","link":""}},"column_PH4aPU":{"type":"column","settings":{"title":"","text":"<p>Marco de Fundación del Producto**<\/p>","link_label":"","link":""}},"column_HVA8Ye":{"type":"column","settings":{"title":"","text":"<p>Garantía de por vida limitada**<\/p>","link_label":"","link":""}},"column_QHzNb4":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_nKfnkd":{"type":"column","settings":{"title":"","text":"<p>Mecanismo de Fundación de Poder y Componentes Eléctricos<\/p>","link_label":"","link":""}},"column_Y68pGy":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 3 años<\/p>","link_label":"","link":""}},"column_eMCbAT":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_mYdN6g":{"type":"column","settings":{"title":"","text":"<p>Colchón***<\/p>","link_label":"","link":""}},"column_jGciHq":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 10 años<\/p>","link_label":"","link":""}},"column_3GpGEL":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}},"column_MXX4qk":{"type":"column","settings":{"title":"","text":"<p>Fundación<\/p>","link_label":"","link":""}},"column_C8yRrK":{"type":"column","settings":{"title":"","text":"<p>Garantía limitada de 10 años<\/p>","link_label":"","link":""}},"column_wKhT9Y":{"type":"column","settings":{"title":"","text":"<p>1 Año<\/p>","link_label":"","link":""}}},"block_order":["column_dWpmGC","column_JEAcEt","column_yqcJPd","column_PH4aPU","column_HVA8Ye","column_QHzNb4","column_nKfnkd","column_Y68pGy","column_eMCbAT","column_mYdN6g","column_jGciHq","column_3GpGEL","column_MXX4qk","column_C8yRrK","column_wKhT9Y"],"custom_css":[".multicolumn-list h3 {font-size: 16px !important; line-height: 30px; font-weight: 500; color: #fff !important;}",".rich-text__text {margin-top: 1rem;}",".multicolumn-card__info {padding: 1.5rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",".grid {column-gap: 0px; row-gap: 0px;}","@media screen and (max-width: 480px) {.multicolumn-list h3 {font-size: 14px !important; }}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"rich_text_LErUyU":{"type":"rich-text","blocks":{"text_47DHhi":{"type":"text","settings":{"text":"<p>*A pesar de la Duración de la Garantía Limitada en la tabla anterior, la Duración de la Garantía Limitada para cualquier producto comprado para alquiler o para uso bajo un programa de alquiler con opción a compra será de 1 año a partir de la fecha de entrega.<\/p><p>**Como se utiliza en estas Garantías Limitadas, \"vida útil\" significa la vida útil normal del producto bajo un uso razonable.<\/p><p>***Los colchones de Ashley están diseñados para ser utilizados con una base de fundación o una base ajustable.<\/p><h3>Remedio<\/h3><p>Bajo estas Garantías Limitadas, la obligación exclusiva de Ashley durante el período de garantía aplicable es reparar o reemplazar, a su opción, tras el examen por un representante autorizado de Ashley, el producto o parte aplicable que no esté en conformidad con estas Garantías Limitadas. Después de 1 año, las garantías limitadas del Marco de Fundación Eléctrica y el Mecanismo de Fundación Eléctrica solo cubren piezas de repuesto. NO SE DISPONEN REEMBOLSOS. Si durante el período de garantía, no hay materiales idénticos disponibles en el momento de la reparación o reemplazo, Ashley se reserva el derecho de sustituir materiales de calidad igual o superior.<\/p><p>Además, durante el período de cualquier Cobertura Laboral aplicable, Ashley pagará tarifas laborales razonables y habituales para reparar o reemplazar las piezas defectuosas (a opción de Ashley) y los costos de envío desde el minorista hacia Ashley y viceversa, sin costo para el comprador original. Después de la expiración de la Cobertura Laboral o para todos los productos o piezas no cubiertos por la Cobertura Laboral, el comprador original será responsable de los costos de mano de obra, embalaje y todos los costos de envío y transporte.<\/p><p>Estas Garantías Limitadas no se aplican a usos comerciales, institucionales, empresariales u otros usos no residenciales. Estas Garantías Limitadas no se aplican a (i) mercancía que, en cualquier momento, haya sido utilizada como muestra de piso o modelo de exhibición, (ii) mercancía comprada \"tal cual\" o de segunda mano, (iii) mercancía comprada en una venta de liquidación o de cierre de negocio, o (iv) mercancía comprada a un liquidadores. Todas las garantías, ya sean expresas o implícitas, cubren solo el uso normal en el hogar. Ninguna garantía, expresa o implícita, se aplica a ninguna condición resultante de uso inadecuado, abuso, daño por entrega o transporte, ni a ninguna condición resultante de mantenimiento, limpieza o cuidado incorrectos o inadecuados. Estas Garantías Limitadas son nulas y sin efecto si el producto ha sido dañado durante el traslado desde el punto de entrega original.<\/p><h3>Modificaciones a Productos<\/h3><p>Estas Garantías Limitadas no se aplican a ningún producto que haya sido alterado por cualquier persona, distribuidor o empresa sin la autorización escrita expresa de Ashley.<\/p><h3>Limitaciones y Excepciones<\/h3><p>Estas Garantías Limitadas no cubren lo siguiente:<\/p><p>• Manchas en la tela, suciedad y quemaduras.<\/p><p>• Los cables de borde, que recorren el perímetro del colchón o del somier, se doblan debido a movimientos o flexiones.<\/p><p>• Daños estructurales a un colchón causados por el uso de un marco de cama o base inadecuados.<\/p><p>El colchón debe estar continuamente soportado por una base adecuada con un marco de cama apropiado. Un marco de cama apropiado debe soportar completamente la base. Estas Garantías Limitadas se aplican a colchones y bases de tamaño queen y king solo si se utilizan en un marco de cama apropiado con un soporte central rígido que tenga al menos 5 patas y 3 listones transversales.<\/p><p><\/p>"}}},"block_order":["text_47DHhi"],"custom_css":[".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",".rich-text__text {margin-top: 1rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",".rich-text__text h3 {font-size: 18px !important; line-height: 30px; font-weight: 500; color: #000 !important;}",".rte ul {list-style-position: outside; list-style: disc;}",".rte li {font-size: 14px !important; color: #000 !important; line-height: 30px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"image_banner_nBaBLR":{"type":"image_banner","custom_css":["img {width: 100%;}"],"name":"Single Image Banner","settings":{"layout":"grid","padding_top":0,"padding_bottom":0,"slider_link":"","image":"shopify:\/\/shop_images\/ashley-sleep-warranty-diagram-updated.png"}},"rich_text_fmi9AC":{"type":"rich-text","blocks":{"text_tWrFMi":{"type":"text","settings":{"text":"<p>• Un colchón o un soporte que no esté defectuoso.<\/p><p>• Impresiones corporales normales en un colchón de espuma viscoelástica o de gel de menos de tres cuartos de pulgada (3\/4″) de profundidad.<\/p><p>• Impresiones corporales normales en un colchón de muelles internos de menos de una pulgada y media (1½″) de profundidad.<\/p><p>• Altura de la cama con colchón y base o estructura de cama completamente ensamblada.<\/p><p>• La funda de colchón con cremallera más de dos (2) años después de la fecha de entrega.<\/p><p>• Preferencia de comodidad.<\/p><p>• Ajuste de la hoja.<\/p><p>• Costos de transporte.<\/p><h3>Garantías Implícitas<\/h3><p>LAS GARANTÍAS IMPLÍCITAS, INCLUYENDO CUALQUIERA DE COMERCIALIZACIÓN Y ADECUACIÓN PARA UN PROPÓSITO PARTICULAR, IMPUESTAS EN LA VENTA DE ESTE PRODUCTO Y SUS PARTES BAJO LA LEY ESTATAL, SE LIMITAN EN DURACIÓN AL PERÍODO DE GARANTÍA Y NO SE APLICAN GARANTÍAS DESPUÉS DE ESE PERÍODO. ALGUNOS ESTADOS NO PERMITEN LIMITACIONES SOBRE CUÁNTO TIEMPO DURA UNA GARANTÍA IMPLÍCITA, POR LO QUE LA LIMITACIÓN ANTERIOR PUEDE NO APLICARSE A USTED.<\/p><h3>DESCARGO DE RESPONSABILIDAD<\/h3><p>NO SE HA HECHO NI SE HARÁ NINGUNA OTRA GARANTÍA EXPRESA EN NOMBRE DE ASHLEY RESPECTO AL PRODUCTO Y SUS PARTES, O A LA OPERACIÓN, REPARACIÓN O SUSTITUCIÓN DEL MISMO. MÁS AÚN, NINGÚN REPRESENTANTE DE ASHLEY O SUS DISTRIBUIDORES O VENDEDORAS ESTÁ AUTORIZADO PARA HACER CAMBIOS O MODIFICACIONES A ESTAS GARANTÍAS LIMITADAS.<\/p><p>ALGUNOS DETALLISTAS OFRECEN GARANTÍAS EXTENDIDAS O ADICIONALES, INCLUYENDO PERO NO LIMITÁNDOSE A GARANTÍAS DE TELAS EXTENDIDAS O ADICIONALES, YA SEA DEL DETALLISTA O A TRAVÉS DE UN TERCERO. ASHLEY NO SERÁ RESPONSABLE BAJO NINGUNA GARANTÍA EXTENDIDA O ADICIONAL OFRECIDA POR NINGÚN DETALLISTA O A TRAVÉS DE UN TERCERO BAJO NINGUNA CIRCUNSTANCIA.<\/p><p>LOS TÉRMINOS Y CONDICIONES ESTABLECIDOS EN ESTAS GARANTÍAS LIMITADAS SERÁN EL ÚNICO Y EXCLUSIVO RECURSO DEL CONSUMIDOR EN CASO DE UN DEFECTO DE FABRICACIÓN DURANTE EL PERÍODO DE GARANTÍA. EN NINGÚN CASO ASHLEY SERÁ RESPONSABLE POR DAÑOS DIRECTOS, INDIRECTOS, INCIDENTALES, CONSECUENTES, ESPECIALES, PUNITIVOS, EXEMPLARES O SIMILARES, YA SEA INDIRECTOS O DIRECTOS, Y YA SEA QUE SURJAN EN CONTRATO O DELITO.<\/p><p>EN NINGÚN CASO LA RESPONSABILIDAD DE ASHLEY SERÁ OTRA QUE SU OBLIGACIÓN EXCLUSIVA DE REPARAR O REEMPLAZAR EL PRODUCTO. EN NINGÚN CASO LA RESPONSABILIDAD DE ASHLEY EXCEDERÁ EL PRECIO DE COMPRA DEL PRODUCTO O SU REEMPLAZO. ESTE RECURSO EXCLUSIVO NO SE CONSIDERARÁ QUE HA FALLADO EN SU PROPÓSITO ESENCIAL SIEMPRE QUE ASHLEY ESTÉ DISPUESTA Y SEA CAPAZ DE REPARAR O REEMPLAZAR CUALQUIER PRODUCTO QUE, TRAS UNA EXAMEN POR UN REPRESENTANTE AUTORIZADO DE ASHLEY, SE ENCUENTRE QUE CONTIENE UN DEFECTO DE FABRICACIÓN MATERIAL DURANTE EL PERÍODO DE GARANTÍA LIMITADA. Algunos estados no permiten la exclusión o limitación de ciertos daños, por lo que la limitación o exclusión anterior puede no aplicarse a usted.<\/p><p>SI UTILIZA UNA BASE O SOMIER INAPROPIADO CON ESTE COLCHÓN, SU USO ANULARÁ ESTAS GARANTÍAS LIMITADAS. ASHLEY SE RESERVA TODOS LOS DERECHOS PARA DESCONTINUAR ARTÍCULOS Y CAMBIAR LAS ESPECIFICACIONES DEL PRODUCTO SIN PREVIO AVISO.<\/p><p>Ashley no garantiza que ningún producto sea adecuado para la condición médica de ninguna persona. Ashley no ofrece ninguna garantía más allá de la que se contiene en estas Garantías Limitadas.<\/p><p>Esta Garantía Limitada le otorga derechos legales específicos, y también puede tener otros derechos que varían de un estado a otro.<\/p><h3>Procedimiento de Reclamación<\/h3><p>Si surge un problema que consideras cubierto por estas Garantías Limitadas, contacta al minorista autorizado de Ashley del cual compraste el producto. Todas las reclamaciones deben incluir la factura original de venta, el número de serie del producto y la etiqueta de ley (del colchón y\/o base) y deben ser presentadas dentro del período de garantía aplicable, para cumplir con los requisitos de la Garantía Limitada. Ashley puede requerir que proporciones prueba de la calidad de la base utilizada con tu colchón. Si es necesario, el minorista contactará a Ashley para establecer el servicio. Si el problema puede corregirse fácilmente, Ashley autorizará al minorista a realizar esas reparaciones. Ashley se reserva el derecho de requerir que las piezas defectuosas sean devueltas a solicitud.<\/p><p>Ashley no es responsable de la programación ni del costo del transporte del producto desde su hogar hasta el minorista o desde el minorista hasta su hogar. Debe hacer esos arreglos con el minorista. Si el minorista donde compró ha cerrado y necesita servicio, comuníquese con Ashley por escrito o llame a nuestro número de servicio al cliente para obtener instrucciones.<\/p><h3>Información sobre la garantía y el minorista de Ashley<\/h3><p>Ashley Furniture Industries, LLC<\/p><p>Attn: Consumer Affairs<\/p><p>One Ashley Way<\/p><p>Arcadia, WI 54612<\/p><p><\/p><p>Sitio web de piezas: <a href=\"https:\/\/www.ashleyfurniture.com\/ashleyfurniture.parts\">ashleyfurniture.parts<\/a><\/p><p>Número de teléfono de atención al cliente: <a href=\"tel:844-966-0809\">844-966-0809<\/a><\/p><h3>Precaución<\/h3><p>La base de energía tiene muchas partes móviles. Se debe tener precaución en su operación. Los niños no deben jugar ni operar la base de energía. Siempre deje la base de energía en posición plana y mantenga las manos, dedos y partes del cuerpo alejados del mecanismo.<\/p><p>Ashley se reserva el derecho de rechazar el servicio e invalidar estas Garantías Limitadas cuando, tras la inspección, se encuentre que el colchón o la base están en condiciones insalubres o cuando el fallo del producto se deba a causas distintas a la mano de obra o materiales defectuosos. Consulte la sección \"Instrucciones de Cuidado del Colchón y la Base\" de esta Garantía Limitada para el cuidado adecuado del colchón y la base.<\/p>"}},"heading_8p7GH7":{"type":"heading","settings":{"heading":"INSTRUCCIONES DE CUIDADO DEL COLCHÓN Y LA BASE","heading_size":"h1"}}},"block_order":["text_tWrFMi","heading_8p7GH7"],"custom_css":[".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",".rich-text__text {margin-top: 1rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",".rich-text__text h3 {font-size: 18px !important; line-height: 30px; font-weight: 500; color: #000 !important;}",".rte ul {list-style-position: outside; list-style: disc;}",".rte li {font-size: 14px !important; color: #000 !important; line-height: 30px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"multicolumn_6kkqAU":{"type":"multicolumn","blocks":{"column_pwjjir":{"type":"column","settings":{"title":"<strong>Hacer<\/strong>","text":"","link_label":"","link":""}},"column_iCkhnB":{"type":"column","settings":{"title":"<strong>No Hacer<\/strong>","text":"","link_label":"","link":""}},"column_PcGdhX":{"type":"column","settings":{"title":"","text":"<p>Dé a su nuevo juego de colchones tiempo para \"respirar\" al sacarlo de su empaquetado plástico. Deseche todo el empaquetado plástico lo antes posible.<\/p>","link_label":"","link":""}},"column_j3fKpN":{"type":"column","settings":{"title":"","text":"<p>NO COLOQUE SU COLCHÓN CERCA DE LLAMA ABIERTA O EXPONGA AL FUEGO. ESTE COLCHÓN NO ES A PRUEBA DE LLAMA O FUEGO, Y PUEDE ENCENDERSE Y\/O QUEMARSE SI SE EXPONE A LLAMA ABIERTA O FUEGO. CUANDO SE ENCIENDE, ALGUNOS MATERIALES DE ROPA DE CAMA PUEDEN QUEMARSE RÁPIDAMENTE Y EMITIR HUMO Y GASES PELIGROSOS.<\/p>","link_label":"","link":""}},"column_tNj3Wy":{"type":"column","settings":{"title":"","text":"<p>Cargue su colchón plano de lado. Es más fácil de manejar y es menos probable que dañe el colchón.<\/p>","link_label":"","link":""}},"column_XUAtjm":{"type":"column","settings":{"title":"","text":"<p>No fumes en la cama. Este colchón está fabricado según lo requerido por la ley federal para resistir, pero no necesariamente eliminar, la ignición por cigarrillos humeantes.<\/p>","link_label":"","link":""}},"column_Wqnwp3":{"type":"column","settings":{"title":"","text":"<p>Mantén la ropa de cama limpia. Sugerimos usar un protector de colchón o almohadilla para el colchón, especialmente si los niños usan la cama.<\/p>","link_label":"","link":""}},"column_j3bMNz":{"type":"column","settings":{"title":"","text":"<p>No dejes que nadie se pare o salte sobre tu colchón o base. No fue construido para ese tipo de concentración de peso o abuso.<\/p>","link_label":"","link":""}},"column_eW3Hdc":{"type":"column","settings":{"title":"","text":"<p>Reemplace la base vieja al comprar un nuevo colchón. Una base vieja puede no proporcionar el soporte suficiente. Puede parecer que su nuevo colchón está hundido cuando en realidad es la base, que sostiene todo el colchón.<\/p>","link_label":"","link":""}},"column_nJUfkL":{"type":"column","settings":{"title":"","text":"<p>No dejes que tu colchón se moje porque algunos de los materiales de tapicería pueden comprimirse. Protégelo del agua u otros líquidos.<\/p>","link_label":"","link":""}},"column_eLpCam":{"type":"column","settings":{"title":"","text":"<p>Utilice un marco adecuado y soporte central para juegos de cama tamaño queen y king. Usar el marco de soporte correcto asegurará que su garantía siga en vigor.<\/p>","link_label":"","link":""}},"column_3d3Rwd":{"type":"column","settings":{"title":"","text":"<p>No retire la etiqueta o el rótulo de la ley al final de su colchón. Esta etiqueta sirve como un medio de identificación para establecer su derecho a la Garantía Limitada.<\/p>","link_label":"","link":""}},"column_88ejyP":{"type":"column","settings":{"title":"","text":"<p>Permita que su colchón de espuma viscoelástica se calienta a temperatura ambiente. La espuma viscoelástica es sensible a la temperatura y se suaviza cuando está caliente.<\/p>","link_label":"","link":""}},"column_mYygpp":{"type":"column","settings":{"title":"","text":"<p>No utilice ningún tipo de líquido de limpieza en seco en su colchón. Estos productos químicos dañarán algunos de los materiales de construcción y anularán la Garantía Limitada.<\/p>","link_label":"","link":""}}},"block_order":["column_pwjjir","column_iCkhnB","column_PcGdhX","column_j3fKpN","column_tNj3Wy","column_XUAtjm","column_Wqnwp3","column_j3bMNz","column_eW3Hdc","column_nJUfkL","column_eLpCam","column_3d3Rwd","column_88ejyP","column_mYygpp"],"custom_css":[".multicolumn-list h3 {font-size: 16px !important; line-height: 30px; font-weight: 500; color: #fff !important;}",".rich-text__text {margin-top: 1rem;}",".multicolumn-card__info {padding: 1.5rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",".grid {column-gap: 0px; row-gap: 0px;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":2,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"rich_text_KkXGpb":{"type":"rich-text","blocks":{"heading_zx9g6a":{"type":"heading","settings":{"heading":"Garantías de productos de terceros:","heading_size":"h1"}},"text_BjQikQ":{"type":"text","settings":{"text":"<p><strong>ASHLEY NO OFRECE NINGUNA GARANTÍA EN RELACIÓN CON LOS PRODUCTOS FABRICADOS POR COMPAÑÍAS TERCERAS. Si desea una copia de la garantía del fabricante para un producto fabricado por un tercero, puede comunicarse directamente con el fabricante o visitar su sitio web para obtener más información, o puede llamar o enviar un mensaje a nuestro equipo de Atención al Cliente utilizando los enlaces disponibles <\/strong><a href=\"https:\/\/www.ashleyfurniture.com\/ask-ashley\/\" target=\"_blank\" title=\"https:\/\/www.ashleyfurniture.com\/ask-ashley\/\"><strong>https:\/\/www.ashleyfurniture.com\/ask-ashley\/<\/strong><\/a><strong>. Si decide contactar a nuestro equipo de Atención al Cliente, por favor proporcione el nombre completo del producto, el modelo o estilo, si es aplicable, y la URL (dirección del sitio web) de la página de detalles del producto.<br\/><br\/><\/strong><\/p>"}}},"block_order":["heading_zx9g6a","text_BjQikQ"],"custom_css":[".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",".rich-text__text {margin-top: 1rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":32}}},"order":["shogun-helper","main","shogun-optimizer","custom_promo_box_Uixn3e","custom_breadcrumb_iiBfNg","rich_text_hyDU6Q","multicolumn_AYdkPV","rich_text_6KAAHT","rich_text_UxrtjH","rich_text_QCdJtE","multicolumn_W7dKLj","rich_text_LErUyU","image_banner_nBaBLR","rich_text_fmi9AC","multicolumn_6kkqAU","rich_text_KkXGpb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
+    },
+    "custom_promo_box_Uixn3e": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/poltronas",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_iiBfNg": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "rich_text_hyDU6Q": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RBeDaa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ashleyfurniture.com/warranty-information#ashley-furniture-limited-warranties\" target=\"_blank\" title=\"https://www.ashleyfurniture.com/warranty-information#ashley-furniture-limited-warranties\">Garantías Limitadas de Ashley Furniture</a></p><p><a href=\"https://www.ashleyfurniture.com/warranty-information#ashley-sleep-limited-warranty\">Ashley Sleep</a></p><p><a href=\"https://www.ashleyfurniture.com/faq-extend\" target=\"_blank\" title=\"https://www.ashleyfurniture.com/faq-extend\">Protección de muebles accidental por Extend</a></p>"
+          }
+        },
+        "heading_BTRAbW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Industrias de Muebles Ashley",
+            "heading_size": "h1"
+          }
+        },
+        "text_rAPeaE": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Garantías Limitadas</h2><p>Las siguientes Garantías Limitadas se otorgan únicamente al comprador minorista original, sujeto a todos los términos y condiciones a continuación. Estas Garantías Limitadas son intransferibles.</p><p>Ashley Furniture Industries, LLC (“Ashley”), sujeta a todas las limitaciones y exclusiones descritas en estas Garantías Limitadas, garantiza los siguientes productos y piezas de Ashley contra defectos de fabricación en materiales durante la duración indicada junto a ese producto o pieza en la tabla a continuación.</p><p>Todos los períodos de garantía comienzan en la fecha de entrega del producto.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RBeDaa",
+        "heading_BTRAbW",
+        "text_rAPeaE"
+      ],
+      "custom_css": [
+        ".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",
+        ".rich-text__text h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000; padding-bottom: 10px;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",
+        "a {color: #f58021; font-weight: 400; font-size: 14px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_AYdkPV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FQxzFc": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Producto o Parte</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TiMzdT": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Duración de la Garantía Limitada</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PpL4xL": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Cobertura Laboral</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MqcTwG": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Estructuras utilizadas en productos tapizados y de cuero</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_weNQbW": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía de por vida limitada*<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tPmqXR": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DbgPPf": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Sistemas de muelles y asientos de rejilla</strong></p><p>Los sistemas de resortes metálicos son generalmente resortes de asiento de alambre sinuoso y, cuando corresponde, resortes de respaldo. El Sistema de Asientos de Red es la malla utilizada para soportar el área del asiento.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xxHeq8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 5 años</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_86GfLb": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hMrL4Q": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Mecanismos de sillones reclinables</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ikaYk4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 5 años</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_X8EdLQ": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9Dn9FU": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Mecanismos de sueño</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3hwhU4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 3 años</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WzNwWa": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GXxEpY": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Colchón de cama**</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FW9yPF": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 3 años - Prorrateada</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RpTXzH": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tmn9fa": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Amortiguación***</strong></p><p>Incluyendo acolchado no adherido, lo que significa que cada núcleo de cojín en un cojín de asiento no adherido (sueltos) y acolchado adherido, lo que significa que cada núcleo de cojín en un cojín de asiento que está adherido al producto.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_THHkK7": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 1 año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9QzxNn": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mNJDtq": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Cuero y Tela de Tapicería****</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WxFeV3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 1 año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kym6UB": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yQXcTF": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Parte superior de la cama</strong></p><p>La parte superior de la cama se refiere a edredones, faldas de cama, fundas de almohada y cualquier almohada decorativa incluida con un juego de edredón.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_phaCq8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>30 Días</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FhB9Ez": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>30 Días</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zxetRP": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Acabados y todos los demás productos de mobiliario</strong></p><p>Terminaciones y todos los otros productos de mobiliario significa todas las terminaciones y otras partes, componentes y otros productos de mobiliario que no están específicamente incluidos en las mencionadas Garantías Limitadas, incluyendo, pero sin limitarse a, mesas de comedor, sillas, mesas de uso ocasional, camas, cómodas, colchones para cama, tapas de mármol, tapas de granito, escritorios, vitrinas, alacenas, bufetes, centros de entretenimiento, lámparas, componentes eléctricos (además de bombillas), cuerdas y mangos de reclinación incorporados en cualquier producto de mobiliario.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3WaMM7": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 1 año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cYCqzw": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FQxzFc",
+        "column_TiMzdT",
+        "column_PpL4xL",
+        "column_MqcTwG",
+        "column_weNQbW",
+        "column_tPmqXR",
+        "column_DbgPPf",
+        "column_xxHeq8",
+        "column_86GfLb",
+        "column_hMrL4Q",
+        "column_ikaYk4",
+        "column_X8EdLQ",
+        "column_9Dn9FU",
+        "column_3hwhU4",
+        "column_WzNwWa",
+        "column_GXxEpY",
+        "column_FW9yPF",
+        "column_RpTXzH",
+        "column_tmn9fa",
+        "column_THHkK7",
+        "column_9QzxNn",
+        "column_mNJDtq",
+        "column_WxFeV3",
+        "column_kym6UB",
+        "column_yQXcTF",
+        "column_phaCq8",
+        "column_FhB9Ez",
+        "column_zxetRP",
+        "column_3WaMM7",
+        "column_cYCqzw"
+      ],
+      "custom_css": [
+        ".multicolumn-list h3 {font-size: 16px !important; line-height: 30px; font-weight: 500; color: #fff !important;}",
+        ".rich-text__text {margin-top: 1rem;}",
+        ".multicolumn-card__info {padding: 1.5rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",
+        ".grid {column-gap: 0px; row-gap: 0px;}",
+        "@media screen and (max-width: 480px) {.multicolumn-list h3 {font-size: 14px !important; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_6KAAHT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_wbUdAQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*Como se utiliza en estas Garantías Limitadas, “vida útil” significa la vida útil normal del producto bajo un uso razonable.</p><p>**Después del primer año de uso, Ashley reemplazará el colchón de dormir según la siguiente base prorrateada: más de 1 pero menos de 2 años de uso, se cubre el 90% del costo del reemplazo; más de 2 años pero menos de 3 años de uso, se cubre el 80% del costo del reemplazo.</p><p>***Todos los núcleos de cojines de asiento, tanto en Cojines no Adheridos como en Cojines Adheridos, se ablandarán con el uso normal y se adaptarán a la forma del usuario. Esto se considerará un desgaste normal y no se considerará una pérdida de resiliencia o un defecto material de fabricación.</p><p>****La Garantía Limitada de Cuero y Tejido de Tapicería también incluye deslizamiento de costuras, agrietamientos y transferencias de tinte. El cuero es un producto natural y, como tal, cada piel reflejará su propia individualidad. Se pueden esperar algunas variaciones de tono y matiz, así como las marcas, rasguños y arrugas que solo ocurren en cuero genuino; estas características no deben considerarse de ninguna manera como un defecto. Estas Garantías Limitadas no cubren desgarros, aplanamiento de la superficie, pilling, desvanecimiento o encogimiento y no son válidas cuando hay evidencia de suciedad pesada o abuso. Estas Garantías Limitadas tampoco cubren acabados protectores, terciopelos y tipos de terciopelo, ya que por su naturaleza, estos tejidos son de textura suave y se aplastarán, sombreadan y marcarán más fácilmente que la mayoría de los tejidos; estas características no deben considerarse de ninguna manera como un defecto.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_wbUdAQ"
+      ],
+      "custom_css": [
+        ".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",
+        ".rich-text__text h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000; padding-bottom: 10px;}",
+        ".rich-text__text {margin-top: 1rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_UxrtjH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rhm9nq": {
+          "type": "heading",
+          "settings": {
+            "heading": "LIMITACIONES Y EXCEPCIONES",
+            "heading_size": "h1"
+          }
+        },
+        "text_ckwrRU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Las siguientes limitaciones y excepciones se aplican a las Garantías Limitadas:</p><h3>Remedio</h3><p>Bajo estas Garantías Limitadas, para todos sus productos que no sean un cojín no adjunto (según se define en el encabezado temático “Cojinización”), la única responsabilidad de Ashley se limita a la reparación, o a su opción la sustitución, del producto o parte aplicable que, tras el examen de un representante autorizado del fabricante de Ashley, presente un defecto de fabricación material. NO SE DISPONEN REEMBOLSOS. Si durante el período de garantía, no hay materiales idénticos disponibles en el momento de la reparación o sustitución, Ashley se reserva el derecho de sustituir materiales de calidad igual o superior. Los tejidos de reemplazo pueden variar en color con respecto al original debido a diferencias en el lote de tinte.</p><p>Además, durante el período de cualquier Cobertura de Trabajo aplicable, Ashley pagará, dentro de un año a partir de la fecha de entrega, tarifas laborales razonables y habituales para reparar o reemplazar las piezas defectuosas (a opción de Ashley) y los costos de envío desde el minorista hacia Ashley y viceversa, sin costo para el comprador minorista original. Después de la expiración de la Cobertura de Trabajo o para todos los productos o partes no cubiertos por la Cobertura de Trabajo, el comprador minorista original será responsable de los costos de mano de obra, embalaje y todos los costos de envío y transporte. Los costos asociados con el transporte de los muebles o partes desde su hogar hacia el minorista o desde el minorista hacia su hogar están excluidos de todas las Garantías Limitadas.</p><p>Para los cojines sueltos con un defecto de fabricación del material, Ashley reemplazará el cojín suelto defectuoso siempre que el comprador minorista original durante el período de garantía (i) cumpla con el procedimiento de reclamación establecido en estas garantías limitadas, y (ii) si Ashley lo solicita, devuelva el núcleo del cojín defectuoso contenido en un cojín suelto a Ashley Furniture Industries, LLC, Attn: Director of Quality, One Ashley Way, Arcadia, WI 54612. La solución especificada en este párrafo es la única responsabilidad de Ashley relacionada con los cojines sueltos.</p><p><strong>Cualquier artículo reparado o sustituido bajo estas Garantías Limitadas estará cubierto por las Garantías Limitadas por el resto del período de garantía original solamente.</strong></p><h3>Todos los productos</h3><p>Estas Garantías Limitadas no se aplican a (i) usos alquilados, comerciales, institucionales u otros usos no residenciales, (ii) mercadería que fue, en algún momento, utilizada como muestra de piso o modelo de exhibición, (iii) cualquier mercadería comprada \"tal cual\" o de segunda mano, (iv) cualquier mercadería comprada en una venta de liquidación o en una venta por cierre de negocio, (v) cualquier mercadería comprada a un liquidador, o (vi) mercadería obtenida de un minorista de alquiler. Todas las garantías, ya sean expresas o implícitas, cubren únicamente el uso doméstico normal. Ninguna garantía, expresa o implícita, se aplica a ninguna condición resultante de uso indebido, abuso, daño por entrega o transporte, ni a ninguna condición resultante de un mantenimiento, limpieza o cuidado incorrecto o inadecuado. Estas Garantías Limitadas son nulas y sin valor si los muebles han sido movidos del punto original de entrega al consumidor.</p><h3>Tratamientos químicos</h3><p>Estas garantías limitadas no cubren daños o defectos causados por el uso de tratamientos químicos o recubrimientos protectores en el acabado, cuero o tejido tapizado por el minorista o el comprador minorista original, y dichos tratamientos químicos o recubrimientos protectores anulan todas las garantías de Ashley.</p><h3>Cuero, tela tapizada y acabados</h3><p>Las garantías limitadas de \"Cuero\", \"Tela Tapizada\" y \"Acabados y todos los demás productos de mobiliario\" no cubren (i) daños resultantes de suciedad excesiva o métodos de limpieza inadecuados o no aprobados, (ii) desvanecimiento u otros daños resultantes de la exposición a la luz solar, (iii) daños resultantes de la humedad doméstica, o (iv) daños resultantes de cualquier líquido, incluyendo pero no limitado a alcohol y agua. Precaución: Cualquier uso de métodos de limpieza inapropiados o no aprobados anula todas las garantías de Ashley.</p><h3>Modificaciones a Productos</h3><p>Estas Garantías Limitadas no se aplican a ningún producto que haya sido alterado por cualquier persona, distribuidor o empresa sin la autorización escrita expresa de Ashley.</p><h3>Garantías Implicadas</h3><p>LAS GARANTÍAS IMPLÍCITAS, INCLUYENDO CUALQUIERA DE COMERCIALIDAD Y APTITUD PARA UN PROPÓSITO PARTICULAR IMPUESTAS EN LA VENTA DE ESTE MUEBLE Y SUS PARTES BAJO LA LEY ESTATAL, ESTÁN LIMITADAS EN DURACIÓN A LA DURACIÓN DE LA GARANTÍA APLICABLE DEL PRODUCTO O PARTE Y NO SE APLICAN GARANTÍAS DESPUÉS DE ESE PERÍODO. ALGUNOS ESTADOS NO PERMITEN LIMITACIONES EN CUANTO A CUÁNTO TIEMPO DURA UNA GARANTÍA IMPLÍCITA, POR LO QUE LAS LIMITACIONES ANTERIORES PUEDEN NO APLICARSE A USTED.</p><h3>DESCARGO DE RESPONSABILIDAD</h3><p>NO SE HA HECHO NI SE HARÁ NINGUNA OTRA GARANTÍA EXPRESA EN NOMBRE DE ASHLEY CON RESPECTO A LOS MUEBLES Y SUS PARTES, O A LA OPERACIÓN, REPARACIÓN O SUSTITUCIÓN DE LOS MUEBLES Y SUS PARTES. ADEMÁS, NINGÚN REPRESENTANTE DE ASHLEY O DE SUS DISTRIBUIDORES O VAREJISTAS ESTÁ AUTORIZADO PARA HACER CAMBIOS O MODIFICACIONES A ESTAS GARANTÍAS LIMITADAS.</p><p>ALGUNOS DETALLISTAS OFRECEN GARANTÍAS EXTENDIDAS O ADICIONALES, INCLUYENDO PERO NO LIMITÁNDOSE A GARANTÍAS DE TELAS EXTENDIDAS O ADICIONALES, YA SEA DEL DETALLISTA O A TRAVÉS DE UN TERCERO. ASHLEY NO SERÁ RESPONSABLE BAJO NINGUNA GARANTÍA EXTENDIDA O ADICIONAL OFRECIDA POR NINGÚN DETALLISTA O A TRAVÉS DE UN TERCERO BAJO NINGUNA CIRCUNSTANCIA.</p><p>EN NINGÚN CASO ASHLEY SERÁ RESPONSABLE POR DAÑOS CONSECUENTES O INCIDENTALES, TALES COMO PÉRDIDA DE USO, INCOMODIDAD, PÉRDIDAS O DAÑO A LA PROPIEDAD PERSONAL, YA SEA INDIRECTO O DIRECTO, Y YA SEA QUE SURJA EN CONTRATO O DELITO, INCLUSO SI TENÍA RAZONES PARA SABER DE ANTEMANO QUE TALES DAÑOS ERAN POSIBLES. ALGUNOS ESTADOS NO PERMITEN LA EXCLUSIÓN O LIMITACIÓN DE DAÑOS INCIDENTALES O CONSECUENTES, POR LO QUE LA LIMITACIÓN O EXCLUSIÓN ANTERIOR PODRÍA NO APLICARSE A USTED.</p><p>EN NINGÚN CASO LA RESPONSABILIDAD DE ASHLEY EXCEDERÁ EL PRECIO DE COMPRA DEL PRODUCTO O SU REEMPLAZO.</p><p>Esta garantía le otorga derechos legales específicos, y también puede tener otros derechos que varían de un estado a otro.</p><h3>PRECAUCIÓN</h3><p>Los muebles en movimiento (sillones reclinables, sofás cama, etc.) tienen muchas partes móviles. Se debe tener precaución al operarlos (abrir, cerrar, etc.). No se debe permitir que los niños jueguen o operen muebles en movimiento. Siempre deje los sillones reclinables en posición vertical y cerrada y mantenga las manos y los pies claros del mecanismo. Solo el ocupante debe operarlo.</p><h3>PROCEDIMIENTO DE RECLAMACIÓN</h3><p>Para obtener servicios de garantía, el comprador minorista original debe cumplir con los requisitos de este Procedimiento de Reclamación.</p><p>Contacta al minorista de Ashley de donde compraste tus muebles para obtener servicio de garantía. Todas las reclamaciones deben incluir la factura original de compra, el número de serie del producto y presentarse dentro del período de garantía aplicable. Ashley se reserva el derecho de requerir que las piezas defectuosas sean devueltas a solicitud. Debes hacer los arreglos con el minorista para programar el transporte de los muebles o piezas desde tu hogar hasta el minorista o desde el minorista hasta tu hogar. Si el minorista de donde compraste los muebles ha cerrado y necesitas servicio, contacta a Ashley por escrito o llama a nuestro Servicio al Cliente.</p><h3>Información sobre la garantía y el minorista de Ashley</h3><p>Ashley Furniture Industries, LLC</p><p>Attn: Consumer Affairs</p><p>One Ashley Way</p><p>Arcadia, WI 54612</p><p>Sitio web de piezas: <a href=\"https://ashleyfurniture.parts/\">ashleyfurniture.parts</a></p><p>Número de teléfono de atención al cliente: <a href=\"tel:844-966-0809\">844-966-0809</a></p><p>© julio de 2023, Ashley Furniture Industries, LLC. Todos los derechos reservados.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rhm9nq",
+        "text_ckwrRU"
+      ],
+      "custom_css": [
+        ".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",
+        ".rich-text__text h3 {font-size: 18px !important; line-height: 30px; font-weight: 500; color: #000 !important;}",
+        ".rich-text__text {margin-top: 1rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_QCdJtE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kyXxzf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ashley-Sleep® LIMITED WARRANTY",
+            "heading_size": "h1"
+          }
+        },
+        "text_kDtHK9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ashleyfurniture.com/on/demandware.static/-/Library-Sites-AshcommSharedLibrary/default/dwd2f7dd87/images/warranty/ashley-sleep-warranty-20230701.pdf\" target=\"_blank\" title=\"https://www.ashleyfurniture.com/on/demandware.static/-/Library-Sites-AshcommSharedLibrary/default/dwd2f7dd87/images/warranty/ashley-sleep-warranty-20230701.pdf\">Descargar versión en PDF</a></p><p>Las siguientes Garantías Limitadas se otorgan al comprador original, sujetas a todos los términos y condiciones a continuación. Estas Garantías Limitadas no son transferibles.</p><p></p><p>Ashley Furniture Industries, LLC (“Ashley”), sujeta a todas las limitaciones y exclusiones descritas en estas Garantías Limitadas, garantiza los siguientes productos y partes contra defectos de fabricación materiales por la duración establecida junto a ese producto o parte en la tabla a continuación.</p><p>Todos los períodos de garantía comienzan en la fecha de entrega del producto.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kyXxzf",
+        "text_kDtHK9"
+      ],
+      "custom_css": [
+        ".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",
+        ".rich-text__text {margin-top: 1rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_W7dKLj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dWpmGC": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Producto o Parte</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JEAcEt": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Duración de la Garantía Limitada*</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yqcJPd": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Cobertura Laboral</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PH4aPU": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Marco de Fundación del Producto**</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HVA8Ye": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía de por vida limitada**</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QHzNb4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nKfnkd": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Mecanismo de Fundación de Poder y Componentes Eléctricos</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Y68pGy": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 3 años</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eMCbAT": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mYdN6g": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Colchón***</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jGciHq": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 10 años</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3GpGEL": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MXX4qk": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Fundación</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_C8yRrK": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Garantía limitada de 10 años</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wKhT9Y": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>1 Año</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dWpmGC",
+        "column_JEAcEt",
+        "column_yqcJPd",
+        "column_PH4aPU",
+        "column_HVA8Ye",
+        "column_QHzNb4",
+        "column_nKfnkd",
+        "column_Y68pGy",
+        "column_eMCbAT",
+        "column_mYdN6g",
+        "column_jGciHq",
+        "column_3GpGEL",
+        "column_MXX4qk",
+        "column_C8yRrK",
+        "column_wKhT9Y"
+      ],
+      "custom_css": [
+        ".multicolumn-list h3 {font-size: 16px !important; line-height: 30px; font-weight: 500; color: #fff !important;}",
+        ".rich-text__text {margin-top: 1rem;}",
+        ".multicolumn-card__info {padding: 1.5rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",
+        ".grid {column-gap: 0px; row-gap: 0px;}",
+        "@media screen and (max-width: 480px) {.multicolumn-list h3 {font-size: 14px !important; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_LErUyU": {
+      "type": "rich-text",
+      "blocks": {
+        "text_47DHhi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*A pesar de la Duración de la Garantía Limitada en la tabla anterior, la Duración de la Garantía Limitada para cualquier producto comprado para alquiler o para uso bajo un programa de alquiler con opción a compra será de 1 año a partir de la fecha de entrega.</p><p>**Como se utiliza en estas Garantías Limitadas, \"vida útil\" significa la vida útil normal del producto bajo un uso razonable.</p><p>***Los colchones de Ashley están diseñados para ser utilizados con una base de fundación o una base ajustable.</p><h3>Remedio</h3><p>Bajo estas Garantías Limitadas, la obligación exclusiva de Ashley durante el período de garantía aplicable es reparar o reemplazar, a su opción, tras el examen por un representante autorizado de Ashley, el producto o parte aplicable que no esté en conformidad con estas Garantías Limitadas. Después de 1 año, las garantías limitadas del Marco de Fundación Eléctrica y el Mecanismo de Fundación Eléctrica solo cubren piezas de repuesto. NO SE DISPONEN REEMBOLSOS. Si durante el período de garantía, no hay materiales idénticos disponibles en el momento de la reparación o reemplazo, Ashley se reserva el derecho de sustituir materiales de calidad igual o superior.</p><p>Además, durante el período de cualquier Cobertura Laboral aplicable, Ashley pagará tarifas laborales razonables y habituales para reparar o reemplazar las piezas defectuosas (a opción de Ashley) y los costos de envío desde el minorista hacia Ashley y viceversa, sin costo para el comprador original. Después de la expiración de la Cobertura Laboral o para todos los productos o piezas no cubiertos por la Cobertura Laboral, el comprador original será responsable de los costos de mano de obra, embalaje y todos los costos de envío y transporte.</p><p>Estas Garantías Limitadas no se aplican a usos comerciales, institucionales, empresariales u otros usos no residenciales. Estas Garantías Limitadas no se aplican a (i) mercancía que, en cualquier momento, haya sido utilizada como muestra de piso o modelo de exhibición, (ii) mercancía comprada \"tal cual\" o de segunda mano, (iii) mercancía comprada en una venta de liquidación o de cierre de negocio, o (iv) mercancía comprada a un liquidadores. Todas las garantías, ya sean expresas o implícitas, cubren solo el uso normal en el hogar. Ninguna garantía, expresa o implícita, se aplica a ninguna condición resultante de uso inadecuado, abuso, daño por entrega o transporte, ni a ninguna condición resultante de mantenimiento, limpieza o cuidado incorrectos o inadecuados. Estas Garantías Limitadas son nulas y sin efecto si el producto ha sido dañado durante el traslado desde el punto de entrega original.</p><h3>Modificaciones a Productos</h3><p>Estas Garantías Limitadas no se aplican a ningún producto que haya sido alterado por cualquier persona, distribuidor o empresa sin la autorización escrita expresa de Ashley.</p><h3>Limitaciones y Excepciones</h3><p>Estas Garantías Limitadas no cubren lo siguiente:</p><p>• Manchas en la tela, suciedad y quemaduras.</p><p>• Los cables de borde, que recorren el perímetro del colchón o del somier, se doblan debido a movimientos o flexiones.</p><p>• Daños estructurales a un colchón causados por el uso de un marco de cama o base inadecuados.</p><p>El colchón debe estar continuamente soportado por una base adecuada con un marco de cama apropiado. Un marco de cama apropiado debe soportar completamente la base. Estas Garantías Limitadas se aplican a colchones y bases de tamaño queen y king solo si se utilizan en un marco de cama apropiado con un soporte central rígido que tenga al menos 5 patas y 3 listones transversales.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_47DHhi"
+      ],
+      "custom_css": [
+        ".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",
+        ".rich-text__text {margin-top: 1rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",
+        ".rich-text__text h3 {font-size: 18px !important; line-height: 30px; font-weight: 500; color: #000 !important;}",
+        ".rte ul {list-style-position: outside; list-style: disc;}",
+        ".rte li {font-size: 14px !important; color: #000 !important; line-height: 30px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_nBaBLR": {
+      "type": "image_banner",
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "name": "Single Image Banner",
+      "settings": {
+        "layout": "grid",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "slider_link": "",
+        "image": "shopify://shop_images/ashley-sleep-warranty-diagram-updated.png"
+      }
+    },
+    "rich_text_fmi9AC": {
+      "type": "rich-text",
+      "blocks": {
+        "text_tWrFMi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Un colchón o un soporte que no esté defectuoso.</p><p>• Impresiones corporales normales en un colchón de espuma viscoelástica o de gel de menos de tres cuartos de pulgada (3/4″) de profundidad.</p><p>• Impresiones corporales normales en un colchón de muelles internos de menos de una pulgada y media (1½″) de profundidad.</p><p>• Altura de la cama con colchón y base o estructura de cama completamente ensamblada.</p><p>• La funda de colchón con cremallera más de dos (2) años después de la fecha de entrega.</p><p>• Preferencia de comodidad.</p><p>• Ajuste de la hoja.</p><p>• Costos de transporte.</p><h3>Garantías Implícitas</h3><p>LAS GARANTÍAS IMPLÍCITAS, INCLUYENDO CUALQUIERA DE COMERCIALIZACIÓN Y ADECUACIÓN PARA UN PROPÓSITO PARTICULAR, IMPUESTAS EN LA VENTA DE ESTE PRODUCTO Y SUS PARTES BAJO LA LEY ESTATAL, SE LIMITAN EN DURACIÓN AL PERÍODO DE GARANTÍA Y NO SE APLICAN GARANTÍAS DESPUÉS DE ESE PERÍODO. ALGUNOS ESTADOS NO PERMITEN LIMITACIONES SOBRE CUÁNTO TIEMPO DURA UNA GARANTÍA IMPLÍCITA, POR LO QUE LA LIMITACIÓN ANTERIOR PUEDE NO APLICARSE A USTED.</p><h3>DESCARGO DE RESPONSABILIDAD</h3><p>NO SE HA HECHO NI SE HARÁ NINGUNA OTRA GARANTÍA EXPRESA EN NOMBRE DE ASHLEY RESPECTO AL PRODUCTO Y SUS PARTES, O A LA OPERACIÓN, REPARACIÓN O SUSTITUCIÓN DEL MISMO. MÁS AÚN, NINGÚN REPRESENTANTE DE ASHLEY O SUS DISTRIBUIDORES O VENDEDORAS ESTÁ AUTORIZADO PARA HACER CAMBIOS O MODIFICACIONES A ESTAS GARANTÍAS LIMITADAS.</p><p>ALGUNOS DETALLISTAS OFRECEN GARANTÍAS EXTENDIDAS O ADICIONALES, INCLUYENDO PERO NO LIMITÁNDOSE A GARANTÍAS DE TELAS EXTENDIDAS O ADICIONALES, YA SEA DEL DETALLISTA O A TRAVÉS DE UN TERCERO. ASHLEY NO SERÁ RESPONSABLE BAJO NINGUNA GARANTÍA EXTENDIDA O ADICIONAL OFRECIDA POR NINGÚN DETALLISTA O A TRAVÉS DE UN TERCERO BAJO NINGUNA CIRCUNSTANCIA.</p><p>LOS TÉRMINOS Y CONDICIONES ESTABLECIDOS EN ESTAS GARANTÍAS LIMITADAS SERÁN EL ÚNICO Y EXCLUSIVO RECURSO DEL CONSUMIDOR EN CASO DE UN DEFECTO DE FABRICACIÓN DURANTE EL PERÍODO DE GARANTÍA. EN NINGÚN CASO ASHLEY SERÁ RESPONSABLE POR DAÑOS DIRECTOS, INDIRECTOS, INCIDENTALES, CONSECUENTES, ESPECIALES, PUNITIVOS, EXEMPLARES O SIMILARES, YA SEA INDIRECTOS O DIRECTOS, Y YA SEA QUE SURJAN EN CONTRATO O DELITO.</p><p>EN NINGÚN CASO LA RESPONSABILIDAD DE ASHLEY SERÁ OTRA QUE SU OBLIGACIÓN EXCLUSIVA DE REPARAR O REEMPLAZAR EL PRODUCTO. EN NINGÚN CASO LA RESPONSABILIDAD DE ASHLEY EXCEDERÁ EL PRECIO DE COMPRA DEL PRODUCTO O SU REEMPLAZO. ESTE RECURSO EXCLUSIVO NO SE CONSIDERARÁ QUE HA FALLADO EN SU PROPÓSITO ESENCIAL SIEMPRE QUE ASHLEY ESTÉ DISPUESTA Y SEA CAPAZ DE REPARAR O REEMPLAZAR CUALQUIER PRODUCTO QUE, TRAS UNA EXAMEN POR UN REPRESENTANTE AUTORIZADO DE ASHLEY, SE ENCUENTRE QUE CONTIENE UN DEFECTO DE FABRICACIÓN MATERIAL DURANTE EL PERÍODO DE GARANTÍA LIMITADA. Algunos estados no permiten la exclusión o limitación de ciertos daños, por lo que la limitación o exclusión anterior puede no aplicarse a usted.</p><p>SI UTILIZA UNA BASE O SOMIER INAPROPIADO CON ESTE COLCHÓN, SU USO ANULARÁ ESTAS GARANTÍAS LIMITADAS. ASHLEY SE RESERVA TODOS LOS DERECHOS PARA DESCONTINUAR ARTÍCULOS Y CAMBIAR LAS ESPECIFICACIONES DEL PRODUCTO SIN PREVIO AVISO.</p><p>Ashley no garantiza que ningún producto sea adecuado para la condición médica de ninguna persona. Ashley no ofrece ninguna garantía más allá de la que se contiene en estas Garantías Limitadas.</p><p>Esta Garantía Limitada le otorga derechos legales específicos, y también puede tener otros derechos que varían de un estado a otro.</p><h3>Procedimiento de Reclamación</h3><p>Si surge un problema que consideras cubierto por estas Garantías Limitadas, contacta al minorista autorizado de Ashley del cual compraste el producto. Todas las reclamaciones deben incluir la factura original de venta, el número de serie del producto y la etiqueta de ley (del colchón y/o base) y deben ser presentadas dentro del período de garantía aplicable, para cumplir con los requisitos de la Garantía Limitada. Ashley puede requerir que proporciones prueba de la calidad de la base utilizada con tu colchón. Si es necesario, el minorista contactará a Ashley para establecer el servicio. Si el problema puede corregirse fácilmente, Ashley autorizará al minorista a realizar esas reparaciones. Ashley se reserva el derecho de requerir que las piezas defectuosas sean devueltas a solicitud.</p><p>Ashley no es responsable de la programación ni del costo del transporte del producto desde su hogar hasta el minorista o desde el minorista hasta su hogar. Debe hacer esos arreglos con el minorista. Si el minorista donde compró ha cerrado y necesita servicio, comuníquese con Ashley por escrito o llame a nuestro número de servicio al cliente para obtener instrucciones.</p><h3>Información sobre la garantía y el minorista de Ashley</h3><p>Ashley Furniture Industries, LLC</p><p>Attn: Consumer Affairs</p><p>One Ashley Way</p><p>Arcadia, WI 54612</p><p></p><p>Sitio web de piezas: <a href=\"https://www.ashleyfurniture.com/ashleyfurniture.parts\">ashleyfurniture.parts</a></p><p>Número de teléfono de atención al cliente: <a href=\"tel:844-966-0809\">844-966-0809</a></p><h3>Precaución</h3><p>La base de energía tiene muchas partes móviles. Se debe tener precaución en su operación. Los niños no deben jugar ni operar la base de energía. Siempre deje la base de energía en posición plana y mantenga las manos, dedos y partes del cuerpo alejados del mecanismo.</p><p>Ashley se reserva el derecho de rechazar el servicio e invalidar estas Garantías Limitadas cuando, tras la inspección, se encuentre que el colchón o la base están en condiciones insalubres o cuando el fallo del producto se deba a causas distintas a la mano de obra o materiales defectuosos. Consulte la sección \"Instrucciones de Cuidado del Colchón y la Base\" de esta Garantía Limitada para el cuidado adecuado del colchón y la base.</p>"
+          }
+        },
+        "heading_8p7GH7": {
+          "type": "heading",
+          "settings": {
+            "heading": "INSTRUCCIONES DE CUIDADO DEL COLCHÓN Y LA BASE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_tWrFMi",
+        "heading_8p7GH7"
+      ],
+      "custom_css": [
+        ".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",
+        ".rich-text__text {margin-top: 1rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",
+        ".rich-text__text h3 {font-size: 18px !important; line-height: 30px; font-weight: 500; color: #000 !important;}",
+        ".rte ul {list-style-position: outside; list-style: disc;}",
+        ".rte li {font-size: 14px !important; color: #000 !important; line-height: 30px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_6kkqAU": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pwjjir": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Hacer</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iCkhnB": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>No Hacer</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PcGdhX": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Dé a su nuevo juego de colchones tiempo para \"respirar\" al sacarlo de su empaquetado plástico. Deseche todo el empaquetado plástico lo antes posible.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_j3fKpN": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>NO COLOQUE SU COLCHÓN CERCA DE LLAMA ABIERTA O EXPONGA AL FUEGO. ESTE COLCHÓN NO ES A PRUEBA DE LLAMA O FUEGO, Y PUEDE ENCENDERSE Y/O QUEMARSE SI SE EXPONE A LLAMA ABIERTA O FUEGO. CUANDO SE ENCIENDE, ALGUNOS MATERIALES DE ROPA DE CAMA PUEDEN QUEMARSE RÁPIDAMENTE Y EMITIR HUMO Y GASES PELIGROSOS.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tNj3Wy": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Cargue su colchón plano de lado. Es más fácil de manejar y es menos probable que dañe el colchón.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XUAtjm": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>No fumes en la cama. Este colchón está fabricado según lo requerido por la ley federal para resistir, pero no necesariamente eliminar, la ignición por cigarrillos humeantes.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wqnwp3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Mantén la ropa de cama limpia. Sugerimos usar un protector de colchón o almohadilla para el colchón, especialmente si los niños usan la cama.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_j3bMNz": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>No dejes que nadie se pare o salte sobre tu colchón o base. No fue construido para ese tipo de concentración de peso o abuso.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eW3Hdc": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Reemplace la base vieja al comprar un nuevo colchón. Una base vieja puede no proporcionar el soporte suficiente. Puede parecer que su nuevo colchón está hundido cuando en realidad es la base, que sostiene todo el colchón.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nJUfkL": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>No dejes que tu colchón se moje porque algunos de los materiales de tapicería pueden comprimirse. Protégelo del agua u otros líquidos.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eLpCam": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Utilice un marco adecuado y soporte central para juegos de cama tamaño queen y king. Usar el marco de soporte correcto asegurará que su garantía siga en vigor.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3d3Rwd": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>No retire la etiqueta o el rótulo de la ley al final de su colchón. Esta etiqueta sirve como un medio de identificación para establecer su derecho a la Garantía Limitada.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_88ejyP": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Permita que su colchón de espuma viscoelástica se calienta a temperatura ambiente. La espuma viscoelástica es sensible a la temperatura y se suaviza cuando está caliente.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mYygpp": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>No utilice ningún tipo de líquido de limpieza en seco en su colchón. Estos productos químicos dañarán algunos de los materiales de construcción y anularán la Garantía Limitada.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pwjjir",
+        "column_iCkhnB",
+        "column_PcGdhX",
+        "column_j3fKpN",
+        "column_tNj3Wy",
+        "column_XUAtjm",
+        "column_Wqnwp3",
+        "column_j3bMNz",
+        "column_eW3Hdc",
+        "column_nJUfkL",
+        "column_eLpCam",
+        "column_3d3Rwd",
+        "column_88ejyP",
+        "column_mYygpp"
+      ],
+      "custom_css": [
+        ".multicolumn-list h3 {font-size: 16px !important; line-height: 30px; font-weight: 500; color: #fff !important;}",
+        ".rich-text__text {margin-top: 1rem;}",
+        ".multicolumn-card__info {padding: 1.5rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",
+        ".grid {column-gap: 0px; row-gap: 0px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_KkXGpb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zx9g6a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Garantías de productos de terceros:",
+            "heading_size": "h1"
+          }
+        },
+        "text_BjQikQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ASHLEY NO OFRECE NINGUNA GARANTÍA EN RELACIÓN CON LOS PRODUCTOS FABRICADOS POR COMPAÑÍAS TERCERAS. Si desea una copia de la garantía del fabricante para un producto fabricado por un tercero, puede comunicarse directamente con el fabricante o visitar su sitio web para obtener más información, o puede llamar o enviar un mensaje a nuestro equipo de Atención al Cliente utilizando los enlaces disponibles </strong><a href=\"https://www.ashleyfurniture.com/ask-ashley/\" target=\"_blank\" title=\"https://www.ashleyfurniture.com/ask-ashley/\"><strong>https://www.ashleyfurniture.com/ask-ashley/</strong></a><strong>. Si decide contactar a nuestro equipo de Atención al Cliente, por favor proporcione el nombre completo del producto, el modelo o estilo, si es aplicable, y la URL (dirección del sitio web) de la página de detalles del producto.<br/><br/></strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zx9g6a",
+        "text_BjQikQ"
+      ],
+      "custom_css": [
+        ".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}",
+        ".rich-text__text {margin-top: 1rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "custom_promo_box_Uixn3e",
+    "custom_breadcrumb_iiBfNg",
+    "rich_text_hyDU6Q",
+    "multicolumn_AYdkPV",
+    "rich_text_6KAAHT",
+    "rich_text_UxrtjH",
+    "rich_text_QCdJtE",
+    "multicolumn_W7dKLj",
+    "rich_text_LErUyU",
+    "image_banner_nBaBLR",
+    "rich_text_fmi9AC",
+    "multicolumn_6kkqAU",
+    "rich_text_KkXGpb"
+  ]
+}

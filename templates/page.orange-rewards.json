@@ -1,1 +1,297 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"shogun-optimizer":{"type":"shogun-optimizer","settings":{}},"custom_promo_box_nkQc9x":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_nHNy4h":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"image_banner_aty7UC":{"type":"image_banner","custom_css":["img {width: 100%;}"],"name":"Single Image Banner","settings":{"layout":"grid","padding_top":0,"padding_bottom":0,"slider_link":"","image":"shopify:\/\/shop_images\/Orange-LP-Header.webp"}},"rich_text_a3DpyC":{"type":"rich-text","blocks":{"heading_34aWrN":{"type":"heading","settings":{"heading":"LOS MIEMBROS RECIBEN RECOMPENSAS COMO","heading_size":"h1"}}},"block_order":["heading_34aWrN"],"custom_css":[".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":32,"padding_bottom":0}},"multicolumn_CzbDNV":{"type":"multicolumn","blocks":{"column_kLD66w":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/orange-rewards-_-Mi-tienda-06-10-2025_12_42_PM-removebg-preview.jpg","title":"<a href=\"\/pages\/orange-rewards#\" target=\"_blank\" title=\"\/pages\/orange-rewards#\">Recompensas Ashley<\/a>","text":"<p>Obtén dólares de recompensa en tus compras<\/p>","link_label":"","link":""}},"column_46VBfF":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/orange-rewards-_-Mi-tienda-06-10-2025_12_41_PM-removebg-preview.jpg","title":"<a href=\"#\" title=\"#\">Ofertas del Martes<\/a>","text":"<p>Obtén un 10% extra de descuento el primer martes de cada mes<\/p>","link_label":"","link":""}},"column_wLLQk4":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/orange-rewards-_-Mi-tienda-06-10-2025_12_38_PM-removebg-preview.jpg","title":"<a href=\"#\" title=\"#\">Beneficios de Cumpleaños<\/a>","text":"<p>Obtén un 10% de descuento extra durante tu mes de cumpleaños<\/p>","link_label":"","link":""}},"column_kj39nU":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/orange-rewards-_-Mi-tienda-06-10-2025_12_39_PM-removebg-preview.webp","title":"<a href=\"#\" title=\"#\">Invitaciones Exclusivas<\/a>","text":"<p>Eventos privados en tu tienda local<\/p>","link_label":"","link":""}},"column_MpfNaV":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/orange-rewards-_-Mi-tienda-06-10-2025_12_40_PM-removebg-preview.jpg","title":"<a href=\"#\" title=\"#\">Vistas Previas<\/a>","text":"<p>Acceso anticipado a ventas increíbles<\/p>","link_label":"","link":""}}},"block_order":["column_kLD66w","column_46VBfF","column_wLLQk4","column_kj39nU","column_MpfNaV"],"custom_css":[".multicolumn-card__info h3 a {font-size: 18px !important; line-height: 30px; font-weight: 700; color: #000 !important;}",".multicolumn-card {background: transparent;}",".multicolumn-card-spacing {width: 50%; margin: auto;}",".multicolumn-card__info {padding: 0px 2.5rem;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":5,"column_alignment":"center","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"custom_dynamic_accordion_GUbXGV":{"type":"custom-dynamic-accordion","blocks":{"accordion_item_8T4WLk":{"type":"accordion_item","settings":{"title":"¿Qué es el Orange?","content":"<p>Orange es el nuevo programa de recompensas de Ashley diseñado para ofrecerte beneficios y recompensas exclusivas en tus compras con Ashley Advantage.<\/p>","image_position":"none"}},"accordion_item_GXDPeR":{"type":"accordion_item","settings":{"title":"¿Cómo funciona?","content":"<p>Como titular de una tarjeta Ashley Advantage® de Synchrony, estás automáticamente inscrito en Orange, donde puedes recibir excelentes beneficios y ventajas durante todo el año.<\/p>","image_position":"right"}},"accordion_item_pLKdrg":{"type":"accordion_item","settings":{"title":"¿Cómo puedo solicitar ser miembro?","content":"<p>Para convertirte en miembro, solicita la tarjeta de crédito Ashley Advantage® Synchrony en una ubicación participante o completa la solicitud en línea. Si eres aprobado, serás inscrito automáticamente en Orange.<\/p>","image_position":"none"}},"accordion_item_BbD7zm":{"type":"accordion_item","settings":{"title":"¿Cómo recibiré mis recompensas?","content":"<p>Todas las recompensas se entregarán por correo electrónico.<\/p><p>Si no tiene una dirección de correo electrónico y es elegible para los Dólares de Recompensas de Ashley, se le enviarán por correo.<\/p><p>Si no tienes una dirección de correo electrónico y deseas canjear tu descuento de cumpleaños, visita la tienda Ashley más cercana y presenta una forma válida de identificación.<\/p>","image_position":"none"}}},"block_order":["accordion_item_8T4WLk","accordion_item_GXDPeR","accordion_item_pLKdrg","accordion_item_BbD7zm"],"name":"Custom Dynamic Accordion","settings":{"title_bg_color":"#f5f5f5","title_text_color":"#000000","title_hover_color":"#000000","content_bg_color":"#ffffff","content_text_color":"#333333","link_color":"#ff6b00","link_hover_color":"#e05d00","image_alignment":"center","image_text_alignment":"center","open_first_item":false,"single_open":true}},"rich_text_nWJVP4":{"type":"rich-text","blocks":{"text_fN9E4x":{"type":"text","settings":{"text":"<p>*Obtén $50 en recompensas Ashley después de al menos 2 compras que sumen $2,500 o más por período de oferta. Las recompensas de $50 en Ashley son canjeables solo en compras en tienda realizadas con tu tarjeta de crédito Ashley Advantage® Synchrony. Válido en ubicaciones participantes. Para canjear en la tienda, debe presentarse el correo electrónico en el momento de la compra. Por favor, permite hasta 60 días para recibir la recompensa. Límite de una recompensa por cliente por año calendario. No canjeable por efectivo. No reemplazable si se pierde o se roba. Compras anteriores excluidas. Las ofertas no son transferibles y no se aplican a impuestos de venta o envío, entregas en el hogar y cargos por manejo. No se puede utilizar en compras de Beautyrest Black®, Sealy Conform®, Tempur-Pedic®, Stearns & Foster®, Serta® iComfort®, Sealy® Hybrid®, Purple®, Serta® Arctic®, compras de colchones Nectar, liquidaciones\/cierre de ventas, modelos de exhibición, planes de protección de muebles, garantía, cargos de servicio, o compras con un plazo de financiamiento superior a 12 meses. Sujeto a aprobación de crédito. © 2025 Ashley Global Retail, LLC. Consulta <a href=\"https:\/\/ashleyfurniture.com\/orange-rewards\/terms\" title=\"https:\/\/ashleyfurniture.com\/orange-rewards\/terms\">https:\/\/ashleyfurniture.com\/orange-rewards\/terms<\/a>\/ para más detalles.<\/p><p>**Válido en compras realizadas con su tarjeta de crédito Ashley Advantage® Synchrony. Se excluyen compras anteriores. Las ofertas no son transferibles y no se aplican a impuestos sobre ventas o gastos de envío, entrega a domicilio y costos de manejo. Oferta válida en línea y en ubicaciones participantes. Para canjear en la tienda, se debe presentar el correo electrónico en el momento de la compra. No se puede usar en compras de colchones Beautyrest Black®, Sealy Conform®, Tempur-Pedic®, Stearns & Foster®, Serta® iComfort®, Sealy® Hybrid®, Purple®, Serta® Arctic®, Nectar, artículos en liquidación\/cierre, modelos de exhibición, planes de protección de muebles, garantía, cargos por servicios, o compras con un término de financiamiento superior a 12 meses. Sujeto a aprobación de crédito. © 2025 Ashley Global Retail, LLC. Consulta <a href=\"https:\/\/ashleyfurniture.com\/orange-rewards\/terms\/\" title=\"https:\/\/ashleyfurniture.com\/orange-rewards\/terms\/\">https:\/\/ashleyfurniture.com\/orange-rewards\/terms\/<\/a> para más detalles.<\/p><p>^Válido en una compra de un solo recibo realizada con su tarjeta de crédito Ashley Advantage® Synchrony. Debe estar aprobado para la tarjeta de crédito Ashley Advantage® Synchrony al menos 2 meses antes del mes de cumpleaños para calificar para el descuento de cumpleaños del año en curso. Límite de 1 oferta por cupón por titular de la tarjeta. Para canjear en la tienda, el correo electrónico debe presentarse en el momento de la compra. Compras anteriores excluidas. Las ofertas no son transferibles y no se aplican al impuesto sobre las ventas o al envío, entrega a domicilio y cargos de manejo. La oferta es válida en línea y en ubicaciones participantes. No se puede utilizar en compras de colchones Beautyrest Black®, Sealy Conform®, Tempur-Pedic®, Stearns & Foster®, Serta® iComfort®, Sealy® Hybrid®, Purple®, Serta® Arctic®, Nectar, liquidación\/ofertas finales, modelos de exposición, planes de protección de muebles, garantía, cargos por servicio, o compras con un término de financiamiento superior a 12 meses. Sujeta a aprobación de crédito. La oferta de cumpleaños expira el último día calendario del mes. © 2025 Ashley Global Retail, LLC. Consulta <a href=\"https:\/\/ashleyfurniture.com\/orange-rewards\/terms\/\" title=\"https:\/\/ashleyfurniture.com\/orange-rewards\/terms\/\">https:\/\/ashleyfurniture.com\/orange-rewards\/terms\/<\/a> para más detalles.<\/p>"}}},"block_order":["text_fN9E4x"],"custom_css":[".rich-text__text {margin-top: 1rem;}",".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":32}}},"order":["shogun-helper","main","shogun-optimizer","custom_promo_box_nkQc9x","custom_breadcrumb_nHNy4h","image_banner_aty7UC","rich_text_a3DpyC","multicolumn_CzbDNV","custom_dynamic_accordion_GUbXGV","rich_text_nWJVP4"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
+    },
+    "custom_promo_box_nkQc9x": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/poltronas",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_nHNy4h": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "image_banner_aty7UC": {
+      "type": "image_banner",
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "name": "Single Image Banner",
+      "settings": {
+        "layout": "grid",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "slider_link": "",
+        "image": "shopify://shop_images/Orange-LP-Header.webp"
+      }
+    },
+    "rich_text_a3DpyC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_34aWrN": {
+          "type": "heading",
+          "settings": {
+            "heading": "LOS MIEMBROS RECIBEN RECOMPENSAS COMO",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_34aWrN"
+      ],
+      "custom_css": [
+        ".rich-text__blocks .h1 {font-size: 26px; font-weight: 700; line-height: 100%; color: #000;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_CzbDNV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kLD66w": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/orange-rewards-_-Mi-tienda-06-10-2025_12_42_PM-removebg-preview.jpg",
+            "title": "<a href=\"/pages/orange-rewards#\" target=\"_blank\" title=\"/pages/orange-rewards#\">Recompensas Ashley</a>",
+            "text": "<p>Obtén dólares de recompensa en tus compras</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_46VBfF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/orange-rewards-_-Mi-tienda-06-10-2025_12_41_PM-removebg-preview.jpg",
+            "title": "<a href=\"#\" title=\"#\">Ofertas del Martes</a>",
+            "text": "<p>Obtén un 10% extra de descuento el primer martes de cada mes</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wLLQk4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/orange-rewards-_-Mi-tienda-06-10-2025_12_38_PM-removebg-preview.jpg",
+            "title": "<a href=\"#\" title=\"#\">Beneficios de Cumpleaños</a>",
+            "text": "<p>Obtén un 10% de descuento extra durante tu mes de cumpleaños</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kj39nU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/orange-rewards-_-Mi-tienda-06-10-2025_12_39_PM-removebg-preview.webp",
+            "title": "<a href=\"#\" title=\"#\">Invitaciones Exclusivas</a>",
+            "text": "<p>Eventos privados en tu tienda local</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MpfNaV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/orange-rewards-_-Mi-tienda-06-10-2025_12_40_PM-removebg-preview.jpg",
+            "title": "<a href=\"#\" title=\"#\">Vistas Previas</a>",
+            "text": "<p>Acceso anticipado a ventas increíbles</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kLD66w",
+        "column_46VBfF",
+        "column_wLLQk4",
+        "column_kj39nU",
+        "column_MpfNaV"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info h3 a {font-size: 18px !important; line-height: 30px; font-weight: 700; color: #000 !important;}",
+        ".multicolumn-card {background: transparent;}",
+        ".multicolumn-card-spacing {width: 50%; margin: auto;}",
+        ".multicolumn-card__info {padding: 0px 2.5rem;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_dynamic_accordion_GUbXGV": {
+      "type": "custom-dynamic-accordion",
+      "blocks": {
+        "accordion_item_8T4WLk": {
+          "type": "accordion_item",
+          "settings": {
+            "title": "¿Qué es el Orange?",
+            "content": "<p>Orange es el nuevo programa de recompensas de Ashley diseñado para ofrecerte beneficios y recompensas exclusivas en tus compras con Ashley Advantage.</p>",
+            "image_position": "none"
+          }
+        },
+        "accordion_item_GXDPeR": {
+          "type": "accordion_item",
+          "settings": {
+            "title": "¿Cómo funciona?",
+            "content": "<p>Como titular de una tarjeta Ashley Advantage® de Synchrony, estás automáticamente inscrito en Orange, donde puedes recibir excelentes beneficios y ventajas durante todo el año.</p>",
+            "image_position": "right"
+          }
+        },
+        "accordion_item_pLKdrg": {
+          "type": "accordion_item",
+          "settings": {
+            "title": "¿Cómo puedo solicitar ser miembro?",
+            "content": "<p>Para convertirte en miembro, solicita la tarjeta de crédito Ashley Advantage® Synchrony en una ubicación participante o completa la solicitud en línea. Si eres aprobado, serás inscrito automáticamente en Orange.</p>",
+            "image_position": "none"
+          }
+        },
+        "accordion_item_BbD7zm": {
+          "type": "accordion_item",
+          "settings": {
+            "title": "¿Cómo recibiré mis recompensas?",
+            "content": "<p>Todas las recompensas se entregarán por correo electrónico.</p><p>Si no tiene una dirección de correo electrónico y es elegible para los Dólares de Recompensas de Ashley, se le enviarán por correo.</p><p>Si no tienes una dirección de correo electrónico y deseas canjear tu descuento de cumpleaños, visita la tienda Ashley más cercana y presenta una forma válida de identificación.</p>",
+            "image_position": "none"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_item_8T4WLk",
+        "accordion_item_GXDPeR",
+        "accordion_item_pLKdrg",
+        "accordion_item_BbD7zm"
+      ],
+      "name": "Custom Dynamic Accordion",
+      "settings": {
+        "title_bg_color": "#f5f5f5",
+        "title_text_color": "#000000",
+        "title_hover_color": "#000000",
+        "content_bg_color": "#ffffff",
+        "content_text_color": "#333333",
+        "link_color": "#ff6b00",
+        "link_hover_color": "#e05d00",
+        "image_alignment": "center",
+        "image_text_alignment": "center",
+        "open_first_item": false,
+        "single_open": true
+      }
+    },
+    "rich_text_nWJVP4": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fN9E4x": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*Obtén $50 en recompensas Ashley después de al menos 2 compras que sumen $2,500 o más por período de oferta. Las recompensas de $50 en Ashley son canjeables solo en compras en tienda realizadas con tu tarjeta de crédito Ashley Advantage® Synchrony. Válido en ubicaciones participantes. Para canjear en la tienda, debe presentarse el correo electrónico en el momento de la compra. Por favor, permite hasta 60 días para recibir la recompensa. Límite de una recompensa por cliente por año calendario. No canjeable por efectivo. No reemplazable si se pierde o se roba. Compras anteriores excluidas. Las ofertas no son transferibles y no se aplican a impuestos de venta o envío, entregas en el hogar y cargos por manejo. No se puede utilizar en compras de Beautyrest Black®, Sealy Conform®, Tempur-Pedic®, Stearns & Foster®, Serta® iComfort®, Sealy® Hybrid®, Purple®, Serta® Arctic®, compras de colchones Nectar, liquidaciones/cierre de ventas, modelos de exhibición, planes de protección de muebles, garantía, cargos de servicio, o compras con un plazo de financiamiento superior a 12 meses. Sujeto a aprobación de crédito. © 2025 Ashley Global Retail, LLC. Consulta <a href=\"https://ashleyfurniture.com/orange-rewards/terms\" title=\"https://ashleyfurniture.com/orange-rewards/terms\">https://ashleyfurniture.com/orange-rewards/terms</a>/ para más detalles.</p><p>**Válido en compras realizadas con su tarjeta de crédito Ashley Advantage® Synchrony. Se excluyen compras anteriores. Las ofertas no son transferibles y no se aplican a impuestos sobre ventas o gastos de envío, entrega a domicilio y costos de manejo. Oferta válida en línea y en ubicaciones participantes. Para canjear en la tienda, se debe presentar el correo electrónico en el momento de la compra. No se puede usar en compras de colchones Beautyrest Black®, Sealy Conform®, Tempur-Pedic®, Stearns & Foster®, Serta® iComfort®, Sealy® Hybrid®, Purple®, Serta® Arctic®, Nectar, artículos en liquidación/cierre, modelos de exhibición, planes de protección de muebles, garantía, cargos por servicios, o compras con un término de financiamiento superior a 12 meses. Sujeto a aprobación de crédito. © 2025 Ashley Global Retail, LLC. Consulta <a href=\"https://ashleyfurniture.com/orange-rewards/terms/\" title=\"https://ashleyfurniture.com/orange-rewards/terms/\">https://ashleyfurniture.com/orange-rewards/terms/</a> para más detalles.</p><p>^Válido en una compra de un solo recibo realizada con su tarjeta de crédito Ashley Advantage® Synchrony. Debe estar aprobado para la tarjeta de crédito Ashley Advantage® Synchrony al menos 2 meses antes del mes de cumpleaños para calificar para el descuento de cumpleaños del año en curso. Límite de 1 oferta por cupón por titular de la tarjeta. Para canjear en la tienda, el correo electrónico debe presentarse en el momento de la compra. Compras anteriores excluidas. Las ofertas no son transferibles y no se aplican al impuesto sobre las ventas o al envío, entrega a domicilio y cargos de manejo. La oferta es válida en línea y en ubicaciones participantes. No se puede utilizar en compras de colchones Beautyrest Black®, Sealy Conform®, Tempur-Pedic®, Stearns & Foster®, Serta® iComfort®, Sealy® Hybrid®, Purple®, Serta® Arctic®, Nectar, liquidación/ofertas finales, modelos de exposición, planes de protección de muebles, garantía, cargos por servicio, o compras con un término de financiamiento superior a 12 meses. Sujeta a aprobación de crédito. La oferta de cumpleaños expira el último día calendario del mes. © 2025 Ashley Global Retail, LLC. Consulta <a href=\"https://ashleyfurniture.com/orange-rewards/terms/\" title=\"https://ashleyfurniture.com/orange-rewards/terms/\">https://ashleyfurniture.com/orange-rewards/terms/</a> para más detalles.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_fN9E4x"
+      ],
+      "custom_css": [
+        ".rich-text__text {margin-top: 1rem;}",
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "custom_promo_box_nkQc9x",
+    "custom_breadcrumb_nHNy4h",
+    "image_banner_aty7UC",
+    "rich_text_a3DpyC",
+    "multicolumn_CzbDNV",
+    "custom_dynamic_accordion_GUbXGV",
+    "rich_text_nWJVP4"
+  ]
+}

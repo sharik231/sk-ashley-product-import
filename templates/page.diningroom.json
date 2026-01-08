@@ -30,7 +30,7 @@
       "name": "Custom Promo Box",
       "settings": {
         "text_left": "Hasta 20% de descuento Sillones",
-        "link_left": "shopify://collections/armchairs",
+        "link_left": "shopify://collections/poltronas",
         "text_center": "Hasta 20% de descuento Camas",
         "link_center": "shopify://collections/beds",
         "text_right": "Hasta 20% de descuento Mesas de centro",

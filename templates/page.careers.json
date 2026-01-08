@@ -1,1 +1,440 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"shogun-optimizer":{"type":"shogun-optimizer","settings":{}},"custom_promo_box_pWdxhF":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_TkqUgr":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"image_with_text_CPCfMc":{"type":"image-with-text","blocks":{"heading_J8whkf":{"type":"heading","settings":{"heading":"<strong>Amamos nuestros trabajos, tú también deberías.<\/strong>","heading_size":"h1"}},"text_tzayT8":{"type":"text","settings":{"text":"<p>Durante los últimos 80 años, nos hemos enorgullecido no solo de construir muebles hermosos y asequibles, sino también de invertir de manera constante en el futuro. Eso significa nuevas tecnologías, mejores materiales y maneras innovadoras de ofrecer un producto excepcional a las personas que más importan: nuestros clientes. Este compromiso con la calidad es lo que nos ha hecho conocidos. Como el mayor fabricante de muebles del mundo, nos esforzamos por superar las expectativas de nuestros socios minoristas y consumidores en más de 155 países de todo el mundo. Y creemos que lo mejor está por venir. A medida que miramos hacia el futuro, vemos un crecimiento y una transformación continuos en nuestras operaciones, fábricas y comunidades para las generaciones venideras.<br\/><br\/><\/p>","text_style":"body"}},"button_gQr87G":{"type":"button","settings":{"button_label":"Buscar Empleos","button_link":"#","button_style_secondary":false}}},"block_order":["heading_J8whkf","text_tzayT8","button_gQr87G"],"custom_css":[".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}","h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000;}","@media screen and (max-width: 480px) {.image-with-text__content {padding: 4rem calc(2rem \/ var(--font-body-scale)) 2rem; }}"],"name":"t:sections.image-with-text.presets.name","settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/hero-photo_86c846f9-13e9-4311-b90b-92f17c036e99.webp","height":"adapt","desktop_image_width":"medium","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"scheme-2","color_scheme":"scheme-2","padding_top":0,"padding_bottom":0}},"image_with_text_CqyqAG":{"type":"image-with-text","blocks":{"heading_7RAUay":{"type":"heading","settings":{"heading":"<strong>Somos más que un negocio... Somos una familia<\/strong>","heading_size":"h1"}},"text_eGMH6z":{"type":"text","settings":{"text":"<p>Como una empresa familiar de propiedad privada que abarca tres generaciones, nos damos cuenta de que el éxito no se logra en aislamiento. Proviene de los talentos colectivos de cada uno de nuestros valiosos compañeros de equipo. Es por eso que, cuando la familia Wanek fundó Ashley en 1945, se construyó sobre una base sólida que incluía trabajo duro, un compromiso inquebrantable con la excelencia y una pasión por la innovación. Nuestras humildes raíces, impregnadas de servicio hacia nuestros clientes, consumidores y más de 35,000 compañeros de equipo en todo el mundo, nos han ayudado a convertirnos en el mayor fabricante de muebles del mundo y la mayor marca de muebles minorista en América del Norte. Sabemos que ninguno del éxito que hemos logrado sería posible sin la dedicación y tenacidad de todos nuestros valiosos miembros del equipo, a quienes consideramos una extensión de nuestra propia familia. A medida que trabajamos juntos para mejorar continuamente nuestro objetivo colectivo de ser la mejor empresa de muebles del mundo, te invitamos a formar parte de la familia para que podamos ganar juntos.<\/p>","text_style":"body"}},"button_xj8cpQ":{"type":"button","disabled":true,"settings":{"button_label":"Etiqueta de botón","button_link":"","button_style_secondary":false}}},"block_order":["heading_7RAUay","text_eGMH6z","button_xj8cpQ"],"custom_css":[".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}","h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000;}","@media screen and (max-width: 480px) {.image-with-text__content {padding: 4rem calc(2rem \/ var(--font-body-scale)) 2rem; }}"],"name":"t:sections.image-with-text.presets.name","settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/business-family-photo_f1b4477f-9fc0-470a-be48-62a83839055b.webp","height":"adapt","desktop_image_width":"medium","layout":"image_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"scheme-2","color_scheme":"scheme-2","padding_top":0,"padding_bottom":0}},"rich_text_mWidWA":{"type":"rich-text","blocks":{"heading_yJm37p":{"type":"heading","settings":{"heading":"Por qué llamamos hogar a Ashley Furniture","heading_size":"h1"}},"text_R8RkxU":{"type":"text","settings":{"text":"<p>Ashley Furniture ofrece la oportunidad de crecimiento personal y profesional a una escala sin precedentes.<\/p>"}},"button_9bTUdN":{"type":"button","disabled":true,"settings":{"button_label":"Etiqueta de botón","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_yJm37p","text_R8RkxU","button_9bTUdN"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":80,"padding_bottom":20}},"video_fbRepT":{"type":"video","name":"t:sections.video.presets.name","settings":{"heading":"","heading_size":"h1","enable_video_looping":false,"video_url":"https:\/\/youtu.be\/2Aahtc1xmrE","cover_image":"shopify:\/\/shop_images\/call-ashley-home-video-poster_88c2790e-8fc1-42d2-aca3-27e6ad0df1c3.webp","description":"","full_width":false,"color_scheme":"","padding_top":0,"padding_bottom":36}},"custom_accordion_PCP9nd":{"type":"custom-accordion","blocks":{"tab_AtihLx":{"type":"tab","settings":{"tab_title":"Ensamblaje de Muebles","video_url":"https:\/\/youtu.be\/UYXp-JeHINw","tab_description":""}},"tab_meJ9XL":{"type":"tab","settings":{"tab_title":"Soporte para la Fabricación de Muebles de Caso","video_url":"https:\/\/youtu.be\/XTBq4pR11Ck","tab_description":""}},"tab_93eMDp":{"type":"tab","settings":{"tab_title":"Centro de Distribución","video_url":"https:\/\/youtu.be\/w90Uq4XWg9Q","tab_description":""}},"tab_9kxGht":{"type":"tab","settings":{"tab_title":"Industry 4.0","video_url":"","tab_description":""}},"tab_kPPf4m":{"type":"tab","settings":{"tab_title":"Ensamblaje de Tapicería","video_url":"","tab_description":""}},"tab_ime8GL":{"type":"tab","settings":{"tab_title":"Servicios de Distribución Ashley","video_url":"","tab_description":""}}},"block_order":["tab_AtihLx","tab_meJ9XL","tab_93eMDp","tab_9kxGht","tab_kPPf4m","tab_ime8GL"],"custom_css":[".tab {padding-right: 2% !important; width: 40% !important;}",".tabcontent {width: 60% !important;}",".tab button {padding: 20px 10px !important;}"],"name":"Spotlight Video Tabs","settings":{}},"imag_text_gWt4Bp":{"type":"imag_text","blocks":{"benefit_L3nHY6":{"type":"benefit","settings":{"icon":"shopify:\/\/shop_images\/icon_health_16d7e941-5a4e-4409-84d5-c910f1042406.webp","title":"Planes médicos, dentales y de visión para toda la familia"}},"benefit_ACfJVD":{"type":"benefit","settings":{"icon":"shopify:\/\/shop_images\/icon_saftey_54beac1e-4879-4c80-b650-d8ea89f49f01.webp","title":"Espacios de trabajo seguros y limpios"}},"benefit_mAcNAh":{"type":"benefit","settings":{"icon":"shopify:\/\/shop_images\/icon_paid-time-off.webp","title":"Tiempo libre pagado"}},"benefit_YbtQNW":{"type":"benefit","settings":{"icon":"shopify:\/\/shop_images\/icon_tuition-reimbursement_e85bde99-d595-41e1-b066-6d1a1e4b2e79.webp","title":"Reembolso de matrícula"}},"benefit_nfbPfg":{"type":"benefit","settings":{"icon":"shopify:\/\/shop_images\/icon_wellness_e6c1f77b-c4ab-4b22-ac98-311c0436b3ea.webp","title":"Programas de bienestar para empleados"}}},"block_order":["benefit_L3nHY6","benefit_ACfJVD","benefit_mAcNAh","benefit_YbtQNW","benefit_nfbPfg"],"name":"Employee Benefits Section","settings":{}},"multicolumn_CkmdkX":{"type":"multicolumn","blocks":{"column_zUwRha":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/education-room-image_4d3856_62f4c0c7-66d1-4825-ab71-d0596f5b1149.webp","title":"Oportunidad","text":"<p>Con más de 30,000 empleados en todo el mundo en una variedad de funciones empresariales, hay una trayectoria profesional para casi cada disciplina profesional en Ashley.<\/p>","link_label":"","link":"#"}},"column_gNXRVY":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ashley-value_16f5489f-4a37-4338-96ee-576b02b6f7d0.webp","title":"#1 Pero Nunca Satisfecho","text":"<p>Valoramos a los solucionadores de problemas que tienen la determinación para perseverar en tiempos difíciles y que no se conforman con mantener el statu quo cuando las cosas van bien.<\/p>","link_label":"","link":""}},"column_qizan7":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ashley-community-engagement_2efed493-1dd3-43df-9c54-bcc669c53208.webp","title":"Participación Comunitaria","text":"<p>No solo hacemos una diferencia en los hogares, también hacemos una diferencia en casa. Ashley está dedicada a ser un buen ciudadano corporativo y a elevar las comunidades.<\/p>","link_label":"","link":""}}},"block_order":["column_zUwRha","column_gNXRVY","column_qizan7"],"custom_css":[".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",".rich-text__text h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000; padding-bottom: 10px;}",".rich-text__text h3 {font-size: 18px !important; line-height: 30px; font-weight: 500; color: #000 !important;}",".isolate {margin-bottom: 50px;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"Acerca de Nosotros","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"#","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"scheme-2","columns_mobile":"1","swipe_on_mobile":false,"padding_top":52,"padding_bottom":0}}},"order":["shogun-helper","main","shogun-optimizer","custom_promo_box_pWdxhF","custom_breadcrumb_TkqUgr","image_with_text_CPCfMc","image_with_text_CqyqAG","rich_text_mWidWA","video_fbRepT","custom_accordion_PCP9nd","imag_text_gWt4Bp","multicolumn_CkmdkX"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
+    },
+    "custom_promo_box_pWdxhF": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/poltronas",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_TkqUgr": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "image_with_text_CPCfMc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_J8whkf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Amamos nuestros trabajos, tú también deberías.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_tzayT8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Durante los últimos 80 años, nos hemos enorgullecido no solo de construir muebles hermosos y asequibles, sino también de invertir de manera constante en el futuro. Eso significa nuevas tecnologías, mejores materiales y maneras innovadoras de ofrecer un producto excepcional a las personas que más importan: nuestros clientes. Este compromiso con la calidad es lo que nos ha hecho conocidos. Como el mayor fabricante de muebles del mundo, nos esforzamos por superar las expectativas de nuestros socios minoristas y consumidores en más de 155 países de todo el mundo. Y creemos que lo mejor está por venir. A medida que miramos hacia el futuro, vemos un crecimiento y una transformación continuos en nuestras operaciones, fábricas y comunidades para las generaciones venideras.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_gQr87G": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buscar Empleos",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_J8whkf",
+        "text_tzayT8",
+        "button_gQr87G"
+      ],
+      "custom_css": [
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",
+        "h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000;}",
+        "@media screen and (max-width: 480px) {.image-with-text__content {padding: 4rem calc(2rem / var(--font-body-scale)) 2rem; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/hero-photo_86c846f9-13e9-4311-b90b-92f17c036e99.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_CqyqAG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7RAUay": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Somos más que un negocio... Somos una familia</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_eGMH6z": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Como una empresa familiar de propiedad privada que abarca tres generaciones, nos damos cuenta de que el éxito no se logra en aislamiento. Proviene de los talentos colectivos de cada uno de nuestros valiosos compañeros de equipo. Es por eso que, cuando la familia Wanek fundó Ashley en 1945, se construyó sobre una base sólida que incluía trabajo duro, un compromiso inquebrantable con la excelencia y una pasión por la innovación. Nuestras humildes raíces, impregnadas de servicio hacia nuestros clientes, consumidores y más de 35,000 compañeros de equipo en todo el mundo, nos han ayudado a convertirnos en el mayor fabricante de muebles del mundo y la mayor marca de muebles minorista en América del Norte. Sabemos que ninguno del éxito que hemos logrado sería posible sin la dedicación y tenacidad de todos nuestros valiosos miembros del equipo, a quienes consideramos una extensión de nuestra propia familia. A medida que trabajamos juntos para mejorar continuamente nuestro objetivo colectivo de ser la mejor empresa de muebles del mundo, te invitamos a formar parte de la familia para que podamos ganar juntos.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xj8cpQ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7RAUay",
+        "text_eGMH6z",
+        "button_xj8cpQ"
+      ],
+      "custom_css": [
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",
+        "h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000;}",
+        "@media screen and (max-width: 480px) {.image-with-text__content {padding: 4rem calc(2rem / var(--font-body-scale)) 2rem; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/business-family-photo_f1b4477f-9fc0-470a-be48-62a83839055b.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_mWidWA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yJm37p": {
+          "type": "heading",
+          "settings": {
+            "heading": "Por qué llamamos hogar a Ashley Furniture",
+            "heading_size": "h1"
+          }
+        },
+        "text_R8RkxU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ashley Furniture ofrece la oportunidad de crecimiento personal y profesional a una escala sin precedentes.</p>"
+          }
+        },
+        "button_9bTUdN": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yJm37p",
+        "text_R8RkxU",
+        "button_9bTUdN"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 20
+      }
+    },
+    "video_fbRepT": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/2Aahtc1xmrE",
+        "cover_image": "shopify://shop_images/call-ashley-home-video-poster_88c2790e-8fc1-42d2-aca3-27e6ad0df1c3.webp",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "custom_accordion_PCP9nd": {
+      "type": "custom-accordion",
+      "blocks": {
+        "tab_AtihLx": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Ensamblaje de Muebles",
+            "video_url": "https://youtu.be/UYXp-JeHINw",
+            "tab_description": ""
+          }
+        },
+        "tab_meJ9XL": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Soporte para la Fabricación de Muebles de Caso",
+            "video_url": "https://youtu.be/XTBq4pR11Ck",
+            "tab_description": ""
+          }
+        },
+        "tab_93eMDp": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Centro de Distribución",
+            "video_url": "https://youtu.be/w90Uq4XWg9Q",
+            "tab_description": ""
+          }
+        },
+        "tab_9kxGht": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Industry 4.0",
+            "video_url": "",
+            "tab_description": ""
+          }
+        },
+        "tab_kPPf4m": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Ensamblaje de Tapicería",
+            "video_url": "",
+            "tab_description": ""
+          }
+        },
+        "tab_ime8GL": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Servicios de Distribución Ashley",
+            "video_url": "",
+            "tab_description": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_AtihLx",
+        "tab_meJ9XL",
+        "tab_93eMDp",
+        "tab_9kxGht",
+        "tab_kPPf4m",
+        "tab_ime8GL"
+      ],
+      "custom_css": [
+        ".tab {padding-right: 2% !important; width: 40% !important;}",
+        ".tabcontent {width: 60% !important;}",
+        ".tab button {padding: 20px 10px !important;}"
+      ],
+      "name": "Spotlight Video Tabs",
+      "settings": {}
+    },
+    "imag_text_gWt4Bp": {
+      "type": "imag_text",
+      "blocks": {
+        "benefit_L3nHY6": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/icon_health_16d7e941-5a4e-4409-84d5-c910f1042406.webp",
+            "title": "Planes médicos, dentales y de visión para toda la familia"
+          }
+        },
+        "benefit_ACfJVD": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/icon_saftey_54beac1e-4879-4c80-b650-d8ea89f49f01.webp",
+            "title": "Espacios de trabajo seguros y limpios"
+          }
+        },
+        "benefit_mAcNAh": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/icon_paid-time-off.webp",
+            "title": "Tiempo libre pagado"
+          }
+        },
+        "benefit_YbtQNW": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/icon_tuition-reimbursement_e85bde99-d595-41e1-b066-6d1a1e4b2e79.webp",
+            "title": "Reembolso de matrícula"
+          }
+        },
+        "benefit_nfbPfg": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/icon_wellness_e6c1f77b-c4ab-4b22-ac98-311c0436b3ea.webp",
+            "title": "Programas de bienestar para empleados"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_L3nHY6",
+        "benefit_ACfJVD",
+        "benefit_mAcNAh",
+        "benefit_YbtQNW",
+        "benefit_nfbPfg"
+      ],
+      "name": "Employee Benefits Section",
+      "settings": {}
+    },
+    "multicolumn_CkmdkX": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zUwRha": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/education-room-image_4d3856_62f4c0c7-66d1-4825-ab71-d0596f5b1149.webp",
+            "title": "Oportunidad",
+            "text": "<p>Con más de 30,000 empleados en todo el mundo en una variedad de funciones empresariales, hay una trayectoria profesional para casi cada disciplina profesional en Ashley.</p>",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_gNXRVY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ashley-value_16f5489f-4a37-4338-96ee-576b02b6f7d0.webp",
+            "title": "#1 Pero Nunca Satisfecho",
+            "text": "<p>Valoramos a los solucionadores de problemas que tienen la determinación para perseverar en tiempos difíciles y que no se conforman con mantener el statu quo cuando las cosas van bien.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qizan7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ashley-community-engagement_2efed493-1dd3-43df-9c54-bcc669c53208.webp",
+            "title": "Participación Comunitaria",
+            "text": "<p>No solo hacemos una diferencia en los hogares, también hacemos una diferencia en casa. Ashley está dedicada a ser un buen ciudadano corporativo y a elevar las comunidades.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zUwRha",
+        "column_gNXRVY",
+        "column_qizan7"
+      ],
+      "custom_css": [
+        ".rte p {font-size: 14px !important; color: #000 !important; padding-bottom: 15px; line-height: 30px;}",
+        ".rich-text__text h2 {font-size: 20px; font-weight: 600; line-height: 30px; color: #000; padding-bottom: 10px;}",
+        ".rich-text__text h3 {font-size: 18px !important; line-height: 30px; font-weight: 500; color: #000 !important;}",
+        ".isolate {margin-bottom: 50px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Acerca de Nosotros",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "#",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "custom_promo_box_pWdxhF",
+    "custom_breadcrumb_TkqUgr",
+    "image_with_text_CPCfMc",
+    "image_with_text_CqyqAG",
+    "rich_text_mWidWA",
+    "video_fbRepT",
+    "custom_accordion_PCP9nd",
+    "imag_text_gWt4Bp",
+    "multicolumn_CkmdkX"
+  ]
+}

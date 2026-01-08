@@ -1,1 +1,729 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"shogun-optimizer":{"type":"shogun-optimizer","settings":{}},"rich_text_TwMkXw":{"type":"rich-text","blocks":{"heading_q4DXA3":{"type":"heading","settings":{"heading":"Coméntanos sobre tu marca{{ page.title }}","heading_size":"h1"}},"text_epRB4p":{"type":"text","settings":{"text":"<p><strong>ASHLEY PERSONAL DATA PROCESSING POLICY<\/strong><\/p><p><strong>Data controller: CLOVER4 SAS <\/strong>, with Tax Identification Number (NIT) No. 901.513.909-1, with registered address at Avenida Carrera 19 #109 -41 in Bogotá, Colombia (hereinafter (“ <strong>ASHLEY and\/or the company <\/strong>”), will act as controller for the collection, storage, use, processing, updating, circulation, deletion, transfer, transmission and, in general, any operation or set of operations in and on your personal data.<\/p><p>This ASHLEY Privacy and Personal Data Processing Policy (hereinafter the \" <strong>Policy <\/strong>\") establishes the terms and conditions under which ASHLEY will carry out the processing to which the personal data provided through physical stores, the <a href=\"https:\/\/ashleycolombia.com\/\">ASHLEY<\/a> website , micro sites related to it, mobile versions, social networks and\/or any other mechanism or channel enabled by ASHLEY for the collection of personal data will be subjected.<\/p><p>Before purchasing any product and\/or service offered by ASHLEY, you must carefully read this Policy so that you are aware of your rights, ASHLEY's duties, the channels available for exercising your rights, the procedures established for inquiries and complaints, the purposes for which your personal data was collected, and other relevant information regarding current regulations regarding personal data.<\/p><p>By accepting this Personal Data Processing Policy, the data subject is informed and gives his or her free, informed, specific, and unequivocal consent for the processing of the personal data he or she provides by ASHLEY, as well as any data derived from his or her browsing and any other data he or she may provide in the future.<\/p>"}}},"block_order":["heading_q4DXA3","text_epRB4p"],"disabled":true,"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":false,"padding_top":40,"padding_bottom":52}},"custom_promo_box_mp7eLb":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_zKDqB8":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"image_banner_9b7yP7":{"type":"image-banner","blocks":{"heading_UG8xMP":{"type":"heading","settings":{"heading":"SERVICIOS DE DISEÑO","heading_size":"h1"}},"text_tPBVBH":{"type":"text","settings":{"text":"orientación experta gratuita de nuestro equipo de diseñadores de interiores","text_style":"body"}},"buttons_tGEz9d":{"type":"buttons","settings":{"button_label_1":"Comenzar","button_link_1":"","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_UG8xMP","text_tPBVBH","buttons_tGEz9d"],"custom_css":["h2 {color: #fff; font-size: 28px;}","p {color: #fff;}"],"name":"t:sections.image-banner.presets.name","settings":{"layout":"grid","slider_link":"","image":"shopify:\/\/shop_images\/Servicios_de_diseno-_1.jpg","image_overlay_opacity":0,"image_height":"medium","image_behavior":"none","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":false,"color_scheme":"","stack_images_on_mobile":true,"mobile_content_alignment":"center","show_text_below":true}},"multicolumn_DQ9YKi":{"type":"multicolumn","blocks":{"column_gTxgTW":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno-02.png","title":"Comparte tus metas","text":"<p>Completa nuestro cuestionario y revisaremos tu espacio, tu inspiración y tu estilo personal<\/p>","link_label":"","link":""}},"column_CDdt34":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno-03.png","title":"Crea tu espacio","text":"<p>El trabajo comienza cuando tu diseñador personal desarrolla un plano de planta y un tablero de inspiración individual.<\/p>","link_label":"","link":""}},"column_GhYqd8":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno.png","title":"Presentar nuestra visión","text":"<p>Tu diseñador te proporcionará recomendaciones y colaborará para perfeccionar tu estilo.<\/p>","link_label":"","link":""}},"column_zptNDh":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno-05.png","title":"Dale vida","text":"<p>Te ayudaremos a completar tu compra, en tienda o en línea.<\/p>","link_label":"","link":""}}},"block_order":["column_gTxgTW","column_CDdt34","column_GhYqd8","column_zptNDh"],"custom_css":["h2 {font-size: 28px; color: #000; margin: auto;}","h3 {font-size: 20px; font-weight: 600; color: #000;}",".multicolumn-card-spacing {margin: 0px; padding-top: 0px;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"Nuestro Proceso","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":4,"column_alignment":"center","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"image_with_text_wU3WRM":{"type":"image-with-text","blocks":{"heading_GaULL3":{"type":"heading","settings":{"heading":"<strong>Diseño experto sin compromisos<\/strong>","heading_size":"h1"}},"text_ag8mgP":{"type":"text","settings":{"text":"<p>Descubre las últimas tendencias, estilos e historias<\/p>","text_style":"body"}},"button_n9XwrW":{"type":"button","settings":{"button_label":"Comenzar","button_link":"#","button_style_secondary":false}}},"block_order":["heading_GaULL3","text_ag8mgP","button_n9XwrW"],"custom_css":["h2 {font-size: 28px; color: #000;}",".image-with-text__content {top: 30%;}"],"name":"t:sections.image-with-text.presets.name","settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/Servicios_de_diseno.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"center","mobile_content_alignment":"left","section_color_scheme":"","color_scheme":"","padding_top":36,"padding_bottom":36}},"rich_text_fWhETj":{"type":"rich-text","blocks":{"heading_yWjNj3":{"type":"heading","settings":{"heading":"Tu Historia, Tu Espacio","heading_size":"h1"}},"text_8fDhDx":{"type":"text","settings":{"text":"<p>Nuestro equipo de diseño puede crear un estilo que se ajuste a tu imagen y a tu estilo de vida.<\/p>"}},"button_VtQXfm":{"type":"button","settings":{"button_label":"","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_yWjNj3","text_8fDhDx","button_VtQXfm"],"custom_css":["h2 {font-size: 28px; color: #000;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"multicolumn_96pEXb":{"type":"multicolumn","blocks":{"column_J39mpF":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno_4_estilos-07.png","title":"La Familia Creciente","text":"","link_label":"","link":""}},"column_pFa6FW":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno_4_estilos-08.png","title":"Los Viajeros Eclécticos","text":"","link_label":"","link":""}},"column_WiE8bA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno_4_estilos-09.png","title":"El Profesional Glamuroso","text":"","link_label":"","link":""}},"column_edWaRg":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno_4_estilos-10.png","title":"Los Tradicionalistas","text":"","link_label":"","link":""}}},"block_order":["column_J39mpF","column_pFa6FW","column_WiE8bA","column_edWaRg"],"custom_css":["h3 {font-size: 20px; color: #000;}",".multicolumn-card-spacing {padding-top: 0rem; margin-left: 0rem; margin-right: 0rem;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":4,"column_alignment":"center","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":36}},"image_banner_8rN8N4":{"type":"image_banner","custom_css":["img {width: 100%;}"],"name":"Single Image Banner","settings":{"layout":"grid","padding_top":0,"padding_bottom":25,"slider_link":"","image":"shopify:\/\/shop_images\/Servicios_de_diseno_personas_hablando.jpg"}},"rich_text_cp9Nrk":{"type":"rich-text","blocks":{"heading_kEMca9":{"type":"heading","settings":{"heading":"Inspírate","heading_size":"h1"}},"text_Mqe3Qz":{"type":"text","settings":{"text":"<p>Despierta tu imaginación con nuestro último estilo en tendencia<\/p>"}},"button_YM4wqE":{"type":"button","settings":{"button_label":"","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_kEMca9","text_Mqe3Qz","button_YM4wqE"],"custom_css":["h2 {font-size: 28px; color: #fff;}","p {color: #fff !important;}",".rich-text__wrapper {background: #000; padding: 30px 0px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"multicolumn_rE7U4F":{"type":"multicolumn","blocks":{"column_dEKGnU":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno__Estilos-12.jpg","title":"Moderno de mediados de siglo","text":"","link_label":"","link":""}},"column_pEXyYw":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno__Estilos-13.jpg","title":"Moderno Costero","text":"","link_label":"","link":""}},"column_zLRTjC":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno__Estilos-14.jpg","title":"Transicional","text":"","link_label":"","link":""}},"column_BDkRYX":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Servicios_de_diseno__Estilos-15.jpg","title":"Granja Moderna","text":"","link_label":"","link":""}}},"block_order":["column_dEKGnU","column_pEXyYw","column_zLRTjC","column_BDkRYX"],"custom_css":["h3 {font-size: 20px; color: #fff;}",".multicolumn-list {background: #000;}",".center {background: #000;}",".multicolumn-card {background: transparent;}",".multicolumn-card__image-wrapper {margin: 0px; padding-top: 0px;}",".multicolumn-list {padding: 0px 20px;}",".multicolumn .button {margin-bottom: 8rem; background: #fff; color: #000; font-weight: 700;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"EXPLORE MÁS ESTILOS","button_link":"#","columns_desktop":4,"column_alignment":"center","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"rich_text_QPKE89":{"type":"rich-text","blocks":{"heading_HnNtQa":{"type":"heading","settings":{"heading":"¿Ya tienes un proyecto con nosotros?","heading_size":"h1"}},"text_dRRVQp":{"type":"text","settings":{"text":"<p>Retoma donde lo dejaste<\/p>"}},"button_6w6MEQ":{"type":"button","settings":{"button_label":"Iniciar sesión","button_link":"#","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_HnNtQa","text_dRRVQp","button_6w6MEQ"],"custom_css":["h2 {font-size: 28px; color: #000;}",".rich-text__wrapper {padding: 50px 0px; background: #f2f2f2;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"faq_AK8diM":{"type":"faq","blocks":{"faq_item_FDfWAh":{"type":"faq_item","settings":{"question":"¿Son gratuitos los servicios de diseño de Ashley?","answer":"<p>¡Sí! Nuestros servicios de diseño son completamente gratuitos, incluso si decides no comprar nada.<\/p>"}},"faq_item_fzitGd":{"type":"faq_item","settings":{"question":"¿Qué necesito para empezar?","answer":"<p>Simplemente completa nuestro cuestionario, responde algunas preguntas para ayudar a nuestros diseñadores a conocer tus deseos y necesidades, sube un plano de planta, imágenes de tu espacio y comparte inspiración para el estilo que deseas crear. Nos pondremos en contacto contigo poco después para informarte sobre los próximos pasos y presentarte a tu diseñador.<\/p>"}},"faq_item_TQffbm":{"type":"faq_item","settings":{"question":"¿Qué elementos están incluidos en mi paquete de diseño personalizado?","answer":"<p>Tu paquete de diseño personalizado consistirá en artículos de ashleyfurniture.com. Estos incluyen sofás, sillas de acento, juegos de dormitorio, mesas de comedor, sillas de comedor, escritorios, estanterías, gabinetes, mesas de acento, mesas auxiliares, lámparas, arte, accesorios, alfombras, cortinas, lámparas y mucho, mucho más. El diseño no incluirá ningún cambio arquitectónico ni accesorios permanentes como gabinetes empotrados, colores de pintura, pisos u otros acabados interiores.<\/p>"}},"faq_item_7ewRPk":{"type":"faq_item","settings":{"question":"¿Cuánto tiempo tardará mi diseño personalizado?","answer":"<p>Una vez que hayas completado el cuestionario, incluyendo un plano de planta, imágenes de tu espacio y la inspiración para el estilo que estás buscando, serán entre 5 y 10 días hábiles para que el diseñador cree tu tablero de habitación personalizado. Tu diseñador proporcionará un cronograma exacto sobre cuándo esperar tu diseño cuando se comunique inicialmente.<\/p>"}},"faq_item_GqD7cA":{"type":"faq_item","settings":{"question":"¿Qué tipo de espacios puede ayudar a diseñar un diseñador virtual?","answer":"<p>Nuestros diseñadores pueden ayudar con prácticamente cualquier espacio interior y muchos espacios exteriores. Los espacios incluyen, pero no se limitan a, salas de estar, salas familiares, despachos, vestíbulos, habitaciones principales, habitaciones de niños, comedores, oficinas en casa, salas de recreo, salas multiusos, patios y invernaderos.<\/p>"}},"faq_item_Fw6QtT":{"type":"faq_item","settings":{"question":"¿Puedes ayudarme si no sé cuál es mi estilo de diseño de interiores?","answer":"<p>¡Absolutamente! Entendemos que determinar qué estilo deseas puede ser difícil de concretar. Echa un vistazo a nuestros estilos en tendencia para inspirarte. Pinterest también es un gran recurso. Una vez que hayas completado tu cuestionario, tu diseñador colaborará contigo para crear el espacio de tus sueños!<\/p>"}},"faq_item_ARmryJ":{"type":"faq_item","settings":{"question":"¿Puedes diseñar más de una habitación en mi casa?","answer":"<p>¡Sí! Completa el cuestionario para la habitación que te gustaría diseñar primero e incluye en tus notas las otras habitaciones que te gustaría actualizar.<\/p>"}},"faq_item_7Tj6zB":{"type":"faq_item","settings":{"question":"¿Puedes incorporar muebles o accesorios que ya poseo?","answer":"<p>¡Sí! Ya sea que se trate de valiosos herencias familiares o simplemente de una pieza que amas, coordinaremos un diseño que no solo incorpore tus artículos, sino que los acentúe. Envía imágenes y dimensiones de las piezas al completar tu cuestionario para ayudar a tu diseñador a asegurar cohesión en todo tu nuevo espacio.<\/p>"}},"faq_item_RF8pWK":{"type":"faq_item","settings":{"question":"¿Qué pasa si solo necesito consejos sobre elegir una o dos piezas, pero no un rediseño completo?","answer":"<p>Si tienes una pregunta rápida sobre diseño, puedes chatear ahora con un experto en diseño para recibir asesoramiento.<\/p>"}},"faq_item_Wzawig":{"type":"faq_item","settings":{"question":"¿Por qué pides un plano de planta y fotos del espacio?","answer":"<p>Necesitamos estos elementos para crear un diseño preciso con muebles que sean del tamaño adecuado, permitan un flujo de tráfico amplio y que quepan por las puertas y escaleras de su hogar. No podemos proceder sin estos elementos ya que este es un servicio en línea y no podremos visitar su casa.<\/p>"}},"faq_item_pXaeVn":{"type":"faq_item","settings":{"question":"¿Hay un diseñador ubicado en mi tienda Ashley local?","answer":"<p>Nuestros servicios de diseño son completamente en línea con un equipo de diseñadores de interiores listos para ayudarte a comenzar tu viaje de diseño.<\/p>"}},"faq_item_YGmfF3":{"type":"faq_item","settings":{"question":"¿Cómo puedo comprar el diseño de mi habitación?","answer":"<p>Se creará una lista personalizada con su diseño personalizado que facilita la compra. Las compras se pueden realizar en línea o en cualquier ubicación de Ashley que elija. Su diseñador podrá brindar asistencia durante todo el proceso de compra.<\/p>"}},"faq_item_JdnYDT":{"type":"faq_item","settings":{"question":"¿Puedo ver el producto en persona?","answer":"<p>Dependiendo de tu estilo y selecciones, la mayoría de los artículos se pueden encontrar en tu tienda Ashley más cercana. Por favor, contacta a tu tienda Ashley local para ver si los artículos que te gustaría ver están disponibles en la tienda.<\/p>"}}},"block_order":["faq_item_FDfWAh","faq_item_fzitGd","faq_item_TQffbm","faq_item_7ewRPk","faq_item_GqD7cA","faq_item_Fw6QtT","faq_item_ARmryJ","faq_item_7Tj6zB","faq_item_RF8pWK","faq_item_Wzawig","faq_item_pXaeVn","faq_item_YGmfF3","faq_item_JdnYDT"],"custom_css":[".faq-search-simple {display: none;}"],"name":"Simple FAQ Section","settings":{"section_title":"Preguntas frecuentes sobre el servicio de diseño de Ashley"}}},"order":["shogun-helper","main","shogun-optimizer","rich_text_TwMkXw","custom_promo_box_mp7eLb","custom_breadcrumb_zKDqB8","image_banner_9b7yP7","multicolumn_DQ9YKi","image_with_text_wU3WRM","rich_text_fWhETj","multicolumn_96pEXb","image_banner_8rN8N4","rich_text_cp9Nrk","multicolumn_rE7U4F","rich_text_QPKE89","faq_AK8diM"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
+    },
+    "rich_text_TwMkXw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_q4DXA3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coméntanos sobre tu marca{{ page.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_epRB4p": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ASHLEY PERSONAL DATA PROCESSING POLICY</strong></p><p><strong>Data controller: CLOVER4 SAS </strong>, with Tax Identification Number (NIT) No. 901.513.909-1, with registered address at Avenida Carrera 19 #109 -41 in Bogotá, Colombia (hereinafter (“ <strong>ASHLEY and/or the company </strong>”), will act as controller for the collection, storage, use, processing, updating, circulation, deletion, transfer, transmission and, in general, any operation or set of operations in and on your personal data.</p><p>This ASHLEY Privacy and Personal Data Processing Policy (hereinafter the \" <strong>Policy </strong>\") establishes the terms and conditions under which ASHLEY will carry out the processing to which the personal data provided through physical stores, the <a href=\"https://ashleycolombia.com/\">ASHLEY</a> website , micro sites related to it, mobile versions, social networks and/or any other mechanism or channel enabled by ASHLEY for the collection of personal data will be subjected.</p><p>Before purchasing any product and/or service offered by ASHLEY, you must carefully read this Policy so that you are aware of your rights, ASHLEY's duties, the channels available for exercising your rights, the procedures established for inquiries and complaints, the purposes for which your personal data was collected, and other relevant information regarding current regulations regarding personal data.</p><p>By accepting this Personal Data Processing Policy, the data subject is informed and gives his or her free, informed, specific, and unequivocal consent for the processing of the personal data he or she provides by ASHLEY, as well as any data derived from his or her browsing and any other data he or she may provide in the future.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_q4DXA3",
+        "text_epRB4p"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_promo_box_mp7eLb": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/poltronas",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_zKDqB8": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "image_banner_9b7yP7": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_UG8xMP": {
+          "type": "heading",
+          "settings": {
+            "heading": "SERVICIOS DE DISEÑO",
+            "heading_size": "h1"
+          }
+        },
+        "text_tPBVBH": {
+          "type": "text",
+          "settings": {
+            "text": "orientación experta gratuita de nuestro equipo de diseñadores de interiores",
+            "text_style": "body"
+          }
+        },
+        "buttons_tGEz9d": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Comenzar",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UG8xMP",
+        "text_tPBVBH",
+        "buttons_tGEz9d"
+      ],
+      "custom_css": [
+        "h2 {color: #fff; font-size: 28px;}",
+        "p {color: #fff;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "layout": "grid",
+        "slider_link": "",
+        "image": "shopify://shop_images/Servicios_de_diseno-_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "multicolumn_DQ9YKi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gTxgTW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno-02.png",
+            "title": "Comparte tus metas",
+            "text": "<p>Completa nuestro cuestionario y revisaremos tu espacio, tu inspiración y tu estilo personal</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CDdt34": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno-03.png",
+            "title": "Crea tu espacio",
+            "text": "<p>El trabajo comienza cuando tu diseñador personal desarrolla un plano de planta y un tablero de inspiración individual.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GhYqd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno.png",
+            "title": "Presentar nuestra visión",
+            "text": "<p>Tu diseñador te proporcionará recomendaciones y colaborará para perfeccionar tu estilo.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zptNDh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno-05.png",
+            "title": "Dale vida",
+            "text": "<p>Te ayudaremos a completar tu compra, en tienda o en línea.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gTxgTW",
+        "column_CDdt34",
+        "column_GhYqd8",
+        "column_zptNDh"
+      ],
+      "custom_css": [
+        "h2 {font-size: 28px; color: #000; margin: auto;}",
+        "h3 {font-size: 20px; font-weight: 600; color: #000;}",
+        ".multicolumn-card-spacing {margin: 0px; padding-top: 0px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Nuestro Proceso",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_wU3WRM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GaULL3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Diseño experto sin compromisos</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_ag8mgP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Descubre las últimas tendencias, estilos e historias</p>",
+            "text_style": "body"
+          }
+        },
+        "button_n9XwrW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Comenzar",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GaULL3",
+        "text_ag8mgP",
+        "button_n9XwrW"
+      ],
+      "custom_css": [
+        "h2 {font-size: 28px; color: #000;}",
+        ".image-with-text__content {top: 30%;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/Servicios_de_diseno.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_fWhETj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yWjNj3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tu Historia, Tu Espacio",
+            "heading_size": "h1"
+          }
+        },
+        "text_8fDhDx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nuestro equipo de diseño puede crear un estilo que se ajuste a tu imagen y a tu estilo de vida.</p>"
+          }
+        },
+        "button_VtQXfm": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yWjNj3",
+        "text_8fDhDx",
+        "button_VtQXfm"
+      ],
+      "custom_css": [
+        "h2 {font-size: 28px; color: #000;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_96pEXb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_J39mpF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno_4_estilos-07.png",
+            "title": "La Familia Creciente",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pFa6FW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno_4_estilos-08.png",
+            "title": "Los Viajeros Eclécticos",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WiE8bA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno_4_estilos-09.png",
+            "title": "El Profesional Glamuroso",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_edWaRg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno_4_estilos-10.png",
+            "title": "Los Tradicionalistas",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_J39mpF",
+        "column_pFa6FW",
+        "column_WiE8bA",
+        "column_edWaRg"
+      ],
+      "custom_css": [
+        "h3 {font-size: 20px; color: #000;}",
+        ".multicolumn-card-spacing {padding-top: 0rem; margin-left: 0rem; margin-right: 0rem;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_8rN8N4": {
+      "type": "image_banner",
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "name": "Single Image Banner",
+      "settings": {
+        "layout": "grid",
+        "padding_top": 0,
+        "padding_bottom": 25,
+        "slider_link": "",
+        "image": "shopify://shop_images/Servicios_de_diseno_personas_hablando.jpg"
+      }
+    },
+    "rich_text_cp9Nrk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kEMca9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspírate",
+            "heading_size": "h1"
+          }
+        },
+        "text_Mqe3Qz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Despierta tu imaginación con nuestro último estilo en tendencia</p>"
+          }
+        },
+        "button_YM4wqE": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kEMca9",
+        "text_Mqe3Qz",
+        "button_YM4wqE"
+      ],
+      "custom_css": [
+        "h2 {font-size: 28px; color: #fff;}",
+        "p {color: #fff !important;}",
+        ".rich-text__wrapper {background: #000; padding: 30px 0px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_rE7U4F": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dEKGnU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno__Estilos-12.jpg",
+            "title": "Moderno de mediados de siglo",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pEXyYw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno__Estilos-13.jpg",
+            "title": "Moderno Costero",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zLRTjC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno__Estilos-14.jpg",
+            "title": "Transicional",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BDkRYX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Servicios_de_diseno__Estilos-15.jpg",
+            "title": "Granja Moderna",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dEKGnU",
+        "column_pEXyYw",
+        "column_zLRTjC",
+        "column_BDkRYX"
+      ],
+      "custom_css": [
+        "h3 {font-size: 20px; color: #fff;}",
+        ".multicolumn-list {background: #000;}",
+        ".center {background: #000;}",
+        ".multicolumn-card {background: transparent;}",
+        ".multicolumn-card__image-wrapper {margin: 0px; padding-top: 0px;}",
+        ".multicolumn-list {padding: 0px 20px;}",
+        ".multicolumn .button {margin-bottom: 8rem; background: #fff; color: #000; font-weight: 700;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "EXPLORE MÁS ESTILOS",
+        "button_link": "#",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_QPKE89": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HnNtQa": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Ya tienes un proyecto con nosotros?",
+            "heading_size": "h1"
+          }
+        },
+        "text_dRRVQp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Retoma donde lo dejaste</p>"
+          }
+        },
+        "button_6w6MEQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Iniciar sesión",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HnNtQa",
+        "text_dRRVQp",
+        "button_6w6MEQ"
+      ],
+      "custom_css": [
+        "h2 {font-size: 28px; color: #000;}",
+        ".rich-text__wrapper {padding: 50px 0px; background: #f2f2f2;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "faq_AK8diM": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_FDfWAh": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Son gratuitos los servicios de diseño de Ashley?",
+            "answer": "<p>¡Sí! Nuestros servicios de diseño son completamente gratuitos, incluso si decides no comprar nada.</p>"
+          }
+        },
+        "faq_item_fzitGd": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Qué necesito para empezar?",
+            "answer": "<p>Simplemente completa nuestro cuestionario, responde algunas preguntas para ayudar a nuestros diseñadores a conocer tus deseos y necesidades, sube un plano de planta, imágenes de tu espacio y comparte inspiración para el estilo que deseas crear. Nos pondremos en contacto contigo poco después para informarte sobre los próximos pasos y presentarte a tu diseñador.</p>"
+          }
+        },
+        "faq_item_TQffbm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Qué elementos están incluidos en mi paquete de diseño personalizado?",
+            "answer": "<p>Tu paquete de diseño personalizado consistirá en artículos de ashleyfurniture.com. Estos incluyen sofás, sillas de acento, juegos de dormitorio, mesas de comedor, sillas de comedor, escritorios, estanterías, gabinetes, mesas de acento, mesas auxiliares, lámparas, arte, accesorios, alfombras, cortinas, lámparas y mucho, mucho más. El diseño no incluirá ningún cambio arquitectónico ni accesorios permanentes como gabinetes empotrados, colores de pintura, pisos u otros acabados interiores.</p>"
+          }
+        },
+        "faq_item_7ewRPk": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Cuánto tiempo tardará mi diseño personalizado?",
+            "answer": "<p>Una vez que hayas completado el cuestionario, incluyendo un plano de planta, imágenes de tu espacio y la inspiración para el estilo que estás buscando, serán entre 5 y 10 días hábiles para que el diseñador cree tu tablero de habitación personalizado. Tu diseñador proporcionará un cronograma exacto sobre cuándo esperar tu diseño cuando se comunique inicialmente.</p>"
+          }
+        },
+        "faq_item_GqD7cA": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Qué tipo de espacios puede ayudar a diseñar un diseñador virtual?",
+            "answer": "<p>Nuestros diseñadores pueden ayudar con prácticamente cualquier espacio interior y muchos espacios exteriores. Los espacios incluyen, pero no se limitan a, salas de estar, salas familiares, despachos, vestíbulos, habitaciones principales, habitaciones de niños, comedores, oficinas en casa, salas de recreo, salas multiusos, patios y invernaderos.</p>"
+          }
+        },
+        "faq_item_Fw6QtT": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Puedes ayudarme si no sé cuál es mi estilo de diseño de interiores?",
+            "answer": "<p>¡Absolutamente! Entendemos que determinar qué estilo deseas puede ser difícil de concretar. Echa un vistazo a nuestros estilos en tendencia para inspirarte. Pinterest también es un gran recurso. Una vez que hayas completado tu cuestionario, tu diseñador colaborará contigo para crear el espacio de tus sueños!</p>"
+          }
+        },
+        "faq_item_ARmryJ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Puedes diseñar más de una habitación en mi casa?",
+            "answer": "<p>¡Sí! Completa el cuestionario para la habitación que te gustaría diseñar primero e incluye en tus notas las otras habitaciones que te gustaría actualizar.</p>"
+          }
+        },
+        "faq_item_7Tj6zB": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Puedes incorporar muebles o accesorios que ya poseo?",
+            "answer": "<p>¡Sí! Ya sea que se trate de valiosos herencias familiares o simplemente de una pieza que amas, coordinaremos un diseño que no solo incorpore tus artículos, sino que los acentúe. Envía imágenes y dimensiones de las piezas al completar tu cuestionario para ayudar a tu diseñador a asegurar cohesión en todo tu nuevo espacio.</p>"
+          }
+        },
+        "faq_item_RF8pWK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Qué pasa si solo necesito consejos sobre elegir una o dos piezas, pero no un rediseño completo?",
+            "answer": "<p>Si tienes una pregunta rápida sobre diseño, puedes chatear ahora con un experto en diseño para recibir asesoramiento.</p>"
+          }
+        },
+        "faq_item_Wzawig": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Por qué pides un plano de planta y fotos del espacio?",
+            "answer": "<p>Necesitamos estos elementos para crear un diseño preciso con muebles que sean del tamaño adecuado, permitan un flujo de tráfico amplio y que quepan por las puertas y escaleras de su hogar. No podemos proceder sin estos elementos ya que este es un servicio en línea y no podremos visitar su casa.</p>"
+          }
+        },
+        "faq_item_pXaeVn": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Hay un diseñador ubicado en mi tienda Ashley local?",
+            "answer": "<p>Nuestros servicios de diseño son completamente en línea con un equipo de diseñadores de interiores listos para ayudarte a comenzar tu viaje de diseño.</p>"
+          }
+        },
+        "faq_item_YGmfF3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Cómo puedo comprar el diseño de mi habitación?",
+            "answer": "<p>Se creará una lista personalizada con su diseño personalizado que facilita la compra. Las compras se pueden realizar en línea o en cualquier ubicación de Ashley que elija. Su diseñador podrá brindar asistencia durante todo el proceso de compra.</p>"
+          }
+        },
+        "faq_item_JdnYDT": {
+          "type": "faq_item",
+          "settings": {
+            "question": "¿Puedo ver el producto en persona?",
+            "answer": "<p>Dependiendo de tu estilo y selecciones, la mayoría de los artículos se pueden encontrar en tu tienda Ashley más cercana. Por favor, contacta a tu tienda Ashley local para ver si los artículos que te gustaría ver están disponibles en la tienda.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_FDfWAh",
+        "faq_item_fzitGd",
+        "faq_item_TQffbm",
+        "faq_item_7ewRPk",
+        "faq_item_GqD7cA",
+        "faq_item_Fw6QtT",
+        "faq_item_ARmryJ",
+        "faq_item_7Tj6zB",
+        "faq_item_RF8pWK",
+        "faq_item_Wzawig",
+        "faq_item_pXaeVn",
+        "faq_item_YGmfF3",
+        "faq_item_JdnYDT"
+      ],
+      "custom_css": [
+        ".faq-search-simple {display: none;}"
+      ],
+      "name": "Simple FAQ Section",
+      "settings": {
+        "section_title": "Preguntas frecuentes sobre el servicio de diseño de Ashley"
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "rich_text_TwMkXw",
+    "custom_promo_box_mp7eLb",
+    "custom_breadcrumb_zKDqB8",
+    "image_banner_9b7yP7",
+    "multicolumn_DQ9YKi",
+    "image_with_text_wU3WRM",
+    "rich_text_fWhETj",
+    "multicolumn_96pEXb",
+    "image_banner_8rN8N4",
+    "rich_text_cp9Nrk",
+    "multicolumn_rE7U4F",
+    "rich_text_QPKE89",
+    "faq_AK8diM"
+  ]
+}

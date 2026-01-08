@@ -1,1 +1,476 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":0,"padding_bottom":0}},"shogun-optimizer":{"type":"shogun-optimizer","settings":{}},"custom_promo_box_rR3yxG":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_eNqrR4":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"multicolumn_YkXcgr":{"type":"multicolumn","blocks":{"column_DetkEy":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/A2000469_1.webp","title":"","text":"","link_label":"Accesorios de Hogar","link":"shopify:\/\/pages\/accesorios-de-hogar"}},"column_cdYzKk":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Kleemore_ddd775a5-1b2d-44c3-8c3d-4e5d1d12fc85.jpg","title":"","text":"","link_label":"Muebles Decorativos","link":"shopify:\/\/pages\/muebles-decorativos"}},"column_dDbryT":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/espejo.jpg","title":"","text":"","link_label":"Espejos","link":"shopify:\/\/pages\/espejos"}}},"block_order":["column_DetkEy","column_cdYzKk","column_dDbryT"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",".multicolumn-card__info svg {display: none; width: 100%;}",".title-wrapper-with-link {justify-content: center; padding-top: 2rem;}","h2 {font-size: 2rem; font-weight: normal;}",".media {border-radius: 0;}",".media img {width: 100% !important;}",".why-shop-ashley {background: #f2f2f2;}",".multicolumn-card-spacing {margin: 0; padding-top: 0;}",".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}","@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"<strong>Accesorios <\/strong>tu toque personal","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"none","color_scheme":"scheme-2","columns_mobile":"1","swipe_on_mobile":false,"padding_top":28,"padding_bottom":28}},"multicolumn_BfikfM":{"type":"multicolumn","blocks":{"column_ALX3pt":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/A1000768-SW-P1-KO.webp","title":"","text":"","link_label":"Almohadas Decorativas, Mantas y Puffs","link":"shopify:\/\/pages\/almohadas-decorativas-mantas-y-puffs"}},"column_rLKkJK":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/L725149-SW-P1-KO.webp","title":"","text":"","link_label":"Lamps","link":"shopify:\/\/collections\/lamps"}},"column_RtJxjE":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/A8010197-ANGLE-SW-P1-KO_221179c2-f0a2-4185-9a1c-da25876fd998_jpg_v_1687314545.webp","title":"","text":"","link_label":"Mirrors","link":"shopify:\/\/collections\/wall-mirrors"}},"column_akcD3c":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/A3000193-ANGLE-SW-P1-KO.webp","title":"","text":"","link_label":"Decorative Furniture","link":"shopify:\/\/pages\/muebles-decorativos"}},"column_nVnkcm":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/decoracion_de_paredes_sin_fondo_jpg_v_1687813457.webp","title":"","text":"","link_label":"Wall Decoration","link":"shopify:\/\/collections\/wall-decoration"}},"column_hFV3ma":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Accesorios_de_Hogar_sin.webp","title":"","text":"","link_label":"Home Accessories","link":"shopify:\/\/collections\/home-accessories"}}},"block_order":["column_ALX3pt","column_rLKkJK","column_RtJxjE","column_akcD3c","column_nVnkcm","column_hFV3ma"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",".svg-wrapper {display: none;}","h2 {font-size: 2rem;}",".media {border-radius: 50%;}",".multicolumn .title-wrapper-with-link {justify-content: center;}",".background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {padding-top: 10px; padding-bottom: 20px !important;}",".media.media--transparent.media--adapt {background: #f5f5f5;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"Shop by Category","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":6,"column_alignment":"center","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"image_with_text_zMj8dR":{"type":"image-with-text","blocks":{"heading_hW63ba":{"type":"heading","settings":{"heading":"Agrega el toque final a tu hogar","heading_size":"h1"}},"button_YjK3nT":{"type":"button","settings":{"button_label":"ver todo accesorios dehogar","button_link":"shopify:\/\/collections\/decorative-accessories","button_style_secondary":false}}},"block_order":["heading_hW63ba","button_YjK3nT"],"custom_css":[".image-with-text .grid__item {background: #363534; color: #fff;}","a {border: 1px solid; background: transparent; font-size: 14px;}","h2 {font-size: 35px;}"],"name":"t:sections.image-with-text.presets.name","settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/A2000469.webp","height":"adapt","desktop_image_width":"large","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"middle","desktop_content_alignment":"center","mobile_content_alignment":"left","section_color_scheme":"","color_scheme":"","padding_top":0,"padding_bottom":0}},"multicolumn_GMcUGM":{"type":"multicolumn","blocks":{"column_XRF6Vn":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/7ce9c1acf05286ff69872460c9a16843.webp","title":"","text":"","link_label":"Jarrones y Floreros","link":"shopify:\/\/collections\/vases-and-flowerpots"}},"column_gBACDL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/bowls-y-bandejas-730330.webp","title":"","text":"","link_label":"Bowls y Bandejas","link":"shopify:\/\/collections\/bowls-and-trays"}},"column_KNXiwG":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/accesorios-decorativos-739951.webp","title":"","text":"","link_label":"Accesorios Decorativos","link":"shopify:\/\/collections\/decorative-accessories"}}},"block_order":["column_XRF6Vn","column_gBACDL","column_KNXiwG"],"custom_css":[".multicolumn-card__info .svg-wrapper {display: none;}",".multicolumn-card__info a.link.animate-arrow {font-size: 18px; font-weight: 700;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"custom_collection_slider_bq4rpV":{"type":"custom-collection-slider","blocks":{"slide_WD3bBY":{"type":"slide","settings":{"collection":"home-accessories"}},"slide_fkQTmY":{"type":"slide","settings":{"collection":"decorative-furniture"}},"slide_bAExLN":{"type":"slide","settings":{"collection":"wall-mirrors"}},"slide_6eE94C":{"type":"slide","settings":{"collection":"wall-paintings"}},"slide_3KDBmy":{"type":"slide","settings":{"collection":"wall-decoration"}},"slide_wEFfmE":{"type":"slide","settings":{"collection":"decorative-pillows-blankets-and-poufs"}},"slide_wKDKic":{"type":"slide","settings":{"collection":"decorative-rugs"}}},"block_order":["slide_WD3bBY","slide_fkQTmY","slide_bAExLN","slide_6eE94C","slide_3KDBmy","slide_wEFfmE","slide_wKDKic"],"name":"Custom Collection Slider","settings":{"title":"Explora más Accesorios","margin_top":4,"margin_bottom":4}},"multicolumn_dEGndf":{"type":"multicolumn","blocks":{"column_VNzDG7":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_20.png","title":"","text":"","link_label":"Armchairs","link":"shopify:\/\/collections\/armchairs"}},"column_8Lxd4q":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_21.png","title":"","text":"","link_label":"Wall Mirrors","link":"shopify:\/\/collections\/wall-mirrors"}}},"block_order":["column_VNzDG7","column_8Lxd4q"],"custom_css":[".multicolumn-card__info a {font-size: 18px !important; font-weight: 700;}","span.svg-wrapper {display: none;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"<strong>Style in every corner<\/strong>","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":2,"column_alignment":"left","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}}},"order":["shogun-helper","main","shogun-optimizer","custom_promo_box_rR3yxG","custom_breadcrumb_eNqrR4","multicolumn_YkXcgr","multicolumn_BfikfM","image_with_text_zMj8dR","multicolumn_GMcUGM","custom_collection_slider_bq4rpV","multicolumn_dEGndf"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
+    },
+    "custom_promo_box_rR3yxG": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/armchairs",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_eNqrR4": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "multicolumn_YkXcgr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DetkEy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/A2000469_1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Accesorios de Hogar",
+            "link": "shopify://pages/accesorios-de-hogar"
+          }
+        },
+        "column_cdYzKk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kleemore_ddd775a5-1b2d-44c3-8c3d-4e5d1d12fc85.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Muebles Decorativos",
+            "link": "shopify://pages/muebles-decorativos"
+          }
+        },
+        "column_dDbryT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/espejo.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Espejos",
+            "link": "shopify://pages/espejos"
+          }
+        }
+      },
+      "block_order": [
+        "column_DetkEy",
+        "column_cdYzKk",
+        "column_dDbryT"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",
+        ".multicolumn-card__info svg {display: none; width: 100%;}",
+        ".title-wrapper-with-link {justify-content: center; padding-top: 2rem;}",
+        "h2 {font-size: 2rem; font-weight: normal;}",
+        ".media {border-radius: 0;}",
+        ".media img {width: 100% !important;}",
+        ".why-shop-ashley {background: #f2f2f2;}",
+        ".multicolumn-card-spacing {margin: 0; padding-top: 0;}",
+        ".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",
+        "@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>Accesorios </strong>tu toque personal",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_BfikfM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ALX3pt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/A1000768-SW-P1-KO.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Almohadas Decorativas, Mantas y Puffs",
+            "link": "shopify://pages/almohadas-decorativas-mantas-y-puffs"
+          }
+        },
+        "column_rLKkJK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/L725149-SW-P1-KO.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Lamps",
+            "link": "shopify://collections/lamps"
+          }
+        },
+        "column_RtJxjE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/A8010197-ANGLE-SW-P1-KO_221179c2-f0a2-4185-9a1c-da25876fd998_jpg_v_1687314545.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Mirrors",
+            "link": "shopify://collections/wall-mirrors"
+          }
+        },
+        "column_akcD3c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/A3000193-ANGLE-SW-P1-KO.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Decorative Furniture",
+            "link": "shopify://pages/muebles-decorativos"
+          }
+        },
+        "column_nVnkcm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/decoracion_de_paredes_sin_fondo_jpg_v_1687813457.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Wall Decoration",
+            "link": "shopify://collections/decoracion-de-paredes"
+          }
+        },
+        "column_hFV3ma": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Accesorios_de_Hogar_sin.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Home Accessories",
+            "link": "shopify://collections/home-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "column_ALX3pt",
+        "column_rLKkJK",
+        "column_RtJxjE",
+        "column_akcD3c",
+        "column_nVnkcm",
+        "column_hFV3ma"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",
+        ".svg-wrapper {display: none;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 50%;}",
+        ".multicolumn .title-wrapper-with-link {justify-content: center;}",
+        ".background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {padding-top: 10px; padding-bottom: 20px !important;}",
+        ".media.media--transparent.media--adapt {background: #f5f5f5;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Shop by Category",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_zMj8dR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hW63ba": {
+          "type": "heading",
+          "settings": {
+            "heading": "Agrega el toque final a tu hogar",
+            "heading_size": "h1"
+          }
+        },
+        "button_YjK3nT": {
+          "type": "button",
+          "settings": {
+            "button_label": "ver todo accesorios dehogar",
+            "button_link": "shopify://collections/decorative-accessories",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hW63ba",
+        "button_YjK3nT"
+      ],
+      "custom_css": [
+        ".image-with-text .grid__item {background: #363534; color: #fff;}",
+        "a {border: 1px solid; background: transparent; font-size: 14px;}",
+        "h2 {font-size: 35px;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/A2000469.webp",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_GMcUGM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XRF6Vn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/7ce9c1acf05286ff69872460c9a16843.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Jarrones y Floreros",
+            "link": "shopify://collections/vases-and-flowerpots"
+          }
+        },
+        "column_gBACDL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bowls-y-bandejas-730330.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Bowls y Bandejas",
+            "link": "shopify://collections/bowls-and-trays"
+          }
+        },
+        "column_KNXiwG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/accesorios-decorativos-739951.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Accesorios Decorativos",
+            "link": "shopify://collections/decorative-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "column_XRF6Vn",
+        "column_gBACDL",
+        "column_KNXiwG"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info .svg-wrapper {display: none;}",
+        ".multicolumn-card__info a.link.animate-arrow {font-size: 18px; font-weight: 700;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_collection_slider_bq4rpV": {
+      "type": "custom-collection-slider",
+      "blocks": {
+        "slide_WD3bBY": {
+          "type": "slide",
+          "settings": {
+            "collection": "home-accessories"
+          }
+        },
+        "slide_fkQTmY": {
+          "type": "slide",
+          "settings": {
+            "collection": "decorative-furniture"
+          }
+        },
+        "slide_bAExLN": {
+          "type": "slide",
+          "settings": {
+            "collection": "wall-mirrors"
+          }
+        },
+        "slide_6eE94C": {
+          "type": "slide",
+          "settings": {
+            "collection": "wall-paintings"
+          }
+        },
+        "slide_3KDBmy": {
+          "type": "slide",
+          "settings": {
+            "collection": "decoracion-de-paredes"
+          }
+        },
+        "slide_wEFfmE": {
+          "type": "slide",
+          "settings": {
+            "collection": "decorative-pillows-blankets-and-poufs"
+          }
+        },
+        "slide_wKDKic": {
+          "type": "slide",
+          "settings": {
+            "collection": "decorative-rugs"
+          }
+        }
+      },
+      "block_order": [
+        "slide_WD3bBY",
+        "slide_fkQTmY",
+        "slide_bAExLN",
+        "slide_6eE94C",
+        "slide_3KDBmy",
+        "slide_wEFfmE",
+        "slide_wKDKic"
+      ],
+      "name": "Custom Collection Slider",
+      "settings": {
+        "title": "Explora más Accesorios",
+        "margin_top": 4,
+        "margin_bottom": 4
+      }
+    },
+    "multicolumn_dEGndf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VNzDG7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_20.png",
+            "title": "",
+            "text": "",
+            "link_label": "Armchairs",
+            "link": "shopify://collections/armchairs"
+          }
+        },
+        "column_8Lxd4q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_21.png",
+            "title": "",
+            "text": "",
+            "link_label": "Wall Mirrors",
+            "link": "shopify://collections/wall-mirrors"
+          }
+        }
+      },
+      "block_order": [
+        "column_VNzDG7",
+        "column_8Lxd4q"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info a {font-size: 18px !important; font-weight: 700;}",
+        "span.svg-wrapper {display: none;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>Style in every corner</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "custom_promo_box_rR3yxG",
+    "custom_breadcrumb_eNqrR4",
+    "multicolumn_YkXcgr",
+    "multicolumn_BfikfM",
+    "image_with_text_zMj8dR",
+    "multicolumn_GMcUGM",
+    "custom_collection_slider_bq4rpV",
+    "multicolumn_dEGndf"
+  ]
+}

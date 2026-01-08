@@ -1,1 +1,724 @@
-{"sections":{"shogun-helper":{"type":"shogun-helper","settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"shogun-optimizer":{"type":"shogun-optimizer","settings":{}},"custom_promo_box_iJJYVR":{"type":"custom-promo-box","name":"Custom Promo Box","settings":{"text_left":"Hasta 20% de descuento Sillones","link_left":"shopify:\/\/collections\/armchairs","text_center":"Hasta 20% de descuento Camas","link_center":"shopify:\/\/collections\/beds","text_right":"Hasta 20% de descuento Mesas de centro","link_right":"shopify:\/\/collections\/coffee-tables","bottom_text":"GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD","link_bottom":""}},"custom_breadcrumb_VGmYfe":{"type":"custom-breadcrumb","name":"Breadcrumbs","settings":{"show_breadcrumbs":true,"show_page_title":true,"breadcrumb_font_family":"Arial","text_color":"#333333","link_color":"#333333","link_hover_color":"#000000","border_color":"#e0e0e0","font_size":14,"font_weight":"400","padding_top":15,"padding_bottom":0,"divider_size":14,"divider_color":"#999999","border_thickness":1,"title_font_family":"Arial","title_color":"#333333","title_font_size":24,"title_font_weight":"600","title_margin_top":10,"title_margin_right":0,"title_margin_bottom":20,"title_margin_left":0,"title_padding_top":0,"title_padding_right":0,"title_padding_bottom":0,"title_padding_left":0}},"multicolumn_phMyXL":{"type":"multicolumn","blocks":{"column_y4UKCf":{"type":"column","settings":{"title":"Columna","text":"","link_label":"","link":""}},"column_JtccG8":{"type":"column","settings":{"title":"Columna","text":"","link_label":"","link":""}},"column_zjUFFB":{"type":"column","settings":{"title":"Columna","text":"","link_label":"","link":""}}},"block_order":["column_y4UKCf","column_JtccG8","column_zjUFFB"],"disabled":true,"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",".multicolumn-card__info svg {display: none;}",".title-wrapper-with-link {justify-content: center; padding-top: 2rem;}",".drawer-menu {margin-top: 100px;}","h2 {font-size: 2rem; font-weight: normal;}",".media {border-radius: 0;}",".why-shop-ashley {background: #f2f2f2;}",".multicolumn-card-spacing {margin: 0; padding-top: 0;}",".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}","@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"Varias columnas","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"Etiqueta de botón","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"image_with_text_aGbxz3":{"type":"image-with-text","blocks":{"heading_UGF9nh":{"type":"heading","settings":{"heading":"mejoras en la oficina en casa","heading_size":"h1"}},"text_3wH84L":{"type":"text","settings":{"text":"<p>Estaciones de trabajo funcionales y elegantes que hacen que el trabajo desde casa se vea bien.<\/p>","text_style":"body"}},"button_4h7FwU":{"type":"button","settings":{"button_label":"comprar más","button_link":"shopify:\/\/collections","button_style_secondary":false}}},"block_order":["heading_UGF9nh","text_3wH84L","button_4h7FwU"],"custom_css":[".grid__item {background: #f2f2f2;}","a:after,a:before {box-shadow: none;}","a {background: transparent; padding: 0; text-decoration: underline; text-underline-offset: 0.6rem; color: #000;}"],"settings":{"customClass":"","TopHeading":"","image":"shopify:\/\/shop_images\/H633-34-34R-10X8-CROP.webp","height":"adapt","desktop_image_width":"medium","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"middle","desktop_content_alignment":"center","mobile_content_alignment":"center","section_color_scheme":"","color_scheme":"","padding_top":0,"padding_bottom":0}},"multicolumn_VAixii":{"type":"multicolumn","blocks":{"column_Bjh3C7":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_27_8889b77d-515e-4f1f-b812-c63f0e478155.png","title":"","text":"","link_label":"Escritorios","link":"shopify:\/\/collections\/desks"}},"column_zxQq49":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_28_1.png","title":"","text":"","link_label":"Estanterías","link":"shopify:\/\/collections\/bookcases"}},"column_7bKiFE":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_29_1.png","title":"","text":"","link_label":"Sillas de Oficina","link":"shopify:\/\/collections\/office-chairs"}},"column_CMamAW":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_30_1.png","title":"","text":"","link_label":"Conjuntos de Oficina","link":"shopify:\/\/collections\/office-sets"}},"column_KAigbM":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_31_1.png","title":"","text":"","link_label":"Almacenamiento","link":"shopify:\/\/collections\/storage"}},"column_qaGtPp":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_32_1.png","title":"","text":"","link_label":"Juegos","link":"shopify:\/\/collections\/outdoor-gaming"}},"column_nD3tnF":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_33_1.png","title":"","text":"","link_label":"Colecciones de la Oficina de Hogar","link":"shopify:\/\/collections\/home-office-collections"}}},"block_order":["column_Bjh3C7","column_zxQq49","column_7bKiFE","column_CMamAW","column_KAigbM","column_qaGtPp","column_nD3tnF"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",".svg-wrapper {display: none;}","h2 {font-size: 2rem;}",".media {border-radius: 50%;}",".background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {padding-top: 10px; padding-bottom: 20px;}",".multicolumn .title-wrapper-with-link {justify-content: center;}","@media screen and (max-width: 480px) {.multicolumn-list {margin: auto; width: 80%; }}"],"settings":{"title":"Comprar por Categoría","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":5,"column_alignment":"center","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":28,"padding_bottom":0}},"multicolumn_bcLyci":{"type":"multicolumn","blocks":{"column_FLM3ea":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/H200-09-HIGH_b972e5e6-2b62-4d8e-97be-f6c5a04141ea.png","title":"","text":"","link_label":"Escritorios de oficina en casa","link":"shopify:\/\/collections\/home-office-desks"}},"column_xXeYHm":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/A3000247.png","title":"","text":"","link_label":"Silla de oficina en casa","link":"shopify:\/\/collections\/office-chairs"}}},"block_order":["column_FLM3ea","column_xXeYHm"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",".multicolumn-card__info svg {display: none;}",".title-wrapper-with-link {justify-content: center;}","h2 {font-size: 2rem;}",".media {border-radius: 0;}",".multicolumn-card__info {padding-top: 0.8rem;}"],"settings":{"title":"trabajar en armonía","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":2,"column_alignment":"center","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"lowest_price_collection_block_1_3_fpxbKg":{"type":"lowest-price-collection-block-1-3","blocks":{"collection_QgLUiX":{"type":"collection","settings":{"collection_4col":"frontpage"}},"collection_9tnr3j":{"type":"collection","settings":{"collection_4col":"collection-1"}},"collection_tCUDRg":{"type":"collection","settings":{"collection_4col":"collection-1"}}},"block_order":["collection_QgLUiX","collection_9tnr3j","collection_tCUDRg"],"disabled":true,"custom_css":[".full-width-sub-height-3 {height: calc(50% - 10.5px);}"],"settings":{"padding_top":0,"padding_bottom":0,"fourcolheadingon":true,"fourcolheading":"","content_wrap":"contained"}},"image_banner_HhDjYY":{"type":"image_banner","custom_css":["img {width: 100%; height: auto;}"],"name":"Single Image Banner","settings":{"layout":"grid","padding_top":0,"padding_bottom":0,"slider_link":"shopify:\/\/collections","image":"shopify:\/\/shop_images\/Screenshot_186.png"}},"custom_product_slider_VEUQhj":{"type":"custom-product-slider","blocks":{"slide_tMrL3A":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Screenshot_20_1.png","title":"Escritorio en forma de L Realyn","link":"shopify:\/\/collections\/realyn-l-shaped-desk"}},"slide_y8EidR":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Screenshot_18_1.png","title":"Estantería Galtbury","link":"shopify:\/\/collections\/galtbury-bookcase"}},"slide_FGVU7a":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Screenshot_19_1.png","title":"Escritorio Aldwin con tapa elevada","link":"shopify:\/\/collections\/aldwin-lift-top-desk"}},"slide_VLzPwJ":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Screenshot_17_1.png","title":"Estantería Realyn","link":"shopify:\/\/collections\/realyn-bookcase"}},"slide_B9TGh6":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Screenshot_16_1.png","title":"Escritorio Baldridge","link":"shopify:\/\/collections\/baldridge-desk"}}},"block_order":["slide_tMrL3A","slide_y8EidR","slide_FGVU7a","slide_VLzPwJ","slide_B9TGh6"],"custom_css":[".best-sellers-slider .item a {font-size: 14px; padding: 0px 60px 10px 10px; text-decoration: none !important;}",".best-sellers-title {text-transform: inherit !important;}"],"settings":{"title":"mejores vendedores en la oficina en casa","margin_top":4,"margin_bottom":4}},"rich_text_yXD7AM":{"type":"rich-text","blocks":{"heading_9JeDNP":{"type":"heading","settings":{"heading":"comprar colecciones favoritas de los clientes","heading_size":"h1"}}},"block_order":["heading_9JeDNP"],"custom_css":["h2 {font-size: 2rem;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"image_banner_wYXDCD":{"type":"image-banner","settings":{"layout":"grid","slider_link":"","image":"shopify:\/\/shop_images\/A3000247_203ab728-aa82-46aa-9183-ec8679b21d4b.png","image_overlay_opacity":0,"image_height":"adapt","image_behavior":"none","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":true,"color_scheme":"","stack_images_on_mobile":true,"mobile_content_alignment":"center","show_text_below":true}},"multicolumn_DHXDKx":{"type":"multicolumn","blocks":{"column_8WTwLx":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_7_1.png","title":"","text":"","link_label":"Montia","link":"shopify:\/\/collections\/montia"}},"column_yV6QJE":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_8_1.png","title":"","text":"","link_label":"Roanhowe","link":"shopify:\/\/collections\/roanhowe"}},"column_efa6DX":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_9_1.png","title":"","text":"","link_label":"Austanny","link":"shopify:\/\/collections\/austanny"}},"column_pgr3TK":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_10_1.png","title":"","text":"","link_label":"Korestone","link":"shopify:\/\/collections\/korestone"}},"column_rxkPkU":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_14_1.png","title":"","text":"","link_label":"rowanbeck","link":"shopify:\/\/collections\/rowanbeck"}},"column_A3Xe9X":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_13_1.png","title":"","text":"","link_label":"lyncott","link":"shopify:\/\/collections\/lyncott"}},"column_9wUfdj":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_12_1.png","title":"","text":"","link_label":"deznee","link":"shopify:\/\/collections\/deznee"}},"column_a8WWWt":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Screenshot_11_1.png","title":"","text":"","link_label":"realyn","link":"shopify:\/\/collections\/realyn-bookcase"}}},"block_order":["column_8WTwLx","column_yV6QJE","column_efa6DX","column_pgr3TK","column_rxkPkU","column_A3Xe9X","column_9wUfdj","column_a8WWWt"],"custom_css":["a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",".multicolumn-card__info svg {display: none;}",".title-wrapper-with-link {justify-content: center;}","h2 {font-size: 2rem;}",".media {border-radius: 0;}",".multicolumn-card__info {background: #fff; padding-top: 0.8rem; padding-left: 0;}",".background-none .multicolumn-card__image-wrapper {margin-left: 0px; margin-right: 0px;}"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":4,"column_alignment":"center","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"image_with_text_TWVztp":{"type":"image-with-text","blocks":{"heading_NHGyte":{"type":"heading","settings":{"heading":"BLOG","heading_size":"h1"}},"text_P3qq3y":{"type":"text","settings":{"text":"<p>rethinking the modern home office<\/p>","text_style":"body"}},"button_yn6f3P":{"type":"button","settings":{"button_label":"read more","button_link":"#","button_style_secondary":false}}},"block_order":["heading_NHGyte","text_P3qq3y","button_yn6f3P"],"disabled":true,"custom_css":[".grid__item {background: #363533;}",".grid__item,p {color: #fff; text-align: left;}","a:after,a:before {box-shadow: none;}","a {background: transparent; padding: 0; justify-content: start; text-decoration: underline; text-underline-offset: 0.6rem;}"],"settings":{"customClass":"","TopHeading":"","height":"adapt","desktop_image_width":"large","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","color_scheme":"","padding_top":0,"padding_bottom":0}},"image_banner_yHYNnL":{"type":"image_banner","custom_css":["img {width: 100%;}"],"name":"Single Image Banner","settings":{"layout":"grid","padding_top":0,"padding_bottom":50,"slider_link":"shopify:\/\/collections","image":"shopify:\/\/shop_images\/Screenshot_166.png"}}},"order":["shogun-helper","main","shogun-optimizer","custom_promo_box_iJJYVR","custom_breadcrumb_VGmYfe","multicolumn_phMyXL","image_with_text_aGbxz3","multicolumn_VAixii","multicolumn_bcLyci","lowest_price_collection_block_1_3_fpxbKg","image_banner_HhDjYY","custom_product_slider_VEUQhj","rich_text_yXD7AM","image_banner_wYXDCD","multicolumn_DHXDKx","image_with_text_TWVztp","image_banner_yHYNnL"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
+    },
+    "custom_promo_box_iJJYVR": {
+      "type": "custom-promo-box",
+      "name": "Custom Promo Box",
+      "settings": {
+        "text_left": "Hasta 20% de descuento Sillones",
+        "link_left": "shopify://collections/armchairs",
+        "text_center": "Hasta 20% de descuento Camas",
+        "link_center": "shopify://collections/beds",
+        "text_right": "Hasta 20% de descuento Mesas de centro",
+        "link_right": "shopify://collections/coffee-tables",
+        "bottom_text": "GARANTÍA ASHLEY TARIFF – MÁXIMO AHORRO, MÁXIMA CALIDAD",
+        "link_bottom": ""
+      }
+    },
+    "custom_breadcrumb_VGmYfe": {
+      "type": "custom-breadcrumb",
+      "name": "Breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_page_title": true,
+        "breadcrumb_font_family": "Arial",
+        "text_color": "#333333",
+        "link_color": "#333333",
+        "link_hover_color": "#000000",
+        "border_color": "#e0e0e0",
+        "font_size": 14,
+        "font_weight": "400",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "divider_size": 14,
+        "divider_color": "#999999",
+        "border_thickness": 1,
+        "title_font_family": "Arial",
+        "title_color": "#333333",
+        "title_font_size": 24,
+        "title_font_weight": "600",
+        "title_margin_top": 10,
+        "title_margin_right": 0,
+        "title_margin_bottom": 20,
+        "title_margin_left": 0,
+        "title_padding_top": 0,
+        "title_padding_right": 0,
+        "title_padding_bottom": 0,
+        "title_padding_left": 0
+      }
+    },
+    "multicolumn_phMyXL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_y4UKCf": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JtccG8": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zjUFFB": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_y4UKCf",
+        "column_JtccG8",
+        "column_zjUFFB"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".title-wrapper-with-link {justify-content: center; padding-top: 2rem;}",
+        ".drawer-menu {margin-top: 100px;}",
+        "h2 {font-size: 2rem; font-weight: normal;}",
+        ".media {border-radius: 0;}",
+        ".why-shop-ashley {background: #f2f2f2;}",
+        ".multicolumn-card-spacing {margin: 0; padding-top: 0;}",
+        ".multicolumn-card__info {padding-top: 0.8rem; padding-left: 0;}",
+        "@media screen and (min-width: 768px) {.why-shop-ashley {padding: 4rem; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Varias columnas",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Etiqueta de botón",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_aGbxz3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UGF9nh": {
+          "type": "heading",
+          "settings": {
+            "heading": "mejoras en la oficina en casa",
+            "heading_size": "h1"
+          }
+        },
+        "text_3wH84L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Estaciones de trabajo funcionales y elegantes que hacen que el trabajo desde casa se vea bien.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_4h7FwU": {
+          "type": "button",
+          "settings": {
+            "button_label": "comprar más",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UGF9nh",
+        "text_3wH84L",
+        "button_4h7FwU"
+      ],
+      "custom_css": [
+        ".grid__item {background: #f2f2f2;}",
+        "a:after,a:before {box-shadow: none;}",
+        "a {background: transparent; padding: 0; text-decoration: underline; text-underline-offset: 0.6rem; color: #000;}"
+      ],
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "image": "shopify://shop_images/H633-34-34R-10X8-CROP.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_VAixii": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Bjh3C7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_27_8889b77d-515e-4f1f-b812-c63f0e478155.png",
+            "title": "",
+            "text": "",
+            "link_label": "Escritorios",
+            "link": "shopify://collections/escritorios"
+          }
+        },
+        "column_zxQq49": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_28_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Estanterías",
+            "link": "shopify://collections/bookcases"
+          }
+        },
+        "column_7bKiFE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_29_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Sillas de Oficina",
+            "link": "shopify://collections/office-chairs"
+          }
+        },
+        "column_CMamAW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_30_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Conjuntos de Oficina",
+            "link": "shopify://collections/office-sets"
+          }
+        },
+        "column_KAigbM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_31_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Almacenamiento",
+            "link": "shopify://collections/storage"
+          }
+        },
+        "column_qaGtPp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_32_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Juegos",
+            "link": "shopify://collections/outdoor-gaming"
+          }
+        },
+        "column_nD3tnF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_33_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Colecciones de la Oficina de Hogar",
+            "link": "shopify://collections/home-office-collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_Bjh3C7",
+        "column_zxQq49",
+        "column_7bKiFE",
+        "column_CMamAW",
+        "column_KAigbM",
+        "column_qaGtPp",
+        "column_nD3tnF"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",
+        ".svg-wrapper {display: none;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 50%;}",
+        ".background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {padding-top: 10px; padding-bottom: 20px;}",
+        ".multicolumn .title-wrapper-with-link {justify-content: center;}",
+        "@media screen and (max-width: 480px) {.multicolumn-list {margin: auto; width: 80%; }}"
+      ],
+      "settings": {
+        "title": "Comprar por Categoría",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_bcLyci": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FLM3ea": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/H200-09-HIGH_b972e5e6-2b62-4d8e-97be-f6c5a04141ea.png",
+            "title": "",
+            "text": "",
+            "link_label": "Escritorios de oficina en casa",
+            "link": "shopify://collections/home-office-desks"
+          }
+        },
+        "column_xXeYHm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/A3000247.png",
+            "title": "",
+            "text": "",
+            "link_label": "Silla de oficina en casa",
+            "link": "shopify://collections/office-chairs"
+          }
+        }
+      },
+      "block_order": [
+        "column_FLM3ea",
+        "column_xXeYHm"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 0;}",
+        ".multicolumn-card__info {padding-top: 0.8rem;}"
+      ],
+      "settings": {
+        "title": "trabajar en armonía",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "lowest_price_collection_block_1_3_fpxbKg": {
+      "type": "lowest-price-collection-block-1-3",
+      "blocks": {
+        "collection_QgLUiX": {
+          "type": "collection",
+          "settings": {
+            "collection_4col": "frontpage"
+          }
+        },
+        "collection_9tnr3j": {
+          "type": "collection",
+          "settings": {
+            "collection_4col": "collection-1"
+          }
+        },
+        "collection_tCUDRg": {
+          "type": "collection",
+          "settings": {
+            "collection_4col": "collection-1"
+          }
+        }
+      },
+      "block_order": [
+        "collection_QgLUiX",
+        "collection_9tnr3j",
+        "collection_tCUDRg"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".full-width-sub-height-3 {height: calc(50% - 10.5px);}"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "fourcolheadingon": true,
+        "fourcolheading": "",
+        "content_wrap": "contained"
+      }
+    },
+    "image_banner_HhDjYY": {
+      "type": "image_banner",
+      "custom_css": [
+        "img {width: 100%; height: auto;}"
+      ],
+      "name": "Single Image Banner",
+      "settings": {
+        "layout": "grid",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "slider_link": "shopify://collections",
+        "image": "shopify://shop_images/Screenshot_186.png"
+      }
+    },
+    "custom_product_slider_VEUQhj": {
+      "type": "custom-product-slider",
+      "blocks": {
+        "slide_tMrL3A": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_20_1.png",
+            "title": "Escritorio en forma de L Realyn",
+            "link": "shopify://collections/realyn-l-shaped-desk"
+          }
+        },
+        "slide_y8EidR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_18_1.png",
+            "title": "Estantería Galtbury",
+            "link": "shopify://collections/galtbury-bookcase"
+          }
+        },
+        "slide_FGVU7a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_19_1.png",
+            "title": "Escritorio Aldwin con tapa elevada",
+            "link": "shopify://collections/aldwin-lift-top-desk"
+          }
+        },
+        "slide_VLzPwJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_17_1.png",
+            "title": "Estantería Realyn",
+            "link": "shopify://collections/realyn-bookcase"
+          }
+        },
+        "slide_B9TGh6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_16_1.png",
+            "title": "Escritorio Baldridge",
+            "link": "shopify://collections/baldridge-desk"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tMrL3A",
+        "slide_y8EidR",
+        "slide_FGVU7a",
+        "slide_VLzPwJ",
+        "slide_B9TGh6"
+      ],
+      "custom_css": [
+        ".best-sellers-slider .item a {font-size: 14px; padding: 0px 60px 10px 10px; text-decoration: none !important;}",
+        ".best-sellers-title {text-transform: inherit !important;}"
+      ],
+      "settings": {
+        "title": "mejores vendedores en la oficina en casa",
+        "margin_top": 4,
+        "margin_bottom": 4
+      }
+    },
+    "rich_text_yXD7AM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9JeDNP": {
+          "type": "heading",
+          "settings": {
+            "heading": "comprar colecciones favoritas de los clientes",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9JeDNP"
+      ],
+      "custom_css": [
+        "h2 {font-size: 2rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_wYXDCD": {
+      "type": "image-banner",
+      "settings": {
+        "layout": "grid",
+        "slider_link": "",
+        "image": "shopify://shop_images/A3000247_203ab728-aa82-46aa-9183-ec8679b21d4b.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "multicolumn_DHXDKx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8WTwLx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_7_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Montia",
+            "link": "shopify://collections/montia"
+          }
+        },
+        "column_yV6QJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_8_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Roanhowe",
+            "link": "shopify://collections/roanhowe"
+          }
+        },
+        "column_efa6DX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_9_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Austanny",
+            "link": "shopify://collections/austanny"
+          }
+        },
+        "column_pgr3TK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_10_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Korestone",
+            "link": "shopify://collections/korestone"
+          }
+        },
+        "column_rxkPkU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_14_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "rowanbeck",
+            "link": "shopify://collections/rowanbeck"
+          }
+        },
+        "column_A3Xe9X": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_13_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "lyncott",
+            "link": "shopify://collections/lyncott"
+          }
+        },
+        "column_9wUfdj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_12_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "deznee",
+            "link": "shopify://collections/deznee"
+          }
+        },
+        "column_a8WWWt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_11_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "realyn",
+            "link": "shopify://collections/realyn-bookcase"
+          }
+        }
+      },
+      "block_order": [
+        "column_8WTwLx",
+        "column_yV6QJE",
+        "column_efa6DX",
+        "column_pgr3TK",
+        "column_rxkPkU",
+        "column_A3Xe9X",
+        "column_9wUfdj",
+        "column_a8WWWt"
+      ],
+      "custom_css": [
+        "a {font-size: 1.5rem; margin-top: 0; font-weight: 600; text-transform: uppercase;}",
+        ".multicolumn-card__info svg {display: none;}",
+        ".title-wrapper-with-link {justify-content: center;}",
+        "h2 {font-size: 2rem;}",
+        ".media {border-radius: 0;}",
+        ".multicolumn-card__info {background: #fff; padding-top: 0.8rem; padding-left: 0;}",
+        ".background-none .multicolumn-card__image-wrapper {margin-left: 0px; margin-right: 0px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_TWVztp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NHGyte": {
+          "type": "heading",
+          "settings": {
+            "heading": "BLOG",
+            "heading_size": "h1"
+          }
+        },
+        "text_P3qq3y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>rethinking the modern home office</p>",
+            "text_style": "body"
+          }
+        },
+        "button_yn6f3P": {
+          "type": "button",
+          "settings": {
+            "button_label": "read more",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NHGyte",
+        "text_P3qq3y",
+        "button_yn6f3P"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".grid__item {background: #363533;}",
+        ".grid__item,p {color: #fff; text-align: left;}",
+        "a:after,a:before {box-shadow: none;}",
+        "a {background: transparent; padding: 0; justify-content: start; text-decoration: underline; text-underline-offset: 0.6rem;}"
+      ],
+      "settings": {
+        "customClass": "",
+        "TopHeading": "",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_yHYNnL": {
+      "type": "image_banner",
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "name": "Single Image Banner",
+      "settings": {
+        "layout": "grid",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "slider_link": "shopify://collections",
+        "image": "shopify://shop_images/Screenshot_166.png"
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main",
+    "shogun-optimizer",
+    "custom_promo_box_iJJYVR",
+    "custom_breadcrumb_VGmYfe",
+    "multicolumn_phMyXL",
+    "image_with_text_aGbxz3",
+    "multicolumn_VAixii",
+    "multicolumn_bcLyci",
+    "lowest_price_collection_block_1_3_fpxbKg",
+    "image_banner_HhDjYY",
+    "custom_product_slider_VEUQhj",
+    "rich_text_yXD7AM",
+    "image_banner_wYXDCD",
+    "multicolumn_DHXDKx",
+    "image_with_text_TWVztp",
+    "image_banner_yHYNnL"
+  ]
+}

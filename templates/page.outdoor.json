@@ -375,7 +375,7 @@
         "slide_WjTFNh": {
           "type": "slide",
           "settings": {
-            "collection": "sofa-2-puestos"
+            "collection": "2-positions"
           }
         },
         "slide_kTGh3y": {
@@ -572,7 +572,7 @@
         "slide_gCpmMe": {
           "type": "slide",
           "settings": {
-            "collection": "sofa-2-puestos"
+            "collection": "2-positions"
           }
         },
         "slide_AiRK3F": {
@@ -640,7 +640,7 @@
         "collection_ywcf4a": {
           "type": "collection",
           "settings": {
-            "collection_4col": "sofa-2-puestos",
+            "collection_4col": "2-positions",
             "collections_4col_img": "shopify://shop_images/P014-827_2_-703-ANGLE-SW-P1-KO_large_39e5abac-cf18-4e65-9822-7ec4990f049d.jpg"
           }
         },

@@ -442,7 +442,7 @@
             "heading": "tela de rendimiento para todas las condiciones climáticas",
             "text": "<p>Combina texto con una imagen para centrarte en tu producto, colección o publicación de blog elegida. Agrega detalles sobre disponibilidad, estilo o incluso proporciona una reseña.</p>",
             "button_label": "COMPRA TODO-TIEMPO",
-            "button_link": "shopify://collections/all-weather"
+            "button_link": "shopify://collections/todo-clima"
           }
         }
       },
